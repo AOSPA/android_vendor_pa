@@ -28,6 +28,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
+
+# SELinux filesystem labels
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel
+
 # Gapps backup script
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
