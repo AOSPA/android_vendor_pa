@@ -173,6 +173,7 @@ if __name__ == '__main__':
         branch in all repos first before performing any cherry picks.'''))
     parser.add_argument('change_number', nargs='*', help='change number to cherry pick.  Use {change number}/{patchset number} to get a specific revision.')
     parser.add_argument('-i', '--ignore-missing', action='store_true', help='do not error out if a patch applies to a missing directory')
+    parser.add_argument('-ch', '--checkout', action='store_true', help='checkout instead of cherry pick')
     parser.add_argument('-s', '--start-branch', nargs=1, help='start the specified branch before cherry picking')
     parser.add_argument('-r', '--reset', action='store_true', help='reset to initial state (abort cherry-pick) if there is a conflict')
     parser.add_argument('-a', '--abandon-first', action='store_true', help='before cherry picking, abandon the branch specified in --start-branch')
@@ -460,9 +461,12 @@ if __name__ == '__main__':
             if result != 0:
                 print('ERROR: git command failed')
                 sys.exit(result)
-        # Perform the cherry-pick
+        # Perform the cherry-pick or checkout
         if not args.pull:
-            cmd = ['git cherry-pick --ff FETCH_HEAD']
+            if args.checkout:
+                cmd = ['git checkout FETCH_HEAD']
+            else:
+                cmd = ['git cherry-pick --ff FETCH_HEAD']
             if args.quiet:
                 cmd_out = open(os.devnull, 'wb')
             else:
