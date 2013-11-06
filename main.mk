@@ -12,6 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include $(call all-makefiles-under,$(CURDIR))
 
-include $(call all-makefiles-under,$(CURDIR)/configs)
+
+include vendor/pa/vendor.mk
+include vendor/pa/configs/aosp_fixes.mk
+include vendor/pa/configs/system.mk
+include vendor/pa/configs/pa_overrides.mk
+include vendor/pa/configs/version.mk
+
+# userinit support
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
+
+# Gapps backup script
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/$(VENDOR)/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/$(VENDOR)/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh

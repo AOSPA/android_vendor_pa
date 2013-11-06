@@ -7,4 +7,4 @@ endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(ROM_VERSION) \
-    ro.$VENDOR.version=$(VERSION) 
+    ro.$(VENDOR).version=$(VERSION) 
