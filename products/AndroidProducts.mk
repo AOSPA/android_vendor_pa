@@ -12,28 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq (pa_deb,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_deb.mk
+ifeq (pa_i605,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i605.mk
 endif
-ifeq (pa_flo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_flo.mk
+ifeq (pa_l900,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_l900.mk
 endif
-ifeq (pa_grouper,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_grouper.mk
-endif
-ifeq (pa_hammerhead,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_hammerhead.mk
-endif
-ifeq (pa_maguro,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_maguro.mk
-endif
-ifeq (pa_mako,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_mako.mk
-endif
-ifeq (pa_manta,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_manta.mk
-endif
-ifeq (pa_tilapia,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tilapia.mk
-endif
-

@@ -13,28 +13,35 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_manta,$(TARGET_PRODUCT))
+
+ifeq (pa_i605,$(TARGET_PRODUCT))
 
 # Define PA bootanimation size
 PARANOID_BOOTANIMATION_NAME := XHDPI
 
 # OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_manta
+OVERLAY_TARGET := pa_xhdpi
 
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= true
 
-# Include ParanoidAndroid common configuration
+# Inherit telephony parts
+$(call inherit-product, vendor/pa/config/telephony.mk)
+
+# Include AOSPA common configuration
 include vendor/pa/main.mk
 
-# Inherit AOSP device configuration
-$(call inherit-product, device/samsung/manta/full_manta.mk)
+# Inherit device configuration
+$(call inherit-product, device/samsung/i605/full_i605.mk)
 
-# Override AOSP build properties
-PRODUCT_NAME := pa_manta
-PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 10
-PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mantaray BUILD_FINGERPRINT="google/mantaray/manta:4.4/JWR66V/737497:user/release-keys" PRIVATE_BUILD_DESC="mantaray-user 4.4 JWR66V 737497 release-keys"
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := i605
+PRODUCT_NAME := pa_i605
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SCH-I605
+PRODUCT_MANUFACTURER := samsung
+
+# Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=t0ltevzw TARGET_DEVICE=t0ltevzw BUILD_FINGERPRINT="Verizon/t0ltevzw/t0ltevzw:4.1.2/JZO54K/I605VRAMC3:user/release-keys" PRIVATE_BUILD_DESC="t0ltevzw-user 4.1.2 JZO54K I605VRAMC3 release-keys"
 
 endif

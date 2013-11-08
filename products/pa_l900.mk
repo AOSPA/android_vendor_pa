@@ -14,7 +14,7 @@
 
 # Check for target product
 
-ifeq (pa_mako,$(TARGET_PRODUCT))
+ifeq (pa_l900,$(TARGET_PRODUCT))
 
 # Define PA bootanimation size
 PARANOID_BOOTANIMATION_NAME := XHDPI
@@ -25,17 +25,23 @@ OVERLAY_TARGET := pa_xhdpi
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= true
 
-# Include ParanoidAndroid common configuration
+# Inherit telephony parts
+$(call inherit-product, vendor/pa/config/telephony.mk)
+
+# Include AOSPA common configuration
 include vendor/pa/main.mk
 
-# Inherit AOSP device configuration
-$(call inherit-product, device/lge/mako/full_mako.mk)
+# Inherit device configuration
+$(call inherit-product, device/samsung/l900/full_l900.mk)
 
-# Override AOSP build properties
-PRODUCT_NAME := pa_mako
-PRODUCT_BRAND := Google
-PRODUCT_MODEL := Nexus 4
-PRODUCT_MANUFACTURER := LGE
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/mako:4.4/JSS15J/737497:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.4 JSS15J 737497 release-keys"
+# Device identifier. This must come after all inclusions
+PRODUCT_DEVICE := l900
+PRODUCT_NAME := cm_l900
+PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SPH-L900
+PRODUCT_MANUFACTURER := samsung
+
+# Set build fingerprint / ID / Product Name ect.
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=t0ltespr TARGET_DEVICE=t0ltespr BUILD_FINGERPRINT="samsung/t0ltespr/t0ltespr:4.1.2/JZO54K/L900VPAMC2:user/release-keys" PRIVATE_BUILD_DESC="t0ltespr-user 4.1.2 JZO54K L900VPAMC2 release-keys"
 
 endif
