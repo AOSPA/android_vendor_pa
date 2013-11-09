@@ -25,8 +25,8 @@ OVERLAY_TARGET := pa_xhdpi
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= true
 
-# Inherit telephony parts
-$(call inherit-product, vendor/pa/config/telephony.mk)
+# Inherit telephony common stuff
+$(call inherit-product, vendor/pa/configs/telephony.mk)
 
 # Include AOSPA common configuration
 include vendor/pa/main.mk
@@ -36,7 +36,7 @@ $(call inherit-product, device/samsung/l900/full_l900.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := l900
-PRODUCT_NAME := cm_l900
+PRODUCT_NAME := pa_l900
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SPH-L900
 PRODUCT_MANUFACTURER := samsung

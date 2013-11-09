@@ -25,8 +25,8 @@ OVERLAY_TARGET := pa_xhdpi
 # Build paprefs from sources
 PREFS_FROM_SOURCE ?= true
 
-# Inherit telephony parts
-$(call inherit-product, vendor/pa/config/telephony.mk)
+# Inherit telephony common stuff
+$(call inherit-product, vendor/pa/configs/telephony.mk)
 
 # Include AOSPA common configuration
 include vendor/pa/main.mk
