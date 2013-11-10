@@ -34,5 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/bin/backuptool.functions:system/bin/backuptool.functions \
     vendor/$(VENDOR)/prebuilt/bin/50-backupScript.sh:system/addon.d/50-backupScript.sh
 
-
-
+# SU Support
+PRODUCT_COPY_FILES += \
+    vendor/$(VENDOR)/prebuilt/bin/su:system/xbin/su \
+    vendor/$(VENDOR)/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/$(VENDOR)/prebuilt/apk/Superuser.apk:system/app/Superuser.apk
