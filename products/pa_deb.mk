@@ -28,7 +28,7 @@ PREFS_FROM_SOURCE ?= true
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/asus/deb/aosp_deb.mk)
+$(call inherit-product, device/asus/deb/full_deb.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_deb

@@ -28,7 +28,7 @@ PREFS_FROM_SOURCE ?= true
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/asus/flo/aosp_flo.mk)
+$(call inherit-product, device/asus/flo/full_flo.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_flo
