@@ -77,7 +77,7 @@ esac
 
 echo -e ""
 
- Fetch latest sources
+# Fetch latest sources
 if [ "$SYNC" == "true" ]; then
         echo -e ""
         echo -e "${bldblu}Fetching latest sources${txtrst}"
