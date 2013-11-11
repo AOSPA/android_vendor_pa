@@ -13,6 +13,7 @@ BOARD_SEPOLICY_UNION += \
     file.te \
     file_contexts \
     mediaserver.te \
+    genfs_contexts \
     seapp_contexts \
     service_contexts \
     system.te \
