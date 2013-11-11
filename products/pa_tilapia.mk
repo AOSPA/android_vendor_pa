@@ -38,7 +38,4 @@ PRODUCT_MANUFACTURER := Asus
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_FINGERPRINT="google/nakasig/tilapia:4.4/KRT16M/737497:user/release-keys"
 PRIVATE_BUILD_DESC="nakasi-user 4.4 KRT16M 737497 release-keys"
 
-# Include ParanoidAndroid repos configuration
-include vendor/pa/config/pa_addons.mk
-
 endif
