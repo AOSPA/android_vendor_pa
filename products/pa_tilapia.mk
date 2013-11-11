@@ -25,7 +25,7 @@ OVERLAY_TARGET := pa_tvdpi
 PREFS_FROM_SOURCE ?= false
 
 # Include ParanoidAndroid common configuration
-include vendor/pa/config/pa_common.mk
+include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/asus/tilapia/full_tilapia.mk)
