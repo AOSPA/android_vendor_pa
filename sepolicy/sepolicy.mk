@@ -18,4 +18,5 @@ BOARD_SEPOLICY_UNION += \
     seapp_contexts \
     service_contexts \
     system.te \
-    zygote.te
+    zygote.te \
+    vold.te
