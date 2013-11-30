@@ -13,7 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-        Busybox
+        Busybox \
+        libscreenrecorder
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
