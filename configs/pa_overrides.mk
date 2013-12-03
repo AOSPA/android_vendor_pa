@@ -14,7 +14,7 @@
 
 PRODUCT_PACKAGES += \
     Busybox \
-    Torch
+    Lightbulb
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
@@ -44,4 +44,3 @@ endif
 # ro.pa used by ParanoidOTA
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa=true
-
