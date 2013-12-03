@@ -13,7 +13,8 @@
 # limitations under the License.
 
 PRODUCT_PACKAGES += \
-        Busybox
+    Busybox \
+    Torch
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
@@ -26,10 +27,10 @@ PRODUCT_PACKAGES += \
 #endif
 
 # Include ParanoidOTA
-ifneq ($(NO_OTA_BUILD),true)
-    PRODUCT_PACKAGES += \
-        ParanoidOTA
-endif
+#ifneq ($(NO_OTA_BUILD),true)
+#    PRODUCT_PACKAGES += \
+#        ParanoidOTA
+#endif
 
 # Include bootanimation
 ifneq ($(PARANOID_BOOTANIMATION_NAME),)
