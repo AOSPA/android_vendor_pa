@@ -27,10 +27,10 @@ PRODUCT_PACKAGES += \
 #endif
 
 # Include ParanoidOTA
-#ifneq ($(NO_OTA_BUILD),true)
-#    PRODUCT_PACKAGES += \
-#        ParanoidOTA
-#endif
+ifneq ($(NO_OTA_BUILD),true)
+    PRODUCT_PACKAGES += \
+        ParanoidOTA
+endif
 
 # Include bootanimation
 ifneq ($(PARANOID_BOOTANIMATION_NAME),)
