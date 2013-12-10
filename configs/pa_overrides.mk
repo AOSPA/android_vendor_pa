@@ -14,7 +14,8 @@
 
 PRODUCT_PACKAGES += \
     Busybox \
-    Lightbulb
+    Lightbulb \
+    VoicePlus
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
