@@ -1,2 +1,2 @@
 #!/system/bin/sh
-/system/xbin/su --auto-daemon &
+/system/xbin/daemonsu --auto-daemon &
