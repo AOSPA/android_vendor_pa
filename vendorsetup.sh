@@ -1,5 +1,7 @@
 add_lunch_combo pa_d2att-userdebug
+add_lunch_combo pa_d2spr-userdebug
 add_lunch_combo pa_d2tmo-userdebug
+add_lunch_combo pa_dvzw-userdebug
 add_lunch_combo pa_d800-userdebug
 add_lunch_combo pa_d801-userdebug
 add_lunch_combo pa_d802-userdebug
