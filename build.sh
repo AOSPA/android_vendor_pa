@@ -12,6 +12,7 @@ DIR="$(cd `dirname $0`; pwd)"
 # **Inspired from AOSP** Out directory can be exported by the variable exported by
 # the command "export OUT_DIR_COMMON_BASE=/path/to/out/directory" This will make a
 # folder in the specified output directory with the name of the source directory.
+
 if [ -z $OUT_DIR_COMMON_BASE];
 then
     OUT="$(readlink $DIR/out)"
