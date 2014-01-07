@@ -14,7 +14,7 @@
 
 # Check for target product
 
-ifeq (pa_m7ul,$(TARGET_PRODUCT))
+ifeq (pa_m7,$(TARGET_PRODUCT))
 
 # Define PA bootanimation size
 PARANOID_BOOTANIMATION_NAME := XHDPI
@@ -32,11 +32,11 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit device configuration
-$(call inherit-product, device/htc/m7ul/full_m7ul.mk)
+$(call inherit-product, device/htc/m7/full_m7.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := m7ul
-PRODUCT_NAME := pa_m7ul
+PRODUCT_DEVICE := m7
+PRODUCT_NAME := pa_m7
 PRODUCT_BRAND := HTC
 PRODUCT_MODEL := One
 PRODUCT_MANUFACTURER := HTC
