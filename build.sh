@@ -77,6 +77,8 @@ esac
 
 echo -e ""
 
+export DEVICE=$DEVICE
+
 # Fetch latest sources
 if [ "$SYNC" == "true" ]; then
         echo -e ""
