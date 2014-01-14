@@ -40,3 +40,7 @@ else
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/XHDPI.zip:system/media/bootanimation.zip
 endif
+
+# Extra properties
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.pa.device=$(DEVICE)
