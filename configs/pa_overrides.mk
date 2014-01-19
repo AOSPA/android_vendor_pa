@@ -31,12 +31,3 @@ ifneq ($(NO_OTA_BUILD),true)
     PRODUCT_PACKAGES += \
         ParanoidOTA
 endif
-
-# Include bootanimation
-ifneq ($(PARANOID_BOOTANIMATION_NAME),)
-    PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/$(PARANOID_BOOTANIMATION_NAME).zip:system/media/bootanimation.zip
-else
-    PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/XHDPI.zip:system/media/bootanimation.zip
-endif
