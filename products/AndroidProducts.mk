@@ -39,6 +39,12 @@ endif
 ifeq (pa_galaxysmtd,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_galaxysmtd.mk
 endif
+ifeq (pa_gee,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_gee.mk
+endif
+ifeq (pa_geeb,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_geeb.mk
+endif
 ifeq (pa_hercules,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_hercules.mk
 endif
