@@ -77,6 +77,9 @@
   <apn carrier="SFR MMS" mcc="208" mnc="10" apn="mmssfr" mmsc="http://mms1" mmsproxy="10.151.0.1" mmsport="8080" type="mms" />
   <apn carrier="SFR" mcc="208" mnc="10" apn="sl2sfr" server="*" type="default,supl" />
   <apn carrier="SFR WAP" mcc="208" mnc="10" apn="wapsfr" user="none" password="none" server="*" proxy="195.115.25.129" port="8080" type="default,supl" />
+  <apn carrier="Internet Joe" mcc="208" mnc="10" apn="sl2sfr" server="*" type="default" />
+  <apn carrier="MMS Joe" mcc="208" mnc="10" apn="mmssfr" mmsc="http://mms1" mmsproxy="10.151.0.1" mmsport="8080" type="mms" />
+  <apn carrier="Modem Joe" mcc="208" mnc="10" apn="websfr" type="dun" />
   <apn carrier="ACCESS DATA" mcc="208" mnc="10" apn="websfr" type="default,supl" />
   <apn carrier="Web La Poste" mcc="208" mnc="10" apn="wapdebitel" proxy="192.168.21.3" port="8080" type="default,supl" />
   <apn carrier="NRJ Mobile FR" mcc="208" mnc="10" apn="fnetnrj" type="default,supl" />
