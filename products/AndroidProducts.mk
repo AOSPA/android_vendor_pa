@@ -57,6 +57,9 @@ endif
 ifeq (pa_m7,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_m7.mk
 endif
+ifeq (pa_moto_msm8960dt,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_moto_msm8960dt.mk
+endif
 ifeq (pa_n7000,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_n7000.mk
 endif
