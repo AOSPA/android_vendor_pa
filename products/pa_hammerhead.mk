@@ -33,6 +33,6 @@ PRODUCT_NAME := pa_hammerhead
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 5
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=occam BUILD_FINGERPRINT="google/occam/hammerhead:4.4/KRT16M/737497:user/release-keys" PRIVATE_BUILD_DESC="occam-user 4.4 KRT16M 737497 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=hammerhead BUILD_FINGERPRINT="google/hammerhead/hammerhead:4.4.2/KOT49H/937116:user/release-keys" PRIVATE_BUILD_DESC="hammerhead-user 4.4.2 KOT49H 937116 release-keys"
 
 endif
