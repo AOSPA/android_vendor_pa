@@ -23,7 +23,7 @@ ifneq ($(filter pa_d800 pa_d801 pa_d802 pa_d803 pa_dlx pa_hlte pa_jflte pa_ls980
 endif
 
 # PA XHDPI Devices
-ifneq ($(filter pa_moto_msm8960dt pa_d2lte pa_gee pa_geeb pa_hercules pa_i605 pa_i9300 pa_l900 pa_n7000 pa_n7100 pa_p880 pa_skyrocket pa_togari pa_v500,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_moto_msm8960 pa_moto_msm8960dt pa_d2lte pa_gee pa_geeb pa_hercules pa_i605 pa_i9300 pa_l900 pa_n7000 pa_n7100 pa_p880 pa_skyrocket pa_togari pa_v500,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
