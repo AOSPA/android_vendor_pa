@@ -20,6 +20,7 @@ add_lunch_combo pa_moto_msm8960-userdebug
 add_lunch_combo pa_moto_msm8960dt-userdebug
 add_lunch_combo pa_n7000-userdebug
 add_lunch_combo pa_n7100-userdebug
+add_lunch_combo pa_odin-userdebug
 add_lunch_combo pa_p880-userdebug
 add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_togari-userdebug
