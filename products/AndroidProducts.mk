@@ -36,6 +36,9 @@ endif
 ifeq (pa_dlx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_dlx.mk
 endif
+ifeq (pa_evita,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_evita.mk
+endif
 ifeq (pa_flo,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_flo.mk
 endif
