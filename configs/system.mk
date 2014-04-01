@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
 
 # SU Support
 SUPERUSER_EMBEDDED := true
+
 PRODUCT_PACKAGES := \
     Superuser \
     su
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.root_access=1
