@@ -1,4 +1,6 @@
 # ParanoidAndroid Extras
+# Superuser
+import /init.superuser.rc
 
 on init
     export ANDROID_CACHE /cache

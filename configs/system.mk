@@ -40,3 +40,6 @@ PRODUCT_COPY_FILES += \
 
 # SU Support
 SUPERUSER_EMBEDDED := true
+PRODUCT_PACKAGES := \
+    Superuser \
+    su
