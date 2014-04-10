@@ -36,6 +36,7 @@ add_lunch_combo pa_nozomi-userdebug
 add_lunch_combo pa_odin-userdebug
 add_lunch_combo pa_p880-userdebug
 add_lunch_combo pa_skyrocket-userdebug
+add_lunch_combo pa_tate-userdebug
 add_lunch_combo pa_togari-userdebug
 add_lunch_combo pa_v500-userdebug
 add_lunch_combo pa_vs980-userdebug
