@@ -36,6 +36,9 @@ endif
 ifeq (pa_dlx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_dlx.mk
 endif
+ifeq (pa_edison,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_edison.mk
+endif
 ifeq (pa_enrc2b,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_enrc2b.mk
 endif
@@ -96,6 +99,9 @@ endif
 ifeq (pa_m7,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_m7.mk
 endif
+ifeq (pa_maserati,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_maserati.mk
+endif
 ifeq (pa_meliusltexx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_meliusltexx.mk
 endif
@@ -135,11 +141,20 @@ endif
 ifeq (pa_skyrocket,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_skyrocket.mk
 endif
+ifeq (pa_spyder,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_spyder.mk
+endif
+ifeq (pa_targa,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_targa.mk
+endif
 ifeq (pa_tate,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tate.mk
 endif
 ifeq (pa_togari,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_togari.mk
+endif
+ifeq (pa_umts_spyder,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_umts_spyder.mk
 endif
 ifeq (pa_v500,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_v500.mk
