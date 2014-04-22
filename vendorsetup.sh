@@ -28,6 +28,8 @@ add_lunch_combo pa_jflte-userdebug
 add_lunch_combo pa_l900-userdebug
 add_lunch_combo pa_ls980-userdebug
 add_lunch_combo pa_m7-userdebug
+add_lunch_combo pa_m7spr-userdebug
+add_lunch_combo pa_m7vzw-userdebug
 add_lunch_combo pa_maserati-userdebug
 add_lunch_combo pa_meliusltexx-userdebug
 add_lunch_combo pa_melius3gxx-userdebug
