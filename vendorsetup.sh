@@ -50,6 +50,7 @@ add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_spyder-userdebug
 add_lunch_combo pa_targa-userdebug
 add_lunch_combo pa_tate-userdebug
+add_lunch_combo pa_tf201-userdebug
 add_lunch_combo pa_togari-userdebug
 add_lunch_combo pa_umts_spyder-userdebug
 add_lunch_combo pa_v500-userdebug
