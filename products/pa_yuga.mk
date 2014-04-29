@@ -13,12 +13,12 @@
 # limitations under the License.
 
 # Check for target product
-
 ifeq (pa_yuga,$(TARGET_PRODUCT))
 
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_xhdpi
 
+# Build paprefs from sources
 PREFS_FROM_SOURCE ?= false
 
 # Inherit telephony common stuff
@@ -35,10 +35,7 @@ PRODUCT_NAME := pa_yuga
 PRODUCT_DEVICE := yuga
 PRODUCT_BRAND := sony
 PRODUCT_MANUFACTURER := Sony
-PRODUCT_MODEL := C6603
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=C6603 \
-    BUILD_FINGERPRINT=Sony/C6603_1270-6697/C6603:4.2.2/10.3.A.0.423/WP5_rg:user/release-keys \
-    PRIVATE_BUILD_DESC="C6603-user 4.2.2 10.3.A.0.423 WP5_rg test-keys"
-
+PRODUCT_MODEL := Xperia Z
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=C6603 TARGET_DEVICE=yuga BUILD_FINGERPRINT=Sony/C6603_1270-6697/C6603:4.2.2/10.3.A.0.423/WP5_rg:user/release-keys PRIVATE_BUILD_DESC="C6603-user 4.2.2 10.3.A.0.423 WP5_rg test-keys"
+    
 endif
