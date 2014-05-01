@@ -19,8 +19,7 @@ PRODUCT_PACKAGES += \
 
 # Extra packages
 PRODUCT_PACKAGES += \
-    BluetoothExt \
-    CellBroadcastReceiver
+    BluetoothExt
 
 # Screen Recorder
 PRODUCT_PACKAGES += \
