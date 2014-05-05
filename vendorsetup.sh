@@ -20,6 +20,7 @@ add_lunch_combo pa_hikari-userdebug
 add_lunch_combo pa_hlte-userdebug
 add_lunch_combo pa_honami-userdebug
 add_lunch_combo pa_i605-userdebug
+add_lunch_combo pa_i9082-userdebug
 add_lunch_combo pa_i9100-userdebug
 add_lunch_combo pa_i9100g-userdebug
 add_lunch_combo pa_i9300-userdebug
