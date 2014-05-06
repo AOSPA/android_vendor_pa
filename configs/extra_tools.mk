@@ -21,7 +21,7 @@ PRODUCT_PACKAGES += \
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
-    libstagefright_soft_ffmpegadec.so \
-    libstagefright_soft_ffmpegvdec.so \
-    libFFmpegExtractor.so \
-    libnamparser.so
+    libstagefright_soft_ffmpegadec \
+    libstagefright_soft_ffmpegvdec \
+    libFFmpegExtractor \
+    libnamparser
