@@ -25,6 +25,9 @@ PREFS_FROM_SOURCE ?= false
 # Inherit telephony common stuff
 $(call inherit-product, vendor/pa/configs/telephony.mk)
 
+# Inherit extra tools
+$(call inherit-product, vendor/pa/configs/extra_tools.mk)
+
 # Include AOSPA common configuration
 include vendor/pa/main.mk
 
