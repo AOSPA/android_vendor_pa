@@ -18,3 +18,10 @@ PRODUCT_PACKAGES += \
     mount.exfat \
     fsck.exfat \
     mkfs.exfat
+
+# Stagefright FFMPEG plugin
+PRODUCT_PACKAGES += \
+    libstagefright_soft_ffmpegadec.so \
+    libstagefright_soft_ffmpegvdec.so \
+    libFFmpegExtractor.so \
+    libnamparser.so
