@@ -34,6 +34,7 @@ add_lunch_combo pa_m4-userdebug
 add_lunch_combo pa_m7-userdebug
 add_lunch_combo pa_m7spr-userdebug
 add_lunch_combo pa_m7vzw-userdebug
+add_lunch_combo pa_m8-userdebug
 add_lunch_combo pa_maserati-userdebug
 add_lunch_combo pa_meliusltexx-userdebug
 add_lunch_combo pa_melius3gxx-userdebug
