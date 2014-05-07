@@ -29,7 +29,7 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit device configuration
-$(call inherit-product, device/htc/ville/pa_ville.mk)
+$(call inherit-product, device/htc/ville/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ville
