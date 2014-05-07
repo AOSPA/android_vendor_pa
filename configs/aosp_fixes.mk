@@ -12,14 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase=android-google
-else
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
-endif
-
 # Google property overides
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true \
@@ -38,6 +30,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-PRODUCT_PACKAGES += \
-    CellBroadcastReceiver

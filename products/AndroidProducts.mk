@@ -123,11 +123,11 @@ endif
 ifeq (pa_maserati,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_maserati.mk
 endif
-ifeq (pa_meliusltexx,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_meliusltexx.mk
-endif
 ifeq (pa_melius3gxx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_melius3gxx.mk
+endif
+ifeq (pa_meliusltexx,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_meliusltexx.mk
 endif
 ifeq (pa_mint,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_mint.mk
@@ -156,20 +156,20 @@ endif
 ifeq (pa_odin,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_odin.mk
 endif
-ifeq (pa_p880,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p880.mk
-endif
 ifeq (pa_p3100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p3100.mk
 endif
 ifeq (pa_p3110,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p3110.mk
 endif
-ifeq (pa_serranoltexx,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_serranoltexx.mk
+ifeq (pa_p880,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p880.mk
 endif
 ifeq (pa_serrano3gxx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_serrano3gxx.mk
+endif
+ifeq (pa_serranoltexx,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_serranoltexx.mk
 endif
 ifeq (pa_skyrocket,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_skyrocket.mk
