@@ -43,6 +43,7 @@ add_lunch_combo pa_moto_msm8960-userdebug
 add_lunch_combo pa_moto_msm8960dt-userdebug
 add_lunch_combo pa_n5100-userdebug
 add_lunch_combo pa_n5110-userdebug
+add_lunch_combo pa_n5120-userdebug
 add_lunch_combo pa_n7000-userdebug
 add_lunch_combo pa_n7100-userdebug
 add_lunch_combo pa_nozomi-userdebug

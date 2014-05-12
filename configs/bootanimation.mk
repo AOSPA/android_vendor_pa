@@ -35,7 +35,7 @@ ifneq ($(filter pa_galaxysmtd pa_i9082 pa_i9100 pa_i9100g pa_p3100 pa_p3110 pa_s
 endif
 
 # PA TVDPI Devices
-ifneq ($(filter pa_a510 pa_a700 pa_n5110 pa_n5100,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_a510 pa_a700 pa_n5100 pa_n5110 pa_n5120,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1920x1200.zip:system/media/bootanimation.zip
 endif
