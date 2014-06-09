@@ -10,6 +10,7 @@ add_lunch_combo pa_edison-userdebug
 add_lunch_combo pa_enrc2b-userdebug
 add_lunch_combo pa_evita-userdebug
 add_lunch_combo pa_falcon-userdebug
+add_lunch_combo pa_find5-userdebug
 add_lunch_combo pa_find7a-userdebug
 add_lunch_combo pa_flo-userdebug
 add_lunch_combo pa_galaxysmtd-userdebug
@@ -41,6 +42,7 @@ add_lunch_combo pa_melius3gxx-userdebug
 add_lunch_combo pa_mint-userdebug
 add_lunch_combo pa_moto_msm8960-userdebug
 add_lunch_combo pa_moto_msm8960dt-userdebug
+add_lunch_combo pa_n1-userdebug
 add_lunch_combo pa_n5100-userdebug
 add_lunch_combo pa_n5110-userdebug
 add_lunch_combo pa_n5120-userdebug

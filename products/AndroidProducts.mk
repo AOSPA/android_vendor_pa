@@ -48,6 +48,9 @@ endif
 ifeq (pa_falcon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_falcon.mk
 endif
+ifeq (pa_find5,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_find5.mk
+endif
 ifeq (pa_find7a,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_find7a.mk
 endif
@@ -140,6 +143,9 @@ ifeq (pa_moto_msm8960,$(TARGET_PRODUCT))
 endif
 ifeq (pa_moto_msm8960dt,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_moto_msm8960dt.mk
+endif
+ifeq (pa_n1,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_n1.mk
 endif
 ifeq (pa_n5100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_n5100.mk
