@@ -36,9 +36,9 @@ PRODUCT_NAME := pa_meliusltexx
 PRODUCT_DEVICE := meliusltexx
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := meliusltexx
+PRODUCT_MODEL := GT-I9205
 
 # Set build fingerprint / ID / Product Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=meliusltexx BUILD_FINGERPRINT="samsung/meliusltexx/meliuslte:4.2.2/JDQ39/I9205XXUAMEA:user/release-keys" PRIVATE_BUILD_DESC="meliusltexx-user 4.2.2 JDQ39 I9205XXUAMEA release-keys" BUILD_NUMBER=I9205XXUAMEA
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=meliusltexx BUILD_FINGERPRINT="samsung/meliusltexx/meliuslte:4.4.2/KOT49H/I9205XXUDNE4:user/release-keys" PRIVATE_BUILD_DESC="meliusltexx-user 4.4.2 KOT49H I9205XXUDNE4 release-keys"
 
 endif
