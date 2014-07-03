@@ -29,7 +29,7 @@ txtrst=$(tput sgr0)             # Reset
 
 # If there is more than one jdk installed, use latest 6.x
 if [ "`update-alternatives --list javac | wc -l`" -gt 1 ]; then
-        JDK6=$(dirname `update-alternatives --list javac | grep "\-6\-"` | tail -n1)
+        JDK6=$(dirname `update-alternatives --list javac | grep -E '(\-6\-|\.6\.)'` | tail -n1)
         JRE6=$(dirname ${JDK6}/../jre/bin/java)
         export PATH=${JDK6}:${JRE6}:$PATH
 fi
