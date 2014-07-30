@@ -58,6 +58,7 @@ add_lunch_combo pa_p3110-userdebug
 add_lunch_combo pa_p880-userdebug
 add_lunch_combo pa_serrano3gxx-userdebug
 add_lunch_combo pa_serranoltexx-userdebug
+add_lunch_combo pa_sirius-userdebug
 add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_spyder-userdebug
 add_lunch_combo pa_targa-userdebug
