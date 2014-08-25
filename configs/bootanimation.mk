@@ -17,7 +17,7 @@ ifneq ($(filter pa_mako pa_maguro pa_toro pa_toroplus pa_grouper pa_tilapia,$(TA
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
-ifeq (pa_hammerhead,$(TARGET_PRODUCT))
+ifneq ($(filter pa_bacon pa_hammerhead,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
