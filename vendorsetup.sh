@@ -44,6 +44,7 @@ add_lunch_combo pa_meliusltexx-userdebug
 add_lunch_combo pa_melius3gxx-userdebug
 add_lunch_combo pa_mint-userdebug
 add_lunch_combo pa_moto_msm8960-userdebug
+add_lunch_combo pa_moto_msm8960_jbbl-userdebug
 add_lunch_combo pa_moto_msm8960dt-userdebug
 add_lunch_combo pa_n1-userdebug
 add_lunch_combo pa_n5100-userdebug
