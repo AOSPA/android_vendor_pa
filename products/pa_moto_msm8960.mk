@@ -34,7 +34,7 @@ $(call inherit-product, device/motorola/moto_msm8960/full_moto_msm8960.mk)
 PRODUCT_DEVICE := moto_msm8960
 PRODUCT_NAME := pa_moto_msm8960
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := xt926
+PRODUCT_MODEL := MOTOROLA MSM8960
 PRODUCT_MANUFACTURER := motorola
 
 endif
