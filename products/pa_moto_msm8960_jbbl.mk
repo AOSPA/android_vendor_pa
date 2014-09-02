@@ -28,7 +28,7 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/motorola/moto_msm8960/full_moto_msm8960_jbbl.mk)
+$(call inherit-product, device/motorola/moto_msm8960_jbbl/full_moto_msm8960.mk)
 
 # Override AOSP build properties
 PRODUCT_DEVICE := moto_msm8960_jbbl
