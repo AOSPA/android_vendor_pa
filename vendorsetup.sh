@@ -63,6 +63,7 @@ add_lunch_combo pa_serranoltexx-userdebug
 add_lunch_combo pa_sirius-userdebug
 add_lunch_combo pa_skyrocket-userdebug
 add_lunch_combo pa_spyder-userdebug
+add_lunch_combo pa_taoshan-userdebug
 add_lunch_combo pa_targa-userdebug
 add_lunch_combo pa_tate-userdebug
 add_lunch_combo pa_tf201-userdebug
