@@ -29,7 +29,7 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/i9500/full_i9500.mk)
+$(call inherit-product, device/samsung/i9500/i9500.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_i9500

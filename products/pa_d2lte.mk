@@ -29,7 +29,7 @@ $(call inherit-product, vendor/pa/configs/telephony.mk)
 include vendor/pa/main.mk
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/d2lte/full_d2lte.mk)
+$(call inherit-product, device/samsung/d2lte/d2lte.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_d2lte
