@@ -19,6 +19,13 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 echo -e '\0033\0143'
 clear
 
+# Make sure we are running on 64-bit before carrying on with anything
+ARCH=$(uname -m | sed 's/x86_//;s/i[3-6]86/32/')
+if [ "$ARCH" != "64" ]; then
+        echo -e "${CLR_BLD_RED}error: unsupported arch (expected: 64, found: $ARCH)${CLR_RST}"
+        exit 1
+fi
+
 # Set up paths
 cd $(dirname $0)
 DIR_ROOT=$(pwd)
