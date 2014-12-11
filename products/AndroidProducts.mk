@@ -33,6 +33,9 @@ endif
 ifeq (pa_manta,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_manta.mk
 endif
+ifeq (pa_shamu,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_shamu.mk
+endif
 ifeq (pa_tilapia,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tilapia.mk
 endif
