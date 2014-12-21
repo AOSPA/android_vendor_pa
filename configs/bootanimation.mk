@@ -21,11 +21,12 @@ ifneq ($(filter pa_hammerhead pa_shamu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
+# Hack: Use 1920x1080 of stock one till we get size for all of them.
 ifneq ($(filter pa_deb pa_flo pa_flounder,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/1920x1200.zip:system/media/bootanimation.zip
+        vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
 ifneq ($(filter pa_manta,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/2560x1600.zip:system/media/bootanimation.zip
+        vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
