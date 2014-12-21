@@ -12,9 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PACKAGES += \
-    Busybox \
-    Lightbulb
+#PRODUCT_PACKAGES += \
+#    Busybox
 
 # Source or prebuilt PA-prefs logic
 #ifneq ($(PREFS_FROM_SOURCE),true)
@@ -33,5 +32,5 @@ ifneq ($(NO_OTA_BUILD),true)
 endif
 
 # Extra properties
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.pa.device=$(DEVICE)
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.pa.device=$(DEVICE)
