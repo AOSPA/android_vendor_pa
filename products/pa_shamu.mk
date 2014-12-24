@@ -23,7 +23,7 @@ OVERLAY_TARGET := pa_xxhdpi
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/moto/shamu/full_shamu.mk)
+$(call inherit-product, device/motorola/shamu/full_shamu.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_shamu
