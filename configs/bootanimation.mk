@@ -18,7 +18,7 @@ ifneq ($(filter pa_flamingo,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter pa_mako pa_grouper pa_tilapia pa_tianchi,$(TARGET_PRODUCT)),)
+ifneq ($(filter pa_mako pa_grouper pa_tilapia pa_tianchi pa_amami,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
