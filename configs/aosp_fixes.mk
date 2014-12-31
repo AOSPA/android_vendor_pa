@@ -31,7 +31,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-# Proprietary latinime lib needed for Keyboard swyping
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so
