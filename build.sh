@@ -123,7 +123,7 @@ else
         # lunch/brunch device
         echo -e "${bldblu}Lunching device [$DEVICE] ${cya}(Includes dependencies sync)${txtrst}"
         export PREFS_FROM_SOURCE
-        lunch "pa_$DEVICE-userdebug";
+        lunch "pa_$DEVICE-user";
 
         echo -e "${bldblu}Starting compilation${txtrst}"
         mka bacon
