@@ -10,4 +10,7 @@ BOARD_SEPOLICY_UNION += \
     file.te \
     file_contexts \
     service_contexts \
-    system_server.te
+    system.te \
+    app.te \
+    bootanim.te \
+    zygote.te
