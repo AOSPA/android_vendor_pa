@@ -16,9 +16,6 @@
 
 ifeq (pa_flounder,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_xxhdpi
-
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 
