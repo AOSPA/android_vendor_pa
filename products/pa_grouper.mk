@@ -15,12 +15,6 @@
 # Check for target product
 ifeq (pa_grouper,$(TARGET_PRODUCT))
 
-# OVERLAY_TARGET adds overlay asset source
-OVERLAY_TARGET := pa_tvdpi
-
-# Build paprefs from sources
-PREFS_FROM_SOURCE ?= false
-
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 

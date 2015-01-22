@@ -24,7 +24,6 @@ bldcya=${txtbld}$(tput setaf 6) #  cyan
 txtrst=$(tput sgr0)             # Reset
 
 # Local defaults, can be overriden by environment
-: ${PREFS_FROM_SOURCE:="false"}
 if [ `uname -s` == "Darwin" ]; then
 : ${THREADS:="$(sysctl -n machdep.cpu.core_count)"}
 else
@@ -122,7 +121,6 @@ else
 
         # lunch/brunch device
         echo -e "${bldblu}Lunching device [$DEVICE] ${cya}(Includes dependencies sync)${txtrst}"
-        export PREFS_FROM_SOURCE
         lunch "pa_$DEVICE-userdebug";
 
         echo -e "${bldblu}Starting compilation${txtrst}"
