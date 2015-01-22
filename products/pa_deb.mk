@@ -18,9 +18,6 @@ ifeq (pa_deb,$(TARGET_PRODUCT))
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_deb
 
-# Build paprefs from sources
-PREFS_FROM_SOURCE ?= true
-
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 
