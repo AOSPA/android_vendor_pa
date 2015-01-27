@@ -56,11 +56,13 @@ fi
 
 # If there is no extra parameter, reduce parameters index by 1
 if [ "$EXTRAS" == "true" ] || [ "$EXTRAS" == "false" ]; then
-        SYNC="$2"
-        UPLOAD="$3"
-else
+        USER="$2"
         SYNC="$3"
         UPLOAD="$4"
+else
+        USER="$3"
+        SYNC="$4"
+        UPLOAD="$5"
 fi
 
 # Get start time
@@ -121,10 +123,18 @@ else
 
         # lunch/brunch device
         echo -e "${bldblu}Lunching device [$DEVICE] ${cya}(Includes dependencies sync)${txtrst}"
-        lunch "pa_$DEVICE-userdebug";
+        if [ "$USER" == "user" ]; then
+                lunch "pa_$DEVICE-user";
+        else
+                lunch "pa_$DEVICE-userdebug";
+        fi
 
         echo -e "${bldblu}Starting compilation${txtrst}"
-        mka bacon
+        if [ "$USER" == "user" ]; then
+                mka dist
+        else
+                mka bacon
+        fi
 fi
 echo -e ""
 
