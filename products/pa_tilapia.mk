@@ -26,6 +26,6 @@ PRODUCT_NAME := pa_tilapia
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasig BUILD_FINGERPRINT="google/nakasig/tilapia:4.4.4/KTU84P/1227136:user/release-keys" PRIVATE_BUILD_DESC="nakasig-user 4.4.4 KTU84P 1227136 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasig BUILD_FINGERPRINT="google/nakasig/tilapia:5.0.2/LRX22G/1649326:user/release-keys" PRIVATE_BUILD_DESC="nakasig-user 5.0.2 LRX22G 1649326 release-keys"
 
 endif
