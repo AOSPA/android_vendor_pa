@@ -13,6 +13,11 @@
 # limitations under the License.
 
 # Add PA bootanimation based on device resolution
+ifneq ($(filter pa_flamingo,$(TARGET_PRODUCT)),)
+    # TODO - Dear Mr BootAnimationDesigner, flamingo needs 854x480 bootanimation
+    PRODUCT_COPY_FILES += \
+        vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
+endif
 ifneq ($(filter pa_mako pa_grouper pa_tilapia pa_tianchi,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip

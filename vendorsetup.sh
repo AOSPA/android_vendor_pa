@@ -8,3 +8,4 @@ add_lunch_combo pa_tilapia-userdebug
 add_lunch_combo pa_mako-userdebug
 add_lunch_combo pa_manta-userdebug
 add_lunch_combo pa_tianchi-userdebug
+add_lunch_combo pa_flamingo-userdebug

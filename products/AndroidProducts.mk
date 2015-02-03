@@ -42,4 +42,7 @@ endif
 ifeq (pa_tianchi,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tianchi.mk
 endif
+ifeq (pa_flamingo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_flamingo.mk
+endif
 
