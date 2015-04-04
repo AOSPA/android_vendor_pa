@@ -12,8 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include ParanoidOTA
+# Include ParanoidOTA & Product property
 ifneq ($(NO_OTA_BUILD),true)
     PRODUCT_PACKAGES += \
         ParanoidOTA
+    PRODUCT_PROPERTY_OVERRIDES += \
+        ro.pa.device=$(DEVICE)
 endif
