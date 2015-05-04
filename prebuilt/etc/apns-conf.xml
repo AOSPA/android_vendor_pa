@@ -8815,6 +8815,21 @@
       user_editable="0"
   />
   <apn
+      carrier="Google Fi"
+      carrier_id = "1989"
+      mcc="310"
+      mnc="260"
+      apn="h2g2"
+      user="none"
+      server="*"
+      password="none"
+      mmsc="http://m.fi.goog/mms/wapenc"
+      protocol="IPV6"
+      roaming_protocol="IP"
+      mvno_match_data="31026097"
+      mvno_type="IMSI"
+  />
+  <apn
       carrier="MetroPCS"
       mcc="310"
       mnc="260"
