@@ -9,7 +9,6 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_UNION += \
     app.te \
     bootanim.te \
-    drmserver.te \
     file.te \
     file_contexts \
     mediaserver.te \
