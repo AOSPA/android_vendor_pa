@@ -66,14 +66,31 @@ else
         VERSION=$VERSION_MAJOR.$VERSION_MINOR$VERSION_MAINTENANCE
 fi
 
+# Help message
+function showHelp {
+        echo -e "${CLR_BLD_BLU}Usage: $0 <device> <options>${CLR_RST}"
+        echo -e ""
+        echo -e "${CLR_BLD_BLU}Options:${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -c, --clean, c, clean    clean build${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -u, --user, u, user      lunch user build${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -s, --sync, s, sync      sync sourcecode${CLR_RST}"
+        exit 1
+}
+
 # Grab all the command-line parameters
 export DEVICE=$1
 shift
 
 if [ -z "$DEVICE" ]; then
-        echo -e "${CLR_BLD_RED}error: no device specified${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}usage: $0 <device>${CLR_RST}"
-        exit 1
+        echo -e "${CLR_BLD_RED}Error: no device specified${CLR_RST}"
+        echo -e ""
+        showHelp
+else
+	case $DEVICE in
+        -h|--help|h|help)
+            showHelp
+            ;;
+        esac
 fi
 
 while [[ "$#" > 0 ]]; do
@@ -87,6 +104,9 @@ while [[ "$#" > 0 ]]; do
             ;;
         -s|--sync|s|sync)
             FLAG_SYNC=y
+            ;;
+        -h|--help|h|help)
+            showHelp
             ;;
         *)
             echo -e "${CLR_CYA}warning: skipping unknown parameter: $1${CLR_RST}"
