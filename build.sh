@@ -99,7 +99,7 @@ done
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Cleaning output files left from old builds${CLR_RST}"
         echo -e ""
-        rm -rf ${DIR_ROOT}/out/*
+        rm -rf ${DIR_ROOT}/out/target/product/$DEVICE
 fi
 
 # And sync up, if asked to
