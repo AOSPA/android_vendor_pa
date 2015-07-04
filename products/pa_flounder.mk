@@ -13,7 +13,6 @@
 # limitations under the License.
 
 # Check for target product
-
 ifeq (pa_flounder,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
@@ -24,9 +23,12 @@ $(call inherit-product, device/htc/flounder/full_flounder.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_flounder
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 9
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=flounder BUILD_FINGERPRINT="google/volantis/flounder:5.0.1/LRX22C/1602158:user/release-keys" PRIVATE_BUILD_DESC="volantis-user 5.0.1 LRX22C 1602158 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME=flounder \
+	BUILD_FINGERPRINT="google/volantis/flounder:5.1.1/LMY47X/1849464:user/release-keys" \
+	PRIVATE_BUILD_DESC="volantis-user 5.1.1 LMY47X 1849464 release-keys" \
 
 endif

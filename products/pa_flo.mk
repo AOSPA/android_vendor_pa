@@ -23,9 +23,12 @@ $(call inherit-product, device/asus/flo/full_flo.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_flo
-PRODUCT_BRAND := Google
+PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=razor BUILD_FINGERPRINT=google/razor/flo:5.0.2/LRX22G/1649326:user/release-keys PRIVATE_BUILD_DESC="razor-user 5.0.2 LRX22G 1649326 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	PRODUCT_NAME=razor \
+	BUILD_FINGERPRINT=google/razor/flo:5.1.1/LMY48G/1965118:user/release-keys \
+	PRIVATE_BUILD_DESC="razor-user 5.1.1 LMY48G 1965118 release-keys"
 
 endif
