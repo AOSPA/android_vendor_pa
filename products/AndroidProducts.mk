@@ -40,3 +40,8 @@ ifeq (pa_tilapia,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tilapia.mk
 endif
 
+# Sony Shinano platform
+ifeq (pa_sirius,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_sirius.mk
+endif
+
