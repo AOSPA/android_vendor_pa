@@ -19,6 +19,18 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 echo -e '\0033\0143'
 clear
 
+# Output usage help
+function showHelpAndExit {
+        echo -e "${CLR_BLD_BLU}usage: $0 <device> [options]${CLR_RST}"
+        echo -e ""
+        echo -e "${CLR_BLD_BLU}options:${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -h, --help     display this help message${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -c, --clean    wipe the tree before building${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -u, --user     build a user build for distribution${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -s, --sync     sync before building${CLR_RST}"
+        exit 1
+}
+
 # Make sure we are running on 64-bit before carrying on with anything
 ARCH=$(uname -m | sed 's/x86_//;s/i[3-6]86/32/')
 if [ "$ARCH" != "64" ]; then
@@ -72,13 +84,21 @@ shift
 
 if [ -z "$DEVICE" ]; then
         echo -e "${CLR_BLD_RED}error: no device specified${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}usage: $0 <device>${CLR_RST}"
-        exit 1
+        showHelpAndExit
 fi
+
+case $DEVICE in
+-h|--help|h|help)
+        showHelpAndExit
+        ;;
+esac
 
 while [[ "$#" > 0 ]]; do
         PARAM=$(echo ${1,,})
         case $PARAM in
+        -h|--help|h|help)
+            showHelpAndExit
+            ;;
         -c|--clean|c|clean)
             FLAG_CLEAN_BUILD=y
             ;;
