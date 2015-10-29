@@ -1,2 +1,0 @@
-# Themes
-allow drmserver theme_data_file:file r_file_perms;
