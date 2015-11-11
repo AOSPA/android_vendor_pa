@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_oneplus_bacon",
+        "target_path":  "device/oneplus/bacon",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_kernel_oneplus_msm8974",
+        "target_path":  "kernel/oneplus/msm8974",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "marshmallow"
+    }
+]

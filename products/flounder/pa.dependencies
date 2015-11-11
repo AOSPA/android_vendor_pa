@@ -1,0 +1,14 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_htc_flounder",
+        "target_path":  "device/htc/flounder",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "device/htc/flounder-kernel",
+        "target_path":  "device/htc/flounder-kernel",
+        "revision":     "refs/tags/android-6.0.0_r1"
+    }
+]
