@@ -1,3 +1,4 @@
+add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_deb-userdebug
 add_lunch_combo pa_grouper-userdebug
 add_lunch_combo pa_flo-userdebug
