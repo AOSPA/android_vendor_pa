@@ -1,4 +1,5 @@
 # Nexus
+add_lunch_combo pa_angler-userdebug
 add_lunch_combo pa_deb-userdebug
 add_lunch_combo pa_grouper-userdebug
 add_lunch_combo pa_flo-userdebug
