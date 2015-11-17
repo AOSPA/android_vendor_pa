@@ -21,31 +21,31 @@
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "refs/tags/android-6.0.0_r1"
+        "revision":     "refs/tags/android-6.0.0_r26"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/bt",
         "target_path":  "hardware/qcom/bt",
-        "revision":     "refs/tags/android-6.0.0_r1"
+        "revision":     "refs/tags/android-6.0.0_r26"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "refs/tags/android-6.0.0_r1"
+        "revision":     "refs/tags/android-6.0.0_r26"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
-        "revision":     "refs/tags/android-6.0.0_r1"
+        "revision":     "refs/tags/android-6.0.0_r26"
     },
     {
         "remote":       "github",
         "repository":   "alviteri/platform-hardware-qcom-media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "android-6.0.0_r1"
+        "revision":     "android-6.0.0_r26"
     },
     {
         "remote":       "github",
@@ -57,7 +57,7 @@
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-6.0.0_r1"
+        "revision":     "refs/tags/android-6.0.0_r26"
     },
     {
         "remote":       "github",
@@ -69,13 +69,13 @@
         "remote":       "github",
         "repository":   "alviteri/platform-external-libnfc-nci",
         "target_path":  "external/libnfc-nci",
-        "revision":     "android-6.0.0_r1"
+        "revision":     "android-6.0.0_r26"
     },
     {
         "remote":       "github",
         "repository":   "alviteri/platform-hardware-broadcom-libbt",
         "target_path":  "hardware/broadcom/libbt",
-        "revision":     "android-6.0.0_r1"
+        "revision":     "android-6.0.0_r26"
     },
     {
         "remote":       "github",
