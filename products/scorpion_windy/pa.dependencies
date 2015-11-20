@@ -91,7 +91,7 @@
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/external-ant-wireless-antradio-library",
+        "repository":   "alviteri/platform-external-ant-wireless-antradio-library",
         "target_path":  "external/ant-wireless/antradio-library",
         "revision":     "master"
     },
