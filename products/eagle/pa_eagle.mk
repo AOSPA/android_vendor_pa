@@ -18,6 +18,8 @@ ifeq (pa_eagle,$(TARGET_PRODUCT))
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 
+include vendor/twrp-sony/products/yukon/eagle/eagle.mk
+
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/eagle/aosp_d2303.mk)
 

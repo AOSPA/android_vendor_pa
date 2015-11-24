@@ -124,5 +124,23 @@
         "repository":   "alviteri/vendor-qcom-proprietary",
         "target_path":  "vendor/qcom/proprietary",
         "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "omnirom/android_bootable_recovery",
+        "target_path":  "bootable/recovery",
+        "revision":     "android-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "omnirom/android_external_busybox",
+        "target_path":  "external/busybox",
+        "revision":     "android-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "omnirom/android_external_lz4",
+        "target_path":  "external/lz4",
+        "revision":     "android-6.0"
     }
 ]
