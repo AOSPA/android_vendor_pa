@@ -7,9 +7,9 @@
     },
     {
         "target_path":  "device/lge/mako-kernel",
-        "repository":   "device/lge/mako-kernel",
-        "remote":       "aosp",
-        "revision":     "refs/tags/android-5.1.1_r19"
+        "repository":   "android_device_lge_mako-kernel",
+        "remote":       "aospa",
+        "revision":     "marshmallow"
     },
     {
         "target_path":  "vendor/lge/mako",
