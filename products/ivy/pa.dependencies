@@ -1,14 +1,14 @@
 [
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-eagle",
-        "target_path":  "device/sony/eagle",
+        "repository":   "sonyxperiadev/device-sony-ivy",
+        "target_path":  "device/sony/ivy",
         "revision":     "master"
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-yukon",
-        "target_path":  "device/sony/yukon",
+        "repository":   "sonyxperiadev/device-sony-kitakami",
+        "target_path":  "device/sony/kitakami",
         "revision":     "master"
     },
     {
