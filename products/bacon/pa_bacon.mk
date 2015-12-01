@@ -15,6 +15,9 @@
 # Check for target product
 ifeq (pa_bacon,$(TARGET_PRODUCT))
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 
@@ -26,6 +29,14 @@ PRODUCT_NAME := pa_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := A0001
-PRODUCT_MANUFACTURER := qcom
+PRODUCT_MANUFACTURER := OnePlus
+
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bacon \
+    TARGET_DEVICE=A0001 \
+    BUILD_FINGERPRINT=oneplus/bacon/A0001:5.1.1/LMY48B/YOG4PAS1N0:user/release-keys \
+    PRIVATE_BUILD_DESC="bacon-user 5.1.1 LMY48B YOG4PAS1N0 release-keys"
 
 endif
