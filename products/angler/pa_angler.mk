@@ -1,4 +1,4 @@
-# Copyright (C) 2013 ParanoidAndroid Project
+# Copyright (C) 2014 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,22 +13,22 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_mako,$(TARGET_PRODUCT))
+ifeq (pa_angler,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/lge/mako/full_mako.mk)
+$(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Override AOSP build properties
-PRODUCT_NAME := pa_mako
+PRODUCT_NAME := pa_angler
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 4
-PRODUCT_MANUFACTURER := LGE
+PRODUCT_MODEL := Nexus 6P
+PRODUCT_MANUFACTURER := huawei
 PRODUCT_BUILD_PROP_OVERRIDES += \
-	PRODUCT_NAME=occam \
-	BUILD_FINGERPRINT="google/occam/mako:5.1.1/LMY48I/2074855:user/release-keys" \
-	PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48I 2074855 release-keys"
+	PRODUCT_NAME=angler \
+	BUILD_FINGERPRINT="google/angler/angler:6.0/MDB08M/2353240:user/release-keys" \
+	PRIVATE_BUILD_DESC="angler-user 6.0 MDB08M 2353240 release-keys"
 
 endif

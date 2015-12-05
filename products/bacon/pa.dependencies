@@ -1,0 +1,50 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_oneplus_bacon",
+        "target_path":  "device/oneplus/bacon",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_kernel_oneplus_msm8974",
+        "target_path":  "kernel/oneplus/msm8974",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "LA.BF.1.1.3_rb1.4"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "LA.BF.1.1.3_rb1.4"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/keymaster",
+        "target_path":  "hardware/qcom/keymaster",
+        "revision":     "LA.BF.1.1.3_rb1.4"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "LA.BF.1.1.3_rb1.4"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "LA.BF.1.1.3_rb1.4"
+    }
+]

@@ -1,0 +1,146 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-scorpion_windy",
+        "target_path":  "device/sony/scorpion_windy",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/device-sony-shinano",
+        "target_path":  "device/sony/shinano",
+        "revision":     "test-m"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/kernel",
+        "target_path":  "kernel/sony/msm",
+        "revision":     "master-dev"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "refs/tags/android-6.0.0_r26"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "refs/tags/android-6.0.0_r26"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "refs/tags/android-6.0.0_r26"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/keymaster",
+        "target_path":  "hardware/qcom/keymaster",
+        "revision":     "refs/tags/android-6.0.0_r26"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-hardware-qcom-media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "android-6.0.0_r26"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-hardware-qcom-gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "android-6.0.0_r26"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "refs/tags/android-6.0.0_r26"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-qcom-sepolicy",
+        "target_path":  "device/qcom/sepolicy",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-external-libnfc-nci",
+        "target_path":  "external/libnfc-nci",
+        "revision":     "android-6.0.0_r26"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-hardware-broadcom-libbt",
+        "target_path":  "hardware/broadcom/libbt",
+        "revision":     "android-6.0.0_r26"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-external-ant-wireless-ant-native",
+        "target_path":  "external/ant-wireless/ant_native",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-external-ant-wireless-ant-service",
+        "target_path":  "external/ant-wireless/ant_service",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/platform-external-ant-wireless-antradio-library",
+        "target_path":  "external/ant-wireless/antradio-library",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/boringssl-compat",
+        "target_path":  "device/qcom/boringssl-compat",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/thermanager",
+        "target_path":  "vendor/sony/system/thermanager",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/mkqcdtbootimg",
+        "target_path":  "vendor/sony/system/mkqcdtbootimg",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/macaddrsetup",
+        "target_path":  "vendor/sony/system/macaddrsetup",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/timekeep",
+        "target_path":  "vendor/sony/system/timekeep",
+        "revision":     "master"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_sony",
+        "target_path":  "vendor/sony",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_qcom_prebuilt",
+        "target_path":  "vendor/qcom/prebuilt",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "github",
+        "repository":   "alviteri/vendor-qcom-proprietary",
+        "target_path":  "vendor/qcom/proprietary",
+        "revision":     "master"
+    }
+]
