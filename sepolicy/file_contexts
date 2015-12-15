@@ -1,2 +1,5 @@
 # Themes
-/data/system/theme(/.*)? u:object_r:theme_data_file:s0
+/data/system/theme(/.*)?  u:object_r:theme_data_file:s0
+
+# For F2FS partitions marked "formattable"
+/system/bin/mkfs\.f2fs    u:object_r:mkfs_exec:s0
