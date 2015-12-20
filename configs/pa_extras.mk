@@ -16,3 +16,7 @@
 ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
 -include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
 endif
+
+# Chromium for Snapdragon
+PRODUCT_PACKAGES += \
+    SWE_Browser
