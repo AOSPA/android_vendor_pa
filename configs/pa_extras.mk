@@ -15,3 +15,9 @@
 # Chromium for Snapdragon
 PRODUCT_PACKAGES += \
     SWE_Browser
+
+# Include ParanoidOTA
+ifneq ($(NO_OTA_BUILD),true)
+    PRODUCT_PACKAGES += \
+        ParanoidOTA
+endif
