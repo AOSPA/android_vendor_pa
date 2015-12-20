@@ -42,4 +42,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/$(VENDOR)/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/$(VENDOR)/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/$(VENDOR)/prebuilt/system/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
+    vendor/$(VENDOR)/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
