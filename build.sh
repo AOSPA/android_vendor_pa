@@ -129,9 +129,6 @@ if [ "$FLAG_SYNC" = 'y' ]; then
         repo sync -j"$THREADS"
 fi
 
-# Enable pre-built Chromium
-export USE_PREBUILT_CHROMIUM=1
-
 # Mask Java, if it seems to be faulty
 if [ ! -r "$DIR_ROOT/out/versions_checked.mk" ] && [ -n "$(java -version 2>&1 | grep -i openjdk)" ]; then
         echo -e "${CLR_BLD_CYA}Your Java version has not been checked and is a candidate for failure. Masquerading.${CLR_RST}"
