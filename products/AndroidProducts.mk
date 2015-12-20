@@ -98,3 +98,6 @@ endif
 ifeq (pa_bacon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/bacon/pa_bacon.mk
 endif
+ifeq (pa_oneplus2,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk
+endif
