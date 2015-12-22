@@ -1,2 +1,0 @@
-# Themes
-/data/system/theme(/.*)?  u:object_r:theme_data_file:s0

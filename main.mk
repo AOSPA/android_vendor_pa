@@ -19,6 +19,6 @@ include vendor/pa/configs/pa_extras.mk
 include vendor/pa/configs/pa_overrides.mk
 include vendor/pa/configs/bootanimation.mk
 include vendor/pa/configs/version.mk
-include vendor/pa/configs/themes_common.mk
+include vendor/pa/sepolicy/sepolicy.mk
 
 
