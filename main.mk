@@ -121,3 +121,12 @@ include vendor/pa/sepolicy/sepolicy.mk
 
 # Include blur effect if it exists
 -include vendor/blur/blur.mk
+
+# Proprietary latinime libs needed for Keyboard swyping
+ifneq ($(filter arm64,$(TARGET_ARCH)),)
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+else
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/common/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
+endif
