@@ -77,10 +77,9 @@ endif
 
 # Build Chromium for Snapdragon
 PRODUCT_PACKAGES += SWE_Browser
-# Build ParanoidOTA
-ifneq ($(NO_OTA_BUILD),true)
-    PRODUCT_PACKAGES += ParanoidOTA
-endif
+
+# Build ParanoidHub
+PRODUCT_PACKAGES += ParanoidHub
 
 # Include the custom PA bootanimation
 ifneq ($(filter pa_mako pa_grouper pa_tilapia,$(TARGET_PRODUCT)),)
