@@ -16,8 +16,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE        := SWE_Browser
-LOCAL_SRC_FILES     := SWE_Browser.apk
+LOCAL_MODULE        := PA_Browser
+LOCAL_SRC_FILES     := PA_Browser.apk
 LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
 LOCAL_CERTIFICATE   := platform

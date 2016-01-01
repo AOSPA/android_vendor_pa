@@ -75,8 +75,8 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
-# Build Chromium for Snapdragon
-PRODUCT_PACKAGES += SWE_Browser
+# Build Chromium for Snapdragon (PA Browser)
+PRODUCT_PACKAGES += PA_Browser
 
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
