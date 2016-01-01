@@ -50,11 +50,15 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
 
 # Include support for init.d scripts
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/bin/sysinit:system/bin/sysinit
+
 # Include support for userinit
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
+
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Include support for additional filesystems
+# TODO: Implement in vold
 PRODUCT_PACKAGES += \
     e2fsck \
     mke2fs \
@@ -64,16 +68,12 @@ PRODUCT_PACKAGES += \
     mkfs.exfat \
     ntfsfix \
     ntfs-3g
+
 # Include support for GApps backup
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
-
-# Use pre-built Chromium
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
-    -include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
-endif
 
 # Build Chromium for Snapdragon
 PRODUCT_PACKAGES += SWE_Browser
