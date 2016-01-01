@@ -40,3 +40,4 @@ add_lunch_combo pa_suzuran-userdebug
 # CAF
 add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_oneplus2-userdebug
+add_lunch_combo pa_trltexx-userdebug
