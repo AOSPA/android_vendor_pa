@@ -104,3 +104,6 @@ endif
 ifeq (pa_trltexx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/trltexx/pa_trltexx.mk
 endif
+ifeq (pa_titan,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/titan/pa_titan.mk
+endif
