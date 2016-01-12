@@ -1,1 +1,2 @@
 allow system_server edgegesture_service:service_manager { add find };
+allow platform_app edgegesture_service:service_manager { add find };
