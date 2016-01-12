@@ -13,6 +13,9 @@
 # limitations under the License.
 
 # Nexus
+ifeq (pa_bullhead,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/bullhead/pa_bullhead.mk
+endif
 ifeq (pa_angler,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/angler/pa_angler.mk
 endif
