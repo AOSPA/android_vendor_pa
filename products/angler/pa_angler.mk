@@ -28,7 +28,7 @@ PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=angler \
-	BUILD_FINGERPRINT=google/angler/angler:6.0.1/MMB29M/2431559:user/release-keys \
-	PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29M 2431559 release-keys"
+	BUILD_FINGERPRINT=google/angler/angler:6.0.1/MMB29P/2473553:user/release-keys \
+	PRIVATE_BUILD_DESC="angler-user 6.0.1 MMB29P 2473553 release-keys"
 
 endif
