@@ -96,7 +96,14 @@ ifneq ($(filter pa_manta,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
 
-include vendor/pa/configs/themes_common.mk
+# Theme engine
+PRODUCT_PACKAGES += \
+    aapt \
+    ThemeChooser \
+    ThemesProvider
+
+PRODUCT_COPY_FILES += \
+   vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
