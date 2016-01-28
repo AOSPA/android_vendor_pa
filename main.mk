@@ -98,7 +98,14 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
-include vendor/pa/configs/themes_common.mk
+# Theme engine
+PRODUCT_PACKAGES += \
+    aapt \
+    ThemeChooser \
+    ThemesProvider
+
+PRODUCT_COPY_FILES += \
+   vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
