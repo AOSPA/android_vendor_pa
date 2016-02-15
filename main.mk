@@ -80,6 +80,9 @@ ifneq ($(NO_OTA_BUILD),true)
     PRODUCT_PACKAGES += ParanoidOTA
 endif
 
+# Build PathFinder
+PRODUCT_PACKAGES += PathFinder
+
 # Include the custom PA bootanimation
 ifneq ($(filter pa_mako pa_grouper pa_tilapia,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
