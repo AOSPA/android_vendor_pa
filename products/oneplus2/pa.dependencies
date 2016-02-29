@@ -1,21 +1,21 @@
 [
     {
-        "remote":       "github",
-        "repository":   "tomgus1/android_device_oneplus_oneplus2",
+        "remote":       "aospa",
+        "repository":   "android_device_oneplus_oneplus2",
         "target_path":  "device/oneplus/oneplus2",
-        "revision":     "mm-caf"
+        "revision":     "marshmallow-caf"
     },
     {
-        "remote":       "github",
-        "repository":   "oneplus2-dev/android_kernel_oneplus_msm8994",
+        "remote":       "aospa",
+        "repository":   "android_kernel_oneplus_msm8994",
         "target_path":  "kernel/oneplus/msm8994",
-        "revision":     "cm-13.0"
+        "revision":     "marshmallow-caf"
     },
     {
-        "remote":       "github",
-        "repository":   "oneplus2-dev/android_vendor_oneplus",
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "cm-13.0-camera"
+        "revision":     "marshmallow-caf"
     },
     {
         "remote":       "caf",
