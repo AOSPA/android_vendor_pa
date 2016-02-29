@@ -82,17 +82,14 @@ PRODUCT_PACKAGES += PA_Browser
 PRODUCT_PACKAGES += ParanoidHub
 
 # Include the custom PA bootanimation
-ifneq ($(filter pa_mako pa_grouper pa_tilapia,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
+ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter pa_bullhead pa_hammerhead pa_shamu,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
+ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter pa_deb pa_flo pa_flounder,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
-endif
-ifneq ($(filter pa_manta,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
+ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
 endif
 
 # Theme engine
