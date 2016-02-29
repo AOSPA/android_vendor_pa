@@ -33,10 +33,4 @@ PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=oneplus2 \
-    TARGET_DEVICE=ONE A2003 \
-    BUILD_FINGERPRINT=OnePlus2-user 5.1.1 LMY47V 21 dev-keys \
-    PRIVATE_BUILD_DESC="OnePlus/OnePlus2/OnePlus2:5.1.1/LMY47V/1436933040:user/release-keys"
-
 endif
