@@ -15,6 +15,7 @@
 ifeq (pa_bullhead,$(TARGET_PRODUCT))
 
 # Get the defaults going.
+TARGET_BOOT_ANIMATION_RES := 1080
 include vendor/pa/main.mk
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
