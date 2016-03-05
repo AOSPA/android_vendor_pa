@@ -101,5 +101,3 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
    vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
-# Include vendor SEPolicy changes
-include vendor/pa/sepolicy/sepolicy.mk
