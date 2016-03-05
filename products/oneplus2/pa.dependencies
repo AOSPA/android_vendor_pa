@@ -19,6 +19,12 @@
     },
     {
         "remote":       "caf",
+        "repository":   "platform/external/libnfnetlink",
+        "target_path":  "external/libnfnetlink",
+        "revision":     "LA.BF64.1.2.2_rb4.26"
+    },
+    {
+        "remote":       "caf",
         "repository":   "platform/hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "LA.BF64.1.2.2_rb4.26"
