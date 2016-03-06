@@ -25,6 +25,12 @@
     },
     {
         "remote":       "caf",
+        "repository":   "platform/external/libnetfilter_conntrack",
+        "target_path":  "external/libnetfilter_conntrack",
+        "revision":     "LA.BF64.1.2.2_rb4.27"
+    },
+    {
+        "remote":       "caf",
         "repository":   "platform/hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "LA.BF64.1.2.2_rb4.27"
