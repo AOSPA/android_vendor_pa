@@ -3,7 +3,7 @@
         "remote":       "aospa",
         "repository":   "android_device_huawei_angler",
         "target_path":  "device/huawei/angler",
-        "revision":     "marshmallow"
+        "revision":     "refs/tags/pa-6.0_r1"
     },
     {
         "remote":       "aosp",
@@ -63,6 +63,6 @@
         "remote":       "aospa",
         "repository":   "proprietary_vendor_huawei_angler",
         "target_path":  "vendor/huawei/angler",
-        "revision":     "marshmallow"
+        "revision":     "refs/tags/pa-6.0_r1"
     }
 ]

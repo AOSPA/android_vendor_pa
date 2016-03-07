@@ -3,7 +3,7 @@
         "remote":       "aospa",
         "repository":   "android_device_lge_hammerhead",
         "target_path":  "device/lge/hammerhead",
-        "revision":     "marshmallow"
+        "revision":     "refs/tags/pa-6.0_r1"
     },
     {
         "remote":       "aosp",
@@ -75,6 +75,6 @@
         "remote":       "aospa",
         "repository":   "proprietary_vendor_lge_hammerhead",
         "target_path":  "vendor/lge/hammerhead",
-        "revision":     "marshmallow"
+        "revision":     "refs/tags/pa-6.0_r1"
     }
 ]
