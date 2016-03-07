@@ -15,6 +15,7 @@
 ifeq (pa_mako,$(TARGET_PRODUCT))
 
 # Get the defaults going.
+TARGET_BOOT_ANIMATION_RES := 720
 include vendor/pa/main.mk
 $(call inherit-product, device/lge/mako/full_mako.mk)
 

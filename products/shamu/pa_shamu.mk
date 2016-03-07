@@ -16,6 +16,7 @@
 ifeq (pa_shamu,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
+TARGET_BOOT_ANIMATION_RES := 1440
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
@@ -28,7 +29,7 @@ PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=shamu \
-	BUILD_FINGERPRINT="google/shamu/shamu:6.0/MRA58K/2256973:user/release-keys" \
-	PRIVATE_BUILD_DESC="shamu-user 6.0 MRA58K 2256973 release-keys"
+	BUILD_FINGERPRINT="google/shamu/shamu:6.0.1/MMB29Q/2480792:user/release-keys" \
+	PRIVATE_BUILD_DESC="shamu-user 6.0.1 MMB29Q 2480792 release-keys"
 
 endif

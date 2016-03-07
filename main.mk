@@ -50,11 +50,15 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
 
 # Include support for init.d scripts
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/bin/sysinit:system/bin/sysinit
+
 # Include support for userinit
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
+
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Include support for additional filesystems
+# TODO: Implement in vold
 PRODUCT_PACKAGES += \
     e2fsck \
     mke2fs \
@@ -64,39 +68,41 @@ PRODUCT_PACKAGES += \
     mkfs.exfat \
     ntfsfix \
     ntfs-3g
+
 # Include support for GApps backup
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/pa/prebuilt/system/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
+    vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
-# Use pre-built Chromium
-ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
-    -include prebuilts/chromium/$(TARGET_DEVICE)/chromium_prebuilt.mk
-endif
+# Build Chromium for Snapdragon (PA Browser)
+PRODUCT_PACKAGES += PA_Browser
 
-# Build ParanoidOTA
-ifneq ($(NO_OTA_BUILD),true)
-    PRODUCT_PACKAGES += ParanoidOTA
-endif
+# Build ParanoidHub
+PRODUCT_PACKAGES += ParanoidHub
 
 # Build PathFinder
 PRODUCT_PACKAGES += PathFinder
 
 # Include the custom PA bootanimation
-ifneq ($(filter pa_mako pa_grouper pa_tilapia,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
+ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter pa_hammerhead pa_shamu,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
+ifeq ($(TARGET_BOOT_ANIMATION_RES),1080)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
 endif
-# TODO Use proper sizes instead of defaulting to 1920x1080
-ifneq ($(filter pa_deb pa_flo pa_flounder,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
+ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
 endif
-ifneq ($(filter pa_manta,$(TARGET_PRODUCT)),)
-    PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
-endif
+
+# Theme engine
+PRODUCT_PACKAGES += \
+    aapt \
+    ThemeChooser \
+    ThemesProvider
+
+PRODUCT_COPY_FILES += \
+   vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
