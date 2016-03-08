@@ -9,7 +9,7 @@
         "target_path":  "device/lge/bullhead-kernel",
         "repository":   "device/lge/bullhead-kernel",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "vendor/lge/bullhead",
@@ -21,54 +21,54 @@
         "target_path":  "hardware/qcom/audio",
         "repository":   "platform/hardware/qcom/audio",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/bt",
         "repository":   "platform/hardware/qcom/bt",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/camera",
         "repository":   "platform/hardware/qcom/camera",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/display",
         "repository":   "platform/hardware/qcom/display",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/keymaster",
         "repository":   "platform/hardware/qcom/keymaster",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/media",
         "repository":   "platform/hardware/qcom/media",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/msm8994",
         "repository":   "platform/hardware/qcom/msm8994",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/power",
         "repository":   "platform/hardware/qcom/power",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     },
     {
         "target_path":  "hardware/qcom/wlan",
         "repository":   "platform/hardware/qcom/wlan",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r13"
+        "revision":     "refs/tags/android-6.0.1_r22"
     }
 ]
