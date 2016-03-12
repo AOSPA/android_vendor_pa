@@ -52,5 +52,11 @@
         "repository":   "android_external_stlport",
         "target_path":  "external/stlport",
         "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_connectivity",
+        "target_path":  "external/connectivity",
+        "revision":     "marshmallow-caf"
     }
 ]
