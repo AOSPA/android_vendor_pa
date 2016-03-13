@@ -17,6 +17,9 @@ ifeq (pa_scorpion,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
+TARGET_BOOT_ANIMATION_RES := 1080
+
+include vendor/twrp-sony/products/shinano/scorpion/scorpion.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/scorpion/aosp_sgp621.mk)

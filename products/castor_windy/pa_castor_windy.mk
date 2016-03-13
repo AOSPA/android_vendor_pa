@@ -17,16 +17,19 @@ ifeq (pa_castor_windy,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
 include vendor/pa/main.mk
+TARGET_BOOT_ANIMATION_RES := 1080
+
+include vendor/twrp-sony/products/shinano/castor_windy/castor_windy.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/sony/castor_windy/aosp_sgp511_windy.mk)
+$(call inherit-product, device/sony/castor_windy/aosp_sgp511.mk)
 
 # Sony uses mkqcdtbootimg
 BOARD_CUSTOM_BOOTIMG := true
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_castor_windy
-PRODUCT_MODEL := Xperia Z2 Tablet WiFi(AOSPA)
+PRODUCT_MODEL := Xperia Z2 Tablet WiFi (AOSPA)
 
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from

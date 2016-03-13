@@ -13,51 +13,33 @@
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/kernel",
+        "repository":   "sonyxperiadev/device-sony-common",
+        "target_path":  "device/sony/common",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/kernel",
         "target_path":  "kernel/sony/msm",
-        "revision":     "master-dev"
+        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/audio",
-        "target_path":  "hardware/qcom/audio",
-        "revision":     "refs/tags/android-6.0.1_r22"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/bt",
-        "target_path":  "hardware/qcom/bt",
-        "revision":     "refs/tags/android-6.0.1_r22"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/display",
-        "target_path":  "hardware/qcom/display",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "remote":       "github",
+        "repository":   "sonyxperiadev/camera",
+        "target_path":  "hardware/qcom/camera",
+        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r17"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/platform-hardware-qcom-media",
-        "target_path":  "hardware/qcom/media",
-        "revision":     "android-6.0.1_r22"
-    },
-    {
-        "remote":       "github",
-        "repository":   "alviteri/platform-hardware-qcom-gps",
+        "repository":   "SonyAosp/platform_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
-        "revision":     "android-6.0.1_r22"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/wlan",
-        "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
@@ -67,33 +49,15 @@
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/platform-external-libnfc-nci",
+        "repository":   "SonyAosp/platform_external_libnfc-nci",
         "target_path":  "external/libnfc-nci",
-        "revision":     "android-6.0.1_r22"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/platform-hardware-broadcom-libbt",
+        "repository":   "SonyAosp/platform_hardware_broadcom_libbt",
         "target_path":  "hardware/broadcom/libbt",
-        "revision":     "android-6.0.1_r22"
-    },
-    {
-        "remote":       "github",
-        "repository":   "alviteri/platform-external-ant-wireless-ant-native",
-        "target_path":  "external/ant-wireless/ant_native",
-        "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "repository":   "alviteri/platform-external-ant-wireless-ant-service",
-        "target_path":  "external/ant-wireless/ant_service",
-        "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "repository":   "alviteri/platform-external-ant-wireless-antradio-library",
-        "target_path":  "external/ant-wireless/antradio-library",
-        "revision":     "master"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
@@ -126,21 +90,52 @@
         "revision":     "master"
     },
     {
-        "remote":       "aospa",
-        "repository":   "proprietary_vendor_sony",
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_vendor_sony",
         "target_path":  "vendor/sony",
-        "revision":     "marshmallow"
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_vendor_qcom",
+        "target_path":  "vendor/qcom",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_vendor_qcom_proprietary",
+        "target_path":  "vendor/qcom/proprietary",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-dataservices",
+        "target_path":  "vendor/qcom/opensource/dataservices",
+        "revision":     "master"
     },
     {
         "remote":       "aospa",
-        "repository":   "proprietary_vendor_qcom_prebuilt",
-        "target_path":  "vendor/qcom/prebuilt",
+        "repository":   "android_vendor_twrp-sony",
+        "target_path":  "vendor/twrp-sony",
         "revision":     "marshmallow"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/vendor-qcom-proprietary",
-        "target_path":  "vendor/qcom/proprietary",
-        "revision":     "master"
+        "repository":   "omnirom/android_bootable_recovery",
+        "target_path":  "bootable/recovery",
+        "revision":     "android-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "omnirom/android_external_busybox",
+        "target_path":  "external/busybox",
+        "revision":     "android-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "omnirom/android_external_lz4",
+        "target_path":  "external/lz4",
+        "revision":     "android-6.0"
     }
 ]
+
