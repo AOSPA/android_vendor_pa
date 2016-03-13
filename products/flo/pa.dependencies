@@ -3,7 +3,7 @@
         "remote":       "aospa",
         "repository":   "android_device_asus_flo",
         "target_path":  "device/asus/flo",
-        "revision":     "refs/tags/pa-6.0_r1"
+        "revision":     "marshmallow"
     },
     {
         "remote":       "aosp",
@@ -69,6 +69,6 @@
         "remote":       "aospa",
         "repository":   "proprietary_vendor_asus_flo",
         "target_path":  "vendor/asus/flo",
-        "revision":     "refs/tags/pa-6.0_r1"
+        "revision":     "marshmallow"
     }
 ]
