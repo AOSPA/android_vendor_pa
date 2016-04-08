@@ -21,60 +21,60 @@
         "target_path":  "hardware/qcom/audio",
         "repository":   "platform/hardware/qcom/audio",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/bt",
         "repository":   "platform/hardware/qcom/bt",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/display",
         "repository":   "platform/hardware/qcom/display",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/keymaster",
         "repository":   "platform/hardware/qcom/keymaster",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
 	{
         "target_path":  "hardware/qcom/media",
         "repository":   "platform/hardware/qcom/media",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/msm8x74",
         "repository":   "platform/hardware/qcom/msm8x74",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/msm8960",
         "repository":   "platform/hardware/qcom/msm8960",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/power",
         "repository":   "platform/hardware/qcom/power",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/sensors",
         "repository":   "platform/hardware/qcom/sensors",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     },
     {
         "target_path":  "hardware/qcom/wlan",
         "repository":   "platform/hardware/qcom/wlan",
         "remote":       "aosp",
-        "revision":     "refs/tags/android-6.0.1_r22"
+        "revision":     "refs/tags/android-6.0.1_r24"
     }
 ]
