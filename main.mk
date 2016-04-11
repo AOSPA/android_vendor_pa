@@ -102,3 +102,6 @@ include vendor/pa/configs/themes_common.mk
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
+
+# Include performance tuning if it exists
+-include vendor/perf/perf.mk
