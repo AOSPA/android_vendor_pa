@@ -109,3 +109,6 @@ PRODUCT_COPY_FILES += \
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
+
+# Include performance tuning if it exists
+-include vendor/perf/perf.mk
