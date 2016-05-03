@@ -33,7 +33,7 @@
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
-        "revision":     "refs/tags/android-6.0.1_r30"
+        "revision":     "refs/tags/android-6.0.1_r25"
     },
     {
         "remote":       "github",
