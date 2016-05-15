@@ -112,3 +112,6 @@ include vendor/pa/sepolicy/sepolicy.mk
 
 # Include performance tuning if it exists
 -include vendor/perf/perf.mk
+
+# Include blur effect if it exists
+-include vendor/blur/blur.mk
