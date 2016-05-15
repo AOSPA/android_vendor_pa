@@ -33,18 +33,18 @@
         "remote":       "caf",
         "repository":   "platform/hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
-        "revision":     "LA.BF.1.1.3_rb1.10"
+        "revision":     "LA.BF.1.1.3_rb1.13"
     },
     {
         "remote":       "caf",
         "repository":   "platform/hardware/qcom/media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "LA.BF.1.1.3_rb1.10"
+        "revision":     "LA.BF.1.1.3_rb1.13"
     },
     {
         "remote":       "caf",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "LA.BF.1.1.3_rb1.10"
+        "revision":     "LA.BF.1.1.3_rb1.13"
     }
 ]
