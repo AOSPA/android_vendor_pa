@@ -107,6 +107,9 @@ endif
 ifeq (pa_onyx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/onyx/pa_onyx.mk
 endif
+ifeq (pa_r7plus,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/r7plus/pa_r7plus.mk
+endif
 ifeq (pa_trltexx,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/trltexx/pa_trltexx.mk
 endif

@@ -42,5 +42,6 @@ add_lunch_combo pa_suzuran-userdebug
 add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_oneplus2-userdebug
 add_lunch_combo pa_onyx-userdebug
+add_lunch_combo pa_r7plus-userdebug
 add_lunch_combo pa_trltexx-userdebug
 add_lunch_combo pa_titan-userdebug

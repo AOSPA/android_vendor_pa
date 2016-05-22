@@ -1,0 +1,86 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_oppo_r7plus",
+        "target_path":  "device/oppo/r7plus",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_oppo_common",
+        "target_path":  "device/oppo/common",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_oppo_msm8939-common",
+        "target_path":  "device/oppo/msm8939-common",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_qcom_sepolicy",
+        "target_path":  "device/qcom/sepolicy",
+        "revision":     "marshmallow-caf-8916"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_kernel_oppo_msm8939",
+        "target_path":  "kernel/oppo/msm8939",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_oppo",
+        "target_path":  "vendor/oppo",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "marshmallow-caf-8916"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "marshmallow-caf-8916"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/keymaster",
+        "target_path":  "hardware/qcom/keymaster",
+        "revision":     "LA.BR.1.2.6_rb1.13"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "LA.BR.1.2.6_rb1.13"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "marshmallow-caf-8916"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_connectivity",
+        "target_path":  "external/connectivity",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_sony_boringssl-compat",
+        "target_path":  "external/sony/boringssl-compat",
+        "revision":     "marshmallow-caf"
+    }
+]
