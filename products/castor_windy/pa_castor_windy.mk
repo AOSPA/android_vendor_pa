@@ -16,8 +16,8 @@
 ifeq (pa_castor_windy,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
-include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 1080
+include vendor/pa/main.mk
 
 include vendor/twrp-sony/products/shinano/castor_windy/castor_windy.mk
 

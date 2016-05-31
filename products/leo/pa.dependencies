@@ -15,7 +15,7 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-common",
         "target_path":  "device/sony/common",
-        "revision":     "master"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
@@ -45,7 +45,7 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/device-qcom-sepolicy",
         "target_path":  "device/qcom/sepolicy",
-        "revision":     "master"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
@@ -109,6 +109,12 @@
     },
     {
         "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-fm",
+        "target_path":  "vendor/qcom/opensource/fm",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
         "repository":   "sonyxperiadev/vendor-qcom-opensource-dataservices",
         "target_path":  "vendor/qcom/opensource/dataservices",
         "revision":     "master"
@@ -138,3 +144,4 @@
         "revision":     "android-6.0"
     }
 ]
+

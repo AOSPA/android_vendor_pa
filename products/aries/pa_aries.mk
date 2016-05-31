@@ -16,8 +16,8 @@
 ifeq (pa_aries,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
-include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 720
+include vendor/pa/main.mk
 
 include vendor/twrp-sony/products/shinano/aries/aries.mk
 
