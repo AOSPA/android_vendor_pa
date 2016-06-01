@@ -13,9 +13,15 @@
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/kernel",
+        "repository":   "sonyxperiadev/device-sony-common",
+        "target_path":  "device/sony/common",
+        "revision":     "m-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/kernel",
         "target_path":  "kernel/sony/msm",
-        "revision":     "master-dev"
+        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
         "remote":       "aosp",
@@ -30,28 +36,34 @@
         "revision":     "refs/tags/android-6.0.1_r25"
     },
     {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/display",
+        "remote":       "github",
+        "repository":   "sonyxperiadev/camera",
+        "target_path":  "hardware/qcom/camera",
+        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "refs/tags/android-6.0.1_r25"
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_keymaster",
+        "target_path":  "hardware/qcom/keymaster",
+        "revision":     "marshmallow"
     },
     {
         "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/keymaster",
-        "target_path":  "hardware/qcom/keymaster",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
         "revision":     "refs/tags/android-6.0.1_r25"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/platform-hardware-qcom-media",
-        "target_path":  "hardware/qcom/media",
-        "revision":     "android-6.0.1_r25"
-    },
-    {
-        "remote":       "github",
-        "repository":   "alviteri/platform-hardware-qcom-gps",
+        "repository":   "SonyAosp/platform_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
-        "revision":     "android-6.0.1_r25"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "aosp",
@@ -63,66 +75,72 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/device-qcom-sepolicy",
         "target_path":  "device/qcom/sepolicy",
-        "revision":     "master"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/platform-external-libnfc-nci",
+        "repository":   "SonyAosp/platform_external_libnfc-nci",
         "target_path":  "external/libnfc-nci",
-        "revision":     "android-6.0.1_r25"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/platform-hardware-broadcom-libbt",
+        "repository":   "SonyAosp/platform_hardware_broadcom_libbt",
         "target_path":  "hardware/broadcom/libbt",
-        "revision":     "android-6.0.1_r25"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/boringssl-compat",
-        "target_path":  "device/qcom/boringssl-compat",
-        "revision":     "master"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/thermanager",
-        "target_path":  "vendor/sony/system/thermanager",
+        "target_path":  "vendor/sony-oss/thermanager",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/mkqcdtbootimg",
-        "target_path":  "vendor/sony/system/mkqcdtbootimg",
+        "target_path":  "vendor/sony-oss/mkqcdtbootimg",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/macaddrsetup",
-        "target_path":  "vendor/sony/system/macaddrsetup",
+        "target_path":  "vendor/sony-oss/macaddrsetup",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/timekeep",
-        "target_path":  "vendor/sony/system/timekeep",
+        "target_path":  "vendor/sony-oss/timekeep",
         "revision":     "master"
     },
     {
-        "remote":       "aospa",
-        "repository":   "proprietary_vendor_sony",
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_vendor_sony",
         "target_path":  "vendor/sony",
-        "revision":     "marshmallow"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "proprietary_vendor_qcom_prebuilt",
-        "target_path":  "vendor/qcom/prebuilt",
-        "revision":     "marshmallow"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
-        "repository":   "alviteri/vendor-qcom-proprietary",
+        "repository":   "SonyAosp/platform_vendor_qcom",
+        "target_path":  "vendor/qcom",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_vendor_qcom_proprietary",
         "target_path":  "vendor/qcom/proprietary",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-fm",
+        "target_path":  "vendor/qcom/opensource/fm",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-dataservices",
+        "target_path":  "vendor/qcom/opensource/dataservices",
         "revision":     "master"
     },
     {
