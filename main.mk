@@ -81,9 +81,6 @@ PRODUCT_PACKAGES += PA_Browser
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
 
-# Build PathFinder
-PRODUCT_PACKAGES += PathFinder
-
 # Include the custom PA bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
@@ -94,6 +91,9 @@ endif
 ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
 endif
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1
 
 # Theme engine
 PRODUCT_PACKAGES += \
@@ -106,3 +106,9 @@ PRODUCT_COPY_FILES += \
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
+
+# Include performance tuning if it exists
+-include vendor/perf/perf.mk
+
+# Include blur effect if it exists
+-include vendor/blur/blur.mk

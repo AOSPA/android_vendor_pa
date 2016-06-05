@@ -16,7 +16,10 @@
 ifeq (pa_castor,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
+TARGET_BOOT_ANIMATION_RES := 1080
 include vendor/pa/main.mk
+
+include vendor/twrp-sony/products/shinano/castor/castor.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/castor/aosp_sgp521.mk)

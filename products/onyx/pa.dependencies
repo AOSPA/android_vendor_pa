@@ -18,16 +18,16 @@
         "revision":     "marshmallow-caf"
     },
     {
-        "remote":       "caf",
-        "repository":   "platform/hardware/qcom/audio",
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "LA.BF.1.1.3_rb1.10"
+        "revision":     "marshmallow-caf-8974"
     },
     {
-        "remote":       "caf",
-        "repository":   "platform/hardware/qcom/display",
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "LA.BF.1.1.3_rb1.10"
+        "revision":     "marshmallow-caf-8974"
     },
     {
         "remote":       "caf",
@@ -46,5 +46,17 @@
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
         "revision":     "LA.BF.1.1.3_rb1.10"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_connectivity",
+        "target_path":  "external/connectivity",
+        "revision":     "marshmallow-caf"
     }
 ]

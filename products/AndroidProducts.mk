@@ -73,8 +73,8 @@ ifeq (pa_togari,$(TARGET_PRODUCT))
 endif
 
 # Sony Shinano platform
-ifeq (pa_amami,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/amami/pa_amami.mk
+ifeq (pa_aries,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/aries/pa_aries.mk
 endif
 ifeq (pa_sirius,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/sirius/pa_sirius.mk
@@ -84,6 +84,15 @@ ifeq (pa_castor,$(TARGET_PRODUCT))
 endif
 ifeq (pa_castor_windy,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/castor_windy/pa_castor_windy.mk
+endif
+ifeq (pa_castor_windy,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/castor_windy/pa_castor_windy.mk
+endif
+ifeq (pa_scorpion,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/scorpion/pa_scorpion.mk
+endif
+ifeq (pa_scorpion_windy,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/scorpion_windy/pa_scorpion_windy.mk
 endif
 
 # Sony Kitakami platform
