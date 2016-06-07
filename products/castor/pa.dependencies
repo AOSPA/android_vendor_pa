@@ -5,6 +5,12 @@
         "target_path":  "device/sony/castor",
         "revision":     "master"
     },
+        {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-castor_windy",
+        "target_path":  "device/sony/castor_windy",
+        "revision":     "master"
+    },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-shinano",
