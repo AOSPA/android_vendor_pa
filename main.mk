@@ -95,6 +95,10 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+endif
+
 # Theme engine
 PRODUCT_PACKAGES += \
     aapt \
