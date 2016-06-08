@@ -27,13 +27,13 @@
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "refs/tags/android-6.0.1_r25"
+        "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/bt",
         "target_path":  "hardware/qcom/bt",
-        "revision":     "refs/tags/android-6.0.1_r25"
+        "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
         "remote":       "github",
@@ -69,7 +69,7 @@
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-6.0.1_r25"
+        "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
         "remote":       "github",
