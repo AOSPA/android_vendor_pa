@@ -17,6 +17,8 @@ ifeq (pa_sirius,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
+include vendor/pa/main.mk
+
 include vendor/twrp-sony/products/shinano/sirius/sirius.mk
 
 # Inherit AOSP device configuration
