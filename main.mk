@@ -103,7 +103,9 @@ endif
 PRODUCT_PACKAGES += \
     aapt \
     ThemeChooser \
-    ThemesProvider
+    ThemesProvider \
+    cm.theme.platform-res \
+    cm.theme.platform
 
 PRODUCT_COPY_FILES += \
    vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
