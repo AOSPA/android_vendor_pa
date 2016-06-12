@@ -85,8 +85,8 @@ endif
 ifeq (pa_castor_windy,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/castor_windy/pa_castor_windy.mk
 endif
-ifeq (pa_castor_windy,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/castor_windy/pa_castor_windy.mk
+ifeq (pa_leo,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/leo/pa_leo.mk
 endif
 ifeq (pa_scorpion,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/scorpion/pa_scorpion.mk
