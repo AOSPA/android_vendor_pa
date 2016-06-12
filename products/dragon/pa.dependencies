@@ -1,0 +1,8 @@
+[
+    {
+        "remote":"aospa",
+        "repository":"android_kernel_google_dragon",
+        "target_path":"device/google/dragon-kernel",
+        "revision":"marshmallow"
+    }
+]
