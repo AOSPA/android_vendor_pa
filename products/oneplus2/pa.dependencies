@@ -21,13 +21,13 @@
         "remote":       "caf",
         "repository":   "platform/external/libnfnetlink",
         "target_path":  "external/libnfnetlink",
-        "revision":     "LA.BF64.1.2.2_rb4.38"
+        "revision":     "LA.BF64.1.2.2_rb4.40"
     },
     {
         "remote":       "caf",
         "repository":   "platform/external/libnetfilter_conntrack",
         "target_path":  "external/libnetfilter_conntrack",
-        "revision":     "LA.BF64.1.2.2_rb4.38"
+        "revision":     "LA.BF64.1.2.2_rb4.40"
     },
     {
         "remote":       "aospa",
@@ -51,6 +51,6 @@
         "remote":       "caf",
         "repository":   "platform/hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "LA.BF64.1.2.2_rb4.38"
+        "revision":     "LA.BF64.1.2.2_rb4.40"
     }
 ]
