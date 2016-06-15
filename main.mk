@@ -95,13 +95,17 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+ifeq ($(TARGET_BUILD_VARIANT),user)
+    ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+endif
 
 # Theme engine
 PRODUCT_PACKAGES += \
     aapt \
     ThemeChooser \
-    ThemesProvider
+    ThemesProvider \
+    cm.theme.platform-res \
+    cm.theme.platform
 
 PRODUCT_COPY_FILES += \
    vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
