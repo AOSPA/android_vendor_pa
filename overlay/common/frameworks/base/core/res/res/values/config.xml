@@ -55,6 +55,5 @@
         <item>reboot</item>
         <item>screenshot</item>
         <item>bugreport</item>
-        <item>airplane</item>
     </string-array>
 </resources>

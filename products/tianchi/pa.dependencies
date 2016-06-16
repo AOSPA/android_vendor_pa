@@ -24,15 +24,39 @@
         "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
         "remote":       "github",
         "repository":   "sonyxperiadev/camera",
         "target_path":  "hardware/qcom/camera",
         "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/keymaster",
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_keymaster",
         "target_path":  "hardware/qcom/keymaster",
+        "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
         "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
@@ -40,6 +64,12 @@
         "repository":   "SonyAosp/platform_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
         "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
         "remote":       "github",
