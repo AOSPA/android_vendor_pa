@@ -22,7 +22,7 @@ include vendor/pa/main.mk
 include vendor/twrp-sony/products/shinano/leo/leo.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/sony/leo/aosp_d5503.mk)
+$(call inherit-product, device/sony/leo/aosp_d6603.mk)
 
 # Sony uses mkqcdtbootimg
 BOARD_CUSTOM_BOOTIMG := true

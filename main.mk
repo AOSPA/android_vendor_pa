@@ -95,6 +95,13 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+ifeq ($(TARGET_BUILD_VARIANT),user)
+    ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+endif
+
+# Sony: Exclude superuser
+TW_EXCLUDE_SUPERSU := true
+
 # Theme engine
 PRODUCT_PACKAGES += \
     aapt \

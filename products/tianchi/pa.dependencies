@@ -73,9 +73,15 @@
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-qcom-sepolicy",
-        "target_path":  "device/qcom/sepolicy",
+        "repository":   "sonyxperiadev/device-sony-sepolicy",
+        "target_path":  "device/sony/sepolicy",
         "revision":     "m-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common-headers",
+        "target_path":  "device/sony/common-headers",
+        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
         "remote":       "github",
@@ -92,25 +98,25 @@
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/thermanager",
-        "target_path":  "vendor/sony-oss/thermanager",
+        "target_path":  "vendor/sony-oss/system/thermanager",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/mkqcdtbootimg",
-        "target_path":  "vendor/sony-oss/mkqcdtbootimg",
+        "target_path":  "vendor/sony-oss/system/mkqcdtbootimg",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/macaddrsetup",
-        "target_path":  "vendor/sony-oss/macaddrsetup",
+        "target_path":  "vendor/sony-oss/system/macaddrsetup",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/timekeep",
-        "target_path":  "vendor/sony-oss/timekeep",
+        "target_path":  "vendor/sony-oss/system/timekeep",
         "revision":     "master"
     },
     {
@@ -163,8 +169,21 @@
     },
     {
         "remote":       "github",
+        "repository":   "SonyAosp/platform_external_toybox",
+        "target_path":  "external/toybox",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_sony_init",
+        "target_path":  "hardware/sony/init",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
         "repository":   "omnirom/android_external_lz4",
         "target_path":  "external/lz4",
         "revision":     "android-6.0"
     }
 ]
+

@@ -31,6 +31,24 @@
     },
     {
         "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
         "repository":   "platform/hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
         "revision":     "refs/tags/android-6.0.1_r45"
@@ -43,9 +61,15 @@
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-qcom-sepolicy",
-        "target_path":  "device/qcom/sepolicy",
+        "repository":   "sonyxperiadev/device-sony-sepolicy",
+        "target_path":  "device/sony/sepolicy",
         "revision":     "m-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common-headers",
+        "target_path":  "device/sony/common-headers",
+        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
     },
     {
         "remote":       "github",
@@ -61,32 +85,26 @@
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/boringssl-compat",
-        "target_path":  "device/qcom/boringssl-compat",
-        "revision":     "master"
-    },
-    {
-        "remote":       "github",
         "repository":   "sonyxperiadev/thermanager",
-        "target_path":  "vendor/sony/system/thermanager",
+        "target_path":  "vendor/sony-oss/system/thermanager",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/mkqcdtbootimg",
-        "target_path":  "vendor/sony/system/mkqcdtbootimg",
+        "target_path":  "vendor/sony-oss/system/mkqcdtbootimg",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/macaddrsetup",
-        "target_path":  "vendor/sony/system/macaddrsetup",
+        "target_path":  "vendor/sony-oss/system/macaddrsetup",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/timekeep",
-        "target_path":  "vendor/sony/system/timekeep",
+        "target_path":  "vendor/sony-oss/system/timekeep",
         "revision":     "master"
     },
     {
@@ -136,6 +154,18 @@
         "repository":   "omnirom/android_external_busybox",
         "target_path":  "external/busybox",
         "revision":     "android-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_external_toybox",
+        "target_path":  "external/toybox",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_sony_init",
+        "target_path":  "hardware/sony/init",
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
