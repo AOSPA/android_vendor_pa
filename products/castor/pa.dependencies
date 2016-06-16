@@ -5,13 +5,13 @@
         "target_path":  "device/sony/castor",
         "revision":     "master"
     },
-        {
+    {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-castor_windy",
         "target_path":  "device/sony/castor_windy",
         "revision":     "master"
     },
-     {
+    {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-shinano",
         "target_path":  "device/sony/shinano",
@@ -34,6 +34,12 @@
         "repository":   "sonyxperiadev/camera",
         "target_path":  "hardware/qcom/camera",
         "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
         "remote":       "aosp",
