@@ -99,6 +99,9 @@ ifeq ($(TARGET_BUILD_VARIANT),user)
     ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+# Sony: Exclude superuser
+TW_EXCLUDE_SUPERSU := true
+
 # Theme engine
 PRODUCT_PACKAGES += \
     aapt \
