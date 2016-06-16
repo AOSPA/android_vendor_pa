@@ -31,6 +31,24 @@
     },
     {
         "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
         "repository":   "platform/hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
         "revision":     "refs/tags/android-6.0.1_r45"
