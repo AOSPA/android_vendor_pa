@@ -1,3 +1,4 @@
+
 [
     {
         "remote":       "github",
@@ -9,12 +10,6 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-scorpion_windy",
         "target_path":  "device/sony/scorpion_windy",
-        "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-shinano",
-        "target_path":  "device/sony/shinano",
         "revision":     "master"
     },
     {
@@ -127,7 +122,7 @@
     },
     {
         "remote":       "github",
-        "repository":   "SonyAosp/platform_vendor_qcom_firmware",
+        "repository":   "SonyAosp/vendor_qcom_firmware",
         "target_path":  "vendor/qcom/firmware",
         "revision":     "mm-6.0"
     },
