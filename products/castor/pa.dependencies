@@ -127,8 +127,8 @@
     },
     {
         "remote":       "github",
-        "repository":   "SonyAosp/platform_vendor_qcom_proprietary",
-        "target_path":  "vendor/qcom/proprietary",
+        "repository":   "SonyAosp/platform_vendor_qcom_firmware",
+        "target_path":  "vendor/qcom/firmware",
         "revision":     "mm-6.0"
     },
     {
