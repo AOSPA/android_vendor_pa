@@ -60,6 +60,12 @@
         "revision":     "mm-6.0"
     },
     {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-sepolicy",
         "target_path":  "device/sony/sepolicy",

@@ -31,6 +31,12 @@
     },
     {
         "remote":       "aosp",
+        "repository":   "platform/hardware/broadcom/wlan",
+        "target_path":  "hardware/broadcom/wlan",
+        "revision":     "refs/tags/android-6.0.1_r45"
+    },
+    {
+        "remote":       "aosp",
         "repository":   "platform/hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "refs/tags/android-6.0.1_r45"
