@@ -133,6 +133,12 @@
     },
     {
         "remote":       "github",
+        "repository":   "SonyAosp/platform_external_libnfc-nci",
+        "target_path":  "external/libnfc-nci",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
         "repository":   "sonyxperiadev/vendor-qcom-opensource-fm",
         "target_path":  "vendor/qcom/opensource/fm",
         "revision":     "master"
@@ -180,4 +186,3 @@
         "revision":     "android-6.0"
     }
 ]
-
