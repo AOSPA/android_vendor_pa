@@ -46,11 +46,5 @@
         "repository":   "android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "marshmallow-caf-8994"
-    },
-    {
-        "remote":       "caf",
-        "repository":   "platform/hardware/qcom/wlan",
-        "target_path":  "hardware/qcom/wlan",
-        "revision":     "LA.BF64.1.2.2_rb4.41"
     }
 ]

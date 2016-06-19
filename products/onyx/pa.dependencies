@@ -42,12 +42,6 @@
         "revision":     "LA.BF.1.1.3_rb1.13"
     },
     {
-        "remote":       "caf",
-        "repository":   "platform/hardware/qcom/wlan",
-        "target_path":  "hardware/qcom/wlan",
-        "revision":     "LA.BF.1.1.3_rb1.13"
-    },
-    {
         "remote":       "aospa",
         "repository":   "android_external_stlport",
         "target_path":  "external/stlport",
