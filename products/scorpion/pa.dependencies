@@ -132,10 +132,10 @@
         "revision":     "mm-6.0"
     },
     {
-        "remote":       "github",
-        "repository":   "SonyAosp/vendor_qcom_firmware",
+        "remote":       "aospa",
+        "repository":   "platform_vendor_qcom_firmware",
         "target_path":  "vendor/qcom/firmware",
-        "revision":     "mm-6.0"
+        "revision":     "master"
     },
     {
         "remote":       "github",
