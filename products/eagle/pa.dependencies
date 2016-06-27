@@ -126,12 +126,6 @@
         "revision":     "mm-6.0"
     },
     {
-        "remote":       "aospa",
-        "repository":   "platform_vendor_qcom_firmware",
-        "target_path":  "vendor/qcom/firmware",
-        "revision":     "master"
-    },
-    {
         "remote":       "github",
         "repository":   "SonyAosp/platform_external_libnfc-nci",
         "target_path":  "external/libnfc-nci",
