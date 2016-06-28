@@ -126,6 +126,9 @@ ifeq (pa_gts210ltexx,$(TARGET_PRODUCT))
 endif
 
 # LG G Platform
+ifeq (pa_d802,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/d802/pa_d802.mk
+endif
 ifeq (pa_d855,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/d855/pa_d855.mk
 endif
