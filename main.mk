@@ -95,7 +95,7 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
-ifneq ($(TARGET_BUILD_VARIANT),eng)
+ifeq ($(TARGET_BUILD_VARIANT),user)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
