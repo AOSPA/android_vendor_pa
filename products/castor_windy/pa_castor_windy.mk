@@ -24,7 +24,7 @@ include vendor/twrp-sony/products/shinano/castor_windy/castor_windy.mk
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/castor_windy/aosp_sgp511.mk)
 $(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPa.mk
+include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_castor_windy

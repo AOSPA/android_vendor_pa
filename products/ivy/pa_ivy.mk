@@ -23,7 +23,7 @@ include vendor/twrp-sony/products/kitakami/ivy/ivy.mk
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
 $(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPa.mk
+include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_ivy

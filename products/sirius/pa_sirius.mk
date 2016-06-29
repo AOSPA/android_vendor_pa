@@ -24,7 +24,7 @@ include vendor/twrp-sony/products/shinano/sirius/sirius.mk
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 $(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPa.mk
+include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_sirius
