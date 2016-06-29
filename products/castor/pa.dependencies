@@ -181,12 +181,6 @@
     },
     {
         "remote":       "github",
-        "repository":   "SonyAosp/platform_hardware_sony_init",
-        "target_path":  "hardware/sony/init",
-        "revision":     "mm-6.0"
-    },
-    {
-        "remote":       "github",
         "repository":   "omnirom/android_external_lz4",
         "target_path":  "external/lz4",
         "revision":     "android-6.0"
