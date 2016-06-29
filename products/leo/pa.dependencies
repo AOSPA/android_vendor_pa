@@ -12,10 +12,10 @@
         "revision":     "master"
     },
     {
-        "remote":       "github",
+        "remote":       "aospa",
         "repository":   "sonyxperiadev/device-sony-common",
         "target_path":  "device/sony/common",
-        "revision":     "m-mr1"
+        "revision":     "marshmallow"
     },
     {
         "remote":       "github",
@@ -153,7 +153,7 @@
         "remote":       "aospa",
         "repository":   "android_vendor_twrp-sony",
         "target_path":  "vendor/twrp-sony",
-        "revision":     "marshmallow"
+        "revision":     "develop"
     },
     {
         "remote":       "github",
