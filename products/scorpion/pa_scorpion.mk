@@ -23,9 +23,8 @@ include vendor/twrp-sony/products/shinano/scorpion/scorpion.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/scorpion/aosp_sgp621.mk)
-
-# Sony uses mkqcdtbootimg
-BOARD_CUSTOM_BOOTIMG := true
+$(call inherit-product, device/sony/common/common_pa.mk)
+include device/sony/common/CommonConfigPa.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_scorpion

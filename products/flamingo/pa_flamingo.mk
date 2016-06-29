@@ -20,9 +20,8 @@ include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/flamingo/aosp_d2203.mk)
-
-# Sony uses mkqcdtbootimg
-BOARD_CUSTOM_BOOTIMG := true
+$(call inherit-product, device/sony/common/common_pa.mk)
+include device/sony/common/CommonConfigPa.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_flamingo

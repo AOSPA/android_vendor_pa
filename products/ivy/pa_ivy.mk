@@ -22,9 +22,8 @@ include vendor/twrp-sony/products/kitakami/ivy/ivy.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/ivy/aosp_e6553.mk)
-
-# Sony uses mkqcdtbootimg
-BOARD_CUSTOM_BOOTIMG := true
+$(call inherit-product, device/sony/common/common_pa.mk)
+include device/sony/common/CommonConfigPa.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_ivy

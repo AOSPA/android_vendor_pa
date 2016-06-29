@@ -20,9 +20,8 @@ include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/tianchi/aosp_d5303.mk)
-
-# Sony uses mkqcdtbootimg
-BOARD_CUSTOM_BOOTIMG := true
+$(call inherit-product, device/sony/common/common_pa.mk)
+include device/sony/common/CommonConfigPa.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_tianchi
