@@ -18,6 +18,12 @@
         "revision":     "marshmallow-caf"
     },
     {
+        "remote":       "aospa",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "marshmallow-caf-8996"
+    },
+    {
         "remote":       "caf",
         "repository":   "platform/external/libnfnetlink",
         "target_path":  "external/libnfnetlink",
