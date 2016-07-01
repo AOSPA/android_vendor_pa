@@ -24,7 +24,6 @@ include vendor/twrp-sony/products/shinano/scorpion_windy/scorpion_windy.mk
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/scorpion_windy/aosp_sgp611.mk)
 $(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_scorpion_windy

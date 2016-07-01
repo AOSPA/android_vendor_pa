@@ -6,16 +6,16 @@
         "revision":     "master"
     },
     {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-shinano",
+        "remote":       "aospa",
+        "repository":   "android_device_sony_shinano",
         "target_path":  "device/sony/shinano",
-        "revision":     "master"
+        "revision":     "marshmallow"
     },
     {
         "remote":       "aospa",
         "repository":   "android_device_sony_common",
         "target_path":  "device/sony/common",
-        "revision":     "marshallow"
+        "revision":     "develop"
     },
     {
         "remote":       "github",
