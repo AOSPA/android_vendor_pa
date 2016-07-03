@@ -97,6 +97,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+else
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
 
 # Theme engine
