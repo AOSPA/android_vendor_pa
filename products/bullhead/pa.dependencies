@@ -14,7 +14,7 @@
     {
         "target_path":  "vendor/lge/bullhead",
         "repository":   "proprietary_vendor_lge_bullhead",
-        "remote":       "aospa",
+        "remote":       "blobs",
         "revision":     "marshmallow"
     },
     {
