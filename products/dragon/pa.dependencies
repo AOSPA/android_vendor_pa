@@ -12,7 +12,7 @@
         "revision":"marshmallow"
     },
     {
-        "remote":"aospa",
+        "remote":"blobs",
         "repository":"android_vendor_nvidia",
         "target_path":"vendor/nvidia",
         "revision":"marshmallow"
