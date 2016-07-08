@@ -6,15 +6,15 @@
         "revision":     "marshmallow"
     },
     {
-        "remote":"aospa",
-        "repository":"android_kernel_google_dragon",
-        "target_path":"device/google/dragon-kernel",
-        "revision":"marshmallow"
+        "remote":       "aospa",
+        "repository":   "android_kernel_google_dragon",
+        "target_path":  "device/google/dragon-kernel",
+        "revision":     "marshmallow"
     },
     {
-        "remote":"aospa",
-        "repository":"android_vendor_nvidia",
-        "target_path":"vendor/nvidia",
-        "revision":"marshmallow"
+        "remote":       "blobs",
+        "repository":   "android_vendor_nvidia",
+        "target_path":  "vendor/nvidia",
+        "revision":     "marshmallow"
     }
 ]
