@@ -156,7 +156,7 @@
         "revision":     "master"
     },
     {
-        "remote":       "aospa",
+        "remote":       "blobs",
         "repository":   "android_vendor_twrp-sony",
         "target_path":  "vendor/twrp-sony",
         "revision":     "marshmallow"
