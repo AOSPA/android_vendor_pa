@@ -60,7 +60,7 @@
         "revision":     "refs/tags/android-6.0.1_r45"
     },
     {
-        "remote":       "aospa",
+        "remote":       "blobs",
         "repository":   "proprietary_vendor_moto_shamu",
         "target_path":  "vendor/moto/shamu",
         "revision":     "marshmallow"
