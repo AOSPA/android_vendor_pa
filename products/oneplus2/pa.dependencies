@@ -12,6 +12,12 @@
         "revision":     "marshmallow-caf"
     },
     {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "marshmallow-caf"
+    },
+    {
         "remote":       "caf",
         "repository":   "platform/external/libnfnetlink",
         "target_path":  "external/libnfnetlink",

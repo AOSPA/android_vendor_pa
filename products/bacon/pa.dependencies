@@ -13,6 +13,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "marshmallow-caf-8974"
