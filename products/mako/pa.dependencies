@@ -36,12 +36,18 @@
         "revision":     "refs/tags/android-6.0.1_r54"
     },
     {
+        "target_path":  "hardware/qcom/gps",
+        "repository":   "platform/hardware/qcom/gps",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-6.0.1_r54"
+    },
+    {
         "target_path":  "hardware/qcom/keymaster",
         "repository":   "platform/hardware/qcom/keymaster",
         "remote":       "aosp",
         "revision":     "refs/tags/android-6.0.1_r54"
     },
-	{
+    {
         "target_path":  "hardware/qcom/media",
         "repository":   "platform/hardware/qcom/media",
         "remote":       "aosp",
