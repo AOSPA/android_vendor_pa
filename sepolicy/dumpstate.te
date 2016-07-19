@@ -1,0 +1,3 @@
+allow dumpstate app_data_file:fifo_file getattr;
+allow dumpstate fuse:dir search;
+allow dumpstate fuse:file getattr;
