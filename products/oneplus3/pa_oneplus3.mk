@@ -24,7 +24,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/oneplus/oneplus3/device.mk)
+$(call inherit-product, device/oneplus/oneplus3/oneplus3.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_oneplus3
