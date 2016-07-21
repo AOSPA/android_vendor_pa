@@ -15,7 +15,7 @@
         "remote":       "github",
         "repository":   "frantisheq/proprietary_vendor_lenovo",
         "target_path":  "vendor/lenovo",
-        "revision":     "cm-13.0"
+        "revision":     "marshmallow-caf"
     },
     {
         "remote":       "github",
