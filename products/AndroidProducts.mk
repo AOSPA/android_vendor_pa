@@ -98,6 +98,9 @@ ifeq (pa_karin_windy,$(TARGET_PRODUCT))
 endif
 
 # CAF
+ifeq (pa_kingdom_row,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/kingdom_row/pa_kingdom_row.mk
+endif
 ifeq (pa_bacon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/bacon/pa_bacon.mk
 endif
