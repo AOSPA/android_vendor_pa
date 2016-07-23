@@ -39,6 +39,7 @@ add_lunch_combo pa_sumire-userdebug
 add_lunch_combo pa_suzuran-userdebug
 
 # CAF
+add_lunch_combo pa_kingdom_row-userdebug
 add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_oneplus2-userdebug
 add_lunch_combo pa_oneplus3-userdebug
