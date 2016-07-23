@@ -49,3 +49,6 @@ add_lunch_combo pa_titan-userdebug
 
 # Samsung Exynos
 add_lunch_combo pa_gts210ltexx-userdebug
+
+# LG G Platform
+add_lunch_combo pa_vs985-userdebug
