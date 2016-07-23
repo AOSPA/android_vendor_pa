@@ -1,0 +1,5 @@
+[gerrit]
+host=gerrit.aospa.co
+port=29418
+project=android_vendor_pa
+defaultbranch=marshmallow-caf
