@@ -1,3 +1,5 @@
 allow dumpstate app_data_file:fifo_file getattr;
 allow dumpstate fuse:dir search;
 allow dumpstate fuse:file getattr;
+allow dumpstate iop_socket:sock_file unlink;
+allow dumpstate iop_data_file:sock_file { setattr create };
