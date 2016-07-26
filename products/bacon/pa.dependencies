@@ -42,9 +42,9 @@
         "revision":     "LA.BF.1.1.3_rb1.13"
     },
     {
-        "remote":       "caf",
+        "remote":       "aospa",
         "repository":   "platform/hardware/qcom/media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "LA.BF.1.1.3_rb1.13"
+        "revision":     "marshmallow-caf-8974"
     }
 ]
