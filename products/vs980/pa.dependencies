@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github-ssh",
-        "repository":   "GalaticStryder/device_lge_d802",
-        "target_path":  "device/lge/d802",
+        "repository":   "GalaticStryder/device_lge_vs980",
+        "target_path":  "device/lge/vs980",
         "revision":     "nougat-mr1"
     },
     {

@@ -1,4 +1,4 @@
-# Copyright (C) 2016 ParanoidAndroid Project
+# Copyright (C) 2016 - The Paranoid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +25,13 @@
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk
 
 # LGE
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/d802/pa_d802.mk
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/d800/pa_d800.mk \
+    $(LOCAL_DIR)/d801/pa_d801.mk \
+    $(LOCAL_DIR)/d802/pa_d802.mk \
+    $(LOCAL_DIR)/d803/pa_d803.mk \
+    $(LOCAL_DIR)/ls980/pa_ls980.mk \
+    $(LOCAL_DIR)/vs980/pa_vs980.mk
 
 # AOSP
     PRODUCT_MAKEFILES += \
