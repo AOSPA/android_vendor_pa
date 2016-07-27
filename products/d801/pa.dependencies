@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "GalaticStryder/device_lge_d802",
-        "target_path":  "device/lge/d802",
+        "repository":   "GalaticStryder/device_lge_d801",
+        "target_path":  "device/lge/d801",
         "revision":     "nougat-caf"
     },
     {
@@ -15,7 +15,7 @@
         "remote":       "github",
         "repository":   "GalaticStryder/kernel_lge_msm8974",
         "target_path":  "kernel/lge/msm8974",
-        "revision":     "lambda"
+        "revision":     "nougat-caf"
     },
     {
         "remote":       "github",
@@ -30,15 +30,15 @@
         "revision":     "nougat-caf-8974"
     },
     {
-        "remote":       "aospa",
-        "repository":   "android_hardware_qcom_display",
+        "remote":       "github",
+        "repository":   "GalaticStryder/hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "marshmallow-caf-8974"
+        "revision":     "nougat-caf-8974"
     },
     {
-        "remote":       "aospa",
-        "repository":   "android_hardware_qcom_media",
+        "remote":       "github",
+        "repository":   "GalaticStryder/hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "marshmallow-caf-8974"
+        "revision":     "nougat-caf-8974"
     }
 ]
