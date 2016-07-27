@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "GalaticStryder/device_lge_d802",
-        "target_path":  "device/lge/d802",
+        "repository":   "GalaticStryder/device_lge_d803",
+        "target_path":  "device/lge/d803",
         "revision":     "nougat-caf"
     },
     {
