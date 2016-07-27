@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "GalaticStryder/device_lge_d802",
-        "target_path":  "device/lge/d802",
+        "repository":   "GalaticStryder/device_lge_d800",
+        "target_path":  "device/lge/d800",
         "revision":     "nougat-caf"
     },
     {
@@ -24,8 +24,25 @@
         "revision":     "nougat-caf"
     },
     {
+<<<<<<< Updated upstream
+        "remote":       "aospa",
+        "repository":   "android_external_connectivity",
+        "target_path":  "external/connectivity",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_external_stlport",
+        "target_path":  "external/stlport",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_audio",
+=======
         "remote":       "github",
         "repository":   "GalaticStryder/hardware_qcom_audio",
+>>>>>>> Stashed changes
         "target_path":  "hardware/qcom/audio",
         "revision":     "nougat-caf-8974"
     },
