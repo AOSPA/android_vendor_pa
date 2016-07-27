@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "GalaticStryder/device_lge_d802",
-        "target_path":  "device/lge/d802",
+        "repository":   "GalaticStryder/device_lge_ls980",
+        "target_path":  "device/lge/ls980",
         "revision":     "nougat-caf"
     },
     {
@@ -22,24 +22,6 @@
         "repository":   "GalaticStryder/vendor_lge",
         "target_path":  "vendor/lge",
         "revision":     "nougat-caf"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_stlport",
-        "target_path":  "external/stlport",
-        "revision":     "cm-14.1"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_connectivity",
-        "target_path":  "external/connectivity",
-        "revision":     "cm-14.1"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_sony_boringssl-compat",
-        "target_path":  "external/sony/boringssl-compat",
-        "revision":     "cm-14.1"
     },
     {
         "remote":       "github",
