@@ -120,5 +120,8 @@ include vendor/pa/sepolicy/sepolicy.mk
 # Include performance tuning if it exists
 -include vendor/perf/perf.mk
 
+# Include proprietary header flags if vendor/head exists
+-include vendor/head/head-capabilities.mk
+
 # Include blur effect if it exists
 -include vendor/blur/blur.mk
