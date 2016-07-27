@@ -15,7 +15,7 @@
 export VENDOR := pa
 ROM_VERSION_MAJOR := 6
 ROM_VERSION_MINOR := 0
-ROM_VERSION_MAINTENANCE := 1
+ROM_VERSION_MAINTENANCE := 2
 ROM_VERSION_TAG := 
 
 # Include versioning information
