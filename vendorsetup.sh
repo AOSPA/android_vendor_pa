@@ -53,4 +53,5 @@ add_lunch_combo pa_gts210ltexx-userdebug
 # LG G Platform
 add_lunch_combo pa_d802-userdebug
 add_lunch_combo pa_d855-userdebug
+add_lunch_combo pa_vs980-userdebug
 add_lunch_combo pa_vs985-userdebug
