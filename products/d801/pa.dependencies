@@ -1,56 +1,44 @@
 [
     {
         "remote":       "github-ssh",
-        "repository":   "GalaticStryder/device_lge_d802",
-        "target_path":  "device/lge/d802",
-        "revision":     "marshmallow-caf"
+        "repository":   "GalaticStryder/device_lge_d801",
+        "target_path":  "device/lge/d801",
+        "revision":     "nougat-mr1"
     },
     {
         "remote":       "github-ssh",
         "repository":   "GalaticStryder/device_lge_g2-common",
         "target_path":  "device/lge/g2-common",
-        "revision":     "marshmallow-caf"
+        "revision":     "nougat-mr1"
     },
     {
         "remote":       "github-ssh",
         "repository":   "GalaticStryder/kernel_lge_msm8974",
         "target_path":  "kernel/lge/msm8974",
-        "revision":     "marshmallow-caf"
+        "revision":     "nougat-mr1"
     },
     {
         "remote":       "github-ssh",
         "repository":   "GalaticStryder/vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "marshmallow-caf"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "android_external_connectivity",
-        "target_path":  "external/connectivity",
-        "revision":     "marshmallow-caf"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "android_external_stlport",
-        "target_path":  "external/stlport",
-        "revision":     "marshmallow-caf"
+        "revision":     "nougat-mr1"
     },
     {
         "remote":       "github-ssh",
         "repository":   "GalaticStryder/hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "marshmallow-caf-8974"
+        "revision":     "nougat-mr1-8974"
     },
     {
         "remote":       "github-ssh",
         "repository":   "GalaticStryder/hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "marshmallow-caf-8974"
+        "revision":     "nougat-mr1-8974"
     },
     {
         "remote":       "github-ssh",
         "repository":   "GalaticStryder/hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "marshmallow-caf-8974"
+        "revision":     "nougat-mr1-8974"
     }
 ]
