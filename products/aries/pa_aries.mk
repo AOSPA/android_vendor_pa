@@ -23,7 +23,6 @@ include vendor/twrp-sony/products/shinano/aries/aries.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/aries/aosp_d5803.mk)
-$(call inherit-product, device/sony/common/common_pa.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_aries

@@ -6,16 +6,16 @@
         "revision":     "master"
     },
     {
-        "remote":       "aospa",
-        "repository":   "android_device_sony_shinano",
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-shinano",
         "target_path":  "device/sony/shinano",
-        "revision":     "marshmallow"
+        "revision":     "master"
     },
     {
-        "remote":       "aospa",
-        "repository":   "android_device_sony_common",
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common",
         "target_path":  "device/sony/common",
-        "revision":     "develop"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
@@ -147,7 +147,7 @@
         "remote":       "aospa",
         "repository":   "android_vendor_twrp-sony",
         "target_path":  "vendor/twrp-sony",
-        "revision":     "develop"
+        "revision":     "marshmallow"
     },
     {
         "remote":       "github",
@@ -165,6 +165,12 @@
         "remote":       "github",
         "repository":   "SonyAosp/platform_external_toybox",
         "target_path":  "external/toybox",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_sony_init",
+        "target_path":  "hardware/sony/init",
         "revision":     "mm-6.0"
     },
     {
