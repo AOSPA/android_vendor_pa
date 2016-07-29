@@ -1,4 +1,4 @@
-# Copyright (C) 2015 ParanoidAndroid Project
+# Copyright (C) 2016 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 export VENDOR := pa
 ROM_VERSION_MAJOR := 6
 ROM_VERSION_MINOR := 0
-ROM_VERSION_MAINTENANCE := 1
+ROM_VERSION_MAINTENANCE := 2
 ROM_VERSION_TAG := 
 
 # Include versioning information
