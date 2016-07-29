@@ -72,10 +72,10 @@
         "revision":     "mm-6.0"
     },
     {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-sepolicy",
+        "remote":       "aospa",
+        "repository":   "android_device_sony_sepolicy",
         "target_path":  "device/sony/sepolicy",
-        "revision":     "m-mr1"
+        "revision":     "marshmallow"
     },
     {
         "remote":       "github",
