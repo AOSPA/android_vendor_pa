@@ -1,6 +1,24 @@
 [
     {
         "remote":       "aospa",
+        "repository":   "android_device_nextbit_robin",
+        "target_path":  "device/nextbit/robin",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_kernel_nextbit_msm8992",
+        "target_path":  "kernel/nextbit/msm8992",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "proprietary_vendor_nextbit",
+        "target_path":  "vendor/nextbit",
+        "revision":     "marshmallow-caf"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "marshmallow-caf-8994"
