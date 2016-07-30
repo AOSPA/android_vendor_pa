@@ -27,7 +27,7 @@
         "remote":       "aospa",
         "repository":   "android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "marshmallow-caf-oneplustwo"
+        "revision":     "marshmallow-caf-8994"
     },
     {
         "remote":       "aospa",
