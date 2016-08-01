@@ -43,7 +43,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "platform/hardware/qcom/media",
+        "repository":   "android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "marshmallow-caf-8974"
     }
