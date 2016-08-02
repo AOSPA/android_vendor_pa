@@ -108,11 +108,8 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
-# import the arm64 one, if the device supports 64 bit
-ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
-endif
+PRODUCT_PACKAGES += \
+    libjni_latinimegoogle
 
 # Theme engine
 PRODUCT_PACKAGES += \
