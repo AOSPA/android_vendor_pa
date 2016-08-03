@@ -21,10 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
-include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
+
+include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_oneplus2
