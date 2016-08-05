@@ -83,10 +83,6 @@ PRODUCT_PACKAGES += PA_Browser
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
 
-# Block mm-dash by default
-
-TARGET_DISABLE_DASH ?= true
-
 # Include the custom PA bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
