@@ -72,7 +72,7 @@
         "revision":     "refs/tags/android-6.0.1_r54"
     },
     {
-        "remote":       "aospa",
+        "remote":       "blobs",
         "repository":   "proprietary_vendor_lge_hammerhead",
         "target_path":  "vendor/lge/hammerhead",
         "revision":     "marshmallow"

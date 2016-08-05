@@ -84,6 +84,9 @@ PRODUCT_PACKAGES += PA_Browser
 PRODUCT_PACKAGES += ParanoidHub
 
 # Include the custom PA bootanimation
+ifeq ($(TARGET_BOOT_ANIMATION_RES),480)
+     PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/480.zip:system/media/bootanimation.zip
+endif
 ifeq ($(TARGET_BOOT_ANIMATION_RES),720)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/720.zip:system/media/bootanimation.zip
 endif

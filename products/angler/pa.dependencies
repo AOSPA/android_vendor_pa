@@ -60,7 +60,7 @@
         "revision":     "refs/tags/android-6.0.1_r54"
     },
     {
-        "remote":       "aospa",
+        "remote":       "blobs",
         "repository":   "proprietary_vendor_huawei_angler",
         "target_path":  "vendor/huawei/angler",
         "revision":     "marshmallow"

@@ -14,7 +14,7 @@
     {
         "target_path":  "vendor/lge/mako",
         "repository":   "proprietary_vendor_lge_mako",
-        "remote":       "aospa",
+        "remote":       "blobs",
         "revision":     "marshmallow"
     },
     {
