@@ -22,6 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
+include device/qcom/common/common.mk
+
 # Inherit AOSP device configuration
 $(call inherit-product, device/nextbit/robin/device.mk)
 
