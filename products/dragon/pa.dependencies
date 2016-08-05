@@ -6,10 +6,10 @@
         "revision":     "marshmallow"
     },
     {
-        "remote":       "aospa",
-        "repository":   "android_kernel_google_dragon",
+        "remote":       "aosp",
+        "repository":   "device/google/dragon-kernel",
         "target_path":  "device/google/dragon-kernel",
-        "revision":     "marshmallow"
+        "revision":     "refs/tags/android-6.0.1_r63"
     },
     {
         "remote":       "blobs",
