@@ -1,19 +1,21 @@
 # Check for target product
 ifeq (pa_vs985,$(TARGET_PRODUCT))
 
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1440
 include vendor/pa/main.mk
 
 $(call inherit-product, device/lge/vs985/full_vs985.mk)
 
-# Inherit some common Turbo stuff.
-#$(call inherit-product, vendor/turbo/config/common_full_phone.mk)
-
-# Enhanced NFC
-#$(call inherit-product, vendor/turbo/config/nfc_enhanced.mk)
-
+# Device identifier. This must come after all inclusions
 PRODUCT_NAME := pa_vs985
+PRODUCT_DEVICE := vs985
+PRODUCT_BRAND := LGE
+PRODUCT_MODEL := LG-VS985
+PRODUCT_MANUFACTURER := lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
