@@ -13,8 +13,8 @@
     },
     {
         "remote":       "blobs",
-        "repository":   "android_vendor_nvidia",
-        "target_path":  "vendor/nvidia",
+        "repository":   "proprietary_vendor_nvidia_dragon",
+        "target_path":  "vendor/nvidia/dragon",
         "revision":     "marshmallow"
     }
 ]
