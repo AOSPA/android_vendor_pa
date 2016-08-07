@@ -28,6 +28,9 @@ $(call inherit-product, device/sony/aries/aosp_d5803.mk)
 PRODUCT_NAME := pa_aries
 PRODUCT_MODEL := Xperia Z3 Compact (AOSPA)
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D5803,D5833,z3c,aries
+
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from
 # a new factory image. Sony has provided AOSP specific blobs to use

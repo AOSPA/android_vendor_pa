@@ -28,6 +28,9 @@ $(call inherit-product, device/sony/scorpion_windy/aosp_sgp611.mk)
 PRODUCT_NAME := pa_scorpion_windy
 PRODUCT_MODEL := Xperia Z3 Tablet Compact WiFi (AOSPA)
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := SGP611,z3 tablet compact wifi,scorpion_windy
+
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from
 # a new factory image. Sony has provided AOSP specific blobs to use
