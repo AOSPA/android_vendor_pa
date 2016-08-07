@@ -13,7 +13,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_device_sony_common",
+        "repository":   "AOSPA/android_device_sony_common",
         "target_path":  "device/sony/common",
         "revision":     "marshmallow"
     },
@@ -145,7 +145,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_vendor_twrp-sony",
+        "repository":   "AOSPA/android_vendor_twrp-sony",
         "target_path":  "vendor/twrp-sony",
         "revision":     "develop"
     },
