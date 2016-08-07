@@ -67,7 +67,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_device_sony_sepolicy",
+        "repository":   "AOSPA/android_device_sony_sepolicy",
         "target_path":  "device/sony/sepolicy",
         "revision":     "marshmallow"
     },
@@ -145,7 +145,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_vendor_twrp-sony",
+        "repository":   "AOSPA/android_vendor_twrp-sony",
         "target_path":  "vendor/twrp-sony",
         "revision":     "marshmallow"
     },

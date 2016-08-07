@@ -1,7 +1,7 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_google_dragon",
+        "repository":   "AOSPA/android_device_google_dragon",
         "target_path":  "device/google/dragon",
         "revision":     "marshmallow"
     },

@@ -1,13 +1,13 @@
 [
     {
         "target_path":  "device/lge/mako",
-        "repository":   "android_device_lge_mako",
+        "repository":   "AOSPA/android_device_lge_mako",
         "remote":       "aospa",
         "revision":     "marshmallow"
     },
     {
         "target_path":  "device/lge/mako-kernel",
-        "repository":   "android_device_lge_mako-kernel",
+        "repository":   "AOSPA/android_device_lge_mako-kernel",
         "remote":       "aospa",
         "revision":     "marshmallow"
     },

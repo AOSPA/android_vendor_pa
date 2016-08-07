@@ -1,7 +1,7 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_lge_hammerhead",
+        "repository":   "AOSPA/android_device_lge_hammerhead",
         "target_path":  "device/lge/hammerhead",
         "revision":     "marshmallow"
     },
