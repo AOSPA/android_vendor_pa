@@ -1,7 +1,7 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_htc_flounder",
+        "repository":   "AOSPA/android_device_htc_flounder",
         "target_path":  "device/htc/flounder",
         "revision":     "marshmallow"
     },
