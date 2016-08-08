@@ -28,6 +28,9 @@ $(call inherit-product, device/sony/sirius/aosp_d6503.mk)
 PRODUCT_NAME := pa_sirius
 PRODUCT_MODEL := Xperia Z2 (AOSPA)
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D6503,z2,sirius
+
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from
 # a new factory image. Sony has provided AOSP specific blobs to use

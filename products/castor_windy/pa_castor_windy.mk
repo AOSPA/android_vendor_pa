@@ -28,6 +28,9 @@ $(call inherit-product, device/sony/castor_windy/aosp_sgp511.mk)
 PRODUCT_NAME := pa_castor_windy
 PRODUCT_MODEL := Xperia Z2 Tablet WiFi (AOSPA)
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := SGP511,z2 tablet wifi,castor_windy
+
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from
 # a new factory image. Sony has provided AOSP specific blobs to use

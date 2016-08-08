@@ -28,6 +28,9 @@ $(call inherit-product, device/sony/castor/aosp_sgp521.mk)
 PRODUCT_NAME := pa_castor
 PRODUCT_MODEL := Xperia Z2 Tablet (AOSPA)
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := SGP521,z2 tablet,castor
+
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from
 # a new factory image. Sony has provided AOSP specific blobs to use

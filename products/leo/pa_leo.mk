@@ -28,6 +28,9 @@ $(call inherit-product, device/sony/leo/aosp_d6603.mk)
 PRODUCT_NAME := pa_leo
 PRODUCT_MODEL := Xperia Z3 (AOSPA)
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := D6602,D6603,D6633,D6643,z3,leo
+
 # Keep these values synchronised with the firmware versions used by
 # AOSP blobs. Do NOT update blobs (and therefore these values) from
 # a new factory image. Sony has provided AOSP specific blobs to use
