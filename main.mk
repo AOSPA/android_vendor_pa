@@ -13,17 +13,15 @@
 # limitations under the License.
 
 export VENDOR := pa
-ROM_VERSION_MAJOR := 6
-ROM_VERSION_MINOR := 0
-ROM_VERSION_MAINTENANCE := 2
-ROM_VERSION_TAG := 
 
 # Include versioning information
-VERSION := $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
-export ROM_VERSION := $(VERSION)-$(shell date -u +%Y%m%d)
+# Format: Major.minor.maintenance(-TAG)
+export PA_VERSION := 6.0.3
+
+export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(ROM_VERSION) \
-    ro.pa.version=$(VERSION)
+    ro.pa.version=$(PA_VERSION)
 
 # Override undesired Google defaults
 PRODUCT_PROPERTY_OVERRIDES += \
