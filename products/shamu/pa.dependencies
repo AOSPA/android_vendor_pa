@@ -1,7 +1,7 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_moto_shamu",
+        "repository":   "AOSPA/android_device_moto_shamu",
         "target_path":  "device/moto/shamu",
         "revision":     "marshmallow"
     },

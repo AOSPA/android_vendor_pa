@@ -1,7 +1,7 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_huawei_angler",
+        "repository":   "AOSPA/android_device_huawei_angler",
         "target_path":  "device/huawei/angler",
         "revision":     "marshmallow"
     },
