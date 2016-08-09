@@ -1,4 +1,4 @@
-# Copyright (C) 2015 ParanoidAndroid Project
+# Copyright (C) 2016 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,17 +13,15 @@
 # limitations under the License.
 
 export VENDOR := pa
-ROM_VERSION_MAJOR := 6
-ROM_VERSION_MINOR := 0
-ROM_VERSION_MAINTENANCE := 1
-ROM_VERSION_TAG := 
 
 # Include versioning information
-VERSION := $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
-export ROM_VERSION := $(VERSION)-$(shell date -u +%Y%m%d)
+# Format: Major.minor.maintenance(-TAG)
+export PA_VERSION := 6.0.3
+
+export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(ROM_VERSION) \
-    ro.pa.version=$(VERSION)
+    ro.pa.version=$(PA_VERSION)
 
 # Override undesired Google defaults
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -51,8 +49,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
 # Include support for init.d scripts
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/bin/sysinit:system/bin/sysinit
 
+ifneq ($(TARGET_BUILD_VARIANT),user)
 # Include support for userinit
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
+endif
 
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
@@ -98,8 +98,20 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
-ifneq ($(TARGET_BUILD_VARIANT),eng)
+ifeq ($(TARGET_BUILD_VARIANT),user)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+else
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+endif
+
+# Proprietary latinime lib needed for Keyboard swyping
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+
+# import the arm64 one, if the device supports 64 bit
+ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
 endif
 
 # Theme engine
@@ -118,6 +130,9 @@ include vendor/pa/sepolicy/sepolicy.mk
 
 # Include performance tuning if it exists
 -include vendor/perf/perf.mk
+
+# Include proprietary header flags if vendor/head exists
+-include vendor/head/head-capabilities.mk
 
 # Include blur effect if it exists
 -include vendor/blur/blur.mk

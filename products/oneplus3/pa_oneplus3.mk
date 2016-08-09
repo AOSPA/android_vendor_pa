@@ -21,10 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
-include vendor/pa/main.mk
+
+# Advanced platform features
+TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
+TARGET_DISABLE_DASH := false
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+
+include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/oneplus/oneplus3/device.mk)
+$(call inherit-product, device/oneplus/oneplus3/oneplus3.mk)
+
+include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_oneplus3
@@ -34,5 +42,9 @@ PRODUCT_MODEL := RAIN A3000
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:6.0.1/MMB29M/362280:user/release-keys \
+     PRIVATE_BUILD_DESC="OnePlus3-user 6.0.1 MMB29M 24 dev-keys"
 
 endif

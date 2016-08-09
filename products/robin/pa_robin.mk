@@ -1,4 +1,4 @@
-# Copyright (C) 2015 ParanoidAndroid Project
+# Copyright (C) 2016 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,28 +13,38 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_onyx,$(TARGET_PRODUCT))
+ifeq (pa_robin,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Advanced platform features
+TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
+TARGET_DISABLE_DASH := false
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/oneplus/onyx/onyx.mk)
+$(call inherit-product, device/nextbit/robin/device.mk)
 
 include vendor/pa/main.mk
 
 # Override AOSP build properties
-PRODUCT_NAME := pa_onyx
-PRODUCT_DEVICE := onyx
-PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := X
-PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_NAME := pa_robin
+PRODUCT_DEVICE := robin
+BOARD_VENDOR := nextbit
+TARGET_VENDOR := nextbit
+PRODUCT_BRAND := Nextbit
+PRODUCT_MODEL := Robin
+PRODUCT_MANUFACTURER := Nextbit
 
-PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     BUILD_FINGERPRINT=Nextbit/ether/ether:6.0.1/MMB29M/00WW_1_370:user/release-keys \
+     PRIVATE_BUILD_DESC="ether-user 6.0.1 MMB29M 00WW_1_370 release-keys"
 
 endif

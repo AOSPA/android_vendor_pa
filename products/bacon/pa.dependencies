@@ -19,6 +19,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "marshmallow-caf-8974"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "marshmallow-caf-8974"
@@ -36,9 +42,9 @@
         "revision":     "LA.BF.1.1.3_rb1.13"
     },
     {
-        "remote":       "caf",
-        "repository":   "platform/hardware/qcom/media",
+        "remote":       "aospa",
+        "repository":   "android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "LA.BF.1.1.3_rb1.13"
+        "revision":     "marshmallow-caf-8974"
     }
 ]
