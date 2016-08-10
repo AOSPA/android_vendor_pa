@@ -19,12 +19,8 @@ ifeq (pa_amami,$(TARGET_PRODUCT))
 include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 720
 
-include vendor/twrp-sony/products/rhine/amami/amami.mk
-
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/amami/aosp_d5503.mk)
-$(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_amami

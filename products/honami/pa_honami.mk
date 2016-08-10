@@ -19,12 +19,8 @@ ifeq (pa_honami,$(TARGET_PRODUCT))
 include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 1080
 
-include vendor/twrp-sony/products/rhine/honami/honami.mk
-
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/honami/aosp_c6903.mk)
-$(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_honami
