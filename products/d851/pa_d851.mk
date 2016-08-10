@@ -1,4 +1,4 @@
-# Copyright (C) 2016 ParanoidAndroid Project
+# Copyright (C) 2016 The Paranoid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,29 +13,27 @@
 # limitations under the License.
 
 # Check for target product
-
 ifeq (pa_d851,$(TARGET_PRODUCT))
 
-# Inherit from the common Open Source product configuration
+# Inherit the AOSP telephony configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include AOSPA common configuration
+# Include the common makefile for QCOM devices
+include device/qcom/common/common.mk
+
+# Include PA common configuration
 TARGET_BOOT_ANIMATION_RES := 1440
 include vendor/pa/main.mk
-
-# Overlays
-PRODUCT_PACKAGE_OVERLAYS += device/lge/d851/overlay
 
 # Inherit device configuration
 $(call inherit-product, device/lge/d851/d851.mk)
 
-# Device identifier. This must come after all inclusions
+# Override device properties
 PRODUCT_NAME := pa_d851
 PRODUCT_DEVICE := d851
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := LG-D851
-PRODUCT_MANUFACTURER := lge
-
+PRODUCT_MANUFACTURER := LGE
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
     PRODUCT_NAME="g3_tmo_us" \
