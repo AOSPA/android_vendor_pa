@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-ivy",
-        "target_path":  "device/sony/ivy",
+        "repository":   "sonyxperiadev/device-sony-suzuran",
+        "target_path":  "device/sony/suzuran",
         "revision":     "master"
     },
     {
@@ -144,3 +144,4 @@
         "revision":     "master"
     }
 ]
+
