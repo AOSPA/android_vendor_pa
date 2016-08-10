@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-ivy",
-        "target_path":  "device/sony/ivy",
+        "repository":   "sonyxperiadev/device-sony-sumire",
+        "target_path":  "device/sony/sumire",
         "revision":     "master"
     },
     {

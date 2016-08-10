@@ -1,8 +1,14 @@
 [
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-ivy",
-        "target_path":  "device/sony/ivy",
+        "repository":   "sonyxperiadev/device-sony-karin",
+        "target_path":  "device/sony/karin",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-karin_windy",
+        "target_path":  "device/sony/karin_windy",
         "revision":     "master"
     },
     {

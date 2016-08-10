@@ -105,6 +105,15 @@ endif
 ifeq (pa_karin_windy,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/karin_windy/pa_karin_windy.mk
 endif
+ifeq (pa_sumire,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/sumire/pa_sumire.mk
+endif
+ifeq (pa_suzuran,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/suzuran/pa_suzuran.mk
+endif
+ifeq (pa_satsuki,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/satsuki/pa_satsuki.mk
+endif
 
 # CAF
 ifeq (pa_dragon,$(TARGET_PRODUCT))

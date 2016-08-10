@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/device-sony-ivy",
-        "target_path":  "device/sony/ivy",
+        "repository":   "sonyxperiadev/device-sony-satsuki",
+        "target_path":  "device/sony/satsuki",
         "revision":     "master"
     },
     {
