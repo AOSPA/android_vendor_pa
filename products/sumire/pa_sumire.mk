@@ -20,8 +20,6 @@ include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/sumire/aosp_e6653.mk)
-$(call inherit-product, device/sony/common/common_pa.mk)
-include device/sony/common/CommonConfigPA.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_sumire
