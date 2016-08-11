@@ -97,6 +97,12 @@
     },
     {
         "remote":       "github",
+        "repository":   "SonyAosp/platform_packages_apps_Nfc",
+        "target_path":  "packages/apps/Nfc",
+        "revision":     "mm-6.0"
+    },
+    {
+        "remote":       "github",
         "repository":   "SonyAosp/platform_hardware_broadcom_libbt",
         "target_path":  "hardware/broadcom/libbt",
         "revision":     "mm-6.0"
@@ -162,5 +168,3 @@
         "revision":     "master"
     }
 ]
-
-
