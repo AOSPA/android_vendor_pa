@@ -72,6 +72,12 @@
         "revision":     "mm-6.0"
     },
     {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_sony_init",
+        "target_path":  "hardware/sony/init",
+        "revision":     "mm-6.0"
+    },
+    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_sony_sepolicy",
         "target_path":  "device/sony/sepolicy",
