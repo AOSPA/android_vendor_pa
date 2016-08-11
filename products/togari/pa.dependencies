@@ -11,11 +11,11 @@
         "target_path":  "device/sony/rhine",
         "revision":     "master"
     },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_sony_common",
+   {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common",
         "target_path":  "device/sony/common",
-        "revision":     "marshmallow"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
