@@ -105,9 +105,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
 
 # Proprietary latinime lib needed for Keyboard swyping
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
-
 PRODUCT_PACKAGES += \
     libjni_latinimegoogle
 
