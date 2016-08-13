@@ -1,0 +1,1 @@
+allow untrusted_app hybrid_service:service_manager find;
