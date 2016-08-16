@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The Paranoid Android Project
+# Copyright (C) 2016 The Paranoid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,15 +15,12 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-
-LOCAL_MODULE        := PA_Browser
-LOCAL_SRC_FILES     := PA_Browser.apk
-LOCAL_MODULE_TAGS   := optional
+LOCAL_MODULE        := ParanoidBrowser
+LOCAL_SRC_FILES     := $(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS  := APPS
-LOCAL_CERTIFICATE   := platform
+LOCAL_MODULE_TAGS   := optional
+LOCAL_CERTIFICATE   := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-
-LOCAL_OVERRIDES_PACKAGES := Browser Browser2
+LOCAL_OVERRIDES_PACKAGES := Browser
 LOCAL_MULTILIB := both
-
 include $(BUILD_PREBUILT)

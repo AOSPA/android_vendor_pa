@@ -14,8 +14,7 @@
 
 export VENDOR := pa
 
-# Include versioning information
-# Format: Major.minor.maintenance(-TAG)
+# Versioning information
 export PA_VERSION := 6.0.3
 
 export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
@@ -75,11 +74,17 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
-# Build Chromium for Snapdragon (PA Browser)
-PRODUCT_PACKAGES += PA_Browser
+# Proprietary latinime lib needed for Keyboard swyping
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
-# Build ParanoidHub
-PRODUCT_PACKAGES += ParanoidHub
+PRODUCT_PACKAGES += \
+    libjni_latinimegoogle
+
+# Paranoid packages
+PRODUCT_PACKAGES += \
+    ParanoidHub \
+    ParanoidBrowser
 
 # Include the custom PA bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),480)
@@ -95,21 +100,16 @@ ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
 endif
 
+# Selinux support
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+# ADB properties
 ifeq ($(TARGET_BUILD_VARIANT),user)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 else
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
-
-# Proprietary latinime lib needed for Keyboard swyping
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
-
-PRODUCT_PACKAGES += \
-    libjni_latinimegoogle
 
 # Theme engine
 PRODUCT_PACKAGES += \
