@@ -14,3 +14,5 @@ include $(BUILD_PREBUILT)
 $(LOCAL_INSTALLED_MODULE): $(LOCAL_BUILT_MODULE) | $(ACP)
 	@echo "Install (overridden): $@"
 	$(hide) $(ACP) -fp $< $(dir $@)libjni_latinime.so
+
+include $(call first-makefiles-under,$(LOCAL_PATH))
