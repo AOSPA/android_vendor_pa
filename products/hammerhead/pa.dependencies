@@ -35,7 +35,7 @@
         "target_path":  "hardware/qcom/keymaster",
         "revision":     "refs/tags/android-6.0.1_r62"
     },
-{
+    {
         "remote":       "aosp",
         "repository":   "platform/hardware/qcom/media",
         "target_path":  "hardware/qcom/media",
@@ -67,9 +67,9 @@
     },
     {
         "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/wlan",
-        "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-6.0.1_r62"
+        "repository":   "platform/hardware/broadcom/wlan",
+        "target_path":  "hardware/broadcom/wlan",
+        "revision":     "refs/tags/android-6.0.1_r60"
     },
     {
         "remote":       "blobs",
