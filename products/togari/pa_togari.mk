@@ -16,8 +16,8 @@
 ifeq (pa_togari,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
-include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 1080
+include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/togari/aosp_c6833.mk)
