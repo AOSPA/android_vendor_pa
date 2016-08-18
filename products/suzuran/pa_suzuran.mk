@@ -16,6 +16,7 @@
 ifeq (pa_suzuran,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
+TARGET_BOOT_ANIMATION_RES := 720
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration

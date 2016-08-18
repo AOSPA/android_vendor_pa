@@ -16,8 +16,8 @@
 ifeq (pa_amami,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
-include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 720
+include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/amami/aosp_d5503.mk)

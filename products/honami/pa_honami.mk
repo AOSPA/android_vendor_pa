@@ -16,8 +16,8 @@
 ifeq (pa_honami,$(TARGET_PRODUCT))
 
 # Include ParanoidAndroid common configuration
-include vendor/pa/main.mk
 TARGET_BOOT_ANIMATION_RES := 1080
+include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/honami/aosp_c6903.mk)
