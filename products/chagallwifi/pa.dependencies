@@ -1,0 +1,74 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "SferaDev/android_device_samsung_chagallwifi",
+        "target_path":  "device/samsung/chagallwifi",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SferaDev/android_device_samsung_exynos5420-common",
+        "target_path":  "device/samsung/exynos5420-common",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SferaDev/android_kernel_samsung_exynos5420",
+        "target_path":  "kernel/samsung/exynos5420",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SferaDev/android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/hardware_samsung_slsi_exynos",
+        "target_path":  "hardware/samsung_slsi/exynos",
+        "revision":     "mm6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/hardware_samsung_slsi_exynos5-insignal",
+        "target_path":  "hardware/samsung_slsi/exynos5-insignal",
+        "revision":     "mm6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/hardware_samsung_slsi_exynos5420",
+        "target_path":  "hardware/samsung_slsi/exynos5420",
+        "revision":     "mm6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/hardware_samsung_slsi_openmax",
+        "target_path":  "hardware/samsung_slsi/openmax",
+        "revision":     "mm6.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/frameworks_av",
+        "target_path":  "frameworks/av",
+        "revision":     "ng7.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/frameworks_native",
+        "target_path":  "frameworks/native",
+        "revision":     "ng7.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TeamEOS/system_core",
+        "target_path":  "system/core",
+        "revision":     "ng7.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SferaDev/proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "nougat"
+    }
+]
