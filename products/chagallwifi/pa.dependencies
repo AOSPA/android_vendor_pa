@@ -1,0 +1,26 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_samsung_chagallwifi",
+        "target_path":  "device/samsung/chagallwifi",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_samsung_exynos5420-common",
+        "target_path":  "device/samsung/exynos5420-common",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_samsung_exynos5420",
+        "target_path":  "kernel/samsung/exynos5420",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "nougat"
+    }
+]
