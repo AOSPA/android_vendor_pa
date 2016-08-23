@@ -119,3 +119,8 @@ endif
 ifeq (pa_dragon,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/dragon/pa_dragon.mk
 endif
+
+# Exynos 5420
+ifeq (pa_chagallwifi,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/chagallwifi/pa_chagallwifi.mk
+endif
