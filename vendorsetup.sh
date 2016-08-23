@@ -40,3 +40,6 @@ add_lunch_combo pa_suzuran-userdebug
 
 # CAF
 add_lunch_combo pa_dragon-userdebug
+
+# Exynos 5420
+add_lunch_combo pa_chagallwifi-userdebug
