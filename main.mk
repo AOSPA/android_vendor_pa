@@ -105,16 +105,6 @@ endif
 # Sony: Exclude superuser
 TW_EXCLUDE_SUPERSU := true
 
-# Proprietary latinime lib needed for Keyboard swyping
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib/libjni_latinime.so:system/lib/libjni_latinime.so
-
-# import the arm64 one, if the device supports 64 bit
-ifeq ($(TARGET_SUPPORTS_64_BIT_APPS),true)
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib64/libjni_latinime.so:system/lib64/libjni_latinime.so
-endif
-
 # Theme engine
 PRODUCT_PACKAGES += \
     aapt \
