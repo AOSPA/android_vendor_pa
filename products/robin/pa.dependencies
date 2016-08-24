@@ -1,6 +1,6 @@
 [
     {
-        "remote":       "aospa",
+        "remote":       "private",
         "repository":   "android_device_nextbit_robin",
         "target_path":  "device/nextbit/robin",
         "revision":     "marshmallow-caf"
