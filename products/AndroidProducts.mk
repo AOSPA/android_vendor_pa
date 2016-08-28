@@ -13,109 +13,39 @@
 # limitations under the License.
 
 # Nexus
-ifeq (pa_bullhead,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/bullhead/pa_bullhead.mk
-endif
-ifeq (pa_angler,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/angler/pa_angler.mk
-endif
-ifeq (pa_deb,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/deb/pa_deb.mk
-endif
-ifeq (pa_flo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/flo/pa_flo.mk
-endif
-ifeq (pa_flounder,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/flounder/pa_flounder.mk
-endif
-ifeq (pa_grouper,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/grouper/pa_grouper.mk
-endif
-ifeq (pa_hammerhead,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/hammerhead/pa_hammerhead.mk
-endif
-ifeq (pa_mako,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/mako/pa_mako.mk
-endif
-ifeq (pa_manta,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/manta/pa_manta.mk
-endif
-ifeq (pa_shamu,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/shamu/pa_shamu.mk
-endif
-ifeq (pa_tilapia,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/tilapia/pa_tilapia.mk
-endif
-
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/bullhead/pa_bullhead.mk \
+                                          $(LOCAL_DIR)/angler/pa_angler.mk \
+                                          $(LOCAL_DIR)/deb/pa_deb.mk \
+                                          $(LOCAL_DIR)/flo/pa_flo.mk \
+                                          $(LOCAL_DIR)/flounder/pa_flounder.mk \
+                                          $(LOCAL_DIR)/hammerhead/pa_hammerhead.mk \
+                                          $(LOCAL_DIR)/manta/pa_manta.mk \
+                                          $(LOCAL_DIR)/shamu/pa_shamu.mk \
+                                          $(LOCAL_DIR)/dragon/pa_dragon.mk
 # Sony Yukon platform
-ifeq (pa_flamingo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/flamingo/pa_flamingo.mk
-endif
-ifeq (pa_eagle,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/eagle/pa_eagle.mk
-endif
-ifeq (pa_tianchi,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/tianchi/pa_tianchi.mk
-endif
-ifeq (pa_seagull,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/seagull/pa_seagull.mk
-endif
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/flamingo/pa_flamingo.mk \
+                                          $(LOCAL_DIR)/eagle/pa_eagle.mk \
+                                          $(LOCAL_DIR)/tianchi/pa_tianchi.mk \
+                                          $(LOCAL_DIR)/seagull/pa_seagull.mk
 
 # Sony Rhine platform
-ifeq (pa_honami,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/honami/pa_honami.mk
-endif
-ifeq (pa_amami,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/amami/pa_amami.mk
-endif
-ifeq (pa_togari,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/togari/pa_togari.mk
-endif
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/honami/pa_honami.mk \
+                                          $(LOCAL_DIR)/amami/pa_amami.mk \
+                                          $(LOCAL_DIR)/togari/pa_togari.mk
 
 # Sony Shinano platform
-ifeq (pa_aries,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/aries/pa_aries.mk
-endif
-ifeq (pa_sirius,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/sirius/pa_sirius.mk
-endif
-ifeq (pa_castor,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/castor/pa_castor.mk
-endif
-ifeq (pa_castor_windy,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/castor_windy/pa_castor_windy.mk
-endif
-ifeq (pa_leo,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/leo/pa_leo.mk
-endif
-ifeq (pa_scorpion,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/scorpion/pa_scorpion.mk
-endif
-ifeq (pa_scorpion_windy,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/scorpion_windy/pa_scorpion_windy.mk
-endif
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/aries/pa_aries.mk \
+                                          $(LOCAL_DIR)/sirius/pa_sirius.mk \
+                                          $(LOCAL_DIR)/castor/pa_castor.mk \
+                                          $(LOCAL_DIR)/castor_windy/pa_castor_windy.mk \
+                                          $(LOCAL_DIR)/leo/pa_leo.mk \
+                                          $(LOCAL_DIR)/scorpion/pa_scorpion.mk \
+                                          $(LOCAL_DIR)/scorpion_windy/pa_scorpion_windy.mk
 
 # Sony Kitakami platform
-ifeq (pa_ivy,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/ivy/pa_ivy.mk
-endif
-ifeq (pa_karin,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/karin/pa_karin.mk
-endif
-ifeq (pa_karin_windy,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/karin_windy/pa_karin_windy.mk
-endif
-ifeq (pa_sumire,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/sumire/pa_sumire.mk
-endif
-ifeq (pa_suzuran,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/suzuran/pa_suzuran.mk
-endif
-ifeq (pa_satsuki,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/satsuki/pa_satsuki.mk
-endif
-
-# CAF
-ifeq (pa_dragon,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/dragon/pa_dragon.mk
-endif
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/ivy/pa_ivy.mk \
+                                          $(LOCAL_DIR)/karin/pa_karin.mk \
+                                          $(LOCAL_DIR)/karin_windy/pa_karin_windy.mk \
+                                          $(LOCAL_DIR)/sumire/pa_sumire.mk \
+                                          $(LOCAL_DIR)/suzuran/pa_suzuran.mk \
+                                          $(LOCAL_DIR)/satsuki/pa_satsuki.mk
