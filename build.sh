@@ -59,11 +59,11 @@ if [ -z "$THREADS" ]; then
         fi
 fi
 
-# Pick the best JDK 7, if more than one is installed
+# Pick the best JDK 8, if more than one is installed
 if [ "$(update-alternatives --list javac | wc -l)" -gt 1 ]; then
-        JDK7_PATH=$(dirname $(update-alternatives --list javac | grep '\-7\-') | tail -n1)
-        JRE7_PATH=$(dirname $JDK7_PATH/../jre/bin/java)
-        export PATH=$JDK7_PATH:$JRE7_PATH:$PATH
+        JDK_PATH=$(dirname $(update-alternatives --list javac | grep '\-8\-') | tail -n1)
+        JRE_PATH=$(dirname $JDK_PATH/../jre/bin/java)
+        export PATH=$JDK_PATH:$JRE_PATH:$PATH
 fi
 
 # Grab the build version
