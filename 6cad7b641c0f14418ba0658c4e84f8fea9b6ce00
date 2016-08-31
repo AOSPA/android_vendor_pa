@@ -1,0 +1,4 @@
+{
+  "pushCert": "certificate version 0.1\npusher Evan Anderson \u003cevananderson@aospa.co\u003e 1472612504 -0400\npushee ssh://gerrit.aospa.co:29418/AOSPA/android_vendor_pa\nnonce 1472612504-2C8F2587B023629D18F78972B896193138F33F79\n\n0000000000000000000000000000000000000000 6cad7b641c0f14418ba0658c4e84f8fea9b6ce00 refs/for/nougat\n-----BEGIN PGP SIGNATURE-----\n\niQEzBAABCAAdBQJXxkiYFhxldmFuYW5kZXJzb25AYW9zcGEuY28ACgkQrOgezj/I\nlz28mAf9E2jW3KqzBT5xn+s7XLPNQtojbB1xw4ddmFAz0zT1OCJ9rfbJvNBdAOsw\nd+BodZxtdYnZtTg3Zw6/8Gs2hbyboyu7V6PCzO47sgKbMHd4sleCGB9wom1U8pU6\ndXjO2LDmzzzRjE9Uv/uxivfs6kM/S3QH41Fqe5Lz/8HwTc0+DLuc7cRsyS+f9tT0\na9Hrzktv2MEopwKdO2y00uPwFuJdB6ybWBYydgksj/gyAr1Xhm4r/Gc/dGbeM8rK\nWZAq3qmUo7RTFw4WZ/IPMDBRkF0oVj3hNMPfqX5fs5fsQAefMLwkj9bSIe3hNR9m\nona57uJgOHbT7mLy9uzCF536yn17sw\u003d\u003d\n\u003d1Q84\n-----END PGP SIGNATURE-----\n",
+  "comments": []
+}
