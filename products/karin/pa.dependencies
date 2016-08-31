@@ -3,19 +3,19 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-karin",
         "target_path":  "device/sony/karin",
-        "revision":     "master"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-karin_windy",
         "target_path":  "device/sony/karin_windy",
-        "revision":     "master"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-kitakami",
         "target_path":  "device/sony/kitakami",
-        "revision":     "master"
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
@@ -27,13 +27,13 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/kernel",
         "target_path":  "kernel/sony/msm",
-        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
+        "revision":     "aosp/LA.BR.1.3.3_rb2.14"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/camera",
         "target_path":  "hardware/qcom/camera",
-        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
+        "revision":     "aosp/LA.BR.1.3.3_rb2.14"
     },
     {
         "remote":       "aosp",
@@ -73,9 +73,9 @@
     },
    {
         "remote":       "github",
-        "repository":   "SonyAosp/platform_hardware_sony_init",
-        "target_path":  "hardware/sony/init",
-        "revision":     "mm-6.0"
+        "repository":   "sonyxperiadev/device-sony-common-init",
+        "target_path":  "device/sony/common-init",
+        "revision":     "m-mr1"
     },
     {
         "remote":       "github",
@@ -93,7 +93,7 @@
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-common-headers",
         "target_path":  "device/sony/common-headers",
-        "revision":     "aosp/LA.BF64.1.2.2_rb4.7"
+        "revision":     "aosp/LA.BR.1.3.3_rb2.14"
     },
     {
         "remote":       "github",
