@@ -6,15 +6,21 @@
         "revision":     "marshmallow"
     },
     {
-        "remote":       "aosp",
-        "repository":   "device/asus/flo-kernel",
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_asus_flo-kernel",
         "target_path":  "device/asus/flo-kernel",
-        "revision":     "refs/tags/android-7.0.0_r1"
+        "revision":     "nougat"
     },
     {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_asus_flo",
         "target_path":  "vendor/asus/flo",
         "revision":     "marshmallow"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "refs/tags/android-6.0.1_r59"
     }
 ]
