@@ -56,4 +56,6 @@ endif
 ifeq (pa_vs985,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/vs985/pa_vs985.mk
 endif
-
+ifeq (pa_victara,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/victara/pa_victara.mk
+endif
