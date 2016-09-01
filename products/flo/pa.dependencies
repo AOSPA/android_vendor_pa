@@ -3,7 +3,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_asus_flo",
         "target_path":  "device/asus/flo",
-        "revision":     "marshmallow"
+        "revision":     "nougat"
     },
     {
         "remote":       "aospa",
