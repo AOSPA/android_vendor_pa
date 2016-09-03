@@ -49,3 +49,6 @@ PRODUCT_MAKEFILES += $(LOCAL_DIR)/ivy/pa_ivy.mk \
                                           $(LOCAL_DIR)/sumire/pa_sumire.mk \
                                           $(LOCAL_DIR)/suzuran/pa_suzuran.mk \
                                           $(LOCAL_DIR)/satsuki/pa_satsuki.mk
+
+# Exynos
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/chagallwifi/pa_chagallwifi.mk
