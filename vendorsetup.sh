@@ -43,3 +43,4 @@ add_lunch_combo pa_dragon-userdebug
 
 # Exynos
 add_lunch_combo pa_chagallwifi-userdebug
+add_lunch_combo pa_klimtlte-userdebug

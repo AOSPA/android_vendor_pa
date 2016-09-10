@@ -52,3 +52,4 @@ PRODUCT_MAKEFILES += $(LOCAL_DIR)/ivy/pa_ivy.mk \
 
 # Exynos
 PRODUCT_MAKEFILES += $(LOCAL_DIR)/chagallwifi/pa_chagallwifi.mk
+PRODUCT_MAKEFILES += $(LOCAL_DIR)/klimtlte/pa_klimtlte.mk

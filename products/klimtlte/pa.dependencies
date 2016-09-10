@@ -1,0 +1,50 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "CM-Tab-S/android_device_samsung_klimtlte",
+        "target_path":  "device/samsung/klimtlte",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CM-Tab-S/android_kernel_samsung_exynos5420",
+        "target_path":  "kernel/samsung/exynos5420",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "nougat"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_hardware_samsung_slsi-cm_exynos",
+        "target_path":  "hardware/samsung_slsi-cm/exynos",
+        "revision":     "cm-14.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_hardware_samsung_slsi-cm_exynos5",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5",
+        "revision":     "cm-14.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "exynos5420/android_hardware_samsung_slsi-cm_exynos5420",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5420",
+        "revision":     "cm-13.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CyanogenMod/android_hardware_samsung_slsi-cm_openmax",
+        "target_path":  "hardware/samsung_slsi-cm/openmax",
+        "revision":     "cm-14.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "exynos5420/proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-13.0"
+    }
+]
