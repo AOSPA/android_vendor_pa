@@ -21,8 +21,10 @@
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
     $(LOCAL_DIR)/robin/pa_robin.mk
 
-# Samsung Exynos
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk
+# Samsung Exynos family
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
+    $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk
 
 # AOSP
     PRODUCT_MAKEFILES += \
