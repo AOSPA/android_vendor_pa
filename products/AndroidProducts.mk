@@ -21,9 +21,6 @@
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
     $(LOCAL_DIR)/robin/pa_robin.mk
 
-# Samsung Exynos
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk
-
 # LG G Platform
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/d802/pa_d802.mk \
@@ -34,3 +31,7 @@
     $(LOCAL_DIR)/ls990/pa_ls990.mk \
     $(LOCAL_DIR)/vs985/pa_vs985.mk
 
+# Samsung Exynos family
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
+    $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk
