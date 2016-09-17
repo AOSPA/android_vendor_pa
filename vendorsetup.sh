@@ -8,9 +8,6 @@ add_lunch_combo pa_trltexx-userdebug
 add_lunch_combo pa_titan-userdebug
 add_lunch_combo pa_robin-userdebug
 
-# Samsung Exynos
-add_lunch_combo pa_gts210ltexx-userdebug
-
 # LG G Platform
 add_lunch_combo pa_d802-userdebug
 add_lunch_combo pa_d850-userdebug
@@ -19,3 +16,7 @@ add_lunch_combo pa_d852-userdebug
 add_lunch_combo pa_d855-userdebug
 add_lunch_combo pa_ls990-userdebug
 add_lunch_combo pa_vs985-userdebug
+
+# Samsung Exynos devices
+add_lunch_combo pa_gts210ltexx-userdebug
+add_lunch_combo pa_gts210wifi-userdebug
