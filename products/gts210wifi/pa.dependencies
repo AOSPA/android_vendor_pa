@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "revision":     "nougat-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_exynos",
+        "target_path":  "hardware/samsung_slsi-cm/exynos",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_exynos5",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_exynos5433",
+        "target_path":  "hardware/samsung_slsi-cm/exynos5433",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_samsung_slsi-cm_openmax",
+        "target_path":  "hardware/samsung_slsi-cm/openmax",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_kernel_samsung_gts2",
+        "target_path":  "kernel/samsung/gts2",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "TheMuppets/proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "revision":     "cm-14.1"
+    }
+]
