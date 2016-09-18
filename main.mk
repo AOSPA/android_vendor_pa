@@ -78,6 +78,13 @@ PRODUCT_COPY_FILES += \
 # Build Chromium for Snapdragon (PA Browser)
 PRODUCT_PACKAGES += PA_Browser
 
+# Build Snapdragon apps
+PRODUCT_PACKAGES += \
+    SnapdragonCamera \
+    SnapdragonGallery \
+    SnapdragonLauncher \
+    SnapdragonMusic
+
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
 
