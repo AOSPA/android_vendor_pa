@@ -13,6 +13,9 @@
 # limitations under the License.
 
 
+# Nexus
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/bullhead/pa_bullhead.mk
+
 # CAF
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bacon/pa_bacon.mk \

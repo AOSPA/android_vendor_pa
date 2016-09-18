@@ -1,0 +1,20 @@
+[
+    {
+        "target_path":  "device/lge/bullhead",
+        "repository":   "AOSPA/android_device_lge_bullhead",
+        "remote":       "aospa",
+        "revision":     "nougat"
+    },
+    {
+        "target_path":  "device/lge/bullhead-kernel",
+        "repository":   "device/lge/bullhead-kernel",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-7.0.0_r1"
+    },
+    {
+        "target_path":  "vendor/lge/bullhead",
+        "repository":   "proprietary_vendor_lge_bullhead",
+        "remote":       "blobs",
+        "revision":     "nougat"
+    }
+]
