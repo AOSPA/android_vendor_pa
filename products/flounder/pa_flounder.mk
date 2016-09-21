@@ -29,7 +29,7 @@ PRODUCT_MODEL := Nexus 9
 PRODUCT_MANUFACTURER := HTC
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=flounder \
-	BUILD_FINGERPRINT="google/volantis/flounder:6.0.1/MOB30W/3031100:user/release-keys" \
-	PRIVATE_BUILD_DESC="volantis-user 6.0.1 MOB30W 3031100 release-keys" \
+	BUILD_FINGERPRINT="google/volantis/flounder:7.0/NRD90R/3141966:user/release-keys" \
+	PRIVATE_BUILD_DESC="volantis-user 7.0 NRD90R 3141966 release-keys" \
 
 endif

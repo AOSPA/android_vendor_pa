@@ -3,12 +3,12 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_htc_flounder",
         "target_path":  "device/htc/flounder",
-        "revision":     "marshmallow"
+        "revision":     "nougat"
     },
     {
         "remote":       "aosp",
         "repository":   "device/htc/flounder-kernel",
         "target_path":  "device/htc/flounder-kernel",
-        "revision":     "refs/tags/android-7.0.0_r1"
+        "revision":     "refs/tags/android-7.0.0_r6"
     }
 ]
