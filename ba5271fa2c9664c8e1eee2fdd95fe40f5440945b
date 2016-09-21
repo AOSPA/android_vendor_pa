@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_dc6781e9",
+        "filename": "overlay/packages/Keyguard/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-09-21T03:33:32Z",
+      "side": 1,
+      "message": "This should be copyright PA",
+      "revId": "ba5271fa2c9664c8e1eee2fdd95fe40f5440945b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
