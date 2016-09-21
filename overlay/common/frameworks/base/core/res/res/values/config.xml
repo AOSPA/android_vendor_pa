@@ -56,4 +56,8 @@
         <item>screenshot</item>
         <item>bugreport</item>
     </string-array>
+
+    <!-- config for showing AM/PM on lock screen in 12hour format -->
+    <bool name="config_showAmpm">false</bool>
+
 </resources>
