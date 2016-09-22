@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += tcmiface
 PRODUCT_BOOT_JARS += tcmiface
 
 # Include vendor SEPolicy changes
-# include vendor/pa/sepolicy/sepolicy.mk
+include vendor/pa/sepolicy/sepolicy.mk
 
 # Include performance tuning if it exists
 -include vendor/perf/perf.mk
