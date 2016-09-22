@@ -1,1 +1,0 @@
-allow untrusted_app self:udp_socket ioctl;
