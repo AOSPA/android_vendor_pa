@@ -1,5 +1,5 @@
 # Themes
-/data/system/theme(/.*)?  u:object_r:theme_data_file:s0
+#/data/system/theme(/.*)?  u:object_r:theme_data_file:s0
 
 
 # For EXFAT/F2FS/NTFS partitions marked "formattable"

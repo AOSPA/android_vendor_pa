@@ -1,5 +1,5 @@
-allow system_server themes_service:service_manager { add find };
-allow system_server edgegesture_service:service_manager { add find };
+#allow system_server themes_service:service_manager { add find };
+#allow system_server edgegesture_service:service_manager { add find };
 
 allow system_server iop_data_file:dir search;
 allow system_server iop_data_file:sock_file write;
