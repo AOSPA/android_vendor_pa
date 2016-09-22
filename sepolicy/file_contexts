@@ -1,7 +1,3 @@
-# Themes
-/data/system/theme(/.*)?  u:object_r:theme_data_file:s0
-
-
 # For EXFAT/F2FS/NTFS partitions marked "formattable"
 /system/bin/mkfs\.exfat   u:object_r:mkfs_exec:s0
 /system/bin/mkfs\.f2fs    u:object_r:mkfs_exec:s0
