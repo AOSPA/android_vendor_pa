@@ -83,7 +83,6 @@ PRODUCT_PACKAGES += PA_Browser
 
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
-    SnapdragonCamera \
     SnapdragonGallery \
     SnapdragonMusic
 
