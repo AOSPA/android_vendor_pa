@@ -70,13 +70,15 @@
   <apn carrier="中国电信WAP设置" mcc="204" mnc="04" apn="ctwap" user="ctwap@mycdma.cn" password="vnet.mobi" proxy="10.0.0.200" port="80" mmsproxy="10.0.0.200" mmsport="80" mmsc="http://mmsc.vnet.mobi" authtype="3" type="default,supl,dun,mms" />
   <apn carrier="Ziggo Mobiel" mcc="204" mnc="04" apn="ziggo.dataxs.mobi" authtype="1" type="default,supl" />
   <apn carrier="Hollandsnieuwe" mcc="204" mnc="04" apn="data.dataxs.mobi" proxy="" port="" user="" password="" mmsc="" authtype="1" type="default,supl" />
+  <apn carrier="Truphone" mcc="204" mnc="04" apn="truphone.com" type="default,dun" mvno_match_data="204043914" mvno_type="imsi" />
+  <apn carrier="Truphone" mcc="204" mnc="04" apn="truphone.com" type="default,dun" mvno_match_data="20404794" mvno_type="imsi" />
   <apn carrier="KPN 4G LTE" mcc="204" mnc="08" apn="KPN4G.nl" mmsc="http://mp.mobiel.kpn/mmsc" mmsproxy="10.10.100.20" mmsport="5080" type="default,supl,mms" />
   <apn carrier="KPN GPRS" mcc="204" mnc="08" apn="internet" user="kpn" password="gprs" type="default,supl" />
   <apn carrier="KPN Mobiel Internet" mcc="204" mnc="08" apn="portalmmm.nl" proxy="" port="" user="" password="" mmsc="http://mp.mobiel.kpn/mmsc" mmsproxy="10.10.100.20" mmsport="5080" type="*" spn="KPN" />
   <apn carrier="Hi Mobiel Internet" mcc="204" mnc="08" apn="portalmmm.nl" proxy="" port="" user="" password="" mmsc="http://mp.mobiel.kpn/mmsc" mmsproxy="10.10.100.20" mmsport="5080" type="*" spn="HI" />
   <apn carrier="Simyo Mobiel Internet" mcc="204" mnc="08" apn="portalmmm.nl" proxy="" port="" user="" password="" mmsc="http://mp.mobiel.kpn/mmsc" mmsproxy="10.10.100.20" mmsport="5080" authtype="1" type="default,supl,mms" />
   <apn carrier="Ortel Internet" mcc="204" mnc="08" apn="portalmmm.nl" proxy="" port="" user="" password="" mmsc="http://mp.mobiel.kpn/mmsc" mmsproxy="10.10.100.20" mmsport="5080" authtype="1" type="default,supl,mms" />
-  <apn carrier="Yufone Internet" mcc="204" mnc="08" apn="portalmmm.nl" proxy="" port="" user="" password="" type="default" />
+  <apn carrier="Youfone Internet" mcc="204" mnc="08" apn="portalmmm.nl" proxy="" port="" user="" password="" type="default" />
   <apn carrier="Lebara Internet" mcc="204" mnc="08" apn="multimedia.lebara.nl" proxy="" port="" user="" password="" mmsc="http://mp.mobiel.kpn/mmsc" mmsproxy="10.10.100.20" mmsport="5080" authtype="1" type="default,supl,mms" />
   <apn carrier="AH Mobiel Internet" mcc="204" mnc="08" apn="multimedia.ah.nl" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="193.113.200.195" mmsport="8080" type="*" spn="AH Mobiel" />
   <apn carrier="MVNO NL" mcc="204" mnc="08" apn="internet.mvno.mobi" user="mvno" password="mvno" authtype="1" type="default,supl" mvno_match_data="204080950" mvno_type="imsi" />
@@ -283,9 +285,8 @@
   <apn carrier="INTERNET GPRS" mcc="214" mnc="06" apn="airtelnet.es" proxy="" port="" user="vodafone" password="vodafone" mmsc="" type="default,supl" />
   <apn carrier="TeleCable Internet" mcc="214" mnc="06" apn="internet.telecable.es" proxy="" port="" user="telecable" password="telecable" mmsc="" mvno_type="spn" mvno_match_data="Telecable" type="default,supl" />
   <apn carrier="TeleCable MMS" mcc="214" mnc="06" apn="mms.telecable.es" proxy="" port="" user="telecable" password="telecable" mmsc="http://mms.telecable.es/mms/" mmsproxy="212.89.0.84" mmsport="8080" mvno_type="spn" mvno_match_data="Telecable" type="mms" />
-  <apn carrier="Movistar" mcc="214" mnc="07" apn="telefonica.es" proxy="" port="" mmsc="" user="telefonica" password="telefonica" type="default,supl" />
-  <apn carrier="Conexión compartida" mcc="214" mnc="07" apn="movistar.es" user="MOVISTAR" password="MOVISTAR" type="dun,default" />
-  <apn carrier="Movistar MMS" mcc="214" mnc="07" apn="telefonica.es" proxy="" port="" user="telefonica" password="telefonica" mmsc="http://mms.movistar.com" mmsproxy="10.138.255.5" mmsport="8080" type="mms" />
+  <apn carrier="Movistar" mcc="214" mnc="07" apn="telefonica.es" proxy="10.138.255.133" port="8080" user="telefonica" password="telefonica" mmsc="http://mms.movistar.com" mmsproxy="10.138.255.5" mmsport="8080" authtype="1" type="default,mms,supl" />
+  <apn carrier="Conexión Compartida" mcc="214" mnc="07" apn="movistar.es" user="MOVISTAR" password="MOVISTAR" authtype="1" type="dun" />
   <apn carrier="Jazztel MMS" mcc="214" mnc="07" apn="jazzmms" proxy="" port="" user="" password="" mmsc="http://jazztelmms.com/servlets/mms" mmsproxy="37.132.0.10" mmsport="8080" mvno_type="spn" mvno_match_data="JAZZTEL" type="mms" />
   <apn carrier="Jazztel" mcc="214" mnc="07" apn="jazzinternet" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="JAZZTEL" type="default,supl" />
   <apn carrier="Euskaltel" mcc="214" mnc="08" apn="internet.euskaltel.mobi" user="CLIENTE" password="EUSKALTEL" type="default,supl" />
@@ -368,8 +369,8 @@
   <apn carrier="iTIM" mcc="222" mnc="01" apn="unico.tim.it" proxy="213.230.130.89" port="80" user="" password="" mmsc="http://mms.tim.it/servlets/mms" mmsproxy="213.230.130.89" mmsport="80" type="mms" />
   <apn carrier="Tiscali INTERNET" mcc="222" mnc="01" apn="tiscalimobileinternet" type="default,supl" />
   <apn carrier="Tiscali MMS" mcc="222" mnc="01" apn="tiscalimobilemms" mmsc="http://mms.tiscali.mobi/servlets/mms" mmsproxy="213.230.130.89" mmsport="80" type="mms" />
-  <apn carrier="WEB COOP" mcc="222" mnc="01" apn="web.coopvoce.it" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="COOP" type="default,supl" />
-  <apn carrier="COOP MMS" mcc="222" mnc="01" apn="mms.coopvoce.it" proxy="" port="" user="" password="" mmsc="http://mms.coop.it/servlets/mms" mmsproxy="213.230.130.89" mmsport="80" mvno_type="spn" mvno_match_data="COOP" authtype="1" type="mms" />
+  <apn carrier="COOPVOCE WEB" mcc="222" mnc="01" apn="web.coopvoce.it" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="Coop Mobile" type="default,supl" />
+  <apn carrier="COOPVOCE MMS" mcc="222" mnc="01" apn="mms.coopvoce.it" proxy="" port="" user="" password="" mmsc="http://mms.coop.it/servlets/mms" mmsproxy="213.230.130.89" mmsport="80" mvno_type="spn" mvno_match_data="Coop Mobile" authtype="1" type="mms" />
   <apn carrier="Iusacell Internet" mcc="222" mnc="010" apn="web.iusacellgsm.mx" user="iusacellgsm" password="iusacellgsm" authtype="0" type="default,supl" />
   <apn carrier="Internet Modem" mcc="222" mnc="010" apn="modem.iusacellgsm.mx" user="iusacellgsm" password="iusacellgsm" type="dun" />
   <apn carrier="Iusacell MMS" mcc="222" mnc="010" apn="mms.iusacellgsm.mx" mmsc="http://mms.iusacell3g.com/" user="mmsiusacellgsm" password="mmsiusacellgsm" type="mms" />
@@ -896,7 +897,7 @@
   <apn carrier="GSMAland wap" mcc="244" mnc="14" apn="internet" proxy="194.110.177.70" port="8080" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="GSMAland mms" mcc="244" mnc="14" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.amt.aland.fi" mmsproxy="194.110.177.70" mmsport="8080" type="mms" />
   <apn carrier="Saunalahti Wap" mcc="244" mnc="21" apn="wap.saunalahti.fi" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Saunalahti Internet" mcc="244" mnc="21" apn="internet.saunalahti.fi" proxy="" port="" user="" password="" mmsc="" authtype="1" type="default,supl" />
+  <apn carrier="Saunalahti Internet" mcc="244" mnc="21" apn="internet.saunalahti" proxy="" port="" user="" password="" mmsc="" authtype="1" type="default,supl" />
   <apn carrier="Saunalahti MMS" mcc="244" mnc="21" apn="mms.saunalahti.fi" proxy="" port="" user="" password="" mmsc="http://mms.saunalahti.fi:8002/" mmsproxy="62.142.4.197" mmsport="8080" authtype="1" type="mms" />
   <apn carrier="Sonera Internet" mcc="244" mnc="91" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Sonera MMS" mcc="244" mnc="91" apn="wap.sonera.net" proxy="" port="" user="" password="" mmsc="http://mms.sonera.fi:8002" mmsproxy="195.156.25.33" mmsport="80" type="mms" />
@@ -908,7 +909,7 @@
   <apn carrier="Bite LT Internet" mcc="246" mnc="02" apn="banga" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Bite MMS" mcc="246" mnc="02" apn="mms" proxy="" port="" user="mms@mms" password="mms" mmsc="http://mmsc" mmsproxy="192.168.150.2" mmsport="8080" type="mms" />
   <apn carrier="Bite" mcc="246" mnc="02" apn="wap" proxy="" port="" user="" password="" server="213.226.131.133" mmsc="" type="default,supl" />
-  <apn carrier="Tele2 Internet LT" mcc="246" mnc="03" apn="internet.tele2.lt" proxy="130.244.196.90" port="8080" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Tele2 Internet LT" mcc="246" mnc="03" apn="internet.tele2.lt" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Tele2 LT" mcc="246" mnc="03" apn="internet.vodafone.net" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Tele2 MMS LT" mcc="246" mnc="03" apn="mms.tele2.lt" proxy="" port="" user="" password="" mmsc="http://mmsc.tele2.lt/" mmsproxy="193.12.40.29" mmsport="8080" type="mms" />
   <apn carrier="Tele2 LT MMS" mcc="246" mnc="03" apn="wap.tele2.lt" proxy="" port="" user="" password="" mmsc="http://mmsc.tele2.lt" mmsproxy="193.12.40.29" mmsport="8080" type="mms" />
@@ -1078,18 +1079,9 @@
   <apn carrier="Lebara Internet" mcc="262" mnc="01" apn="internet.t-d1.de" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Callmobile Internet" mcc="262" mnc="01" apn="internet.t-d1.de" proxy="193.254.160.002" port="9201" user="T-Mobile" password="wap" mmsc="" authtype="1" type="default,supl" />
   <apn carrier="callmobile.de" mcc="262" mnc="01" apn="internet.t-mobile" proxy="" port="" user="t-mobile" password="tm" mmsc="http://mms.t-mobile.de/servlets/mms" mmsproxy="172.28.23.131" mmsport="8008" mvno_type="spn" mvno_match_data="callmobile.de" type="default,supl,mms" />
-  <apn carrier="VF DE live!" mcc="262" mnc="02" apn="wap.vodafone.de" proxy="139.007.029.001" port="80" type="default,supl" />
-  <apn carrier="VF DE live! Secure" mcc="262" mnc="02" apn="wap.vodafone.de" proxy="139.007.029.001" port="9203" type="default,supl" />
-  <apn carrier="VF DE Event" mcc="262" mnc="02" apn="event.vodafone.de" type="default,supl" />
-  <apn carrier="VF DE Web" mcc="262" mnc="02" apn="web.vodafone.de" proxy="" port="" type="default,supl" />
-  <apn carrier="VF DE MMS" mcc="262" mnc="02" apn="event.vodafone.de" proxy="" port="" mmsproxy="139.007.029.017" mmsport="80" mmsc="http://139.7.24.1/servlets/mms" user="" password="" type="mms" />
-  <apn carrier="Vodafone DE-MMS" mcc="262" mnc="02" apn="event.vodafone.de" mmsc="http://139.7.24.1/servlets/mms" mmsproxy="139.7.29.17" mmsport="80" type="mms" />
-  <apn carrier="Vodafone DE" mcc="262" mnc="02" apn="web.vodafone.de" type="default,supl" />
-  <apn carrier="Vodafone DE-IMS" mcc="262" mnc="02" apn="ims" type="ims" protocol="IPV4V6" />
   <apn carrier="otelo web" mcc="262" mnc="02" apn="data.otelo.de" user="" password="" type="default,supl" />
   <apn carrier="klarmobil MMS" mcc="262" mnc="02" apn="event.vodafone.de" proxy="" port="" user="" password="" mmsc="http://139.7.24.1/servlets/mms" mmsproxy="139.7.29.17" mmsport="80" mvno_type="spn" mvno_match_data="klarmobil" type="mms" />
   <apn carrier="klarmobil" mcc="262" mnc="02" apn="web.vodafone.de" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="klarmobil" type="default,supl" />
-  <apn carrier="Fonic" mcc="262" mnc="02" apn="pinternet.interkom.de" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Otelo MMS" mcc="262" mnc="02" apn="event.otelo.de" proxy="" port="" user="" password="" mmsc="http://139.7.24.1/servlets/mms" mmsproxy="139.7.29.17" mmsport="80" mvno_type="spn" mvno_match_data="O.tel.o" type="mms" />
   <apn carrier="Otelo Internet" mcc="262" mnc="02" apn="data.otelo.de" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="O.tel.o" type="default,supl" />
   <apn carrier="Open Market: E-Plus Web" mcc="262" mnc="03" apn="internet.eplus.de" user="eplus" password="internet" authtype="3" type="default,supl" />
@@ -1105,13 +1097,6 @@
   <apn carrier="Aldi Talk Internet" mcc="262" mnc="03" apn="internet.eplus.de" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="Aldi Talk" type="default,supl" />
   <apn carrier="Simyo MMS" mcc="262" mnc="03" apn="mms.eplus.de" proxy="" port="" user="simyo" password="simyo" mmsc="http://mms/eplus/" mmsproxy="212.23.97.153" mmsport="5080" mvno_type="spn" mvno_match_data="Simyo" type="mms" />
   <apn carrier="Simyo Internet" mcc="262" mnc="03" apn="internet.eplus.de" proxy="" port="" user="simyo" password="simyo" mmsc="" mvno_type="spn" mvno_match_data="Simyo" type="default,supl" />
-  <apn carrier="VF DE live!" mcc="262" mnc="04" apn="wap.vodafone.de" proxy="139.007.029.001" port="80" type="default,supl" />
-  <apn carrier="VF DE live! Secure" mcc="262" mnc="04" apn="wap.vodafone.de" proxy="139.007.029.001" port="9203" type="default,supl" />
-  <apn carrier="VF DE Event" mcc="262" mnc="04" apn="event.vodafone.de" type="default,supl" />
-  <apn carrier="VF DE Web" mcc="262" mnc="04" apn="web.vodafone.de" proxy="" port="" type="default,supl" />
-  <apn carrier="VF DE MMS" mcc="262" mnc="04" apn="event.vodafone.de" proxy="" port="" mmsproxy="139.007.029.017" mmsport="80" mmsc="http://139.7.24.1/servlets/mms" user="" password="" type="mms" />
-  <apn carrier="Vodafone DE-MMS" mcc="262" mnc="04" apn="event.vodafone.de" mmsc="http://139.7.24.1/servlets/mms" mmsproxy="139.7.29.17" mmsport="80" type="mms" />
-  <apn carrier="Vodafone DE" mcc="262" mnc="04" apn="web.vodafone.de" type="default,supl" />
   <apn carrier="E-Plus Web GPRS" mcc="262" mnc="05" apn="internet.eplus.de" proxy="" port="" user="eplus" password="internet" mmsc="" type="default,supl" />
   <apn carrier="E-Plus MMS" mcc="262" mnc="05" apn="mms.eplus.de" proxy="" port="" user="mms" password="eplus" mmsc="http://mms/eplus/" mmsproxy="212.23.97.153" mmsport="5080" type="mms" />
   <apn carrier="T-Mobile Internet" mcc="262" mnc="06" apn="internet.t-mobile" user="t-mobile" password="tm" mmsc="http://mms.t-mobile.de/servlets/mms" mmsproxy="172.28.23.131" mmsport="8008" type="default,supl,mms" />
@@ -1145,16 +1130,10 @@
   <apn carrier="Alice MMS" mcc="262" mnc="08" apn="internet.partner1" proxy="" port="" mmsproxy="82.113.100.41" mmsport="8080" mmsc="http://10.81.0.7:8002" user="" password="" type="mms" spn="Alice Mobile" />
   <apn carrier="o2" mcc="262" mnc="08" apn="internet" mmsc="http://10.81.0.7:8002" mmsproxy="82.113.100.5" mmsport="8080" type="default,supl,mms" />
   <apn carrier="O2" mcc="262" mnc="08" apn="internet" proxy="" port="" user="" password="" mmsc="http://10.81.0.7:8002" mmsproxy="82.113.100.5" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="VF DE live!" mcc="262" mnc="09" apn="wap.vodafone.de" proxy="139.007.029.001" port="80" type="default,supl" />
-  <apn carrier="VF DE live! Secure" mcc="262" mnc="09" apn="wap.vodafone.de" proxy="139.007.029.001" port="9203" type="default,supl" />
-  <apn carrier="VF DE Event" mcc="262" mnc="09" apn="event.vodafone.de" type="default,supl" />
-  <apn carrier="VF DE Web" mcc="262" mnc="09" apn="web.vodafone.de" proxy="" port="" type="default,supl" />
-  <apn carrier="VF DE MMS" mcc="262" mnc="09" apn="event.vodafone.de" proxy="" port="" mmsproxy="139.007.029.017" mmsport="80" mmsc="http://139.7.24.1/servlets/mms" user="" password="" type="mms" />
-  <apn carrier="Vodafone DE-MMS" mcc="262" mnc="09" apn="event.vodafone.de" mmsc="http://139.7.24.1/servlets/mms" mmsproxy="139.7.29.17" mmsport="80" type="mms" />
-  <apn carrier="Vodafone DE" mcc="262" mnc="09" apn="web.vodafone.de" type="default,supl" />
+  <apn carrier="Vodafone DE Web" mcc="262" mnc="02" apn="web.vodafone.de" proxy="" port="" type="default,supl" />
+  <apn carrier="Vodafone DE MMS" mcc="262" mnc="02" apn="event.vodafone.de" proxy="" port="" mmsproxy="139.007.029.017" mmsport="80" mmsc="http://139.7.24.1/servlets/mms" user="" password="" type="mms" />
+  <apn carrier="Vodafone DE-IMS" mcc="262" mnc="02" apn="ims" type="ims" protocol="IPV4V6" />
   <apn carrier="T-Mobile DE" mcc="262" mnc="09" apn="internet.t-mobile" proxy="" port="" user="t-mobile" password="tm" mmsc="http://mms.t-mobile.de/servlets/mms" mmsproxy="172.28.23.131" mmsport="8008" type="default,supl,mms" />
-  <apn carrier="Vodafone DE-MMS" mcc="262" mnc="09" apn="event.vodafone.de" proxy="" port="" user="" password="" mmsc="http://139.7.24.1/servlets/mms" mmsproxy="139.7.29.17" mmsport="80" type="mms" />
-  <apn carrier="Vodafone DE" mcc="262" mnc="09" apn="web.vodafone.de" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="o2 Internet" mcc="262" mnc="11" apn="internet" user="" password="" type="default,supl" />
   <apn carrier="o2 Internet prepaid" mcc="262" mnc="11" apn="pinternet.interkom.de" user="" password="" type="default,supl" />
   <apn carrier="o2 MMS" mcc="262" mnc="11" apn="internet" proxy="" port="" mmsproxy="82.113.100.5" mmsport="8080" mmsc="http://10.81.0.7:8002" user="" password="" type="mms" />
@@ -1165,6 +1144,7 @@
   <apn carrier="Alice Web" mcc="262" mnc="11" apn="internet.partner1" user="" password="" type="default,supl" />
   <apn carrier="Alice MMS" mcc="262" mnc="11" apn="internet.partner1" proxy="" port="" mmsproxy="82.113.100.41" mmsport="8080" mmsc="http://10.81.0.7:8002" user="" password="" type="mms" spn="Alice Mobile" />
   <apn carrier="O2" mcc="262" mnc="11" apn="internet" proxy="" port="" user="" password="" mmsc="http://10.81.0.7:8002" mmsproxy="82.113.100.5" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Truphone" mcc="262" mnc="42" apn="truphone.com" type="default,dun" />
   <apn carrier="Lycamobile DE" mcc="262" mnc="43" apn="data.lycamobile.de" proxy="" port="" user="lmde" password="plus" mmsc="" mvno_type="spn" mvno_match_data="Lycamobile" type="default,supl" />
   <apn carrier="Vodafone Net2" mcc="268" mnc="01" apn="net2.vodafone.pt" proxy="iproxy.vodafone.pt" port="80" mmsproxy="iproxy.vodafone.pt" mmsport="80" mmsc="http://mms.vodafone.pt/servlets/mms" user="vodafone" password="vodafone" authtype="3" type="default,mms" />
   <apn carrier="Vodafone PT Internet" mcc="268" mnc="01" apn="net2.vodafone.pt" proxy="iproxy.vodafone.pt" port="80" mmsc="http://mms.vodafone.pt/servlets/mms" mmsproxy="iproxy.vodafone.pt" mmsport="80" type="default,supl,mms" />
@@ -1273,8 +1253,8 @@
   <apn carrier="T-2 Mms" mcc="293" mnc="64" apn="mms.t-2.net" proxy="" port="" user="" password="" mmsc="http://www.mms.t-2.net:8002" mmsproxy="172.20.18.137" mmsport="8080" type="mms" />
   <apn carrier="Tusmobil Internet" mcc="293" mnc="70" apn="internet.tusmobil.si" proxy="" port="" user="tusmobil" password="internet" mmsc="" type="default,supl" />
   <apn carrier="Tusmobil MMS" mcc="293" mnc="70" apn="mms.tusmobil.si" proxy="" port="" user="tusmobil" password="mms" mmsc="http://mms.tusmobil.si:8002" mmsproxy="91.185.221.85" mmsport="8080" type="mms" />
-  <apn carrier="T-Mobile MK" mcc="294" mnc="01" apn="internet" proxy="" port="" user="internet" password="t-mobile" mmsc="" type="default,supl" />
-  <apn carrier="T-Mobile MK MMS" mcc="294" mnc="01" apn="mms" proxy="" port="" user="mms" password="mms" mmsc="http://mms.t-mobile.com.mk" mmsproxy="62.162.155.227" mmsport="8080" type="mms" />
+  <apn carrier="T-Mobile MK" mcc="294" mnc="01" apn="internet" proxy="" port="" user="internet" password="t-mobile" mmsc="" authtype="3" type="default,supl" />
+  <apn carrier="T-Mobile MK MMS" mcc="294" mnc="01" apn="mms" proxy="" port="" user="mms" password="mms" mmsc="http://mms.t-mobile.com.mk" mmsproxy="62.162.155.227" mmsport="8080" authtype="3" type="mms" />
   <apn carrier="Vip internet" mcc="294" mnc="03" apn="vipoperator" proxy="78.40.0.1" port="8080" mmsc="" user="vipoperator" password="vipoperator" type="default,supl" />
   <apn carrier="Vip mms" mcc="294" mnc="03" apn="vipoperator.mms" proxy="" port="" mmsproxy="78.40.0.1" mmsport="8080" mmsc="http://mmsc.vipoperator.com.mk" user="" password="" type="mms" />
   <apn carrier="Telenor MNE internet" mcc="297" mnc="01" apn="internet" proxy="192.168.246.005" port="8080" mmsc="" user="gprs" password="gprs" type="default,supl" />
@@ -1375,6 +1355,7 @@
   <apn carrier="metropcs" mcc="310" mnc="027" apn="wap.metropcs.net" proxy="" port="" user="MDN@mymetropcs.com" password="metropcs" server="http://mms.metropcs.net/servlets/mmsc" mmsc="http://mms.metropcs.net/mmsc" mmsproxy="" mmsport="3128" type="default,supl,mms" />
   <apn carrier="myBlue Pix" mcc="310" mnc="030" apn="mmswap.centennialwireless.com" proxy="" port="" user="" password="" mmsc="http://mms.myblue.com/servlets/mms" mmsproxy="63.99.231.135" mmsport="8080" type="mms" />
   <apn carrier="Internet" mcc="310" mnc="030" apn="private.centennialwireless.com" proxy="" port="" user="privuser" password="priv" mmsc="" type="default,supl" />
+  <apn carrier="Truphone" mcc="310" mnc="030" apn="truphone.com" type="default,dun" />
   <apn carrier="CorrMMS" mcc="310" mnc="080" apn="corrmms" proxy="" port="" user="" password="" mmsc="http://mms.iot1.com/corr/mms.php" mmsproxy="66.255.55.23" mmsport="80" type="mms" />
   <apn carrier="Internet" mcc="310" mnc="090" apn="isp" type="default,supl" />
   <apn carrier="MMS" mcc="310" mnc="090" apn="mms" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
@@ -1417,7 +1398,6 @@
   <apn carrier="Cricket AIO" mcc="310" mnc="150" apn="ndo" mmsc="http://mmsc.aiowireless.net" mmsproxy="proxy.aiowireless.net" mmsport="80" type="default,mms,fota,hipri,supl" />
   <apn carrier="ATT WAP" mcc="310" mnc="170" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
   <apn carrier="ATT Broadband" mcc="310" mnc="170" apn="Broadband" type="default,supl" />
-  <apn carrier="ATT Nextgenphone" mcc="310" mnc="170" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota,hipri" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" />
   <apn carrier="DataConnect" mcc="310" mnc="170" apn="isp.cingular" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Cingular MMS" mcc="310" mnc="170" apn="wap.cingular" proxy="" port="" user="WAP@CINGULARGPRS.COM" password="CINGULAR1" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.32" mmsport="8080" type="mms" />
   <apn carrier="ATT WAP" mcc="310" mnc="180" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
@@ -1430,10 +1410,9 @@
   <apn carrier="T-Mobile MMS" mcc="310" mnc="260" apn="TMUS" mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc" type="mms" protocol="IPV4V6" roaming_protocol="IP" />
   <apn carrier="Project Fi - T" mcc="310" mnc="260" apn="h2g2" type="ia" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_match_data="31026097" mvno_type="IMSI" />
   <apn carrier="Project Fi - T" mcc="310" mnc="260" apn="h2g2" user="none" server="*" password="none" mmsc="http://mmsc1.g-mms.com/mms/wapenc" protocol="IPV6" roaming_protocol="IP" mvno_match_data="31026097" mvno_type="IMSI" />
-  <apn carrier="T-Mobile IMS" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" />
-  <apn carrier="MetroPCS LTE" mcc="310" mnc="260" apn="fast.metropcs.com" user="" password="" authtype="0" proxy="" port="" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" type="default,mms,supl" />
-  <apn carrier="MetroPCS LTE IPv6" mcc="310" mnc="260" apn="fast.metropcs.com" user="" password="" authtype="0" proxy="" port="" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" type="default,mms,supl" protocol="IPV6" />
-  <apn carrier="MetroPCS" mcc="310" mnc="260" apn="fast.t-mobile.com" port="" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" mvno_type="gid" mvno_match_data="6d38" type="default,mms,supl" />
+  <apn carrier="T-Mobile IMS" mcc="310" mnc="260" apn="ims" type="ims" modem_cognitive="true" protocol="IPV6" />
+  <apn carrier="MetroPCS 260" mcc="310" mnc="260" apn="fast.metropcs.com" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_match_data="6D" mvno_type="gid" type="ia" />
+  <apn carrier="MetroPCS 260" mcc="310" mnc="260" apn="fast.metropcs.com" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" protocol="IPV6" roaming_protocol="IP" mvno_match_data="6D" mvno_type="gid" type="default,supl,mms" />
   <apn carrier="Net10" mcc="310" mnc="260" apn="wap.tracfone" port="8080" mmsc="http://mms.tracfone.com" type="default,mms,supl" />
   <apn carrier="Family Mobile" mcc="310" mnc="260" apn="web.omwtoday.com" port="" mmsc="http://wirelessfour.mmsmvno.com/mms/wapenc" mvno_type="gid" mvno_match_data="4d4b" type="default,mms,supl" />
   <apn carrier="I-Wireless" mcc="310" mnc="260" apn="i2.iwireless.com" proxy="" port="" user="" password="" mmsc="http://mmsc.iwireless.datonair.net:6672" type="default,supl,mms" />
@@ -1462,6 +1441,7 @@
   <apn carrier="StraightTalk T-Mobile" mcc="310" mnc="260" apn="wap.tracfone" proxy="" port="8080" user="" password="" mmsc="http://mmsc.tracfone.com" type="default,supl,mms" />
   <apn carrier="nep.data" mcc="310" mnc="290" apn="nep.data" proxy="" port="" type="default,supl" authtype="0" />
   <apn carrier="nep.mms" mcc="310" mnc="290" apn="nep.mms" mmsc="http://mmsgprs.com" mmsproxy="" mmsport="80" type="mms" authtype="0" />
+  <apn carrier="Truphone" mcc="310" mnc="300" apn="truphone.com" type="default,dun" />
   <apn carrier="CellOne NEAZ" mcc="310" mnc="320" apn="isp.cellularoneaz.net" type="default,supl" authtype="0" />
   <apn carrier="CellOne NEAZ MMS" mcc="310" mnc="320" apn="wap.c1csky.net" mmsc="http://mmsc.c1neaz.csky.us:6672" mmsproxy="209.4.229.94" mmsport="9401" type="mms" authtype="0" />
   <apn carrier="Westlink Internet" mcc="310" mnc="340" apn="internet.westlink" type="default,supl" authtype="0" />
@@ -1484,9 +1464,11 @@
   <apn carrier="Consumer Cellular 3G" mcc="310" mnc="410" apn="att.mvno" proxy="66.209.11.32" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.32" mmsport="80" type="default,mms,supl,agps,fota" />
   <apn carrier="Consumer Cellular LTE" mcc="310" mnc="410" apn="ccdata" proxy="" port="" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,agps,supl,fota" />
   <apn carrier="Good 2Go Mobile" mcc="310" mnc="410" apn="att.mvno" proxy="proxy.mvno.att.ztarmobile.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="proxy.mvno.att.ztarmobile.com" mmsport="80" type="default,mms,supl,hipri" />
+  <apn carrier="ATT IMS" mcc="310" mnc="410" apn="ims" type="ims" modem_cognitive="true" protocol="IPV4V6" />
+  <apn carrier="ATT Nextgenphone" mcc="310" mnc="410" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota,hipri" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" />
+  <apn carrier="ATT Phone" mcc="310" mnc="410" apn="phone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota,hipri" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" />
   <apn carrier="ATT" mcc="310" mnc="410" apn="wap.cingular" proxy="" port="" user="WAP@CINGULARGPRS.COM" password="" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,supl,mms" />
   <apn carrier="ATT LTE" mcc="310" mnc="410" apn="pta" proxy="" port="" user="" password="" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,supl,mms" />
-  <apn carrier="ATT Phone" mcc="310" mnc="410" apn="phone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,supl,mms,hipri" />
   <apn carrier="ATT Broadband" mcc="310" mnc="410" apn="broadband" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="ATT Activation" mcc="310" mnc="410" apn="lwaactivate" user="" password="" mmsc="" protocol="IP" />
   <apn carrier="StraightTalk ATT" mcc="310" mnc="410" apn="tfdata" port="80" mmsc="http://mms-tf.net" mmsproxy="mms3.tracfone.com" mmsport="80" type="default,supl,mms" />
@@ -1533,6 +1515,10 @@
   <apn carrier="Cellular One Smartphone" mcc="310" mnc="570" apn="internet" type="default,supl" authtype="0" />
   <apn carrier="Cellular One MMS" mcc="310" mnc="570" apn="clearsky" mmsc="http://mmsc.mtpcs.csky.us:6672/" mmsproxy="209.4.229.229" mmsport="9201" type="mms" authtype="0" />
   <apn carrier="ChinookMMS" mcc="310" mnc="570" apn="wapgw.chinookwireless.net" proxy="" port="" user="" password="" mmsc="http://mms.cellonenation.net/mms/" mmsproxy="204.181.155.195" mmsport="8080" type="mms" />
+  <apn carrier="Inland Cellular" mcc="310" mnc="580" apn="internet.inland.com" type="default,mms" authtype="3" mmsc="http://mms.inland3g.com/inland/mms.php" />
+  <apn carrier="Inland Cellular FOTA" mcc="310" mnc="580" apn="ota.inland.com" type="fota" bearer="14" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Inland Cellular LTE" mcc="310" mnc="580" apn="internet.inland.com" type="default,mms,supl" bearer="14" protocol="IPV4V6" roaming_protocol="IPV4V6" mmsc="http://mms.inland3g.com/inland/mms.php" />
+  <apn carrier="Inland Cellular Tether" mcc="310" mnc="580" apn="modem.inland.com" type="dun" bearer="14" protocol="IPV4V6" roaming_protocol="IPV4V6" mmsc="http://mms.inland3g.com/inland/mms.php" />
   <apn carrier="CellularOne MMS" mcc="310" mnc="590" apn="cellular1wap" proxy="" port="" user="" password="" mmsc="http://mmsc" mmsproxy="172.23.1.252" mmsport="8799" type="mms" />
   <apn carrier="EpicINT" mcc="310" mnc="610" apn="internet.epictouch" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="EpicMMS" mcc="310" mnc="610" apn="mms.epictouch" proxy="" port="" user="" password="" mmsc="http://mmsc.westlinkcom.com/servlets/mms" mmsproxy="63.99.231.135" mmsport="8080" type="mms" />
@@ -1643,6 +1629,7 @@
   <apn carrier="Verizon" mcc="311" mnc="480" apn="VZWIMS" type="ims,ia" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="1|2|3|9|10|11|13|14|15" profile_id="2" modem_cognitive="true" max_conns="1023" max_conns_time="300" />
   <!-- bearer 1, 2, 3, 9, 10, 11, 13, 14, 15 -->
   <apn carrier="Verizon" mcc="311" mnc="480" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vzwreseller.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="1|2|3|9|10|11|13|14|15" profile_id="4" modem_cognitive="true" max_conns="1023" max_conns_time="300" />
+  <apn carrier="StraightTalk Verizon" mcc="311" mnc="480" apn="TRACFONE.VZWENTP" type="default,dun,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
   <apn carrier="Verizon Internet" mcc="311" mnc="482" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
   <apn carrier="Verizon FOTA" mcc="311" mnc="482" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
   <apn carrier="Verizon IMS" mcc="311" mnc="482" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
@@ -1887,39 +1874,39 @@
   <apn carrier="Kcell" mcc="401" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Kcell MMS" mcc="401" mnc="02" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.kcell.kz/post" mmsproxy="195.47.255.7" mmsport="8080" type="mms" />
   <apn carrier="Kcell WAP" mcc="401" mnc="02" apn="wap" proxy="195.47.255.7" port="8080" mmsc="" user="" password="" type="default,supl" />
-  <apn carrier="MTS WAP" mcc="404" mnc="0" apn="WAP" user="wap@wap.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
-  <apn carrier="MTS MMS" mcc="404" mnc="0" apn="MMS" user="mms@mms.mtsindia.in" password="MTS" authtype="3" type="mms" />
-  <apn carrier="MTS MODEM" mcc="404" mnc="0" apn="Modem" user="internet@internet.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
-  <apn carrier="Vodafone" mcc="404" mnc="1" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="default,supl,mms" />
-  <apn carrier="Vodafone IN MMS" mcc="404" mnc="1" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
-  <apn carrier="Vodafone IN" mcc="404" mnc="1" apn="www" type="default,supl" />
+  <apn carrier="MTS WAP" mcc="404" mnc="00" apn="WAP" user="wap@wap.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
+  <apn carrier="MTS MMS" mcc="404" mnc="00" apn="MMS" user="mms@mms.mtsindia.in" password="MTS" authtype="3" type="mms" />
+  <apn carrier="MTS MODEM" mcc="404" mnc="00" apn="Modem" user="internet@internet.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
+  <apn carrier="Vodafone" mcc="404" mnc="01" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="default,supl,mms" />
+  <apn carrier="Vodafone IN MMS" mcc="404" mnc="01" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
+  <apn carrier="Vodafone IN" mcc="404" mnc="01" apn="www" type="default,supl" />
   <apn carrier="RCOM" mcc="404" mnc="13" apn="rcomnet" type="default,supl" />
-  <apn carrier="Airtel GPRS" mcc="404" mnc="2" apn="airtelgprs.com" type="default,supl" />
-  <apn carrier="Airtel Live" mcc="404" mnc="2" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
-  <apn carrier="Airtel MMS" mcc="404" mnc="2" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" authtype="1" type="mms" />
-  <apn carrier="Airtel GPRS" mcc="404" mnc="3" apn="airtelgprs.com" type="default,supl" />
-  <apn carrier="Airtel Live" mcc="404" mnc="3" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
-  <apn carrier="Airtel MMS" mcc="404" mnc="3" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" authtype="1" type="mms" />
-  <apn carrier="IDEA Internet" mcc="404" mnc="4" apn="internet" type="default,supl" />
-  <apn carrier="IDEA Wap" mcc="404" mnc="4" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
-  <apn carrier="IDEA MMS" mcc="404" mnc="4" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
-  <apn carrier="IDEA Mobile" mcc="404" mnc="4" apn="mobile" type="default,supl" />
-  <apn carrier="Vodafone" mcc="404" mnc="5" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="default,supl,mms" />
-  <apn carrier="Vodafone IN MMS" mcc="404" mnc="5" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
-  <apn carrier="Vodafone IN" mcc="404" mnc="5" apn="www" type="default,supl" />
-  <apn carrier="Airtel GPRS" mcc="404" mnc="6" apn="airtelgprs.com" type="default,supl" />
-  <apn carrier="Airtel Live" mcc="404" mnc="6" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
-  <apn carrier="Airtel MMS" mcc="404" mnc="6" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
-  <apn carrier="IDEA Internet" mcc="404" mnc="7" apn="internet" type="default,supl" />
-  <apn carrier="IDEA Wap" mcc="404" mnc="7" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
-  <apn carrier="IDEA MMS" mcc="404" mnc="7" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
-  <apn carrier="IDEA Mobile" mcc="404" mnc="7" apn="mobile" type="default,supl" />
-  <apn carrier="NetConnect" mcc="404" mnc="9" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="404" mnc="9" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="404" mnc="9" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance RTel MMS" mcc="404" mnc="9" apn="MMS" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.7" mmsport="8080" type="mms" />
-  <apn carrier="Reliance RTel" mcc="404" mnc="9" apn="SMARTNET" type="default,supl" />
-  <apn carrier="Reliance WAP" mcc="404" mnc="9" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="02" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="02" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="02" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" authtype="1" type="mms" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="03" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="03" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="03" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" authtype="1" type="mms" />
+  <apn carrier="IDEA Internet" mcc="404" mnc="04" apn="internet" type="default,supl" />
+  <apn carrier="IDEA Wap" mcc="404" mnc="04" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
+  <apn carrier="IDEA MMS" mcc="404" mnc="04" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
+  <apn carrier="IDEA Mobile" mcc="404" mnc="04" apn="mobile" type="default,supl" />
+  <apn carrier="Vodafone" mcc="404" mnc="05" apn="portalnmms" proxy="10.10.1.100" port="9401" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="default,supl,mms" />
+  <apn carrier="Vodafone IN MMS" mcc="404" mnc="05" apn="portalnmms" mmsc="http://mms1.live.vodafone.in/mms/" mmsproxy="10.10.1.100" mmsport="9401" type="mms" />
+  <apn carrier="Vodafone IN" mcc="404" mnc="05" apn="www" type="default,supl" />
+  <apn carrier="Airtel GPRS" mcc="404" mnc="06" apn="airtelgprs.com" type="default,supl" />
+  <apn carrier="Airtel Live" mcc="404" mnc="06" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
+  <apn carrier="Airtel MMS" mcc="404" mnc="06" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
+  <apn carrier="IDEA Internet" mcc="404" mnc="07" apn="internet" type="default,supl" />
+  <apn carrier="IDEA Wap" mcc="404" mnc="07" apn="imis" proxy="10.4.42.15" port="8080" type="default,supl" />
+  <apn carrier="IDEA MMS" mcc="404" mnc="07" apn="mmsc" mmsc="http://10.4.42.21:8002" mmsproxy="10.4.42.15" mmsport="8080" type="mms" />
+  <apn carrier="IDEA Mobile" mcc="404" mnc="07" apn="mobile" type="default,supl" />
+  <apn carrier="NetConnect" mcc="404" mnc="09" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="404" mnc="09" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="404" mnc="09" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance RTel MMS" mcc="404" mnc="09" apn="MMS" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.7" mmsport="8080" type="mms" />
+  <apn carrier="Reliance RTel" mcc="404" mnc="09" apn="SMARTNET" type="default,supl" />
+  <apn carrier="Reliance WAP" mcc="404" mnc="09" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
   <apn carrier="Airtel GPRS" mcc="404" mnc="10" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="10" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
   <apn carrier="Airtel MMS" mcc="404" mnc="10" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
@@ -2244,10 +2231,10 @@
   <apn carrier="Airtel GPRS" mcc="404" mnc="98" apn="airtelgprs.com" type="default,supl" />
   <apn carrier="Airtel Live" mcc="404" mnc="98" apn="airtelfun.com" proxy="100.1.200.99" port="8080" type="default,supl" />
   <apn carrier="Airtel MMS" mcc="404" mnc="98" apn="airtelmms.com" mmsc="http://100.1.201.171:10021/mmsc" mmsproxy="100.1.201.172" mmsport="8799" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="1" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="1" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="1" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="1" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="01" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="01" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="01" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="01" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="TATA DOCOMO INTERNET" mcc="405" mnc="25" apn="TATA.DOCOMO.INTERNET" type="default,supl" />
   <apn carrier="TATA GPRS" mcc="405" mnc="25" apn="Tata.Docomo.Dive.in" proxy="10.124.94.7" port="8080" type="default,supl" />
   <apn carrier="Tata MMS" mcc="405" mnc="25" apn="Tata.Docomo.MMS" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms" />
@@ -2276,10 +2263,10 @@
   <apn carrier="Tata Docomo 3G" mcc="405" mnc="29" apn="tatadocomo3g" type="default,supl" />
   <apn carrier="TA TA DoCoMo" mcc="405" mnc="29" apn="TATA.DOCOMO.INTERNET" type="default,supl" />
   <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="29" apn="TATA.DOCOMO.MMS" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="3" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="3" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="3" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="3" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="03" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="03" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="03" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="03" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="TATA DOCOMO INTERNET" mcc="405" mnc="30" apn="TATA.DOCOMO.INTERNET" type="default,supl" />
   <apn carrier="TATA GPRS" mcc="405" mnc="30" apn="Tata.Docomo.Dive.in" proxy="10.124.94.7" port="8080" type="default,supl" />
   <apn carrier="Tata MMS" mcc="405" mnc="30" apn="Tata.Docomo.MMS" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms" />
@@ -2340,9 +2327,9 @@
   <apn carrier="Tata Docomo 3G" mcc="405" mnc="39" apn="tatadocomo3g" type="default,supl" />
   <apn carrier="TA TA DoCoMo" mcc="405" mnc="39" apn="TATA.DOCOMO.INTERNET" type="default,supl" />
   <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="39" apn="TATA.DOCOMO.MMS" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="4" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="4" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="4" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="04" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="04" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="04" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="TATA DOCOMO INTERNET" mcc="405" mnc="40" apn="TATA.DOCOMO.INTERNET" type="default,supl" />
   <apn carrier="TATA GPRS" mcc="405" mnc="40" apn="Tata.Docomo.Dive.in" proxy="10.124.94.7" port="8080" type="default,supl" />
   <apn carrier="Tata MMS" mcc="405" mnc="40" apn="Tata.Docomo.MMS" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms" />
@@ -2391,29 +2378,29 @@
   <apn carrier="Tata Docomo 3G" mcc="405" mnc="47" apn="tatadocomo3g" type="default,supl" />
   <apn carrier="TA TA DoCoMo" mcc="405" mnc="47" apn="TATA.DOCOMO.INTERNET" type="default,supl" />
   <apn carrier="TA TA DoCoMo MMS" mcc="405" mnc="47" apn="TATA.DOCOMO.MMS" mmsc="http://mmsc/" mmsproxy="10.124.26.94" mmsport="8799" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="5" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="5" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="5" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="5" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="6" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="6" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="6" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="6" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="7" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="7" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="7" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="7" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="NetConnect" mcc="405" mnc="8" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="8" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="8" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="8" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="05" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="05" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="05" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="05" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="06" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="06" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="06" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="06" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="07" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="07" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="07" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="07" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="08" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="08" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="08" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="08" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="MTS WAP" mcc="405" mnc="89" apn="WAP" user="wap@wap.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
   <apn carrier="MTS MMS" mcc="405" mnc="89" apn="MMS" user="mms@mms.mtsindia.in" password="MTS" authtype="3" type="mms" />
   <apn carrier="MTS MODEM" mcc="405" mnc="89" apn="Modem" user="internet@internet.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
-  <apn carrier="NetConnect" mcc="405" mnc="9" apn="rcomnet" type="default,supl" />
-  <apn carrier="Reliance GPRS" mcc="405" mnc="9" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="405" mnc="9" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
-  <apn carrier="Reliance MMS" mcc="405" mnc="9" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="NetConnect" mcc="405" mnc="09" apn="rcomnet" type="default,supl" />
+  <apn carrier="Reliance GPRS" mcc="405" mnc="09" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
+  <apn carrier="Smart MMS" mcc="405" mnc="09" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
+  <apn carrier="Reliance MMS" mcc="405" mnc="09" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://mms.rcom.co.in/mms" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
   <apn carrier="NetConnect" mcc="405" mnc="10" apn="rcomnet" type="default,supl" />
   <apn carrier="Reliance GPRS" mcc="405" mnc="10" apn="rcomwap" proxy="10.239.221.5" port="8080" type="default,supl" />
   <apn carrier="Smart MMS" mcc="405" mnc="10" apn="rcommms" proxy="10.239.221.5" port="8080" mmsc="http://10.239.221.47/mms/" mmsproxy="10.239.221.5" mmsport="8080" type="mms" />
@@ -2910,14 +2897,12 @@
   <apn carrier="Golan Telecom" mcc="425" mnc="08" apn="internet.golantelecom.net.il" authtype="0" type="default,supl" />
   <apn carrier="Golan Telecom MMS" mcc="425" mnc="08" apn="mms.golantelecom.net.il" mmsc="http://mmsc.golantelecom.co.il" mmsproxy="10.224.228.81" mmsport="80" authtype="0" type="mms" />
   <apn carrier="YouPhone 3G" mcc="425" mnc="14" apn="data.youphone.co.il" mmsc="http://192.168.220.15/servlets/mms" mmsport="80" type="default,supl,mms" />
-  <apn carrier="Internet" mcc="426" mnc="01" apn="internet.batelco.com" type="default,supl" />
-  <apn carrier="batelco WAP" mcc="426" mnc="01" apn="wap.batelco.com" proxy="192.168.1.2" port="80" user="wap" password="wap" type="default,supl" />
-  <apn carrier="batelco MMS" mcc="426" mnc="01" apn="mms.batelco.com" proxy="" port="" mmsproxy="192.168.1.2" mmsport="80" mmsc="http://192.168.36.10/servlets/mms" type="mms" />
-  <apn carrier="BATELCO BH" mcc="426" mnc="01" apn="internet.batelco.com" user="internet" password="internet" type="default,supl" />
-  <apn carrier="BATELCO BH MMS" mcc="426" mnc="01" apn="mms.batelco.com" user="wap" password="wap" mmsc="http://192.168.36.10/servlets/mms" mmsproxy="192.168.1.2" mmsport="80" type="mms" />
-  <apn carrier="Zain Wap" mcc="426" mnc="02" apn="wap" proxy="172.18.85.34" port="8080" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Zain Internet" mcc="426" mnc="02" apn="internet" user="internet" password="internet" type="default,supl" />
-  <apn carrier="Zain MMS" mcc="426" mnc="02" apn="mms" proxy="" port="" mmsproxy="172.18.85.34" mmsport="8080" mmsc="http:// 172.18.83.129" user="mms" password="mms" type="mms" />
+  <apn carrier="Batelco Internet" mcc="426" mnc="01" apn="internet.batelco.com" type="default,supl" />
+  <apn carrier="Batelco WAP" mcc="426" mnc="01" apn="wap.batelco.com" user="wap" password="wap" authtype="0" proxy="192.168.1.2" port="80" type="default,supl" />
+  <apn carrier="Batelco MMS" mcc="426" mnc="01" apn="mms.batelco.com" user="mms" password="mms" authtype="0" mmsc="http://192.168.36.10/servlets/mms" mmsproxy="192.168.1.2" mmsport="80" type="mms" />
+  <apn carrier="Zain BH WAP" mcc="426" mnc="02" apn="wap" user="wap" password="wap" authtype="0" proxy="172.18.85.33" port="80" type="default,supl" />
+  <apn carrier="Zain BH Internet" mcc="426" mnc="02" apn="internet" user="internet" password="internet" authtype="0" type="default,supl" />
+  <apn carrier="Zain BH MMS" mcc="426" mnc="02" apn="mms" user="mms" password="mms" authtype="0" mmsc="http://172.18.83.129:80/" mmsproxy="172.18.85.34" mmsport="80" type="mms" />
   <apn carrier="MTC Vodafone BH" mcc="426" mnc="02" apn="internet" user="internet" password="internet" type="default,supl" />
   <apn carrier="MTC Vodafone BH MMS" mcc="426" mnc="02" apn="mms" user="mms" password="mms" mmsc="http://172.18.83.129" mmsproxy="172.18.85.34" mmsport="9201" type="mms" />
   <apn carrier="VIVA GPRS" mcc="426" mnc="04" apn="viva.bh" type="default,supl" />
@@ -2947,7 +2932,7 @@
   <apn carrier="Ncell WAP" mcc="429" mnc="02" apn="web" proxy="192.168.19.15" port="8080" type="default,supl" />
   <apn carrier="MCI-GPRS" mcc="432" mnc="11" apn="mcinet" proxy="192.168.194.73" port="8080" type="default,supl" />
   <apn carrier="MCI-MMS" mcc="432" mnc="11" apn="mcinet" mmsproxy="192.168.193.134" mmsport="38090" mmsc="http://mci.ir" type="mms" />
-  <apn carrier="Irancell-GPRS" mcc="432" mnc="35" apn="mtnirancell" proxy="10.131.26.138" port="8080" type="default,supl" />
+  <apn carrier="Irancell-Internet" mcc="432" mnc="35" apn="mtnirancell" type="default,supl" />
   <apn carrier="Irancell-MMS" mcc="432" mnc="35" apn="mtnirancell" mmsproxy="10.131.26.138" mmsport="8080" mmsc="http://mms:8002" type="mms" />
   <apn carrier="Beeline UZ" mcc="434" mnc="04" apn="internet.beeline.uz" user="beeline" password="beeline" type="default,supl" />
   <apn carrier="Beeline UZ MMS" mcc="434" mnc="04" apn="mms.beeline.uz" user="beeline" password="beeline" mmsc="http://mms" mmsproxy="172.30.30.166" mmsport="8080" type="mms" />
@@ -3049,9 +3034,9 @@
   <apn carrier="Beeline MMS" mcc="452" mnc="07" apn="mms" proxy="" port="" mmsproxy="10.16.70.199" mmsport="8080" mmsc="http://mms" user="mms" password="mms" authtype="1" type="mms" />
   <apn carrier="BeeLine VN" mcc="452" mnc="07" apn="internet" type="default,supl" />
   <apn carrier="Beeline VN MMS" mcc="452" mnc="07" apn="MMS" user="mms" password="mms" mmsc="http://mms" mmsproxy="10.16.70.199" mmsport="8080" type="mms" />
-  <apn carrier="VIETNAMOBILE MMS" mcc="452" mnc="5" apn="mms" proxy="" port="" user="" password="" mmsc="http://10.10.128.58/servlets/mms" mmsproxy="10.10.128.44" mmsport="8080" type="mms" />
-  <apn carrier="VIETNAMOBILE" mcc="452" mnc="5" apn="wap" proxy="10.10.128.44" port="8080" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Beeline VN MMS" mcc="452" mnc="7" apn="MMS" proxy="" port="" user="mms" password="mms" mmsc="http://mms" mmsproxy="10.16.70.199" mmsport="8080" type="mms" />
+  <apn carrier="VIETNAMOBILE MMS" mcc="452" mnc="05" apn="mms" proxy="" port="" user="" password="" mmsc="http://10.10.128.58/servlets/mms" mmsproxy="10.10.128.44" mmsport="8080" type="mms" />
+  <apn carrier="VIETNAMOBILE" mcc="452" mnc="05" apn="wap" proxy="10.10.128.44" port="8080" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Beeline VN MMS" mcc="452" mnc="07" apn="MMS" proxy="" port="" user="mms" password="mms" mmsc="http://mms" mmsproxy="10.16.70.199" mmsport="8080" type="mms" />
   <apn carrier="csl" mcc="454" mnc="00" apn="mobile" mmsc="http://192.168.58.171:8002" mmsproxy="192.168.59.51" mmsport="8080" type="default,mms,hipri" authtype="3" mvno_match_data="01020000" mvno_type="gid" />
   <apn carrier="csl Tethering" mcc="454" mnc="00" apn="lte.internet" type="dun" mvno_match_data="01020000" mvno_type="gid" />
   <apn carrier="csl" mcc="454" mnc="00" apn="mobile" mmsc="http://192.168.58.171:8002" mmsproxy="192.168.59.51" mmsport="8080" authtype="3" type="default,mms,hipri" />
@@ -3093,6 +3078,7 @@
   <apn carrier="SmarTone" mcc="454" mnc="06" apn="SmarTone" mmsc="http://mms.smartone.com/server" mmsproxy="10.9.9.9" mmsport="8080" authtype="3" type="default,supl,mms" />
   <apn carrier="3gnet" mcc="454" mnc="07" apn="3gnet" type="default,supl" />
   <apn carrier="3gwap" mcc="454" mnc="07" apn="3gwap" proxy="10.0.0.172" port="80" type="default,supl" />
+  <apn carrier="Truphone" mcc="454" mnc="08" apn="truphone.com" type="default,dun" />
   <apn carrier="SCT" mcc="454" mnc="09" apn="cmnet" type="default" />
   <apn carrier="csl" mcc="454" mnc="10" apn="hkcsl" mmsc="http://192.168.58.171:8002" mmsproxy="192.168.59.51" mmsport="8080" type="default,mms,hipri" authtype="3" />
   <apn carrier="csl Tethering" mcc="454" mnc="10" apn="internet" type="dun" />
@@ -3314,6 +3300,7 @@
   <apn carrier="Apex Telecom" mcc="505" mnc="02" apn="splns357" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Boost MMS" mcc="505" mnc="02" apn="mms" user="" password="" proxy="61.88.190.10" port="8070" mmsc="http://mmsc.optus.com.au:8002/" mmsproxy="61.88.190.10" mmsport="8070" type="mms" authtype="3"/>
   <apn carrier="Boost Mobile" mcc="505" mnc="02" apn="yesinternet" user="" password="" proxy="" port="" mmsc="" type="default,supl" authtype="3"/>
+  <apn carrier="Truphone" mcc="505" mnc="02" apn="truphone.com" type="default,dun" mvno_match_data="50502100" mvno_type="imsi" />
   <apn carrier="Vodafone Live!" mcc="505" mnc="03" apn="live.vodafone.com" proxy="10.202.2.60" port="8080" mmsc="" user="" password="" type="default,supl" />
   <apn carrier="Vodafone PXT" mcc="505" mnc="03" apn="live.vodafone.com" proxy="" port="" mmsproxy="10.202.2.60" mmsport="8080" mmsc="http://pxt.vodafone.net.au/pxtsend" user="" password="" type="mms" />
   <apn carrier="Vodafone AU" mcc="505" mnc="03" apn="live.vodafone.com" user="*" password="*" server="*" mmsc="http://pxt.vodafone.net.au/pxtsend" mmsproxy="10.202.2.60" mmsport="8080" type="mms,default,supl" />
@@ -3346,8 +3333,8 @@
   <apn carrier="Smartfren4G" mcc="510" mnc="09" apn="Smartfren4G" user="smartfren" password="smartfren" authtype="3" type="default,supl" protocol="IPV4V6" />
   <apn carrier="Smartfren MMS" mcc="510" mnc="09" apn="smartfren" user="smartfren" password="smartfren" mmsc="http://10.17.93.103:8080" mmsproxy="10.17.27.250" mmsport="8080" authtype="3" type="mms" protocol="IPV4V6" />
   <apn carrier="Smartfren IMS" mcc="510" mnc="09" apn="IMS" type="ims" />
-  <apn carrier="AXIS" mcc="510" mnc="8" apn="AXIS" proxy="" port="" user="axis" password="123456" mmsc="" type="default,supl" />
-  <apn carrier="AXIS MMS" mcc="510" mnc="8" apn="AXISmms" proxy="" port="" user="axis" password="123456" mmsc="http://mmsc.AXIS" mmsproxy="10.8.3.8" mmsport="8080" type="mms" />
+  <apn carrier="AXIS" mcc="510" mnc="08" apn="AXIS" proxy="" port="" user="axis" password="123456" mmsc="" type="default,supl" />
+  <apn carrier="AXIS MMS" mcc="510" mnc="08" apn="AXISmms" proxy="" port="" user="axis" password="123456" mmsc="http://mmsc.AXIS" mmsproxy="10.8.3.8" mmsport="8080" type="mms" />
   <apn carrier="TSEL BROADBAND" mcc="510" mnc="10" apn="internet" proxy="" port="" user="wap" password="wap123" authtype="1" type="default,supl" />
   <apn carrier="TSEL TIMEBASED" mcc="510" mnc="10" apn="flash" proxy="" port="" user="wap" password="wap123" authtype="1" type="default,supl" />
   <apn carrier="TSEL MMS" mcc="510" mnc="10" apn="mms" mmsproxy="10.1.89.150" mmsport="8000" mmsc="http://mms.telkomsel.com" user="wap" password="wap123" authtype="1" type="mms" />
@@ -3374,9 +3361,15 @@
   <apn carrier="myGlobe Connect" mcc="515" mnc="02" apn="www.globe.com.ph" proxy="203.177.042.214" port="8080" type="default,supl" />
   <apn carrier="MyGlobe Stream" mcc="515" mnc="02" apn="real.globe.com.ph" type="default,supl" />
   <apn carrier="myGlobe MMS" mcc="515" mnc="02" apn="mms.globe.com.ph" mmsc="http://192.40.100.22:10021/mmsc" mmsproxy="203.177.42.214" mmsport="8080" type="mms" />
-  <apn carrier="Smart GPRS" mcc="515" mnc="03" apn="Smart1" proxy="10.102.61.46" port="8080" type="default,supl" />
-  <apn carrier="Smart Internet" mcc="515" mnc="03" apn="internet" proxy="10.102.61.46" port="8080" type="default,supl" />
-  <apn carrier="Smart MMS" mcc="515" mnc="03" apn="mms" mmsc="http://10.102.61.238:8002" mmsproxy="10.102.61.46" mmsport="8080" type="mms" />
+  <apn carrier="SMART Internet postpaid" mcc="515" mnc="03" apn="internet" authtype="1" type="default" />
+  <apn carrier="SMART HTTP postpaid" mcc="515" mnc="03" apn="smart1" proxy="10.102.61.46" port="9201" user="smartwap" password="smartwap" authtype="1" type="default" />
+  <apn carrier="SMART(3G) Internet postpaid" mcc="515" mnc="03" apn="internet" type="default,supl"/>
+  <apn carrier="SMART(3G) MMS postpaid" mcc="515" mnc="03" apn="mms" mmsc="http://10.102.61.238:8002" mmsproxy="10.102.61.46" mmsport="8080" type="mms" />
+  <apn carrier="SMART(3G) Internet prepaid" mcc="515" mnc="03" apn="internet" type="default,supl" />
+  <apn carrier="SMART(3G) HTTP prepaid" mcc="515" mnc="03" apn="smart1" proxy="10.102.61.46" port="80" user="smartwap" password="smartwap" authtype="1" type="default" />
+  <apn carrier="SMART(3G) MMS prepaid" mcc="515" mnc="03" apn="mms" user="smartwap" password="smartwap" mmsc="http://10.102.61.238:8002" mmsproxy="10.102.61.46" mmsport="8080" authtype="1" type="mms" />
+  <apn carrier="SMART MMS postpaid" mcc="515" mnc="03" apn="mms" user="smartwap" password="smartwap" mmsc="http://10.102.61.238:8002" mmsproxy="10.102.61.46" mmsport="9201" authtype="1" type="mms" />
+  <apn carrier="SMART(3G) HTTP postpaid" mcc="515" mnc="03" apn="smart1" proxy="10.102.61.46" port="9201" authtype="1" type="default" />
   <apn carrier="Sun Internet" mcc="515" mnc="05" apn="minternet" type="default,supl" />
   <apn carrier="Sun Streaming" mcc="515" mnc="05" apn="minternet" type="default,supl" />
   <apn carrier="SUN WAP GPRS" mcc="515" mnc="05" apn="wap" proxy="202.138.159.078" port="8080" type="default,supl" />
@@ -3826,7 +3819,7 @@
   <apn carrier="Internet Movil" mcc="730" mnc="01" apn="imovil.entelpcs.cl" user="entelpcs" password="entelpcs" type="default,supl" />
   <apn carrier="Entel PCS" mcc="730" mnc="01" apn="bam.entelpcs.cl" user="entelpcs" password="entelpcs" proxy="10.99.0.10" port="8080" type="default,supl" />
   <apn carrier="Entel MMS" mcc="730" mnc="01" apn="mms.entelpcs.cl" proxy="" port="" mmsproxy="10.99.0.10" mmsport="8080" mmsc="http://mmsc.entelpcs.cl" user="entelpcs" password="entelmms" type="mms" />
-  <apn carrier="APLICACIONES" mcc="730" mnc="02" apn="wap.tmovil.cl" user="wap" password="wap" type="default,supl" />
+  <apn carrier="Movistar INTERNET" mcc="730" mnc="02" apn="wap.tmovil.cl" user="wap" password="wap" type="default,supl" />
   <apn carrier="Movistar MMS" mcc="730" mnc="02" apn="mms.tmovil.cl" proxy="" port="" mmsproxy="172.17.8.10" mmsport="8080" mmsc="http://mms.movistar.cl" user="mms" password="mms" type="mms" />
   <apn carrier="Movistar CL" mcc="730" mnc="02" apn="web.tmovil.cl" user="web" password="web" type="default,supl" />
   <apn carrier="Movistar CL MMS" mcc="730" mnc="02" apn="mms.tmovil.cl" user="mms" password="mms" mmsc="http://mms.tmovil.cl" mmsproxy="172.017.008.011" mmsport="9201" type="mms" />
