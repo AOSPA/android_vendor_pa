@@ -86,6 +86,9 @@ PRODUCT_PACKAGES += \
     SnapdragonGallery \
     SnapdragonMusic
 
+# Build sound recorder
+PRODUCT_PACKAGES += SoundRecorder
+
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
 
