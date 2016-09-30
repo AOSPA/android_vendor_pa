@@ -126,6 +126,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
    vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
+# AOSPA services
+PRODUCT_PACKAGES += pa-services
+PRODUCT_PACKAGES += co.aospa.power.ShutdownAOSPA.xml
+PRODUCT_BOOT_JARS += pa-services
+
 # TCP Connection Management
 PRODUCT_PACKAGES += tcmiface
 PRODUCT_BOOT_JARS += tcmiface
