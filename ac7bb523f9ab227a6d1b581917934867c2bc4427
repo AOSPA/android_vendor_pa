@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_42f868e5",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "bracket on 1 line",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_22f3f40b",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_e2dc1c77",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "bracket on 1 line",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_02da7078",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "bracket on 1 line",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_82ee8021",
+        "filename": "pa-services/src/co/aospa/power/SubSystemShutdown.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "bracket on 1 line",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_a28f0475",
+        "filename": "pa-services/src/co/aospa/power/SubSystemShutdown.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_62e9ec19",
+        "filename": "pa-services/src/co/aospa/power/SubSystemShutdown.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "static {",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_c28c7882",
+        "filename": "pa-services/src/co/aospa/power/SubSystemShutdown.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-09-30T15:45:13Z",
+      "side": 1,
+      "message": "Whitespace",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
