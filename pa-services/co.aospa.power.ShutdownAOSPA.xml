@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016 Paranoid Android -->
+
+<!-- This is the library that allows framework to call the shutdown hook -->
+<permissions>
+    <library name="co.aospa.power.ShutdownAOSPA"
+            file="/system/framework/pa-services.jar" />
+</permissions>
