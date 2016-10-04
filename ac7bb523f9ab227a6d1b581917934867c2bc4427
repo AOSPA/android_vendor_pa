@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_6d8f9d24",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2016-10-04T13:53:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_42f868e5",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_22f3f40b",
         "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2016-09-30T15:45:13Z",
       "side": 1,
       "message": "whitespace",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_8d947138",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2016-10-04T13:53:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_22f3f40b",
       "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "da7095c5_2d99a56e",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2016-10-04T13:53:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_e2dc1c77",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da7095c5_02da7078",
         "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
         "patchSetId": 2
@@ -64,6 +118,24 @@
       "writtenOn": "2016-09-30T15:45:13Z",
       "side": 1,
       "message": "bracket on 1 line",
+      "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_4d9e5958",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2016-10-04T13:53:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da7095c5_02da7078",
       "revId": "ac7bb523f9ab227a6d1b581917934867c2bc4427",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
