@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da7095c5_b333d8f5",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-10-06T16:10:52Z",
+      "side": 1,
+      "message": "} and else should be on the same line",
+      "revId": "7505cbe283dd997900a30edfd8dcd6ef3f429270",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_d330ccea",
+        "filename": "pa-services/src/co/aospa/power/ShutdownAOSPA.java",
+        "patchSetId": 7
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2016-10-06T16:10:52Z",
+      "side": 1,
+      "message": "} and catch should be on the same line",
+      "revId": "7505cbe283dd997900a30edfd8dcd6ef3f429270",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
