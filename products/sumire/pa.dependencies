@@ -63,7 +63,7 @@
         "remote":       "github",
         "repository":   "SonyAosp/platform_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
-        "revision":     "mm-6.0"
+        "revision":     "n"
     },
    {
         "remote":       "github",
@@ -79,9 +79,9 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_sony_sepolicy",
+        "repository":   "SonyAosp/device_sony_sepolicy",
         "target_path":  "device/sony/sepolicy",
-        "revision":     "marshmallow"
+        "revision":     "mm-6.0"
     },
     {
         "remote":       "github",
@@ -134,7 +134,13 @@
     {
         "remote":       "github",
         "repository":   "SuperBenevolent/aosp-vendor-qcom-prebuilt",
-        "target_path":  "vendor/qcom",
+        "target_path":  "vendor/qcom/prebuilt",
+        "revision":     "m-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SuperBenevolent/aosp-vendor-qcom-extras",
+        "target_path":  "vendor/qcom/extras",
         "revision":     "m-mr1"
     },
     {
