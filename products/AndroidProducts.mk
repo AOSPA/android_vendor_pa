@@ -95,6 +95,11 @@ ifeq (pa_scorpion_windy,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/scorpion_windy/pa_scorpion_windy.mk
 endif
 
+# Sony Loire platform
+ifeq (pa_suzu,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/suzu/pa_suzu.mk
+endif
+
 # Sony Kitakami platform
 ifeq (pa_ivy,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/ivy/pa_ivy.mk

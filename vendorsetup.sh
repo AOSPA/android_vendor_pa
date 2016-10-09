@@ -31,6 +31,9 @@ add_lunch_combo pa_scorpion-userdebug
 add_lunch_combo pa_scorpion_windy-userdebug
 add_lunch_combo pa_sirius-userdebug
 
+# Sony Loire Platform
+add_lunch_combo pa_suzu-userdebug
+
 # Sony Kitakami Platform
 add_lunch_combo pa_ivy-userdebug
 add_lunch_combo pa_karin-userdebug
