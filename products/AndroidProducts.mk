@@ -36,4 +36,5 @@
 
 # AOSP
     PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/angler/pa_angler.mk
+    $(LOCAL_DIR)/angler/pa_angler.mk \
+    $(LOCAL_DIR)/bullhead/pa_bullhead.mk
