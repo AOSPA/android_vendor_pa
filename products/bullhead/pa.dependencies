@@ -1,0 +1,50 @@
+[
+    {
+        "target_path":  "device/lge/bullhead",
+        "repository":   "AOSPA/android_device_lge_bullhead",
+        "remote":       "aospa",
+        "revision":     "nougat-caf"
+    },
+    {
+        "target_path":  "vendor/lge/bullhead",
+        "repository":   "proprietary_vendor_lge_bullhead",
+        "remote":       "blobs",
+        "revision":     "nougat"
+    },
+    {
+        "target_path":  "kernel/lge/bullhead",
+        "repository":   "kernel/msm",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-7.0.0_r0.23"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "platform/hardware/qcom/audio",
+        "remote":       "caf",
+        "revision":     "refs/tags/LA.BF64.1.2.3-00910-8x94.0"
+    },
+    {
+        "target_path":  "hardware/qcom/camera",
+        "repository":   "platform/hardware/qcom/camera",
+        "remote":       "caf",
+        "revision":     "refs/tags/LA.BF64.1.2.3-00910-8x94.0"
+    },
+    {
+        "target_path":  "hardware/qcom/gps",
+        "repository":   "platform/hardware/qcom/gps",
+        "remote":       "caf",
+        "revision":     "refs/tags/LA.BF64.1.2.3-00910-8x94.0"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "platform/hardware/qcom/display",
+        "remote":       "caf",
+        "revision":     "refs/tags/LA.BF64.1.2.3-00910-8x94.0"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "platform/hardware/qcom/media",
+        "remote":       "caf",
+        "revision":     "refs/tags/LA.BF64.1.2.3-00910-8x94.0"
+    }
+]
