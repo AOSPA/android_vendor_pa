@@ -1,0 +1,38 @@
+[
+    {
+        "target_path":  "device/lge/bullhead",
+        "repository":   "AOSPA/android_device_lge_bullhead",
+        "remote":       "aospa",
+        "revision":     "nougat-caf"
+    },
+    {
+        "target_path":  "vendor/lge/bullhead",
+        "repository":   "proprietary_vendor_lge_bullhead",
+        "remote":       "blobs",
+        "revision":     "nougat"
+    },
+    {
+        "target_path":  "kernel/lge/bullhead",
+        "repository":   "AOSPA/android_kernel_lge_bullhead",
+        "remote":       "aospa",
+        "revision":     "nougat-caf"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "remote":       "aospa",
+        "revision":     "nougat-caf-8994"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "revision":     "nougat-caf-8994"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "remote":       "aospa",
+        "revision":     "nougat-caf-8994"
+    }
+]
