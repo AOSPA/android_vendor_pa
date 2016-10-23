@@ -22,6 +22,30 @@
       "revId": "bce24e93bcc452a52d777fbe3ce4a52ac19dd401",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da7095c5_780518c1",
+        "filename": "products/bullhead/pa_bullhead.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2016-10-23T20:14:18Z",
+      "side": 1,
+      "message": "Every qcom based AOSP device, yes.",
+      "parentUuid": "da7095c5_b86bb084",
+      "range": {
+        "startLine": 23,
+        "startChar": 14,
+        "endLine": 23,
+        "endChar": 15
+      },
+      "revId": "bce24e93bcc452a52d777fbe3ce4a52ac19dd401",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
