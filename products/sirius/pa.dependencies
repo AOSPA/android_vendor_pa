@@ -1,0 +1,122 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-sirius",
+        "target_path":  "device/sony/sirius",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-shinano",
+        "target_path":  "device/sony/shinano",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common",
+        "target_path":  "device/sony/common",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common-init",
+        "target_path":  "hardware/sony/init",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Contortrix/device-sony-sepolicy",
+        "target_path":  "device/sony/sepolicy",
+        "revision":     "nougat-aosp"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/kernel",
+        "target_path":  "kernel/sony/msm",
+        "revision":     "aosp/LA.BR.1.3.3_rb2.14"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "n"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyCM/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "cm-14.0-caf-sony"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_qcom_keymaster",
+        "target_path":  "hardware/qcom/keymaster",
+        "revision":     "n"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyCM/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "cm-14.0-caf-sony"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyCM/android_hardware_sony_camera",
+        "target_path":  "hardware/sony/camera",
+        "revision":     "cm-14.0-caf-sony"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/thermanager",
+        "target_path":  "hardware/sony/thermanager",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/macaddrsetup",
+        "target_path":  "hardware/sony/macaddrsetup",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rcstar6696/vendor-sony-blobs",
+        "target_path":  "vendor",
+        "revision":     "AOSP_1.3.3"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/vendor_qcom_extras",
+        "target_path":  "vendor/qcom/extras",
+        "revision":     "cm-14.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SuperBenevolent/aosp-vendor-qcom-firmware",
+        "target_path":  "vendor/qcom/firmware",
+        "revision":     "ubuntu"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/vendor/qcom-opensource/dataservices",
+        "target_path":  "vendor/qcom/opensource/dataservices",
+        "revision":     "LA.BR.1.3.3_rb2.14"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyCM/android_vendor_qcom_opensource_display-frameworks",
+        "target_path":  "vendor/qcom/opensource/display-frameworks",
+        "revision":     "cm-14.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CarbonROM/android_external_toybox",
+        "target_path":  "external/toybox",
+        "revision":     "cr-5.0"
+    }
+]
