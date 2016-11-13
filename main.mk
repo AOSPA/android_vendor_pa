@@ -60,6 +60,9 @@ USE_DEX2OAT_DEBUG ?= false
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
+# Include support for preconfigured permissions
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:system/etc/default-permissions/pa-permissions.xml
+
 # Include support for additional filesystems
 # TODO: Implement in vold
 PRODUCT_PACKAGES += \
