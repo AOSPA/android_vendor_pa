@@ -124,7 +124,7 @@ PRODUCT_PACKAGES += \
     cm.theme.platform
 
 PRODUCT_COPY_FILES += \
-   vendor/pa/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
+   vendor/pa/prebuilt/etc/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
 
 # AOSPA services
 PRODUCT_PACKAGES += pa-services
