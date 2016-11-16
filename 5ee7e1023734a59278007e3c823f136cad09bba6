@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bada0100_9061d4d5",
+        "filename": "sepolicy/service_contexts",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2016-11-16T06:15:25Z",
+      "side": 1,
+      "message": "For consistency, pocket should be pocketservice.",
+      "revId": "5ee7e1023734a59278007e3c823f136cad09bba6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
