@@ -4,3 +4,5 @@ allow dumpstate iop_data_file:sock_file { setattr create };
 
 allow dumpstate dalvikcache_data_file:dir r_dir_perms;
 allow dumpstate dalvikcache_data_file:file r_file_perms;
+allow dumpstate fuse:dir r_dir_perms;
+allow dumpstate fuse:file r_file_perms;
