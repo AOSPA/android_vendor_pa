@@ -24,15 +24,8 @@
 # Samsung Exynos
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk
 
-# LG G Platform
-    PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/d802/pa_d802.mk \
-    $(LOCAL_DIR)/d850/pa_d850.mk \
-    $(LOCAL_DIR)/d851/pa_d851.mk \
-    $(LOCAL_DIR)/d852/pa_d852.mk \
-    $(LOCAL_DIR)/d855/pa_d855.mk \
-    $(LOCAL_DIR)/ls990/pa_ls990.mk \
-    $(LOCAL_DIR)/vs985/pa_vs985.mk
+# LGE
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/d802/pa_d802.mk
 
 # AOSP
     PRODUCT_MAKEFILES += \
