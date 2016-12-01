@@ -65,6 +65,9 @@ PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.
 # Copy PA specific init file
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/root/init.pa.rc:root/init.pa.rc
 
+# Include explicitly to work around GMS issues
+PRODUCT_PACKAGES += libprotobuf-cpp-full
+
 # Include support for additional filesystems
 PRODUCT_PACKAGES += \
     e2fsck \
