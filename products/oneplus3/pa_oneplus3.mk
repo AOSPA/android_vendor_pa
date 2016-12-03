@@ -38,7 +38,7 @@ include vendor/pa/main.mk
 PRODUCT_NAME := pa_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := RAIN A3000
+PRODUCT_MODEL := RAIN
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
