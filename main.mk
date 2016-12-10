@@ -150,6 +150,9 @@ PRODUCT_PACKAGES += \
 # Bluetooth Audio (A2DP)
 PRODUCT_PACKAGES += libbthost_if
 
+# Substratum
+PRODUCT_PACKAGES += masquerade
+
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
 
