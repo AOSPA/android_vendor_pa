@@ -36,7 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Override old AOSP default sounds with newer Google stock ones
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=Osmium.ogg \
-    ro.config.notification_sound=Tethys.ogg \
+    ro.config.notification_sound=Ariel.ogg \
     ro.config.ringtone=Titania.ogg
 
 # Enable SIP+VoIP
