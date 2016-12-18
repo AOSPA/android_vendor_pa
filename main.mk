@@ -112,6 +112,9 @@ ifeq ($(TARGET_BOOT_ANIMATION_RES),1440)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/1440.zip:system/media/bootanimation.zip
 endif
 
+# Clear security patch level
+PLATFORM_SECURITY_PATCH :=
+
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
