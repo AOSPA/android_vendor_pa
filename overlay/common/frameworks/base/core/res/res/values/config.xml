@@ -61,4 +61,9 @@
         <item>screenshot</item>
         <item>bugreport</item>
     </string-array>
+
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">Paranoid Android</string>
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://get.aospa.co/Paranoid-MMS.xml</string>
 </resources>
