@@ -118,17 +118,6 @@ else
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
 endif
 
-# Theme engine
-PRODUCT_PACKAGES += \
-    aapt \
-    ThemeChooser \
-    ThemesProvider \
-    cm.theme.platform-res \
-    cm.theme.platform
-
-PRODUCT_COPY_FILES += \
-   vendor/pa/prebuilt/etc/permissions/org.cyanogenmod.theme.xml:system/etc/permissions/org.cyanogenmod.theme.xml
-
 # AOSPA services
 PRODUCT_PACKAGES += pa-services
 PRODUCT_PACKAGES += co.aospa.power.ShutdownAOSPA.xml
