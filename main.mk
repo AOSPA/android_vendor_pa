@@ -95,6 +95,9 @@ PRODUCT_PACKAGES += SoundRecorder
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
 
+# Build WallpaperPicker
+PRODUCT_PACKAGES += WallpaperPicker
+
 # Include the custom PA bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),480)
      PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/480.zip:system/media/bootanimation.zip
