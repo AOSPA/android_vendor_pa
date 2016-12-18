@@ -52,12 +52,12 @@
          "bugreport" = Take bug report, if available
          "silent" = silent mode
          "users" = list of users
-         "reboot" = reboot
+         "restart" = restart device
          "screenshot" = screenshot
          -->
     <string-array translatable="false" name="config_globalActionsList">
         <item>power</item>
-        <item>reboot</item>
+        <item>restart</item>
         <item>screenshot</item>
         <item>bugreport</item>
     </string-array>
