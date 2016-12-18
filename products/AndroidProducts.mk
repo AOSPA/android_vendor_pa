@@ -34,3 +34,6 @@
     $(LOCAL_DIR)/ls990/pa_ls990.mk \
     $(LOCAL_DIR)/vs985/pa_vs985.mk
 
+# AOSP
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/angler/pa_angler.mk

@@ -19,3 +19,6 @@ add_lunch_combo pa_d852-userdebug
 add_lunch_combo pa_d855-userdebug
 add_lunch_combo pa_ls990-userdebug
 add_lunch_combo pa_vs985-userdebug
+
+# AOSP
+add_lunch_combo pa_angler-userdebug
