@@ -22,3 +22,4 @@ add_lunch_combo pa_vs985-userdebug
 
 # AOSP
 add_lunch_combo pa_bullhead-userdebug
+add_lunch_combo pa_angler-userdebug
