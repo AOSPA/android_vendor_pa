@@ -31,7 +31,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.clientidbase=android-google \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    ro.setupwizard.enterprise_mode=1
+    ro.setupwizard.enterprise_mode=1 \
+    ro.opa.eligible_device=true
 
 # Override old AOSP default sounds with newer Google stock ones
 PRODUCT_PROPERTY_OVERRIDES += \
