@@ -1,0 +1,1 @@
+allow untrusted_app theme_service:service_manager find;
