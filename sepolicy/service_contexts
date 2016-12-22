@@ -1,2 +1,3 @@
 edgegestureservice                        u:object_r:edgegesture_service:s0
 pocket                                    u:object_r:pocket_service:s0
+theme                                     u:object_r:theme_service:s0
