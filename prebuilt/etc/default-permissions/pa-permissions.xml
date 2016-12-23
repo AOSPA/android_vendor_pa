@@ -57,7 +57,6 @@
 		<permission name="android.permission.RECEIVE_MMS" fixed="false"/>
 		<permission name="android.permission.RECEIVE_WAP_PUSH" fixed="false"/>
 		<permission name="android.permission.SEND_SMS" fixed="false"/>
-		<permission name="android.permission.WRITE_SMS" fixed="false"/>
 		<!-- Storage -->
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
