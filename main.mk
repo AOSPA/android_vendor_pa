@@ -134,6 +134,14 @@ PRODUCT_BOOT_JARS += pa-services
 PRODUCT_PACKAGES += tcmiface
 PRODUCT_BOOT_JARS += tcmiface
 
+# RCS Service
+PRODUCT_PACKAGES += \
+    rcs_service_aidl \
+    rcs_service_aidl.xml \
+    rcs_service_aidl_static \
+    rcs_service_api \
+    rcs_service_api.xml
+
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
 
