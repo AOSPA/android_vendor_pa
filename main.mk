@@ -70,11 +70,9 @@ PRODUCT_PACKAGES += \
     e2fsck \
     mke2fs \
     tune2fs \
-    mount.exfat \
-    fsck.exfat \
-    mkfs.exfat \
-    ntfsfix \
-    ntfs-3g
+    fsck.ntfs \
+    mkfs.ntfs \
+    mount.ntfs
 
 # Include support for GApps backup
 PRODUCT_COPY_FILES += \
