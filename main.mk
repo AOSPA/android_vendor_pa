@@ -65,16 +65,13 @@ PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:system/etc/default-permissions/pa-permissions.xml
 
 # Include support for additional filesystems
-# TODO: Implement in vold
 PRODUCT_PACKAGES += \
     e2fsck \
     mke2fs \
     tune2fs \
-    mount.exfat \
-    fsck.exfat \
-    mkfs.exfat \
-    ntfsfix \
-    ntfs-3g
+    fsck.ntfs \
+    mkfs.ntfs \
+    mount.ntfs
 
 # Include support for GApps backup
 PRODUCT_COPY_FILES += \
