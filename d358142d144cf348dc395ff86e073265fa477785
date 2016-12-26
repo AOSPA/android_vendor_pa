@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7ac40928_d1af662a",
+        "filename": "sepolicy/untrusted_app.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2016-12-26T16:54:18Z",
+      "side": 1,
+      "message": "Why do untrused apps need this?",
+      "revId": "d358142d144cf348dc395ff86e073265fa477785",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
