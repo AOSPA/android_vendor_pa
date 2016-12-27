@@ -38,13 +38,12 @@ include vendor/pa/main.mk
 PRODUCT_NAME := pa_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := RAIN
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:6.0.1/MMB29M/362280:user/release-keys \
-     PRIVATE_BUILD_DESC="OnePlus3-user 6.0.1 MMB29M 24 dev-keys"
+     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.0/NRD90M/12161319:user/release-keys \
+     PRIVATE_BUILD_DESC="OnePlus3-user 7.0 NRD90M 9 dev-keys"
 
 endif
