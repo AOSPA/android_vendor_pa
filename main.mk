@@ -43,6 +43,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# Don't Hide APNs
+PRODUCT_PROPERTY_OVERRIDES += persist.sys.hideapn=false
+
 # Include vendor overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
