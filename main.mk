@@ -145,6 +145,9 @@ PRODUCT_PACKAGES += \
     rcs_service_api \
     rcs_service_api.xml
 
+# Bluetooth Audio (A2DP)
+PRODUCT_PACKAGES += libbthost_if
+
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
 
