@@ -20,34 +20,17 @@ TARGET_USES_AOSP := false
 # We have our own power HAL
 TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true
 
-# CAF audio
-AUDIO_FEATURE_ENABLED_SPKR_PROTECTION := true
-USE_CUSTOM_AUDIO_POLICY := 1
-
-# CAF media
-#TARGET_USES_MEDIA_EXTENSIONS := true
+AUDIO_FEATURE_ENABLED_MULTI_VOICE_SESSIONS := true
+AUDIO_FEATURE_ENABLED_DSM_FEEDBACK := true
 
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 # Generic CAF packages
 include device/qcom/common/common.mk
 
-# Generic CAF audio config
-$(call inherit-product, hardware/qcom/audio/configs/msm8994/msm8994.mk)
-
 # CAF display addons
 PRODUCT_PACKAGES += \
     copybit.msm8994
-
-# MSM8994 Audio HAL Settings
-PRODUCT_PROPERTY_OVERRIDES += \
-    audio.offload.buffer.size.kb=32 \
-    audio.offload.video=true \
-    audio.offload.pcm.16bit.enable=true \
-    audio.offload.multiple.enabled=false \
-    audio.offload.pcm.24bit.enable=true \
-    audio.offload.track.enable=true \
-    audio.deep_buffer.media=true
 
 # MSM8994 Display HAL settings
 PRODUCT_PROPERTY_OVERRIDES += \
