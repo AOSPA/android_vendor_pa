@@ -30,7 +30,7 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/nextbit/robin/device.mk)
+$(call inherit-product, device/nextbit/robin/robin.mk)
 
 include vendor/pa/main.mk
 
@@ -44,7 +44,7 @@ PRODUCT_MODEL := Robin
 PRODUCT_MANUFACTURER := Nextbit
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-     BUILD_FINGERPRINT=Nextbit/ether/ether:6.0.1/MMB29M/00WW_1_370:user/release-keys \
-     PRIVATE_BUILD_DESC="ether-user 6.0.1 MMB29M 00WW_1_370 release-keys"
+     BUILD_FINGERPRINT=Nextbit/ether/ether:7.1.1/Robin_Nougat_108/00WW_Jenkins_108:user/release-keys \
+     PRIVATE_BUILD_DESC="ether-user 7.1.1 Robin_Nougat_108 00WW_Jenkins_108 release-keys"
 
 endif
