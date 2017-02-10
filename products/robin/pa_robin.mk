@@ -30,7 +30,7 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/nextbit/robin/device.mk)
+$(call inherit-product, device/nextbit/robin/robin.mk)
 
 include vendor/pa/main.mk
 
