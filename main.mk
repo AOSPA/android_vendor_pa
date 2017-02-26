@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
 # Build Chromium for Snapdragon (PA Browser)
-PRODUCT_PACKAGES += PA_Browser
+PRODUCT_PACKAGES += PABrowser
 
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
