@@ -1,0 +1,8 @@
+Code-Review+1: Fabian Leutenegger <fabian.leutenegger@bluewin.ch>
+Code-Review+2: Alex Naidis <alex.naidis@linux.com>
+Verified+1: Alex Naidis <alex.naidis@linux.com>
+Submitted-by: Alex Naidis <alex.naidis@linux.com>
+Submitted-at: Sun, 05 Mar 2017 17:07:29 +0000
+Reviewed-on: https://gerrit.aospa.co/1973
+Project: AOSPA/android_vendor_pa
+Branch: refs/heads/nougat-mr1
