@@ -151,7 +151,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += libbthost_if
 
 # Substratum
-PRODUCT_PACKAGES += masquerade
+PRODUCT_PACKAGES += ThemeInterfacer
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
