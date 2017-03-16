@@ -4,4 +4,8 @@ allow system_server media_rw_data_file:dir r_dir_perms;
 
 allow system_server overlay_service:service_manager find;
 
+<<<<<<< HEAD
+allow system_server qemu_hw_mainkeys_prop:property_service set;
+=======
 allow system_server proc:file w_file_perms;
+>>>>>>> 64e95c3... Revert "pa: allow system server to change hw buttons prop"
