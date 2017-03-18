@@ -84,6 +84,12 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
+# Include hostapd configuration
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.conf:system/etc/hostapd/hostapd.conf \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
+
 # Build Chromium for Snapdragon (PA Browser)
 PRODUCT_PACKAGES += PABrowser
 
