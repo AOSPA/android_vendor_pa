@@ -88,6 +88,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/install/gapps-config.txt:install/gapps-config.txt
 
+# Include hostapd configuration
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
+
 # Build Chromium for Snapdragon (PA Browser)
 PRODUCT_PACKAGES += PABrowser
 
