@@ -20,7 +20,8 @@
     $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
-    $(LOCAL_DIR)/robin/pa_robin.mk
+    $(LOCAL_DIR)/robin/pa_robin.mk \
+    $(LOCAL_DIR)/zl1/pa_zl1.mk
 
 # Samsung Exynos family
     PRODUCT_MAKEFILES += \
