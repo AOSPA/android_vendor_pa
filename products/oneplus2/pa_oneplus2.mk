@@ -1,4 +1,4 @@
-# Copyright (C) 2015 ParanoidAndroid Project
+# Copyright (C) 2015-2017 ParanoidAndroid Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,6 +19,9 @@ ifeq (pa_oneplus2,$(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
+# Advanced platform features
+TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
+
 # Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -37,5 +40,9 @@ PRODUCT_MODEL := ONE A2003
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=OnePlus/OnePlus2/OnePlus2:6.0.1/MMB29M/1447840920:user/release-keys \
+    PRIVATE_BUILD_DESC="OnePlus2-user 6.0.1 MMB29M 20 dev-keys"
 
 endif
