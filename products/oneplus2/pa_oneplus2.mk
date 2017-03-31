@@ -19,13 +19,17 @@ ifeq (pa_oneplus2,$(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include Paranoid Android common configuration
+# Advanced platform features
+TARGET_DISABLE_DASH := false
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+
+# Include ParanoidAndroid common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/oneplus/oneplus2/device.mk)
+$(call inherit-product, device/oneplus/oneplus2/oneplus2.mk)
 
 include vendor/pa/main.mk
 
@@ -33,7 +37,6 @@ include vendor/pa/main.mk
 PRODUCT_NAME := pa_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := ONE A2003
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
