@@ -16,6 +16,24 @@
       "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_4f7c6173",
+        "filename": "products/oneplus2/pa_oneplus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-03-31T18:27:54Z",
+      "side": 1,
+      "message": "It should match blobs I think",
+      "parentUuid": "",
+      "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
