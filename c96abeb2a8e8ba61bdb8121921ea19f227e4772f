@@ -34,6 +34,24 @@
       "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_8f95798a",
+        "filename": "products/oneplus2/pa_oneplus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2017-03-31T18:33:18Z",
+      "side": 1,
+      "message": "Which blobs? ^^\nI\u0027ll ship mixed",
+      "parentUuid": "da86d52c_4f7c6173",
+      "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
