@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da86d52c_0f826952",
+        "filename": "products/oneplus2/pa_oneplus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2017-03-31T18:24:55Z",
+      "side": 1,
+      "message": "Should we really ship an M fingerprint on a device shipping N?",
+      "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
