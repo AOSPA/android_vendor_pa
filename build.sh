@@ -117,7 +117,7 @@ fi
 if [ "$FLAG_SYNC" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Downloading the latest source files${CLR_RST}"
         echo -e ""
-        repo sync -j"$THREADS" -c --no-clone-bundle
+        repo sync -j"$THREADS" -c --no-clone-bundle --no-tags
 fi
 
 # Mask Java, if it seems to be faulty
