@@ -1,0 +1,4 @@
+# don't remove these stock packages on gapps install
+Camera
+Gallery
+Browser
