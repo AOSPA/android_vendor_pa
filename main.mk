@@ -84,6 +84,10 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/install/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
+# Include PA GApps config
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/install/gapps-config.txt:install/gapps-config.txt
+
 # Build Chromium for Snapdragon (PA Browser)
 PRODUCT_PACKAGES += PABrowser
 
