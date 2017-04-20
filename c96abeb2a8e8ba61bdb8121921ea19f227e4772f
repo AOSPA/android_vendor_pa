@@ -88,6 +88,24 @@
       "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a80dd14_a71c2a15",
+        "filename": "products/oneplus2/pa_oneplus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-04-20T14:24:51Z",
+      "side": 1,
+      "message": "Oops, an unofficial fingerprint breaks it, not official.",
+      "parentUuid": "9a80dd14_672b1231",
+      "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
