@@ -52,6 +52,24 @@
       "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a80dd14_e7ff02a9",
+        "filename": "products/oneplus2/pa_oneplus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000165
+      },
+      "writtenOn": "2017-04-20T08:17:04Z",
+      "side": 1,
+      "message": "Does not have to. People say it\u0027s for Google Play. I don\u0027t see the usefulness of faking the fingerprint.",
+      "parentUuid": "da86d52c_4f7c6173",
+      "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
