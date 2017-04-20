@@ -70,6 +70,24 @@
       "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a80dd14_672b1231",
+        "filename": "products/oneplus2/pa_oneplus2.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-04-20T14:23:51Z",
+      "side": 1,
+      "message": "If the device has an official N release then the fingerprint should match, otherwise the latest official fingerprint is fine. @xdevs23 overriding the fingerprint is required because google play uses it to identify the device and app compatibility. An official fingerprint breaks this identification and makes a lot of apps uninstallable.",
+      "parentUuid": "da86d52c_8f95798a",
+      "revId": "c96abeb2a8e8ba61bdb8121921ea19f227e4772f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
