@@ -9,3 +9,6 @@
 
 # Themes
 /data/system/theme(/.*)?  u:object_r:theme_data_file:s0
+
+# Pocket judge
+/sys/kernel/pocket_judge(/.*)?	u:object_r:pocket_judge_sysfs:s0
