@@ -11,3 +11,6 @@ allow system_server proc:file w_file_perms;
 allow system_server theme_data_file:dir search;
 
 allow system_server user_profile_data_file:dir read;
+
+allow system_server pocket_judge_sysfs:dir search;
+allow system_server pocket_judge_sysfs:file rw_file_perms;
