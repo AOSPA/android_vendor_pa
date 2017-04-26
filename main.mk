@@ -50,14 +50,6 @@ PRODUCT_PROPERTY_OVERRIDES += persist.sys.hideapn=false
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/$(TARGET_PRODUCT)
 
-# Include support for init.d scripts
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/bin/sysinit:system/bin/sysinit
-
-ifneq ($(TARGET_BUILD_VARIANT),user)
-# Include support for userinit
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
-endif
-
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG := false
 
@@ -69,6 +61,9 @@ PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.
 
 # Include support for preconfigured permissions
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:system/etc/default-permissions/pa-permissions.xml
+
+# Copy PA specific init file
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/root/init.pa.rc:root/init.pa.rc
 
 # Include support for additional filesystems
 PRODUCT_PACKAGES += \
