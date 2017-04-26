@@ -16,6 +16,9 @@ on boot
     chown system system /sys/block/dm-0/queue/scheduler
     chmod 0664 /sys/block/dm-0/queue/scheduler
 
+# allow system to communicate pocket state
+    chown system system /sys/kernel/pocket_judge/inpocket
+
 # adb over network
 on property:service.adb.tcp.port=5555
     stop adbd
