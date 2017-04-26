@@ -61,6 +61,9 @@ endif
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG := false
 
+# Provide generic brand name
+PRODUCT_BRAND ?= AOSPA
+
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
