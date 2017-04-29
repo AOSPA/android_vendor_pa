@@ -3,19 +3,19 @@
         "target_path":  "device/huawei/angler",
         "repository":   "AOSPA/android_device_huawei_angler",
         "remote":       "aospa",
-        "revision":     "nougat-mr1"
+        "revision":     "nougat-mr2"
     },
     {
         "target_path":  "vendor/huawei/angler",
         "repository":   "proprietary_vendor_huawei_angler",
         "remote":       "blobs",
-        "revision":     "nougat-mr1"
+        "revision":     "nougat-mr2"
     },
     {
         "target_path":  "kernel/huawei/angler",
         "repository":   "AOSPA/android_kernel_huawei_angler",
         "remote":       "aospa",
-        "revision":     "nougat-mr1"
+        "revision":     "nougat-mr2"
     },
     {
         "target_path":  "hardware/qcom/audio",
