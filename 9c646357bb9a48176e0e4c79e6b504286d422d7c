@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a80dd14_10a1aaa9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000007
+      },
+      "writtenOn": "2017-05-02T13:06:37Z",
+      "side": 1,
+      "message": "It\u0027s not hardcoded, otherwise we wouldn\u0027t be able to change it without touching the code",
+      "revId": "9c646357bb9a48176e0e4c79e6b504286d422d7c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
