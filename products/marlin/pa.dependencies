@@ -1,0 +1,38 @@
+[
+    {
+        "target_path":  "device/google/marlin",
+        "repository":   "AOSPA/android_device_google_marlin",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "kernel/google/marlin",
+        "repository":   "AOSPA/android_kernel_google_marlin",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-aosp"
+    }
+    {
+        "target_path":  "vendor/google",
+        "repository":   "proprietary_vendor_google",
+        "remote":       "blobs",
+        "revision":     "nougat-mr2"
+    }
+]

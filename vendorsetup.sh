@@ -15,3 +15,5 @@ add_lunch_combo pa_gts210wifi-userdebug
 # AOSP
 add_lunch_combo pa_angler-userdebug
 add_lunch_combo pa_bullhead-userdebug
+add_lunch_combo pa_marlin-userdebug
+add_lunch_combo pa_sailfish-userdebug
