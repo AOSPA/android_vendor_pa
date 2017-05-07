@@ -30,5 +30,6 @@
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/angler/pa_angler.mk \
     $(LOCAL_DIR)/bullhead/pa_bullhead.mk \
+    $(LOCAL_DIR)/hammerhead/pa_hammerhead.mk \
     $(LOCAL_DIR)/marlin/pa_marlin.mk \
     $(LOCAL_DIR)/sailfish/pa_sailfish.mk
