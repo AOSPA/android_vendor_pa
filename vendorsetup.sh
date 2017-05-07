@@ -1,6 +1,7 @@
 # CAF
 add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_gemini-userdebug
+add_lunch_combo pa_hammerhead-userdebug
 add_lunch_combo pa_oneplus2-userdebug
 add_lunch_combo pa_oneplus3-userdebug
 add_lunch_combo pa_onyx-userdebug
@@ -18,3 +19,4 @@ add_lunch_combo pa_angler-userdebug
 add_lunch_combo pa_bullhead-userdebug
 add_lunch_combo pa_marlin-userdebug
 add_lunch_combo pa_sailfish-userdebug
+add_lunch_combo pa_shamu-userdebug
