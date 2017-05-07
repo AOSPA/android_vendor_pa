@@ -1,0 +1,44 @@
+[
+    {
+        "target_path":  "device/lge/hammerhead",
+        "repository":   "AOSPA/android_device_lge_hammerhead",
+        "remote":       "github",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "vendor/lge/hammerhead",
+        "repository":   "proprietary_vendor_lge_hammerhead",
+        "remote":       "blobs",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "kernel/lge/hammerhead",
+        "repository":   "AOSPA/android_kernel_lge_hammerhead",
+        "remote":       "github",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-8974"
+    },
+    {
+        "target_path":  "hardware/qcom/keymaster",
+        "repository":   "AOSPA/android_hardware_qcom_keymaster",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "remote":       "github",
+        "revision":     "nougat-mr2-8974"
+    }
+]
