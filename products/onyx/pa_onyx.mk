@@ -15,6 +15,9 @@
 # Check for target product
 ifeq (pa_onyx,$(TARGET_PRODUCT))
 
+# Use AOSP Camera Application
+TARGET_USES_AOSP_CAMERA := true
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
