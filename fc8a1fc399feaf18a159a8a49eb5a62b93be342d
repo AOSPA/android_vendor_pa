@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7c77d04d_9588670d",
+        "filename": "products/pro3/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-05-09T13:16:54Z",
+      "side": 1,
+      "message": "nougat-mr2-8996",
+      "range": {
+        "startLine": 6,
+        "startChar": 25,
+        "endLine": 6,
+        "endChar": 40
+      },
+      "revId": "fc8a1fc399feaf18a159a8a49eb5a62b93be342d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0507c226_1af1ac04",
+        "filename": "products/pro3/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-05-09T13:16:54Z",
+      "side": 1,
+      "message": "nougat-mr2-8996",
+      "range": {
+        "startLine": 12,
+        "startChar": 25,
+        "endLine": 12,
+        "endChar": 40
+      },
+      "revId": "fc8a1fc399feaf18a159a8a49eb5a62b93be342d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e478ce8e_9fa678a5",
+        "filename": "products/pro3/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-05-09T13:16:54Z",
+      "side": 1,
+      "message": "nougat-mr2-8996",
+      "range": {
+        "startLine": 18,
+        "startChar": 25,
+        "endLine": 18,
+        "endChar": 40
+      },
+      "revId": "fc8a1fc399feaf18a159a8a49eb5a62b93be342d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
