@@ -14,9 +14,6 @@
 
 ifeq (pa_angler,$(TARGET_PRODUCT))
 
-# Use the full CAF BSP
-TARGET_USES_AOSP := false
-
 # We have our own power HAL
 TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true
 
