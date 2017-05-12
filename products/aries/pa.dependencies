@@ -1,0 +1,92 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/android_device_sony_aries",
+        "target_path":  "device/sony/aries",
+        "revision":     "aospa-n-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/android_device_sony_shinano-common",
+        "target_path":  "device/sony/shinano-common",
+        "revision":     "aospa-n-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/android_device_sony_msm8974-common",
+        "target_path":  "device/sony/msm8974-common",
+        "revision":     "aospa-n-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_device_sony_common",
+        "target_path":  "device/sony/common",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/android_kernel_sony_msm8974",
+        "target_path":  "kernel/sony/msm8974",
+        "revision":     "aospa-n-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "GalaticStryder/hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "nougat-mr1-8974"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "nougat-mr1-8974"
+    },
+    {
+        "remote":       "github",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "nougat-mr1-8974"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_broadcom_wlan",
+        "target_path":  "hardware/broadcom/wlan",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_sony_macaddrsetup",
+        "target_path":  "hardware/sony/macaddrsetup",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_sony_thermanager",
+        "target_path":  "hardware/sony/thermanager",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_sony_timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "revision":     "cm-14.1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/proprietary_vendor_sony",
+        "target_path":  "vendor/sony",
+        "revision":     "aospa-n-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "CarbonROM/android_external_toybox",
+        "target_path":  "external/toybox",
+        "revision":     "cr-5.1_mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/packages_apps_ExtendedSettings",
+        "target_path":  "packages/apps/ExtendedSettings",
+        "revision":     "master"
+    }
+]
