@@ -15,13 +15,13 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "nougat-mr1-8974"
+        "revision":     "nougat-mr2-8974"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "nougat-mr1-8974"
+        "revision":     "nougat-mr2-8974"
     },
     {
         "remote":       "aospa",
@@ -33,7 +33,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "nougat-mr1-8974"
+        "revision":     "nougat-mr2-8974"
     },
     {
         "remote":       "blobs",
