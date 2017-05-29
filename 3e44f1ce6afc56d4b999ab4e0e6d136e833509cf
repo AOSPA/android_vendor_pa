@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "724905e2_193c429e",
+        "filename": "products/marlin/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-29T16:41:56Z",
+      "side": 1,
+      "message": "change to \"vendor/google/marlin\" please",
+      "revId": "3e44f1ce6afc56d4b999ab4e0e6d136e833509cf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9961a330_3291d6e5",
+        "filename": "products/marlin/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-29T16:41:56Z",
+      "side": 1,
+      "message": "change to \"proprietary_vendor_google_marlin\"",
+      "revId": "3e44f1ce6afc56d4b999ab4e0e6d136e833509cf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "714f0f5e_e67d9a5f",
+        "filename": "products/sailfish/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-29T16:41:56Z",
+      "side": 1,
+      "message": "change to \"vendor/google/marlin\"",
+      "revId": "3e44f1ce6afc56d4b999ab4e0e6d136e833509cf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a7f3b028_a87d6493",
+        "filename": "products/sailfish/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-29T16:41:56Z",
+      "side": 1,
+      "message": "change to \"proprietary_vendor_google_marlin\" please",
+      "revId": "3e44f1ce6afc56d4b999ab4e0e6d136e833509cf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
