@@ -1,4 +1,4 @@
-# Copyright (C) 2015 ParanoidAndroid Project
+# Copyright (C) 2015-2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,6 @@
 
 # Check for target product
 ifeq (pa_onyx,$(TARGET_PRODUCT))
-
-# Use AOSP Camera Application
-TARGET_USES_AOSP_CAMERA := true
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
