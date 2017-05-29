@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b45519a6_c2cc42ba",
+        "filename": "products/onyx/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-05-29T22:07:47Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be needed",
+      "revId": "1284a67bbfafdd9376220e9c84586fb3d29a2007",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "098906fd_ba3a1c80",
+        "filename": "products/onyx/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-05-29T22:07:47Z",
+      "side": 1,
+      "message": "As Alex said this shouldn\u0027t be needed",
+      "revId": "1284a67bbfafdd9376220e9c84586fb3d29a2007",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2f5ac186_659d5d5a",
+        "filename": "products/onyx/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-05-29T22:07:47Z",
+      "side": 1,
+      "message": "Can you fix the whitespace here",
+      "revId": "1284a67bbfafdd9376220e9c84586fb3d29a2007",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
