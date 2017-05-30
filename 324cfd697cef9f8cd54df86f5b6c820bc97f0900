@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "25ebd791_a280a2de",
+        "filename": "products/hammerhead/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000011
+      },
+      "writtenOn": "2017-05-30T13:22:46Z",
+      "side": 1,
+      "message": "o.O",
+      "range": {
+        "startLine": 12,
+        "startChar": 7,
+        "endLine": 12,
+        "endChar": 28
+      },
+      "revId": "324cfd697cef9f8cd54df86f5b6c820bc97f0900",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
