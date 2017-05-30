@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6cbca70c_837d31be",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-05-30T01:45:26Z",
+      "side": 1,
+      "message": "avoid rearrange here",
+      "revId": "d68de0bf8706f2a4f10248fbbf83895f880806f6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
