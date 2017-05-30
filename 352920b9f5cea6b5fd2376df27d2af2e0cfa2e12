@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b4d7358_4a703eb1",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-30T06:24:55Z",
+      "side": 1,
+      "message": "This should go under bullhead one",
+      "revId": "352920b9f5cea6b5fd2376df27d2af2e0cfa2e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a010ef37_1278417a",
+        "filename": "products/hammerhead/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-30T06:24:55Z",
+      "side": 1,
+      "message": "This should be nougat-mr2. Once changes in caf are ready I will cherry-pick them to nougat-mr2.",
+      "revId": "352920b9f5cea6b5fd2376df27d2af2e0cfa2e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
