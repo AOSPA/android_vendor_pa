@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2dfb4285_fa89ee1d",
+        "filename": "products/onyx/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-30T15:41:43Z",
+      "side": 1,
+      "message": "change to ...oneplus_onyx",
+      "revId": "3ab341cd9982bdb8d55f5313d24f0a2998a40fa1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d4daa35_539142ea",
+        "filename": "products/onyx/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-30T15:41:43Z",
+      "side": 1,
+      "message": "kernel/oneplus/onyx",
+      "revId": "3ab341cd9982bdb8d55f5313d24f0a2998a40fa1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f9252801_2c4c8d71",
+        "filename": "products/onyx/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-05-30T15:41:43Z",
+      "side": 1,
+      "message": "nougat-mr2",
+      "revId": "3ab341cd9982bdb8d55f5313d24f0a2998a40fa1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
