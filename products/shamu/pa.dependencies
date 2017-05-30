@@ -1,0 +1,44 @@
+[
+    {
+        "target_path":  "device/moto/shamu",
+        "repository":   "AOSPA/android_device_moto_shamu",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "vendor/moto/shamu",
+        "repository":   "proprietary_vendor_moto_shamu",
+        "remote":       "blobs",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "kernel/moto/shamu",
+        "repository":   "AOSPA/android_kernel_moto_shamu",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-8974"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/keymaster",
+        "repository":   "AOSPA/android_hardware_qcom_keymaster",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-8974"
+    }
+]

@@ -1,4 +1,4 @@
-# Copyright (C) 2016 ParanoidAndroid Project
+# Copyright (C) 2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,4 +32,5 @@
     $(LOCAL_DIR)/angler/pa_angler.mk \
     $(LOCAL_DIR)/bullhead/pa_bullhead.mk \
     $(LOCAL_DIR)/marlin/pa_marlin.mk \
-    $(LOCAL_DIR)/sailfish/pa_sailfish.mk
+    $(LOCAL_DIR)/sailfish/pa_sailfish.mk \
+    $(LOCAL_DIR)/shamu/pa_shamu.mk
