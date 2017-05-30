@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0887c4_53356cba",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-05-30T03:31:39Z",
+      "side": 1,
+      "message": "alphabetize please",
+      "revId": "600b7cc05e0a446fd71fb51957427987faa76bb8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6a3bd064_59980655",
+        "filename": "products/hammerhead/pa_hammerhead.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-05-30T03:31:39Z",
+      "side": 1,
+      "message": "probably need to add AOSP camera at least for now",
+      "revId": "600b7cc05e0a446fd71fb51957427987faa76bb8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
