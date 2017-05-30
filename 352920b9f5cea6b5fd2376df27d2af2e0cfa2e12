@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5a3b9828_0afcdb5e",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-05-30T06:36:27Z",
+      "side": 1,
+      "message": "Yes I\u0027m aware",
+      "parentUuid": "6b4d7358_4a703eb1",
+      "revId": "352920b9f5cea6b5fd2376df27d2af2e0cfa2e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a010ef37_1278417a",
         "filename": "products/hammerhead/pa.dependencies",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2017-05-30T06:24:55Z",
       "side": 1,
       "message": "This should be nougat-mr2. Once changes in caf are ready I will cherry-pick them to nougat-mr2.",
+      "revId": "352920b9f5cea6b5fd2376df27d2af2e0cfa2e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b4e17027_a8aa097b",
+        "filename": "products/hammerhead/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-05-30T06:36:27Z",
+      "side": 1,
+      "message": "Work in progress commit. I\u0027ll make this proper once everything is verified.",
+      "parentUuid": "a010ef37_1278417a",
       "revId": "352920b9f5cea6b5fd2376df27d2af2e0cfa2e12",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
