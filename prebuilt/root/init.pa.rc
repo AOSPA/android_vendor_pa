@@ -1,4 +1,4 @@
-# ParanoidAndroid Extras
+# Paranoid Android Extras
 
 on init
     export ANDROID_CACHE /cache

@@ -1,4 +1,4 @@
-# Copyright (C) 2016 ParanoidAndroid Project
+# Copyright (C) 2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ $(call inherit-product, device/samsung/gts2-common/device-common.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include ParanoidAndroid common configuration
+# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1440
 include vendor/pa/main.mk
 
