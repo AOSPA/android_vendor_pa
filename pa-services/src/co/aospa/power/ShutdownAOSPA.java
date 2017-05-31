@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2016 Paranoid Android
+ * Copyright (C) 2016-2017 Paranoid Android
  *
  */
 
