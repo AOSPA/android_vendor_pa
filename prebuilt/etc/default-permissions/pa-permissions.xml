@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-<!-- Copyright (C) 2016 Paranoid Android
+<!-- Copyright (C) 2016-2017 Paranoid Android
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 -->
 <exceptions>
    <!--
-   The exceptions below have been set by the Paranoid Android project
+   The exceptions below have been set by Paranoid Android
    -->
 	<!-- Paranoid Hub -->
 	<exception
