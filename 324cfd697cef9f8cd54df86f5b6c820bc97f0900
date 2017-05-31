@@ -22,6 +22,30 @@
       "revId": "324cfd697cef9f8cd54df86f5b6c820bc97f0900",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b1079f71_2cdda3be",
+        "filename": "products/hammerhead/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-05-31T22:09:46Z",
+      "side": 1,
+      "message": "Yes it\u0027s temporary. Will not be merged like that",
+      "parentUuid": "25ebd791_a280a2de",
+      "range": {
+        "startLine": 12,
+        "startChar": 7,
+        "endLine": 12,
+        "endChar": 28
+      },
+      "revId": "324cfd697cef9f8cd54df86f5b6c820bc97f0900",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
