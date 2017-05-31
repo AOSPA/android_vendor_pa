@@ -22,6 +22,30 @@
       "revId": "71c7c6b12ad9b1d4ed180c44436daf2e0c85a6e7",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "992244be_c115ea3d",
+        "filename": "products/hammerhead/pa_hammerhead.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000186
+      },
+      "writtenOn": "2017-05-31T22:36:41Z",
+      "side": 1,
+      "message": "i messed up, 6.0.1 latest official for hh",
+      "parentUuid": "f8515ff7_ea6970f9",
+      "range": {
+        "startLine": 46,
+        "startChar": 3,
+        "endLine": 47,
+        "endChar": 74
+      },
+      "revId": "71c7c6b12ad9b1d4ed180c44436daf2e0c85a6e7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
