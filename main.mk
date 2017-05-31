@@ -93,10 +93,12 @@ PRODUCT_COPY_FILES += \
 # Build Chromium for Snapdragon (PA Browser)
 PRODUCT_PACKAGES += PABrowser
 
+# Build Shuttle Paranoid Android Edition
+PRODUCT_PACKAGES += Shuttle
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
-    SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonGallery
 
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
