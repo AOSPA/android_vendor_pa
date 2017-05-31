@@ -1,4 +1,4 @@
-# Copyright (C) 2016 ParanoidAndroid Project
+# Copyright (C) 2017 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ ifeq (pa_robin,$(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include ParanoidAndroid common configuration
+# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Advanced platform features
@@ -30,7 +30,7 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/nextbit/robin/device.mk)
+$(call inherit-product, device/nextbit/robin/robin.mk)
 
 include vendor/pa/main.mk
 
