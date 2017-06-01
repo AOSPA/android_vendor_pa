@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2f641d2_d556c3d6",
+        "filename": "products/shamu/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-06-01T07:15:45Z",
+      "side": 1,
+      "message": "AOSP was correct here.  As far as I know, Nexus 6 should perform better with AOSP Audio HAL.  6P and 5X do by a considerable margin.",
+      "revId": "ffa7e5c5aba77e2d6b0edddd33aa9b689c5c6bdf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5987757b_cb08f409",
+        "filename": "products/shamu/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-06-01T07:15:45Z",
+      "side": 1,
+      "message": "AOSP branch makes more sense here as well since the 8974 branch is for a 3.4 kernel and different hardware.",
+      "revId": "ffa7e5c5aba77e2d6b0edddd33aa9b689c5c6bdf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9d0278cc_b059d979",
+        "filename": "products/shamu/pa_shamu.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-06-01T07:15:45Z",
+      "side": 1,
+      "message": "Add the space back here",
+      "revId": "ffa7e5c5aba77e2d6b0edddd33aa9b689c5c6bdf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
