@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ebf9c61f_c981a460",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000186
+      },
+      "writtenOn": "2017-06-01T19:05:55Z",
+      "side": 1,
+      "message": "Robin not placed alphabetically by device name",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 34
+      },
+      "revId": "7016e122cff62aaec71b556549a79514f294034e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
