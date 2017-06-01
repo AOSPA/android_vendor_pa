@@ -17,10 +17,11 @@
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bacon/pa_bacon.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
+    $(LOCAL_DIR)/mido/pa_mido.mk \
     $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
-    $(LOCAL_DIR)/robin/pa_robin.mk
+    $(LOCAL_DIR)/robin/pa_robin.mk 
 
 # Samsung Exynos family
     PRODUCT_MAKEFILES += \
