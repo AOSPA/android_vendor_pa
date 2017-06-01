@@ -22,6 +22,30 @@
       "revId": "7016e122cff62aaec71b556549a79514f294034e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "39be506e_0213602a",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-06-01T19:57:47Z",
+      "side": 1,
+      "message": "It will be placed alphabetically once we merge the correspondant Robin commit on vendor with is bringup for PA 7.x",
+      "parentUuid": "ebf9c61f_c981a460",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 34
+      },
+      "revId": "7016e122cff62aaec71b556549a79514f294034e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
