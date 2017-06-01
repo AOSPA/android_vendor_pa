@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "846acca4_81600a49",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-06-01T18:38:27Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 35,
+        "startChar": 41,
+        "endLine": 35,
+        "endChar": 42
+      },
+      "revId": "3a48686ec334fa3b4e8ecad85ca16001156a4113",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
