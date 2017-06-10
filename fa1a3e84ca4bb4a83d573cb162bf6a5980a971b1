@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3a2ed52_427e8a7e",
+        "filename": "overlay/common/frameworks/base/packages/DocumentsUI/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-06-10T20:15:56Z",
+      "side": 1,
+      "message": "Does not work ATM",
+      "revId": "fa1a3e84ca4bb4a83d573cb162bf6a5980a971b1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
