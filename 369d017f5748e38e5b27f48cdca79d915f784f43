@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2edddb7f_ab85b469",
+        "filename": "products/zl1/pa_zl1.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000009
+      },
+      "writtenOn": "2017-06-13T14:35:16Z",
+      "side": 1,
+      "message": "I think this should do it now.",
+      "range": {
+        "startLine": 44,
+        "startChar": 32,
+        "endLine": 44,
+        "endChar": 72
+      },
+      "revId": "369d017f5748e38e5b27f48cdca79d915f784f43",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
