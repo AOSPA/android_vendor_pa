@@ -1,0 +1,44 @@
+[
+    {
+        "target_path":  "device/lge/mako",
+        "repository":   "AOSPA/android_device_lge_mako",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "vendor/lge/mako",
+        "repository":   "proprietary_vendor_lge_mako",
+        "remote":       "blobs",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "kernel/lge/mako",
+        "repository":   "AOSPA/android_kernel_lge_mako",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-8960"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2-8960"
+    },
+    {
+        "target_path":  "hardware/qcom/keymaster",
+        "repository":   "AOSPA/android_hardware_qcom_keymaster",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "remote":       "github",
+        "revision":     "nougat-mr2-8960"
+    }
+]
