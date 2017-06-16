@@ -1,0 +1,8 @@
+[
+    {
+        "target_path":  "hardware/qcom/keymaster",
+        "repository":   "AOSPA/android_hardware_qcom_keymaster",
+        "remote":       "aospa",
+        "revision":     "nougat-mr2"
+    }
+]
