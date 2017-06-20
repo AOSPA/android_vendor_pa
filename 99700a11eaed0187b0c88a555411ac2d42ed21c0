@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9286ddf4_c1cca2ae",
+        "filename": "products/zl1/pa_zl1.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-06-20T17:56:21Z",
+      "side": 1,
+      "message": "As Alex suggests, change this to true.",
+      "revId": "99700a11eaed0187b0c88a555411ac2d42ed21c0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "890995b8_6a56218b",
+        "filename": "products/zl1/pa_zl1.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2017-06-20T17:56:21Z",
+      "side": 1,
+      "message": "As Alex suggests, change this to false",
+      "revId": "99700a11eaed0187b0c88a555411ac2d42ed21c0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
