@@ -24,6 +24,8 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Most advanced platform features.
 TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
+TARGET_DISABLE_DASH := false
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 
 # Inherit from our common CAF device tree.
 include device/qcom/common/common.mk
