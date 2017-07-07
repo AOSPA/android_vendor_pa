@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "17302361_8fdc2e27",
+        "filename": "products/hammerhead/pa_hammerhead.mk",
+        "patchSetId": 19
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-07T01:41:29Z",
+      "side": 1,
+      "message": "Just include full_hammerhead",
+      "revId": "7fabb2e0357378050cecb95e6a0b74e37654f96a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
