@@ -25,6 +25,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Most advanced platform features, first.
 TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
 
+# Use AOSP camera application.
+TARGET_USES_AOSP_CAMERA := true
+
 # Inherit from our common CAF device tree.
 include device/qcom/common/common.mk
 
