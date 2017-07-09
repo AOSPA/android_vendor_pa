@@ -37,4 +37,9 @@ PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=onyx \
+    BUILD_FINGERPRINT=OnePlus/OnePlus/OnePlus:6.0.1/MMB29M/10281213:user/release-keys \
+    PRIVATE_BUILD_DESC="OnePlus-user 6.0.1 MMB29M 10281213 release-keys"
+
 endif
