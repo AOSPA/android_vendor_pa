@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3de7d5fd_62ba9b4d",
+        "filename": "products/dora/pa_dora.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-07-10T10:45:26Z",
+      "side": 1,
+      "message": "remove all uncommitted lines",
+      "revId": "190afb055574914865574b5f4a898fc1bc93ce9c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5ca29b9_ad1a680d",
+        "filename": "products/kagura/pa_kagura.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-07-10T10:45:26Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "190afb055574914865574b5f4a898fc1bc93ce9c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5fd10173_88e3414d",
+        "filename": "products/keyaki/pa_keyaki.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-07-10T10:45:26Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "190afb055574914865574b5f4a898fc1bc93ce9c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "043b89d3_2d857e8b",
+        "filename": "products/kugo/pa_kugo.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-07-10T10:45:26Z",
+      "side": 1,
+      "message": "remove it",
+      "revId": "190afb055574914865574b5f4a898fc1bc93ce9c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "88c21821_7aa725c2",
+        "filename": "products/suzu/pa_suzu.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2017-07-10T10:45:26Z",
+      "side": 1,
+      "message": "remove it",
+      "revId": "190afb055574914865574b5f4a898fc1bc93ce9c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
