@@ -36,3 +36,14 @@
     $(LOCAL_DIR)/marlin/pa_marlin.mk \
     $(LOCAL_DIR)/sailfish/pa_sailfish.mk \
     $(LOCAL_DIR)/shamu/pa_shamu.mk
+
+# SONY
+# Loire 8952
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/kugo/pa_kugo.mk \
+    $(LOCAL_DIR)/suzu/pa_suzu.mk
+# Tone 8996
+   PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/dora/pa_dora.mk \
+    $(LOCAL_DIR)/kagura/pa_kagura.mk \
+    $(LOCAL_DIR)/keyaki/pa_keyaki.mk
