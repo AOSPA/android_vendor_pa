@@ -21,3 +21,12 @@ add_lunch_combo pa_hammerhead-userdebug
 add_lunch_combo pa_marlin-userdebug
 add_lunch_combo pa_sailfish-userdebug
 add_lunch_combo pa_shamu-userdebug
+
+# SONY
+# Loire
+add_lunch_combo pa_kugo-userdebug
+add_lunch_combo pa_suzu-userdebug
+# Tone
+add_lunch_combo pa_dora-userdebug
+add_lunch_combo pa_kagura-userdebug
+add_lunch_combo pa_keyaki-userdebug
