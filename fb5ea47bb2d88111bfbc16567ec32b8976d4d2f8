@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "871940f2_35a3e561",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-07-11T02:33:36Z",
+      "side": 1,
+      "message": "Can you alphabetize this list? If you would prefer to separate by family, please use different lists with comments of family and what soc that is.",
+      "revId": "fb5ea47bb2d88111bfbc16567ec32b8976d4d2f8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
