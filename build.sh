@@ -60,7 +60,7 @@ if [ -z "$THREADS" ]; then
 fi
 
 # Pick the best JDK 8, if more than one is installed
-if [ "$(update-alternatives --list javac | wc -l)" -gt 1 ]; then
+if [ ! -z $(which update-alternatives) ] && [ "$(update-alternatives --list javac | wc -l)" -gt 1 ]; then
         JDK_PATH=$(dirname $(update-alternatives --list javac | grep '\-8\-') | tail -n1)
         JRE_PATH=$(dirname $JDK_PATH/../jre/bin/java)
         export PATH=$JDK_PATH:$JRE_PATH:$PATH
