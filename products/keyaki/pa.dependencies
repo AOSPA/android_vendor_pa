@@ -19,6 +19,12 @@
     },
     {
         "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common-headers",
+        "target_path":  "hardware/sony/common-headers",
+        "revision":     "aosp/LA.UM.5.7.r1"
+    },
+    {
+        "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-common-init",
         "target_path":  "hardware/sony/init",
         "revision":     "master"
