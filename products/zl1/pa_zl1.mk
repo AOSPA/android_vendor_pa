@@ -36,9 +36,6 @@ include device/qcom/common/common.mk
 # Inherit the device configuration itself.
 $(call inherit-product, device/leeco/zl1/zl1.mk)
 
-# Inherit the main configuration from our vendor.
-include vendor/pa/main.mk
-
 # Override default AOSP build properties.
 PRODUCT_NAME := pa_zl1
 PRODUCT_DEVICE := zl1
@@ -56,5 +53,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # The model (X720/X727) is set from init.
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

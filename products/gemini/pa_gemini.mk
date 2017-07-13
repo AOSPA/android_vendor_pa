@@ -34,9 +34,6 @@ include device/qcom/common/common.mk
 # Inherit the device configuration itself.
 $(call inherit-product, device/xiaomi/gemini/device.mk)
 
-# Inherit the main configuration from our vendor.
-include vendor/pa/main.mk
-
 # Override device build properties.
 PRODUCT_NAME := pa_gemini
 PRODUCT_DEVICE := gemini
@@ -54,4 +51,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="gemini-user 7.0 NRD90M V8.2.1.0.NAACNEB release-keys"
 
 TARGET_VENDOR := Xiaomi
+
+# Paranoid Android platform
+include vendor/pa/main.mk
+
 endif
