@@ -54,9 +54,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Get the defaults going.
 TARGET_BOOT_ANIMATION_RES := 1440
 
-# Paranoid Android platform
-include vendor/pa/main.mk
-
 # Override AOSP defaults that we want changed.
 PRODUCT_NAME := pa_angler
 PRODUCT_DEVICE := angler
@@ -64,9 +61,13 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
     BUILD_FINGERPRINT=google/angler/angler:7.1.2/N2G47W/3938523:user/release-keys \
     PRIVATE_BUILD_DESC="angler-user 7.1.2 N2G47W 3938523 release-keys"
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

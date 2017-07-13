@@ -24,12 +24,13 @@ $(call inherit-product, device/sony/keyaki/aosp_g8231.mk)
 # Generic CAF packages
 include device/qcom/common/common.mk
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
-include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_keyaki
 PRODUCT_MODEL := Xperia XZs(AOSPA)
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

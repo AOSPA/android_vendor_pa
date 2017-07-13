@@ -19,7 +19,6 @@ ifeq (pa_robin,$(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Advanced platform features
@@ -31,8 +30,6 @@ include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/nextbit/robin/device.mk)
-
-include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_robin
@@ -46,5 +43,8 @@ PRODUCT_MANUFACTURER := Nextbit
 PRODUCT_BUILD_PROP_OVERRIDES += \
      BUILD_FINGERPRINT=Nextbit/ether/ether:6.0.1/MMB29M/00WW_1_370:user/release-keys \
      PRIVATE_BUILD_DESC="ether-user 6.0.1 MMB29M 00WW_1_370 release-keys"
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

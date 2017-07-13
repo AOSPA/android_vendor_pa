@@ -24,12 +24,13 @@ $(call inherit-product, device/sony/suzu/aosp_f5121.mk)
 # Generic CAF packages
 include device/qcom/common/common.mk
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
-include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_suzu
 PRODUCT_MODEL := Xperia X (AOSPA)
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

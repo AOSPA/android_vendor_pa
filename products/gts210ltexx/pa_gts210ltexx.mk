@@ -22,9 +22,7 @@ $(call inherit-product, device/samsung/gts2-common/device-common.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1440
-include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_gts210ltexx
@@ -34,5 +32,8 @@ PRODUCT_MODEL := SM-T815
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=gts210ltexx
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

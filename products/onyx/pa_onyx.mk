@@ -18,15 +18,12 @@ ifeq (pa_onyx,$(TARGET_PRODUCT))
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/oneplus/onyx/onyx.mk)
-
-include vendor/pa/main.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_onyx
@@ -41,5 +38,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=onyx \
     BUILD_FINGERPRINT=OnePlus/OnePlus/OnePlus:6.0.1/MMB29M/10281213:user/release-keys \
     PRIVATE_BUILD_DESC="OnePlus-user 6.0.1 MMB29M 10281213 release-keys"
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif
