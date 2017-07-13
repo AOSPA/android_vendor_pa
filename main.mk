@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:s
 PRODUCT_PROPERTY_OVERRIDES += persist.sys.hideapn=false
 
 # Include vendor overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
+COMMON_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG := false
