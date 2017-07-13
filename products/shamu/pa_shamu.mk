@@ -27,7 +27,6 @@ $(call inherit-product, device/moto/shamu/aosp_shamu.mk)
 # Generic CAF packages
 include device/qcom/common/common.mk
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1440
 
 # Paranoid Android platform
@@ -42,4 +41,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=shamu \
     BUILD_FINGERPRINT=google/shamu/shamu:7.1.1/N6F27H/4072753:user/release-keys \
     PRIVATE_BUILD_DESC="shamu-user 7.1.1 N6F27H 4072753 release-keys"
+
+# Paranoid Android platform
+include vendor/pa/main.mk
+
 endif

@@ -31,9 +31,6 @@ include device/qcom/common/common.mk
 # Get the defaults going.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Paranoid Android platform
-include vendor/pa/main.mk
-
 # Disable QC partial update
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.mdp.partialUpdate=false
@@ -49,5 +46,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
     BUILD_FINGERPRINT=google/bullhead/bullhead:7.1.2/N2G47W/3938523:user/release-keys \
     PRIVATE_BUILD_DESC="bullhead-user 7.1.2 N2G47W 3938523 release-keys"
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif

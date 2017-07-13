@@ -26,8 +26,6 @@ include device/qcom/common/common.mk
 # Inherit AOSP device configuration
 $(call inherit-product, device/oneplus/bacon/bacon.mk)
 
-include vendor/pa/main.mk
-
 # Override AOSP build properties
 PRODUCT_NAME := pa_bacon
 PRODUCT_DEVICE := bacon
@@ -36,5 +34,8 @@ PRODUCT_MODEL := One
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+# Paranoid Android platform
+include vendor/pa/main.mk
 
 endif
