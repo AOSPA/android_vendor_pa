@@ -20,9 +20,6 @@ TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true
 # Use AOSP Camera Application
 TARGET_USES_AOSP_CAMERA := true
 
-# We have our own sepolicy
-TARGET_EXCLUDE_QCOM_SEPOLICY := true
-
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Generic CAF packages
