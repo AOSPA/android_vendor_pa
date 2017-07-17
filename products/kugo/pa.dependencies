@@ -15,7 +15,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_sony_common",
         "target_path":  "device/sony/common",
-        "revision":     "nougat-mr2"
+        "revision":     "nougat-mr2-3.10"
     },
     {
         "remote":       "github",
@@ -27,7 +27,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/device-sony-sepolicy",
         "target_path":  "device/sony/sepolicy",
-        "revision":     "nougat-mr2"
+        "revision":     "nougat-mr2-3.10"
     },
     {
         "remote":       "github",
