@@ -40,8 +40,8 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/04101830:user/release-keys \
-     PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 53 dev-keys"
+     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/05151830:user/release-keys \
+     PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 63 dev-keys"
 
 # Paranoid Android platform
 include vendor/pa/main.mk
