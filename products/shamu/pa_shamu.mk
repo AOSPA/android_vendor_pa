@@ -29,9 +29,6 @@ include device/qcom/common/common.mk
 
 TARGET_BOOT_ANIMATION_RES := 1440
 
-# Paranoid Android platform
-include vendor/pa/main.mk
-
 # Override AOSP build properties
 PRODUCT_NAME := pa_shamu
 PRODUCT_BRAND := google
