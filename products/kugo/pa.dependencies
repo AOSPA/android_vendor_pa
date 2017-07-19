@@ -134,7 +134,7 @@
     {
         "remote":       "github",
         "repository":   "ThankYouMario/proprietary_vendor_sony",
-        "target_path":  "vendor",
+        "target_path":  "vendor/sony",
         "revision":     "nougat-mr2-loire"
     },
     {
