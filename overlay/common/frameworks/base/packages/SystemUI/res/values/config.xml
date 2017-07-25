@@ -29,4 +29,11 @@
     <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
 
+    <!-- Whether to show a warning notification when the device reaches a certain temperature. -->
+    <integer name="config_showTemperatureWarning">1</integer>
+
+    <!-- Temp at which to show a warning notification if config_showTemperatureWarning is true.
+         If < 0, uses the value from HardwarePropertiesManager#getDeviceTemperatures. -->
+    <integer name="config_warningTemperature">55</integer>
+
 </resources>
