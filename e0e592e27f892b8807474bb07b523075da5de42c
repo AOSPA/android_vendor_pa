@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b376bbf0_d07f298b",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-28T00:51:44Z",
+      "side": 1,
+      "message": "true is not an integer value",
+      "revId": "e0e592e27f892b8807474bb07b523075da5de42c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
