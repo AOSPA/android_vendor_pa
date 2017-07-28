@@ -14,6 +14,12 @@
 
 ifeq (pa_bullhead,$(TARGET_PRODUCT))
 
+TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
+
+TARGET_USES_MEDIA_EXTENSIONS := true
+
+TARGET_DISABLE_DASH := false
+
 # We have our own power HAL
 TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true
 

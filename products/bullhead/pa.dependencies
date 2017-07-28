@@ -21,7 +21,7 @@
         "target_path":  "hardware/qcom/audio",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "remote":       "aospa",
-        "revision":     "nougat-mr2-aosp"
+        "revision":     "nougat-mr2-8994"
     },
     {
         "target_path":  "hardware/qcom/display",
