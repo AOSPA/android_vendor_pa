@@ -6,6 +6,7 @@ add_lunch_combo pa_oneplus3-userdebug
 add_lunch_combo pa_onyx-userdebug
 add_lunch_combo pa_r7plus-userdebug
 add_lunch_combo pa_robin-userdebug
+add_lunch_combo pa_libra-userdebug
 add_lunch_combo pa_trltexx-userdebug
 add_lunch_combo pa_titan-userdebug
 add_lunch_combo pa_zl1-userdebug
