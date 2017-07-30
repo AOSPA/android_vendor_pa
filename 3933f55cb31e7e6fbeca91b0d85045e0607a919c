@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f047ba77_a79c929a",
+        "filename": "products/libra/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-30T03:49:43Z",
+      "side": 1,
+      "message": "Put the media hal dependency up with the other hals",
+      "revId": "3933f55cb31e7e6fbeca91b0d85045e0607a919c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ee731a1_f753cd78",
+        "filename": "products/libra/pa_libra.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-30T03:49:43Z",
+      "side": 1,
+      "message": "Missing licensing header",
+      "revId": "3933f55cb31e7e6fbeca91b0d85045e0607a919c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cd8175bb_e9245824",
+        "filename": "products/libra/pa_libra.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-30T03:49:43Z",
+      "side": 1,
+      "message": "This is not how we set boot animation resolution. Use TARGET_BOOT_ANIMATION_RES. Again, see other devices for examples",
+      "revId": "3933f55cb31e7e6fbeca91b0d85045e0607a919c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e75d47a2_4aa99a75",
+        "filename": "products/libra/pa_libra.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-30T03:49:43Z",
+      "side": 1,
+      "message": "stray space",
+      "revId": "3933f55cb31e7e6fbeca91b0d85045e0607a919c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa1f601e_0a841952",
+        "filename": "products/libra/pa_libra.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-30T03:49:43Z",
+      "side": 1,
+      "message": "include qcom common before the device makefile",
+      "revId": "3933f55cb31e7e6fbeca91b0d85045e0607a919c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5146690c_d1655c61",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2017-07-30T03:49:43Z",
+      "side": 1,
+      "message": "l comes before o",
+      "revId": "3933f55cb31e7e6fbeca91b0d85045e0607a919c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
