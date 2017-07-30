@@ -132,22 +132,16 @@
         "revision":     "master"
     },
     {
-        "remote":       "github",
-        "repository":   "ThankYouMario/proprietary_vendor_sony",
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_sony",
         "target_path":  "vendor/sony",
         "revision":     "nougat-mr2-loire"
     },
     {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-nxp",
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_nxp",
         "target_path":  "vendor/nxp",
-        "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "repository":   "NXPNFCProject/NXPNFCC_FW",
-        "target_path":  "vendor/nxp/NXPNFCC_FW",
-        "revision":     "master"
+        "revision":     "nougat-mr2"
     },
     {
         "remote":       "github",
