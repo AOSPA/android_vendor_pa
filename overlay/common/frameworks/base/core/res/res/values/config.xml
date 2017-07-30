@@ -90,4 +90,7 @@
     <!-- The threshold angle for any motion detection in auto-power save modes.
          In hundreths of a degree. -->
     <integer name="config_autoPowerModeThresholdAngle">45</integer>
+
+    <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
+    <bool name="config_useRoundIcon">true</bool>
 </resources>
