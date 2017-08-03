@@ -34,6 +34,6 @@
 
     <!-- Temp at which to show a warning notification if config_showTemperatureWarning is true.
          If < 0, uses the value from HardwarePropertiesManager#getDeviceTemperatures. -->
-    <integer name="config_warningTemperature">55</integer>
+    <integer name="config_warningTemperature">-1</integer>
 
 </resources>
