@@ -81,4 +81,11 @@
 		<!-- Phone state -->
 		<permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
 	</exception>
+        <!-- Clock -->
+        <exception
+            package="com.android.deskclock">
+                <!-- Storage -->
+                <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
+                <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        </exception>
 </exceptions>
