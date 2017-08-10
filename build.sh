@@ -152,6 +152,8 @@ fi
 echo -e ""
 
 # Build away!
+RETVAL=0
+
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
 if [ "$FLAG_USER_BUILD" = 'y' ]; then
@@ -159,7 +161,14 @@ if [ "$FLAG_USER_BUILD" = 'y' ]; then
 else
         mka bacon
 fi
+RETVAL=$?
 echo -e ""
+
+# Check if the build failed
+if [ $RETVAL -ne 0 ]; then
+        echo "${CLR_BLD_RED}Build failed!"
+        echo -e ""
+fi
 
 # Check the finishing time
 TIME_END=$(date +%s.%N)
@@ -167,3 +176,5 @@ TIME_END=$(date +%s.%N)
 # Log those times at the end as a fun fact of the day
 echo -e "${CLR_BLD_GRN}Total time elapsed:${CLR_RST} ${CLR_GRN}$(echo "($TIME_END - $TIME_START) / 60" | bc) minutes ($(echo "$TIME_END - $TIME_START" | bc) seconds)${CLR_RST}"
 echo -e ""
+
+exit $RETVAL
