@@ -1,0 +1,10 @@
+Presubmit-Ready+1: Alex Naidis <alex.naidis@linux.com>
+Verified+1: Friendly BuildBot
+Verified+1: Alex Naidis <alex.naidis@linux.com>
+Code-Review+2: Alex Naidis <alex.naidis@linux.com>
+Code-Review+2: Evan Anderson <evananderson@aospa.co>
+Submitted-by: Evan Anderson <evananderson@aospa.co>
+Submitted-at: Thu, 10 Aug 2017 01:59:01 +0000
+Reviewed-on: https://gerrit.aospa.co/3681
+Project: AOSPA/android_vendor_pa
+Branch: refs/heads/nougat-mr2
