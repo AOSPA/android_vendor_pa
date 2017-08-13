@@ -27,9 +27,6 @@ TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
 TARGET_DISABLE_DASH := false
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 
-# Use AOSP camera application.
-TARGET_USES_AOSP_CAMERA := true
-
 # Inherit from our common CAF device tree.
 include device/qcom/common/common.mk
 
