@@ -41,6 +41,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Ariel.ogg \
     ro.config.ringtone=Titania.ogg
 
+# Increase media volume steps
+PRODUCT_PROPERTY_OVERRIDES += ro.config.media_vol_steps=24
+
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
