@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "34ff37da_75861f07",
+        "filename": "products/potter/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-08-20T22:32:44Z",
+      "side": 1,
+      "message": "why is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d2e25d30_7ab15c0f",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-08-20T22:32:44Z",
+      "side": 1,
+      "message": "is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c8530d05_4943fa35",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-08-20T22:32:44Z",
+      "side": 1,
+      "message": "is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "95d22091_407f4f8a",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-08-20T22:32:44Z",
+      "side": 1,
+      "message": "is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3e00834_b1e672e8",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-08-20T22:32:44Z",
+      "side": 1,
+      "message": "is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "87157da8_aa884005",
+        "filename": "products/titan/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2017-08-20T22:32:44Z",
+      "side": 1,
+      "message": "same for all these repos",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
