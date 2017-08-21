@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "2d4e7cc5_de6fe175",
+        "filename": "products/potter/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000206
+      },
+      "writtenOn": "2017-08-21T07:33:07Z",
+      "side": 1,
+      "message": "This is needed to make the camera work on this device, without this repo camera apps immediately crash or can\u0027t connect to the camera",
+      "parentUuid": "34ff37da_75861f07",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d2e25d30_7ab15c0f",
         "filename": "products/thea/pa.dependencies",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2017-08-20T22:32:44Z",
       "side": 1,
       "message": "is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "20ee31ee_6ce260f5",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000206
+      },
+      "writtenOn": "2017-08-21T07:33:07Z",
+      "side": 1,
+      "message": "Part of the wifi fix",
+      "parentUuid": "d2e25d30_7ab15c0f",
       "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "7c5f4bd6_c9074c31",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000206
+      },
+      "writtenOn": "2017-08-21T07:33:07Z",
+      "side": 1,
+      "message": "This is needed to fix wifi, otherwise it is stuck on connected: no wifi",
+      "parentUuid": "c8530d05_4943fa35",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "95d22091_407f4f8a",
         "filename": "products/thea/pa.dependencies",
         "patchSetId": 5
@@ -64,6 +118,24 @@
       "writtenOn": "2017-08-20T22:32:44Z",
       "side": 1,
       "message": "is this needed",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28728e30_067df6bc",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000206
+      },
+      "writtenOn": "2017-08-21T07:33:07Z",
+      "side": 1,
+      "message": "This is needed to fix the build, using the default one from pa causes crashes",
+      "parentUuid": "95d22091_407f4f8a",
       "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "3e85fff0_d31b9ded",
+        "filename": "products/thea/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000206
+      },
+      "writtenOn": "2017-08-21T07:33:07Z",
+      "side": 1,
+      "message": "Same as tinycompress",
+      "parentUuid": "b3e00834_b1e672e8",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "87157da8_aa884005",
         "filename": "products/titan/pa.dependencies",
         "patchSetId": 5
@@ -98,6 +188,24 @@
       "writtenOn": "2017-08-20T22:32:44Z",
       "side": 1,
       "message": "same for all these repos",
+      "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "68708e8f_b1f5b5c5",
+        "filename": "products/titan/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 1000206
+      },
+      "writtenOn": "2017-08-21T07:33:07Z",
+      "side": 1,
+      "message": "Exactly the same reasons as for thea, these devices are almost identical, thea just has a bigger battery and 4G LTE",
+      "parentUuid": "87157da8_aa884005",
       "revId": "f74ee98a44ab285ddb17287a07e010fdcfbd5ef8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
