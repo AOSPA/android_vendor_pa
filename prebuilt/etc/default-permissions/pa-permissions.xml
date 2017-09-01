@@ -26,7 +26,7 @@
 	</exception>
 	<!-- Paranoid Camera -->
 	<exception
-            package="org.codeaurora.snapcam">
+            package="co.paranoidandroid.camera">
 		<!-- Camera -->
 		<permission name="android.permission.CAMERA" fixed="false"/>
 		<!-- Microphone -->
