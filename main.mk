@@ -108,14 +108,19 @@ PRODUCT_PACKAGES += \
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
+# Build ParanoidCamera
+ifneq ($(TARGET_USES_AOSP_CAMERA),true)
+PRODUCT_PACKAGES += ParanoidCamera
+endif
+
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
 
-# Build WallpaperPicker
-PRODUCT_PACKAGES += WallpaperPicker
-
 # Build ParanoidPapers
 PRODUCT_PACKAGES += ParanoidPapers
+
+# Build WallpaperPicker
+PRODUCT_PACKAGES += WallpaperPicker
 
 # Include the custom PA bootanimation
 ifeq ($(TARGET_BOOT_ANIMATION_RES),480)
