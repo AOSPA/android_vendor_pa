@@ -119,6 +119,11 @@ PRODUCT_PACKAGES += \
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
 
+# Themes
+PRODUCT_PACKAGES += \
+    PixelTheme \
+    Stock
+
 # Build WallpaperPicker
 PRODUCT_PACKAGES += WallpaperPicker
 
