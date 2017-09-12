@@ -17,9 +17,6 @@ ifeq (pa_marlin,$(TARGET_PRODUCT))
 # We have our own power HAL
 TARGET_USES_DEVICE_SPECIFIC_POWERHAL := true
 
-# Use AOSP Camera Application
-TARGET_USES_AOSP_CAMERA := true
-
 # Use the AOSP stack
 TARGET_USES_AOSP := true
 
