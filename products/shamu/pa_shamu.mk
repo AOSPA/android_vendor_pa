@@ -15,9 +15,6 @@
 # Check for target product
 ifeq (pa_shamu,$(TARGET_PRODUCT))
 
-# Use AOSP Camera Application
-TARGET_USES_AOSP_CAMERA := true
-
 # Use the AOSP stack
 TARGET_USES_AOSP := true
 
