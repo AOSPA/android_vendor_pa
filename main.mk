@@ -16,7 +16,7 @@ export VENDOR := pa
 
 # Include versioning information
 # Format: Major.minor.maintenance(-TAG)
-export PA_VERSION := 7.3.1-EOL
+export PA_VERSION := 8.0.0-DEV
 
 export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -170,9 +170,6 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth Audio (A2DP)
 PRODUCT_PACKAGES += libbthost_if
-
-# Substratum
-PRODUCT_PACKAGES += ThemeInterfacer
 
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
