@@ -99,9 +99,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += PABrowser
 
 # Build ParanoidCamera
-ifneq ($(TARGET_USES_AOSP_CAMERA),true)
 PRODUCT_PACKAGES += ParanoidCamera
-endif
 
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
