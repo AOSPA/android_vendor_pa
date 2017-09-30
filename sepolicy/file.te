@@ -1,5 +1,2 @@
-# Themes
-type theme_data_file, file_type, data_file_type;
-
 # Pocket judge
 type pocket_judge_sysfs, fs_type, sysfs_type;
