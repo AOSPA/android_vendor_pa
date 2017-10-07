@@ -143,9 +143,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
 else
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
 endif
 
 # TCP Connection Management
