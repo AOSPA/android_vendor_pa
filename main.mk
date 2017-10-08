@@ -174,6 +174,9 @@ PRODUCT_PACKAGES += libbthost_if
 # Substratum
 PRODUCT_PACKAGES += ThemeInterfacer
 
+# mm-dash 
+TARGET_DISABLE_DASH := true
+
 # Include vendor SEPolicy changes
 include vendor/pa/sepolicy/sepolicy.mk
 
