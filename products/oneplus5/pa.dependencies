@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "github-ssh",
+        "repository":   "grarak/android_device_oneplus_oneplus5",
+        "target_path":  "device/oneplus/oneplus5",
+        "revision":     "oreo"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "Herna1994/android_kernel_oneplus_msm8998",
+        "target_path":  "kernel/oneplus/msm8998",
+        "revision":     "oreo"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "Herna1994/proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "op5"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "oreo-8998"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "oreo-8998"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "oreo-8998"
+    }
+]
