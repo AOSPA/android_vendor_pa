@@ -36,4 +36,7 @@
     <!-- config for showing AM/PM in 12hour format -->
     <bool name="config_showAmpm">false</bool>
 
+    <!-- Whether to show wifi activity indicators in the status bar -->
+    <bool name="config_showWifiActivity">true</bool>
+
 </resources>
