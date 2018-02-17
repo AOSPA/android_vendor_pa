@@ -4,6 +4,6 @@ pa_soong:
 	$(hide) (\
 	echo '{'; \
 	echo '"Pa": {'; \
-	echo '    "Target_shim_libs": "$(TARGET_LD_SHIM_LIBS)"'; \
+	echo '    "Target_shim_libs": "$(subst $(space),:,$(TARGET_LD_SHIM_LIBS))"'; \
 	echo '},'; \
 	echo '') > $(SOONG_VARIABLES_TMP)
