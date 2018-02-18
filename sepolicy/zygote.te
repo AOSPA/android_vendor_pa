@@ -1,1 +1,2 @@
 allow zygote self:capability sys_nice;
+allow zygote cgroup:file create;
