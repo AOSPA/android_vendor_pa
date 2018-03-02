@@ -17,12 +17,10 @@ ifeq (pa_suzu,$(TARGET_PRODUCT))
 
 # Use the AOSP stack
 TARGET_USES_AOSP := true
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/suzu/aosp_f5121.mk)
-
-# Generic CAF packages
-include device/qcom/common/common.mk
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
