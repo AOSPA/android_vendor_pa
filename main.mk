@@ -41,6 +41,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Ariel.ogg \
     ro.config.ringtone=Titania.ogg
 
+# Enable AOPT for Substratum
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.substratum.aopt=true
+
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
