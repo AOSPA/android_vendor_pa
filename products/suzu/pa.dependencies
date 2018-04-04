@@ -152,24 +152,6 @@
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-fw-api",
-        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/fw-api",
-        "revision":     "aosp/LA.UM.6.4.r1"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn",
-        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn",
-        "revision":     "aosp/LA.UM.6.4.r1"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0",
-        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0",
-        "revision":     "aosp/LA.UM.6.4.r1"
-    },
-    {
-        "remote":       "github",
         "repository":   "sonyxperiadev/json-c",
         "target_path":  "external/json-c",
         "revision":     "master"

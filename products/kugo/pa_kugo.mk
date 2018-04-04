@@ -17,7 +17,8 @@ ifeq (pa_kugo,$(TARGET_PRODUCT))
 
 # Use the AOSP stack
 TARGET_USES_AOSP := true
-TARGET_EXCLUDE_QCOM_SEPOLICY := true
+TARGET_EXCLUDE_QCOM_SEPOLICY=true
+BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/kugo/aosp_f5321.mk)

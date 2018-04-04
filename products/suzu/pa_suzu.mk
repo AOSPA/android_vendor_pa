@@ -17,7 +17,8 @@ ifeq (pa_suzu,$(TARGET_PRODUCT))
 
 # Use the AOSP stack
 TARGET_USES_AOSP := true
-TARGET_EXCLUDE_QCOM_SEPOLICY := true
+TARGET_EXCLUDE_QCOM_SEPOLICY=true
+BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/suzu/aosp_f5121.mk)
