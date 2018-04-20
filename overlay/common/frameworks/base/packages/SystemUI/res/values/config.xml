@@ -47,4 +47,14 @@
          increase the rate of unintentional unlocks. -->
     <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
 
+    <!-- The default tiles to display in QuickSettings -->
+    <string name="quick_settings_tiles_default" translatable="false">
+        wifi,cell,bt,location,dnd,rotation,airplane,night,flashlight
+    </string>
+
+    <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
+    <string name="quick_settings_tiles_stock" translatable="false">
+        wifi,cell,bt,location,dnd,rotation,airplane,night,flashlight,nfc,hotspot,cast,battery,saver,inversion,work
+    </string>
+
 </resources>
