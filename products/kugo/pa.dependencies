@@ -26,19 +26,19 @@
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/kernel",
-        "target_path":  "kernel/sony/msm",
+        "target_path":  "kernel/sony/msm-4.4/kernel",
         "revision":     "aosp/LA.UM.6.4.r1"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/device-sony-common-headers",
-        "target_path":  "device/sony/common-headers",
+        "target_path":  "kernel/sony/msm-4.4/common-headers",
         "revision":     "aosp/LA.UM.6.4.r1"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/camera",
-        "target_path":  "hardware/qcom/camera",
+        "target_path":  "vendor/qcom/opensource/camera",
         "revision":     "aosp/LA.UM.6.4.r1"
     },
     {
