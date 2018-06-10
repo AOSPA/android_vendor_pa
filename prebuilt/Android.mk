@@ -1,8 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := PABrowser
-LOCAL_SRC_FILES     := app/PABrowser.apk
+LOCAL_MODULE        := ChromePublic
+LOCAL_SRC_FILES     := app/ChromePublic.apk
 LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
 LOCAL_CERTIFICATE   := PRESIGNED
