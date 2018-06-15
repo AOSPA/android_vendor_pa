@@ -27,6 +27,10 @@ include device/qcom/common/common.mk
 # Inherit device configuration
 $(call inherit-product, device/nubia/nx612j/common.mk)
 
+# Device identifier. This is for the vendor's private library
+BOARD_VENDOR := nubia
+TARGET_VENDOR := nubia
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := nx612j
 PRODUCT_NAME := pa_nx612j
