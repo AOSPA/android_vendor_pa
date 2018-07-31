@@ -24,8 +24,8 @@
         "revision":     "oreo-mr1"
     },
     {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/kernel",
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_sony_msm-4.4",
         "target_path":  "kernel/sony/msm-4.4/kernel",
         "revision":     "aosp/LA.UM.6.4.r1"
     },
@@ -49,12 +49,6 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_bt",
-        "target_path":  "hardware/qcom/bt",
-        "revision":     "oreo-mr1-aosp"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "oreo-mr1-aosp"
@@ -70,6 +64,12 @@
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "oreo-mr1-aosp"
+    },
+	    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/thermal",
+        "target_path":  "hardware/qcom/thermal",
+        "revision":     "refs/tags/LA.UM.6.2.r1-09500-sdm660.0"
     },
     {
         "remote":       "github",
