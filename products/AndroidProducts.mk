@@ -47,3 +47,8 @@
     $(LOCAL_DIR)/dora/pa_dora.mk \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
+# Yoshino 8998	
+   PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/lilac/pa_lilac.mk \
+    $(LOCAL_DIR)/maple/pa_maple.mk \
+    $(LOCAL_DIR)/poplar/pa_poplar.mk

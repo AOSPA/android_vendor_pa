@@ -30,6 +30,10 @@ add_lunch_combo pa_suzu-userdebug
 add_lunch_combo pa_dora-userdebug
 add_lunch_combo pa_kagura-userdebug
 add_lunch_combo pa_keyaki-userdebug
+# Yoshino
+add_lunch_combo pa_lilac-userdebug
+add_lunch_combo pa_maple-userdebug
+add_lunch_combo pa_poplar-userdebug
 
 # SDClang Environment Variables
 export SDCLANG_AE_CONFIG=vendor/pa/sdclang/sdclangAE.json

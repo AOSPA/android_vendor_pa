@@ -1,0 +1,189 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_sony_maple",
+        "target_path":  "device/sony/maple",
+        "revision":     "oreo-mr1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_sony_yoshino",
+        "target_path":  "device/sony/yoshino",
+        "revision":     "oreo-mr1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_sony_common",
+        "target_path":  "device/sony/common",
+        "revision":     "oreo-mr1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_sony_sepolicy",
+        "target_path":  "device/sony/sepolicy",
+        "revision":     "oreo-mr1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_sony_msm-4.4",
+        "target_path":  "kernel/sony/msm-4.4/kernel",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common-headers",
+        "target_path":  "kernel/sony/msm-4.4/common-headers",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/camera",
+        "target_path":  "vendor/qcom/opensource/camera",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "oreo-mr1-aosp"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "oreo-mr1-aosp"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "oreo-mr1-aosp"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "oreo-mr1-aosp"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "oreo-mr1-aosp"
+    },
+	    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/thermal",
+        "target_path":  "hardware/qcom/thermal",
+        "revision":     "LA.UM.6.2.r1-09500-sdm660.0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-sony-oss-fingerprint",
+        "target_path":  "vendor/oss/fingerprint",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/macaddrsetup",
+        "target_path":  "vendor/oss/macaddrsetup",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/thermanager",
+        "target_path":  "vendor/oss/thermanager",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/timekeep",
+        "target_path":  "vendor/oss/timekeep",
+        "revision":     "master"
+    },
+    {
+
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-dataservices",
+        "target_path":  "vendor/qcom/opensource/dataservices",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-fm",
+        "target_path":  "vendor/qcom/opensource/fm",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-location",
+        "target_path":  "vendor/qcom/opensource/location",
+        "revision":     "o-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-time-services",
+        "target_path":  "vendor/qcom/opensource/time-services",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/packages-apps-FMRadio",
+        "target_path":  "packages/apps/FMRadio",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-broadcom-bt-fm",
+        "target_path":  "vendor/broadcom/bt-fm",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-broadcom-wlan",
+        "target_path":  "vendor/broadcom/wlan",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-nxp",
+        "target_path":  "vendor/nxp",
+        "revision":     "master"
+    },
+	{
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-fw-api",
+        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/fw-api",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn",
+        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0",
+        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },	
+    {
+        "remote":       "github",
+        "repository":   "NXPNFCProject/NXPNFCC_FW",
+        "target_path":  "vendor/nxp/NXPNFCC_FW",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/json-c",
+        "target_path":  "external/json-c",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/packages_apps_ExtendedSettings",
+        "target_path":  "packages/apps/ExtendedSettings",
+        "revision":     "master"
+    }
+]
