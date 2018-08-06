@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7f5ae612_448a2d16",
+        "filename": "products/suzu/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2018-08-06T01:51:01Z",
+      "side": 1,
+      "message": "we need to fix sony\u0027s crappy repo structure because this breaks the repo tool",
+      "revId": "0062e4772a0c8ea682a20e738a5b64b3c44fc874",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
