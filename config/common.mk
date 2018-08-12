@@ -99,6 +99,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Common overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pa/overlay/common
 DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
