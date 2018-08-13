@@ -79,6 +79,13 @@ PRODUCT_PACKAGES += ParanoidHub
 # Build ParanoidPapers
 PRODUCT_PACKAGES += ParanoidPapers
 
+# Screenshot editor (Markup)
+PRODUCT_PACKAGES += MarkupGoogle
+
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
+    vendor/pa/prebuilt/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery \
