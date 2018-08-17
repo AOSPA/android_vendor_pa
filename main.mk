@@ -146,6 +146,11 @@ include vendor/pa/sepolicy/sepolicy.mk
 # Include proprietary header flags if vendor/head exists
 -include vendor/head/head-capabilities.mk
 
+# We modify several neverallows, so let the build proceed
+ifneq ($(TARGET_BUILD_VARIANT),user)
+SELINUX_IGNORE_NEVERALLOWS := true
+endif
+
 ifneq ($(HOST_OS),linux)
 ifneq ($(sdclang_already_warned),true)
 $(warning **********************************************)
