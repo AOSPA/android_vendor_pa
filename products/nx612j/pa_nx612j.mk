@@ -15,11 +15,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Release name
-PRODUCT_RELEASE_NAME := nx612j
+# Check for target product
+ifeq (pa_nx612j,$(TARGET_PRODUCT))
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+include device/qcom/common/common.mk
 
 # Inherit device configuration
 $(call inherit-product, device/nubia/nx612j/common.mk)
@@ -28,5 +31,10 @@ $(call inherit-product, device/nubia/nx612j/common.mk)
 PRODUCT_DEVICE := nx612j
 PRODUCT_NAME := pa_nx612j
 PRODUCT_BRAND := nubia
-PRODUCT_MODEL := nx612j
+PRODUCT_MODEL := NX612J
 PRODUCT_MANUFACTURER := nubia
+
+# Paranoid Android platform
+include vendor/pa/main.mk
+
+endif
