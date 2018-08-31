@@ -34,6 +34,8 @@ PRODUCT_BRAND := nubia
 PRODUCT_MODEL := NX612J
 PRODUCT_MANUFACTURER := nubia
 
+PRODUCT_GMS_CLIENTID_BASE := android-nubia
+
 # Paranoid Android platform
 include vendor/pa/main.mk
 
