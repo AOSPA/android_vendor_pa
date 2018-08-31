@@ -36,6 +36,11 @@ PRODUCT_MANUFACTURER := nubia
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
 
+# Build fingerprint variant
+PRODUCT_BUILD_PROP_OVERRIDES += \
+     BUILD_FINGERPRINT=nubia/NX612J/NX612J:7.1.2/N2G47H/eng.nubia.20180521.161116:user/release-keys \
+     PRIVATE_BUILD_DESC="NX612-user 7.1.2 N2G47H eng.nubia.20180521.161116 release-keys"
+
 # Paranoid Android platform
 include vendor/pa/main.mk
 
