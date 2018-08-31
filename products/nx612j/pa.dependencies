@@ -1,8 +1,20 @@
 [
     {
         "remote":       "github",
+        "target_path":  "device/nubia/nx612j",
+        "repository":   "flowertome/android_device_nubia_nx612j",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "remote":       "github",
         "target_path":  "kernel/nubia/msm8953",
         "repository":   "flowertome/android_kernel_nubia_msm8953",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "remote":       "github",
+        "target_path":  "vendor/head",
+        "repository":   "flowertome/android_vendor_nubia_head",
         "revision":     "nougat-mr2"
     },
     {
