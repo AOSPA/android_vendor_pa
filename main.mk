@@ -81,13 +81,16 @@ PRODUCT_PACKAGES += \
 
 # Include support for GApps backup
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/install/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/pa/prebuilt/install/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
+    vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    vendor/pa/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    vendor/pa/prebuilt/bin/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
-# Include PA GApps config
+ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/install/gapps-config.txt:install/gapps-config.txt
+    vendor/pa/prebuilt/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
+    vendor/pa/prebuilt/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
+    vendor/pa/prebuilt/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+endif
 
 # Include hostapd configuration
 PRODUCT_COPY_FILES += \
