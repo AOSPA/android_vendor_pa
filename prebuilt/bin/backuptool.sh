@@ -4,7 +4,12 @@
 #
 
 export C=/tmp/backupdir
-export S=/system
+# Set system location using the build.prop which is present in system root.
+if [ -r /system/build.prop ]; then
+    export S=/system
+elif [ -r /system_image/system/build.prop ]; then
+    export S=/system_image/system
+fi
 
 export ADDOND_VERSION=1
 
@@ -13,9 +18,9 @@ cp -f /tmp/install/bin/backuptool.functions /tmp
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
-  if [ -d /system/addon.d/ ]; then
+  if [ -d $S/addon.d/ ]; then
     mkdir -p /tmp/addon.d/
-    cp -a /system/addon.d/* /tmp/addon.d/
+    cp -a $S/addon.d/* /tmp/addon.d/
 
     # Discard any scripts that aren't at least our version level
     for f in /postinstall/tmp/addon.d/*sh; do
@@ -35,8 +40,8 @@ preserve_addon_d() {
 # Restore /system/addon.d from /tmp/addon.d
 restore_addon_d() {
   if [ -d /tmp/addon.d/ ]; then
-    mkdir -p /system/addon.d/
-    cp -a /tmp/addon.d/* /system/addon.d/
+    mkdir -p $S/addon.d/
+    cp -a /tmp/addon.d/* $S/addon.d/
     rm -rf /tmp/addon.d/
   fi
 }
