@@ -14,38 +14,8 @@
 
 export VENDOR := pa
 
-# Include versioning information
-# Format: AndroidVersion.Major.Maintenance (-TAG)
-export PA_VERSION := PA1-DEV
-
-export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=$(ROM_VERSION) \
-    ro.pa.version=$(PA_VERSION)
-
-# Override undesired Google defaults
-PRODUCT_PROPERTY_OVERRIDES += \
-    keyguard.no_require_sim=true \
-    ro.com.android.dateformat=MM-dd-yyyy \
-    ro.com.android.wifi-watchlist=GoogleGuest \
-    ro.com.google.clientidbase=android-google \
-    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    ro.setupwizard.require_network=any \
-    ro.setupwizard.mode=OPTIONAL \
-    ro.opa.eligible_device=true
-
-# Override old AOSP default sounds with newer Google stock ones
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.alarm_alert=Osmium.ogg \
-    ro.config.notification_sound=Ariel.ogg \
-    ro.config.ringtone=Titania.ogg
-
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
-
-# Don't Hide APNs
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.hideapn=false
 
 # Include vendor overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
@@ -55,9 +25,6 @@ USE_DEX2OAT_DEBUG := false
 
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
-
-# Allow tethering without provisioning app
-PRODUCT_PROPERTY_OVERRIDES += net.tethering.noprovisioning=true
 
 # Include support for preconfigured permissions
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:system/etc/default-permissions/pa-permissions.xml
