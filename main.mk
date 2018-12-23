@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
 
 # Include vendor SEPolicy changes
-include vendor/pa/sepolicy/sepolicy.mk
+#include vendor/pa/sepolicy/sepolicy.mk
 
 # Include proprietary header flags if vendor/head exists
 -include vendor/head/head-capabilities.mk
