@@ -79,12 +79,10 @@ PRODUCT_PACKAGES += ParanoidHub
 # Build ParanoidPapers
 PRODUCT_PACKAGES += ParanoidPapers
 
-# Build Shuttle Paranoid Android Edition
-PRODUCT_PACKAGES += Shuttle
-
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
-    SnapdragonGallery
+    SnapdragonGallery \
+    SnapdragonMusic
 
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
