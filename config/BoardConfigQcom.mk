@@ -28,6 +28,15 @@ ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8909 msm8916 msm8937 
   TARGET_USES_MEDIA_EXTENSIONS := true
 endif
 
+# Mark GRALLOC_USAGE_PRIVATE_WFD as valid gralloc bits
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS ?= 0
+TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS += | (1 << 21)
+
+# Mark GRALLOC_USAGE_PRIVATE_10BIT_TP as valid gralloc bits on UM platforms that support it
+ifeq ($(call is-board-platform-in-list, sdm845),true)
+    TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS += | (1 << 27)
+endif
+
 # For pre-UM display and gps HAL
 ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8610 msm8974 msm8992 msm8994 msm8909 msm8916 msm8952 msm8976),true)
   TARGET_USES_QCOM_BSP := true
