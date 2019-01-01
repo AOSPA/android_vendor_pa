@@ -391,8 +391,8 @@ INSTALLED_KERNEL_HEADERS: $(KERNEL_HEADERS_INSTALL_DEPS)
 $(KERNEL_HEADERS_INSTALL_DIR): $(KERNEL_HEADERS_INSTALL_DEPS)
 	@echo "Depending on $(KERNEL_HEADERS_INSTALL_DIR) is deprecated." 1>&2
 	@echo "Use INSTALLED_KERNEL_HEADERS instead." 1>&2
-	@exit 1
-
+	@warn 1
+        
 .PHONY: kerneltags
 kerneltags: $(KERNEL_CONFIG)
 	$(hide) mkdir -p $(KERNEL_OUT)
