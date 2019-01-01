@@ -1,0 +1,50 @@
+[
+  {
+    "remote":       "github",
+    "repository":   "anayw2001/android_device_essential_mata",
+    "target_path":  "device/essential/mata",
+    "revision":     "quartz-vendor-overlay"
+  },
+  {
+    "remote":       "github",
+    "repository":   "StatiXOS/android_kernel_essential_msm8998",
+    "target_path":  "kernel/essential/msm8998",
+    "revision":     "10"
+  },
+  {
+    "remote":       "github",
+    "repository":   "anayw2001/android_vendor_essential",
+    "target_path":  "vendor/essential",
+    "revision":     "10-vendor-overlay"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_audio",
+    "target_path":  "hardware/qcom/audio",
+    "revision":     "quartz-8998"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_packages_apps_Bluetooth",
+    "target_path":  "packages/apps/Bluetooth",
+    "revision":     "quartz-dev"
+  },
+  {
+    "remote":       "blobs",
+    "repository":   "proprietary_vendor_qcom_common",
+    "target_path":  "vendor/qcom/common",
+    "revision":     "quartz"
+  }
+]
