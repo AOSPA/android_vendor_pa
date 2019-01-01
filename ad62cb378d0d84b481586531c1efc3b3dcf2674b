@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5e4ac42_7e5772e3",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2019-01-01T22:23:07Z",
+      "side": 1,
+      "message": "This should be under pa_gemini",
+      "revId": "ad62cb378d0d84b481586531c1efc3b3dcf2674b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7129275e_72b7b548",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2019-01-01T22:23:07Z",
+      "side": 1,
+      "message": "You are in the Sony section. This does not belong here.",
+      "revId": "ad62cb378d0d84b481586531c1efc3b3dcf2674b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
