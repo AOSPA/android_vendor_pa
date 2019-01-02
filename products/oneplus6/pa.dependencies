@@ -1,0 +1,32 @@
+[
+{
+        "remote":       "github",
+        "repository":   "markakash/device_oneplus_oneplus6",
+        "target_path":  "device/oneplus/oneplus6",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "github",
+        "repository":   "markakash/device_oneplus_sdm845-common",
+        "target_path":  "device/oneplus/sdm845-common",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "github",
+        "repository":   "markakash/android_kernel_oneplus_sdm845",
+        "target_path":  "kernel/oneplus/sdm845",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "github",
+        "repository":   "luca020400/proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "lineage-16.0-luk"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-16.0"
+    }
+]
