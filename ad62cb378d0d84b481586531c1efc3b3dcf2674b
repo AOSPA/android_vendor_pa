@@ -33,6 +33,41 @@
       "revId": "ad62cb378d0d84b481586531c1efc3b3dcf2674b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1d664b78_5d3e9dc9",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-01-02T02:37:21Z",
+      "side": 1,
+      "message": "This is just different line endings, not an intentional change.  Happens when editing things on different PCs. Not a big issue but can be resolved with Gerrit UI.",
+      "parentUuid": "7129275e_72b7b548",
+      "revId": "ad62cb378d0d84b481586531c1efc3b3dcf2674b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2e4ebb81_a5498cdf",
+        "filename": "products/mata/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-01-02T02:37:21Z",
+      "side": 1,
+      "message": "let us know if we need to fork any of these repos.",
+      "revId": "ad62cb378d0d84b481586531c1efc3b3dcf2674b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
