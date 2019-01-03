@@ -16,6 +16,24 @@
       "revId": "e48cc13c243f2a3e6228e3297567dc829d6adce9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "de4e05ae_528ed3c9",
+        "filename": "products/dipper/pa_dipper.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000426
+      },
+      "writtenOn": "2019-01-03T15:01:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c022fcc6_571a4c91",
+      "revId": "e48cc13c243f2a3e6228e3297567dc829d6adce9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
