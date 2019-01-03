@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c022fcc6_571a4c91",
+        "filename": "products/dipper/pa_dipper.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000426
+      },
+      "writtenOn": "2019-01-03T13:59:23Z",
+      "side": 1,
+      "message": "I doubt this is needed on devices that use OEM vendor image",
+      "revId": "e48cc13c243f2a3e6228e3297567dc829d6adce9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
