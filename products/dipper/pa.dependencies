@@ -1,0 +1,26 @@
+[
+   {
+      "remote"     : "github",
+      "repository" : "argraur/pa_device_xiaomi_dipper",
+      "target_path": "device/xiaomi/dipper",
+      "branch"     : "pie"
+   }.
+   {
+      "remote"     : "github",
+      "repository" : "AOSiP-Devices/device_xiaomi_sdm845-common",
+      "target_path": "device/xiaomi/sdm845-common",
+      "branch"     : "pie"
+   },
+   {
+      "remote"     : "github",
+      "repository" : "TheMuppets/proprietary_vendor_xiaomi",
+      "target_path": "vendor/xiaomi",
+      "branch"     : "lineage-16.0"
+   },
+   {
+      "remote"     : "github",
+      "repository" : "LineageOS/android_kernel_xiaomi_sdm845",
+      "target_path": "kernel/xiaomi/sdm845",
+      "branch"     : "lineage-16.0"
+   }
+]
