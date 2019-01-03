@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2f93ec3a_423393d3",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000426
+      },
+      "writtenOn": "2019-01-03T15:25:54Z",
+      "side": 1,
+      "message": "Stupid nano making new lines at eof -_-\u0027",
+      "revId": "f53c69e9a5f0205ef6a51a364fe22ef7699b406d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
