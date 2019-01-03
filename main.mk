@@ -77,7 +77,7 @@ endif
 PRODUCT_PACKAGES += ParanoidHub
 
 # Build ParanoidPapers
-PRODUCT_PACKAGES += ParanoidPapers
+# PRODUCT_PACKAGES += ParanoidPapers
 
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \

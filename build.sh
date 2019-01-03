@@ -28,6 +28,7 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -c, --clean    wipe the tree before building${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -u, --user     build a user build for distribution${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -s, --sync     sync before building${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -d, --dist     compile dist folder${CLR_RST}"
         exit 1
 }
 
@@ -67,7 +68,8 @@ if [ "$(update-alternatives --list javac | wc -l)" -gt 1 ]; then
 fi
 
 # Grab the build version
-PA_VERSION=$(cat $DIR_ROOT/vendor/pa/props.mk | grep 'PA_VERSION := *' | sed 's/.*= //')
+PA_VERSION=BETA
+VERSION=$PA_VERSION-$(date +%Y%m%d)
 
 # Grab all the command-line parameters
 export DEVICE=$1
@@ -98,6 +100,9 @@ while [[ "$#" > 0 ]]; do
             ;;
         -s|--sync|s|sync)
             FLAG_SYNC=y
+            ;;
+        -d|--dist|d|dist)
+            FLAG_DIST=y
             ;;
         *)
             echo -e "${CLR_CYA}warning: skipping unknown parameter: $1${CLR_RST}"
@@ -156,7 +161,7 @@ RETVAL=0
 
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
-if [ "$FLAG_USER_BUILD" = 'y' ]; then
+if [ "$FLAG_USER_BUILD" = 'y' ] || [ "$FLAG_DIST" = 'y' ]; then
         mka dist
 else
         mka bacon
