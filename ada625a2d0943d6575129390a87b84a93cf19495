@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "56e79dd2_d7758072",
+        "filename": "products/dipper/pa_dipper.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000426
+      },
+      "writtenOn": "2019-01-04T13:48:15Z",
+      "side": 1,
+      "message": "It is MI 8\nSource: https://github.com/TadiT7/xiaomi_dipper_dump/blob/dipper-user-9-PKQ1.180729.001-8.11.23-release-keys/system/build.prop#L22",
+      "revId": "ada625a2d0943d6575129390a87b84a93cf19495",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
