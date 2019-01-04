@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "cb4c090c_f3ecd9e4",
+        "filename": "products/dipper/pa_dipper.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000426
+      },
+      "writtenOn": "2019-01-04T13:50:32Z",
+      "side": 1,
+      "message": "Basically useless if not building vendor image",
+      "revId": "ada625a2d0943d6575129390a87b84a93cf19495",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "56e79dd2_d7758072",
         "filename": "products/dipper/pa_dipper.mk",
         "patchSetId": 1
