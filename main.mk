@@ -65,8 +65,8 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/pa/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
 
-# Build Chromium Browser
-PRODUCT_PACKAGES += ChromePublic
+# Build Bromite Browser
+PRODUCT_PACKAGES += Bromite
 
 # Build ParanoidCamera
 ifneq ($(TARGET_USES_AOSP_CAMERA),true)
