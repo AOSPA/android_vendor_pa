@@ -1,0 +1,62 @@
+[
+  {
+    "repository": "akhilnarang/android_device_xiaomi_whyred",
+    "target_path": "device/xiaomi/whyred",
+    "remote": "github",
+    "revision": "pie"
+  },
+  {
+    "repository": "akhilnarang/whyred",
+    "target_path": "kernel/xiaomi/sdm660",
+    "remote": "github",
+    "revision": "pa"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "revision": "lineage-16.0",
+    "remote": "github"
+  },
+  {
+    "repository": "akhilnarang/vendor_xiaomi_whyred",
+    "target_path": "vendor/xiaomi/whyred",
+    "remote": "github",
+    "revision": "pie"
+  },
+  {
+    "repository": "PixelExperience-Devices/vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "revision": "pie-whyred",
+    "remote": "github"
+  },
+  {
+    "remote": "blobs",
+    "repository": "proprietary_vendor_qcom_common",
+    "target_path": "vendor/qcom/common",
+    "revision": "pie"
+  },
+  {
+    "remote": "aospa",
+    "repository": "AOSPA/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio",
+    "revision": "pie-8998"
+  },
+  {
+    "remote": "aospa",
+    "repository": "AOSPA/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display",
+    "revision": "pie-8998"
+  },
+  {
+    "remote": "aospa",
+    "repository": "AOSPA/android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media",
+    "revision": "pie-8998"
+  },
+  {
+    "remote": "caf",
+    "repository": "platform/hardware/qcom/thermal",
+    "target_path": "vendor/qcom/opensource/thermal-hal",
+    "revision": "refs/tags/LA.UM.7.2.r1-05900-sdm660.0"
+  }
+]
