@@ -1,0 +1,44 @@
+[
+  {
+    "remote":       "github"
+	"repository":   "amarbajpai/device_xiaomi_tissot",
+    "target_path":  "device/xiaomi/tissot",
+    "revision":     "pa-pie"
+  },
+  {
+    "remote":       "github"
+	"repository":   "amarbajpai/device_xiaomi_msm8953-common",
+    "target_path":  "device/xiaomi/msm8953-common",
+    "revision":     "pa-pie"
+  },
+  {
+    "remote":       "github"
+	"repository":   "amarbajpai/kernel_xiaomi_msm8953",
+    "target_path":  "kernel/xiaomi/msm8953",
+    "revision":     "pa-pie"
+  },
+  {
+    "remote":       "github"
+	"repository":   "amarbajpai/vendor_xiaomi",
+    "target_path":  "vendor/xiaomi",
+    "revision":     "pa-pie"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "pie-8996"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "pie-8996"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "pie-8996"
+  }
+]
