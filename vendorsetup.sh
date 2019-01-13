@@ -1,4 +1,5 @@
 # CAF
+add_lunch_combo pa_tissot-userdebug
 add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_beryllium-userdebug
 add_lunch_combo pa_dipper-userdebug
