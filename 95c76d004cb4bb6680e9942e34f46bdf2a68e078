@@ -16,6 +16,23 @@
       "revId": "95c76d004cb4bb6680e9942e34f46bdf2a68e078",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a8186a55_af7ca3cb",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000420
+      },
+      "writtenOn": "2019-01-13T16:17:09Z",
+      "side": 1,
+      "message": "unneeded extra line",
+      "revId": "95c76d004cb4bb6680e9942e34f46bdf2a68e078",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
