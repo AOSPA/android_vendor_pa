@@ -51,3 +51,7 @@
     $(LOCAL_DIR)/dora/pa_dora.mk \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
+
+# Xiaomi MSM8953
+   PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/tissot/pa_tissot.mk
