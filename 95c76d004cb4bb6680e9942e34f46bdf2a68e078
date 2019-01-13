@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8c16ec1_9fe7492a",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000420
+      },
+      "writtenOn": "2019-01-13T16:16:23Z",
+      "side": 1,
+      "message": "isn\u0027t this supposed to be in alphabetical order?",
+      "revId": "95c76d004cb4bb6680e9942e34f46bdf2a68e078",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
