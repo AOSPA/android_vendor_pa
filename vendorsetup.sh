@@ -30,6 +30,7 @@ add_lunch_combo pa_shamu-userdebug
 # Loire
 add_lunch_combo pa_kugo-userdebug
 add_lunch_combo pa_suzu-userdebug
+add_lunch_combo pa_suzu_ds-userdebug
 # Tone
 add_lunch_combo pa_dora-userdebug
 add_lunch_combo pa_kagura-userdebug
