@@ -45,7 +45,8 @@
 # Loire 8956
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/kugo/pa_kugo.mk \
-    $(LOCAL_DIR)/suzu/pa_suzu.mk
+    $(LOCAL_DIR)/suzu/pa_suzu.mk \
+    $(LOCAL_DIR)/suzu/pa_suzu_ds.mk
 # Tone 8996
    PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/dora/pa_dora.mk \
