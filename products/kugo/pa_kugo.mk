@@ -1,4 +1,4 @@
-# Copyright (C) 2017 Paranoid Android
+# Copyright (C) 2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ ifeq (pa_kugo,$(TARGET_PRODUCT))
 # Use the AOSP stack
 TARGET_USES_AOSP := true
 TARGET_EXCLUDE_QCOM_SEPOLICY=true
-BOARD_USE_ENFORCING_SELINUX:= true
+#BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/kugo/aosp_f5321.mk)
