@@ -21,7 +21,7 @@ TARGET_EXCLUDE_QCOM_SEPOLICY=true
 #BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/sony/suzu/aosp_f5121.mk)
+$(call inherit-product, device/sony/suzu/aosp_f5122.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
