@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_kugo,$(TARGET_PRODUCT))
+ifeq (pa_suzu_ds,$(TARGET_PRODUCT))
 
 # Use the AOSP stack
 TARGET_USES_AOSP := true
@@ -21,13 +21,13 @@ TARGET_EXCLUDE_QCOM_SEPOLICY=true
 BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/sony/kugo/aosp_f5321.mk)
+$(call inherit-product, device/sony/suzu/aosp_f5122.mk)
 
-TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Override AOSP build properties
-PRODUCT_NAME := pa_kugo
-PRODUCT_MODEL := Xperia X Compact (AOSPA)
+PRODUCT_NAME := pa_suzu_ds
+PRODUCT_MODEL := Xperia X (AOSPA)
 
 # Paranoid Android platform
 include vendor/pa/main.mk
