@@ -24,6 +24,10 @@
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
 
+# AOSP
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/marlin/pa_marlin.mk
+
 # SONY OpenDevices
 # Loire 8956
     PRODUCT_MAKEFILES += \
