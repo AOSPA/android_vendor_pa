@@ -1,0 +1,63 @@
+[
+    {
+        "target_path":  "device/google/marlin",
+        "repository":   "paranoid-pixel-devices/android_device_google_marlin",
+        "remote":       "github",
+        "revision":     "pa-pie"
+    },
+    {
+        "target_path":  "kernel/google/marlin",
+        "repository":   "paranoid-pixel-devices/android_kernel_google_marlin",
+        "remote":       "github",
+        "revision":     "pa-pie"
+    },
+    {
+        "target_path":  "vendor/google_devices",
+        "repository":   "paranoid-pixel-devices/android_vendor_google_pixels",
+        "remote":       "github",
+        "revision":     "pa-pie"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "paranoid-pixel-devices/android_hardware_qcom_audio",
+        "remote":       "github",
+        "revision":     "pa-pie"
+    },
+    {
+        "target_path":  "hardware/qcom/camera",
+        "repository":   "paranoid-pixel-devices/android_hardware_qcom_camera",
+        "remote":       "github",
+        "revision":     "pa-pie"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "remote":       "aospa",
+        "revision":     "pie-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/gps",
+        "repository":   "platform/hardware/qcom/gps",
+        "remote":       "aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/keymaster",
+        "repository":   "platform/hardware/qcom/keymaster",
+        "remote":       "aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "platform/hardware/qcom/media",
+        "remote":       "aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/msm8996",
+        "repository":   "platform/hardware/qcom/msm8996",
+        "remote":       "aosp"
+    },
+    {
+        "target_path":  "external/wpa_supplicant_8",
+        "repository":   "platform/external/wpa_supplicant_8",
+        "remote":       "aosp"
+    }
+]
