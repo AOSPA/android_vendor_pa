@@ -8,6 +8,9 @@ add_lunch_combo pa_oneplus6t-userdebug
 add_lunch_combo pa_polaris-userdebug
 add_lunch_combo pa_sagit-userdebug
 
+# AOSP
+add_lunch_combo pa_marlin-userdebug
+
 # SONY OpenDevices
 # Loire
 add_lunch_combo pa_kugo-userdebug
