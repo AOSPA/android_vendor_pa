@@ -1,13 +1,13 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_xiaomi_sagit",
+        "repository":   "AOSPA/android_device_xiaomi_sagit",
         "target_path":  "device/xiaomi/sagit",
         "revision":     "pie"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_kernel_xiaomi_msm8998",
+        "repository":   "AOSPA/android_kernel_xiaomi_msm8998",
         "target_path":  "kernel/xiaomi/msm8998",
         "revision":     "pie"
     },
@@ -25,19 +25,19 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "pie-8998"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "pie-8998"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "pie-8998"
     }
