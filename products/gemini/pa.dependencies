@@ -1,13 +1,13 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_xiaomi_gemini",
+        "repository":   "AOSPA/android_device_xiaomi_gemini",
         "target_path":  "device/xiaomi/gemini",
         "revision":     "pie"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_kernel_xiaomi_msm8996",
+        "repository":   "AOSPA/android_kernel_xiaomi_msm8996",
         "target_path":  "kernel/xiaomi/msm8996",
         "revision":     "pie"
     },
@@ -19,19 +19,19 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "pie-8996"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "pie-8996"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "pie-8996"
     }

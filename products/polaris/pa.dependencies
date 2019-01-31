@@ -1,19 +1,19 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_xiaomi_polaris",
+        "repository":   "AOSPA/android_device_xiaomi_polaris",
         "target_path":  "device/xiaomi/polaris",
         "revision":     "pie"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_device_xiaomi_sdm845-common",
+        "repository":   "AOSPA/android_device_xiaomi_sdm845-common",
         "target_path":  "device/xiaomi/sdm845-common",
         "revision":     "pie"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_kernel_xiaomi_sdm845",
+        "repository":   "AOSPA/android_kernel_xiaomi_sdm845",
         "target_path":  "kernel/xiaomi/sdm845",
         "revision":     "pie"
     },
@@ -31,7 +31,7 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "pie-845"
     },
@@ -43,13 +43,13 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "pie-845"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_vendor_qcom_opensource_commonsys-intf_display",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
         "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
         "revision":     "pie"
     }

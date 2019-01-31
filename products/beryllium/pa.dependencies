@@ -1,19 +1,19 @@
 [
     {
         "remote":       "aospa",
-        "repository":   "android_device_xiaomi_beryllium",
+        "repository":   "AOSPA/android_device_xiaomi_beryllium",
         "target_path":  "device/xiaomi/beryllium",
         "revision":     "pie"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_device_xiaomi_sdm845-common",
+        "repository":   "AOSPA/android_device_xiaomi_sdm845-common",
         "target_path":  "device/xiaomi/sdm845-common",
         "revision":     "pie"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_kernel_xiaomi_sdm845",
+        "repository":   "AOSPA/android_kernel_xiaomi_sdm845",
         "target_path":  "kernel/xiaomi/sdm845",
         "revision":     "pie"
     },
@@ -31,25 +31,25 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_audio",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "pie-845"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_display",
+        "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "pie-845"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_hardware_qcom_media",
+        "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "pie-845"
     },
     {
         "remote":       "aospa",
-        "repository":   "android_vendor_qcom_opensource_commonsys-intf_display",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
         "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
         "revision":     "pie"
     }
