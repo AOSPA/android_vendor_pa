@@ -37,6 +37,7 @@ add_lunch_combo pa_keyaki-userdebug
 
 # CAF
 add_lunch_combo msm8998-userdebug
+add_lunch_combo sdm845-userdebug
 
 # SDClang Environment Variables
 export SDCLANG_AE_CONFIG=vendor/pa/sdclang/sdclangAE.json
