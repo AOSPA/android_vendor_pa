@@ -23,6 +23,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG := false
 
+#skip boot jars check
+SKIP_BOOT_JARS_CHECK := true
+
 # Include APN information
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
 
