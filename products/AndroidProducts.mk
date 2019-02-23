@@ -1,4 +1,4 @@
-# Copyright (C) 2016-2017 Paranoid Android
+# Copyright (C) 2016-2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/bacon/pa_bacon.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
+    $(LOCAL_DIR)/daisy/pa_daisy.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
     $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
