@@ -67,7 +67,7 @@ if [ "$(update-alternatives --list javac | wc -l)" -gt 1 ]; then
 fi
 
 # Grab the build version
-PA_VERSION=$(cat $DIR_ROOT/vendor/pa/main.mk | grep 'PA_VERSION := *' | sed 's/.*= //')
+PA_VERSION=$(cat $DIR_ROOT/vendor/pa/props.mk | grep 'PA_VERSION := *' | sed 's/.*= //')
 
 # Grab all the command-line parameters
 export DEVICE=$1
