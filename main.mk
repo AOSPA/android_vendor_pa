@@ -116,6 +116,11 @@ else
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
 endif
 
+# AOSPA services
+PRODUCT_PACKAGES += pa-services
+PRODUCT_PACKAGES += co.aospa.power.ShutdownAOSPA.xml
+PRODUCT_BOOT_JARS += pa-services
+
 # TCP Connection Management
 PRODUCT_PACKAGES += tcmiface
 PRODUCT_BOOT_JARS += tcmiface
