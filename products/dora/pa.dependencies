@@ -3,19 +3,85 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_sony_dora",
         "target_path":  "device/sony/dora",
-        "revision":     "nougat-mr2"
+        "revision":     "pie"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_sony_tone",
         "target_path":  "device/sony/tone",
-        "revision":     "nougat-mr2"
+        "revision":     "pie"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_sony_common",
         "target_path":  "device/sony/common",
-        "revision":     "nougat-mr2-4.4"
+        "revision":     "pie"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_sony_sepolicy",
+        "target_path":  "device/sony/sepolicy",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/kernel",
+        "target_path":  "kernel/sony/msm-4.9/kernel",
+        "revision":     "pa-pie"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/device-sony-common-headers",
+        "target_path":  "kernel/sony/msm-4.9/common-headers",
+        "revision":     "aosp/LE.UM.2.3.2.r1.4"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/camera",
+        "target_path":  "vendor/qcom/opensource/camera",
+        "revision":     "aosp/LA.UM.6.4.r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_nxp_nfc",
+        "target_path":  "hardware/nxp/nfc",
+        "revision":     "android-9.0"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "pie-aosp-sony"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "pie-8998"
+    },
+    {
+        "remote":       "github",
+        "repository":   "SonyAosp/platform_hardware_qcom_gps_sdm845",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "android-9.0"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "pie-8998-sony"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "revision":     "refs/tags/android-9.0.0_r34"
     },
     {
         "remote":       "github",
@@ -24,105 +90,63 @@
         "revision":     "master"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_sony_sepolicy",
-        "target_path":  "device/sony/sepolicy",
-        "revision":     "nougat-mr2-4.4"
-    },
-    {
         "remote":       "github",
-        "repository":   "sonyxperiadev/kernel",
-        "target_path":  "kernel/sony/msm",
-        "revision":     "aosp/LA.UM.5.7.r1"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_audio",
-        "target_path":  "hardware/qcom/audio",
-        "revision":     "nougat-mr2-8998"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_display",
-        "target_path":  "hardware/qcom/display",
-        "revision":     "nougat-mr2-8998"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/keymaster/",
-        "target_path":  "hardware/qcom/keymaster",
-        "revision":     "refs/tags/android-7.1.2_r27"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_gps",
-        "target_path":  "hardware/qcom/gps",
-        "revision":     "nougat"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_qcom_media",
-        "target_path":  "hardware/qcom/media",
-        "revision":     "nougat-mr2-8998"
-    },
-    {
-        "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/wlan/",
-        "target_path":  "hardware/qcom/wlan",
-        "revision":     "refs/tags/android-7.1.2_r27"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_hardware_sony_camera",
-        "target_path":  "hardware/qcom/camera",
-        "revision":     "nougat-mr2-4.4"
+        "repository":   "sonyxperiadev/vendor-sony-oss-cash",
+        "target_path":  "vendor/oss/cash",
+        "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/vendor-sony-oss-fingerprint",
-        "target_path":  "vendor/sony-oss/fingerprint",
+        "target_path":  "vendor/oss/fingerprint",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/vendor-oss-interfaces",
+        "target_path":  "vendor/oss/interfaces",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/macaddrsetup",
-        "target_path":  "vendor/sony-oss/macaddrsetup",
+        "target_path":  "vendor/oss/macaddrsetup",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/thermanager",
-        "target_path":  "vendor/sony-oss/thermanager",
+        "target_path":  "vendor/oss/thermanager",
         "revision":     "master"
     },
     {
         "remote":       "github",
         "repository":   "sonyxperiadev/timekeep",
-        "target_path":  "vendor/sony-oss/timekeep",
+        "target_path":  "vendor/oss/timekeep",
         "revision":     "master"
     },
     {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-dataservices",
+        "remote":       "caf",
+        "repository":   "platform/vendor/qcom-opensource/dataservices",
         "target_path":  "vendor/qcom/opensource/dataservices",
-        "revision":     "master"
+        "revision":     "refs/tags/LA.UM.7.4.r1-04700-8x98.0"
+    },
+    {
+        "remote":       "caf",
+        "repository":   "platform/vendor/qcom-opensource/interfaces",
+        "target_path":  "vendor/qcom/opensource/interfaces",
+        "revision":     "refs/tags/LA.UM.7.4.r1-04700-8x98.0"
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-fm",
-        "target_path":  "vendor/qcom/opensource/fm",
-        "revision":     "master"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-location",
+        "repository":   "SonyAosp/platform_hardware_qcom_location",
         "target_path":  "vendor/qcom/opensource/location",
-        "revision":     "m-mr1"
+        "revision":     "android-9.0"
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/packages-apps-FMRadio",
-        "target_path":  "packages/apps/FMRadio",
+        "repository":   "sonyxperiadev/vendor-qcom-opensource-time-services",
+        "target_path":  "vendor/qcom/opensource/time-services",
         "revision":     "master"
     },
     {
@@ -139,26 +163,14 @@
     },
     {
         "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-fw-api",
-        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/fw-api",
-        "revision":     "aosp/LA.UM.5.7.r1"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qca-wifi-host-cmn",
-        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/qca-wifi-host-cmn",
-        "revision":     "aosp/LA.UM.5.7.r1"
-    },
-    {
-        "remote":       "github",
-        "repository":   "sonyxperiadev/vendor-qcom-opensource-wlan-qcacld-3.0",
-        "target_path":  "kernel/sony/msm/drivers/staging/wlan-qc/qcacld-3.0",
-        "revision":     "aosp/LA.UM.5.7.r1"
-    },
-    {
-        "remote":       "github",
         "repository":   "sonyxperiadev/vendor-nxp",
         "target_path":  "vendor/nxp",
+        "revision":     "master"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/QcRilAm",
+        "target_path":  "vendor/oss/qcrilam",
         "revision":     "master"
     },
     {
@@ -168,15 +180,39 @@
         "revision":     "master"
     },
     {
-        "remote":       "github",
-        "repository":   "ThankYouMario/proprietary_vendor_sony",
-        "target_path":  "vendor/sony",
-        "revision":     "nougat-mr2-tone"
+        "remote":       "caf",
+        "repository":   "platform/external/wpa_supplicant_8",
+        "target_path":  "external/wpa_supplicant_8",
+        "revision":     "refs/tags/android-9.0.0_r34"
     },
     {
         "remote":       "github",
-        "repository":   "CarbonROM/android_external_toybox",
-        "target_path":  "external/toybox",
-        "revision":     "cr-5.0"
+        "repository":   "relan/exfat",
+        "target_path":  "external/exfat",
+        "revision":     "68ba243d5d15854bebe61514217bcff2345d3614"
+    },
+    {
+        "remote":       "github",
+        "repository":   "tomgus1/proprietary_vendor_qcom_sdclang-6.0_linux-x86_64",
+        "target_path":  "vendor/qcom/sdclang-6.0/linux-x86_64",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "github",
+        "repository":   "sonyxperiadev/packages_apps_ExtendedSettings",
+        "target_path":  "packages/apps/ExtendedSettings",
+        "revision":     "master"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "pie"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_sony",
+        "target_path":  "vendor/sony",
+        "revision":     "pie"
     }
 ]
