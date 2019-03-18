@@ -1,4 +1,4 @@
-# Copyright (C) 2017 Paranoid Android
+# Copyright (C) 2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,18 +17,17 @@ ifeq (pa_keyaki,$(TARGET_PRODUCT))
 
 # Use the AOSP stack
 TARGET_USES_AOSP := true
+TARGET_EXCLUDE_QCOM_SEPOLICY=true
+BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/sony/keyaki/aosp_g8231.mk)
-
-# Generic CAF packages
-include device/qcom/common/common.mk
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_keyaki
-PRODUCT_MODEL := Xperia XZs(AOSPA)
+PRODUCT_MODEL := Xperia XZs (AOSPA)
 
 # Paranoid Android platform
 include vendor/pa/main.mk
