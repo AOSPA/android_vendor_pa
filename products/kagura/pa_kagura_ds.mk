@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Check for target product
-ifeq (pa_dora,$(TARGET_PRODUCT))
+ifeq (pa_kagura_ds,$(TARGET_PRODUCT))
 
 # Use the AOSP stack
 TARGET_USES_AOSP := true
@@ -21,13 +21,13 @@ TARGET_EXCLUDE_QCOM_SEPOLICY=true
 BOARD_USE_ENFORCING_SELINUX:= true
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/sony/dora/aosp_f8131.mk)
+$(call inherit-product, device/sony/kagura/aosp_f8332.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Override AOSP build properties
-PRODUCT_NAME := pa_dora
-PRODUCT_MODEL := Xperia X Performance (AOSPA)
+PRODUCT_NAME := pa_kagura_ds
+PRODUCT_MODEL := Xperia XZ (AOSPA)
 
 # Paranoid Android platform
 include vendor/pa/main.mk

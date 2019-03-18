@@ -32,8 +32,11 @@ add_lunch_combo pa_kugo-userdebug
 add_lunch_combo pa_suzu-userdebug
 # Tone
 add_lunch_combo pa_dora-userdebug
+add_lunch_combo pa_dora_ds-userdebug
 add_lunch_combo pa_kagura-userdebug
+add_lunch_combo pa_kagura_ds-userdebug
 add_lunch_combo pa_keyaki-userdebug
+add_lunch_combo pa_keyaki_ds-userdebug
 
 # SDClang Environment Variables
 export SDCLANG_AE_CONFIG=vendor/pa/sdclang/sdclangAE.json
