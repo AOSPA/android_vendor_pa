@@ -23,6 +23,10 @@
 		<!-- Storage -->
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
+                <permission name="android.permission.ACCESS_CACHE_FILESYSTEM" fixed="true"/>
+		<!-- Reboot -->
+                <permission name="android.permission.REBOOT" fixed="true"/>
+                <permission name="android.permission.RECOVERY" fixed="true"/>
 	</exception>
 	<!-- Paranoid Camera -->
 	<exception
@@ -51,6 +55,8 @@
 		<!-- Phone -->
 		<permission name="android.permission.CALL_PHONE" fixed="false"/>
 		<permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
+                <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" fixed="false"/>
+                <permission name="android.permission.WRITE_APN_SETTINGS" fixed="false"/>
 		<!-- SMS -->
 		<permission name="android.permission.READ_SMS" fixed="false"/>
 		<permission name="android.permission.RECEIVE_SMS" fixed="false"/>
@@ -75,9 +81,11 @@
             package="com.android.soundrecorder">
 		<!-- Microphone -->
 		<permission name="android.permission.RECORD_AUDIO" fixed="false"/>
+                <permission name="android.permission.CAPTURE_AUDIO_OUTPUT" fixed="false"/>
 		<!-- Storage -->
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+                <permission name="android.permission.WRITE_MEDIA_STORAGE" fixed="false"/>
 		<!-- Phone state -->
 		<permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
 	</exception>
@@ -87,5 +95,13 @@
                 <!-- Storage -->
                 <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
                 <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
+        </exception>
+        <!-- SystemUI -->
+        <exception
+            package="com.android.systemui">
+		<!-- Reboot -->
+                <permission name="android.permission.REBOOT" fixed="true"/>
+                <permission name="android.permission.RECOVERY" fixed="true"/>
+                <permission name="android.permission.SHUTDOWN" fixed="true"/>
         </exception>
 </exceptions>
