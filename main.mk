@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.
 # Include support for preconfigured permissions
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:system/etc/default-permissions/pa-permissions.xml
 
+# Include needed privapp permissions whitelist
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/privapp-permissions/pa-permissions.xml:system/etc/sysconfig/pa-permissions.xml
+
 # Copy PA specific init file
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/root/init.pa.rc:root/init.pa.rc
 
