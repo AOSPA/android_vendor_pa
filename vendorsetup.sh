@@ -3,6 +3,7 @@ add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_beryllium-userdebug
 add_lunch_combo pa_dipper-userdebug
 add_lunch_combo pa_gemini-userdebug
+add_lunch_combo pa_land-userdebug
 add_lunch_combo pa_oneplus2-userdebug
 add_lunch_combo pa_oneplus3-userdebug
 add_lunch_combo pa_onyx-userdebug
@@ -39,3 +40,4 @@ add_lunch_combo pa_keyaki-userdebug
 export SDCLANG_AE_CONFIG=vendor/pa/sdclang/sdclangAE.json
 export SDCLANG_CONFIG=vendor/pa/sdclang/sdclang.json
 export SDCLANG_SA_ENABLED=false
+
