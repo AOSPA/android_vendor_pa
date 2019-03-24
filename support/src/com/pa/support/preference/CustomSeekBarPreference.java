@@ -16,12 +16,19 @@
 
 package com.pa.support.preference;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.res.TypedArray;
+import android.text.InputType;
 import android.util.AttributeSet;
 import android.util.Log;
+import android.view.ContextThemeWrapper;
+import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewParent;
 import android.view.ViewGroup;
+import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.support.v7.preference.*;
@@ -34,6 +41,9 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     private static final String ANDROIDNS = "http://schemas.android.com/apk/res/android";
     private static final int DEFAULT_VALUE = 50;
 
+    private Context mContext;
+    private boolean mAllowEdit;
+    private View mTextContainer;
     private int mMin = 0;
     private int mInterval = 1;
     private int mCurrentValue;
@@ -44,13 +54,17 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
     private SeekBar mSeekBar;
     private TextView mTitle;
     private TextView mStatusText;
+    private AlertDialog mEditValueDialog;
 
     public CustomSeekBarPreference(Context context, AttributeSet attrs, int defStyleAttr,
             int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+
+        mContext = context;
         final TypedArray a = context.obtainStyledAttributes(
                 attrs, R.styleable.CustomSeekBarPreference);
 
+        mAllowEdit = attrs.getAttributeBooleanValue(null, "allowEditText", false);
         mMax = attrs.getAttributeIntValue(ANDROIDNS, "max", 100);
         mMin = attrs.getAttributeIntValue(SETTINGS_NS, "min", 0);
         mDefaultValue = attrs.getAttributeIntValue(ANDROIDNS, "defaultValue", -1);
@@ -139,12 +153,24 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         } catch (Exception ex) {
             Log.e(TAG, "Error binding view: " + ex.toString());
         }
+        mTextContainer = (View) view.findViewById(R.id.text_container);
         mStatusText = (TextView) view.findViewById(R.id.seekBarPrefValue);
         if (mCurrentValue == mDefaultValue) {
             mStatusText.setText(mDefaultText);
         } else {
             mStatusText.setText(String.valueOf(mCurrentValue) + mUnits);
         }
+
+        if (mAllowEdit) {
+            mTextContainer.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    showEditDialog();
+                    return true;
+                }
+            });
+        }
+
         mSeekBar.setProgress(mCurrentValue - mMin);
         mTitle = (TextView) view.findViewById(android.R.id.title);
 
@@ -152,6 +178,39 @@ public class CustomSeekBarPreference extends Preference implements SeekBar.OnSee
         //view.setDividerAllowedBelow(false);
 
         mSeekBar.setEnabled(isEnabled());
+    }
+
+    private void showEditDialog() {
+        LayoutInflater inflater = LayoutInflater.from(mContext);
+        View editDialogView = inflater.inflate(R.layout.edit_dialog, null);
+        EditText editText = editDialogView.findViewById(R.id.editText);
+        editText.setText(mStatusText.getText());
+        editText.setSelection(editText.getText().length());
+        editText.setInputType(InputType.TYPE_CLASS_NUMBER);
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(mContext)
+                .setView(editDialogView)
+                .setTitle(mContext.getString(R.string.seek_value_edit_label))
+                .setPositiveButton(R.string.ok,
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            // check user value against min and max value
+                            final int userValue = Math.max(Integer.parseInt(editText.getText().toString()), mMin);
+                            final int valueToSet = Math.min(userValue, mMax);
+                            mEditValueDialog.dismiss();
+                            refresh(valueToSet);
+                        }
+                });
+                builder.setNeutralButton(R.string.cancel,
+                    new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            mEditValueDialog.dismiss();
+                        }
+                });
+        mEditValueDialog = builder.create();
+        mEditValueDialog.show();
     }
 
     public void setMax(int max) {
