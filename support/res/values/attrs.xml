@@ -34,6 +34,7 @@
         <attr name="min" format="integer" />
         <attr name="units" format="string|reference" />
         <attr name="defaultText" format="string|reference" />
+        <attr name="allowEditText" format="boolean" />
     </declare-styleable>
 
 </resources>

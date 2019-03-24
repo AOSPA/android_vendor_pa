@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
   ~ Copyright (C) 2019 The Paranoid Android Project
+  ~ Copyright (C) 2018 The Dirty Unicorns Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -17,7 +18,6 @@
 
 <resources>
     <string name="color_picker_message_default">Pick your preferred color.</string>
-    <string name="ok">Ok</string>
     <string name="cancel">Cancel</string>
     <string name="color_picker_default">Default</string>
     <string name="color_picker_unknown_label">Unknown</string>
@@ -30,4 +30,8 @@
     <string name="wifi_menu_configure">Configure</string>
     <string name="custom_color_value_edit">Enter a color value</string>
     <string name="custom_color_value_invalid">Invalid color value</string>
+
+    <string name="edit_hint">Value</string>
+    <string name="seek_value_edit_label">Set value</string>
+    <string name="ok">Ok</string>
 </resources>
