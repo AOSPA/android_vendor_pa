@@ -1,50 +1,57 @@
 [
  {
-    "remote":       "github",
-    "repository":   "https://github.com/Hammered-Cannibal/device_motorola_potter-caf",
-    "target_path":  "device/motorola/potter",
-    "revision":     "pa-w2"
-  },
-  {
-    "remote":       "github",
-    "repository":   "https://github.com/GZR-Kernels/Optimus_Drunk_Potter",
-    "target_path":  "kernel/motorola/msm8953",
-    "revision":     "9.0"
-  },
-  {
-    "remote":       "github",
-    "repository":   "https://github.com/Hammered-Cannibal/vendor_motorola_potter-caf",
-    "target_path":  "vendor/motorola/potter",
-    "revision":     "pa-pie"
-  },
-  {
-    "remote":       "aospa",
-    "repository":   "AOSPA/android_hardware_qcom_display",
-    "target_path":  "hardware/qcom/display",
-    "revision":     "pie-8996"
-  },
-  {
-    "remote":       "aospa",
-    "repository":   "AOSPA/android_hardware_qcom_media",
-    "target_path":  "hardware/qcom/media",
-    "revision":     "pie-8996"
-  },
-  {
-    "remote":       "aospa",
-    "repository":   "AOSPA/android_hardware_qcom_audio",
-    "target_path":  "hardware/qcom/audio",
-    "revision":     "pie-8996"
-  },
-  {
-    "remote":       "github",
-    "repository":   "jhenrique09/prebuilts_clang_host_linux-x86_7.0-DragonTC",
-    "target_path":  "prebuilts/clang/host/linux-x86/7.0-DragonTC",
-    "revision":     "master"
-  },
-  {
+    "repository": "Hammered-Cannibal/device_motorola_potter-caf",
+    "target_path": "device/motorola/potter",
     "remote": "github",
+    "revision": "pa-w2"
+  },
+  {
+    "repository": "GZR-Kernels/Optimus_Drunk_Potter",
+    "target_path": "kernel/motorola/msm8953",
+    "remote": "github",
+    "revision": "9.0"
+  },
+  {
+    "repository": "jhenrique09/prebuilts_clang_host_linux-x86_7.0-DragonTC",
+    "target_path": "prebuilts/clang/host/linux-x86/7.0-DragonTC",
+    "revision": "master",
+    "remote": "github"
+  },
+  {
+    "repository": "Hammered-Cannibal/vendor_motorola_potter-caf",
+    "target_path": "vendor/motorola/potter",
+    "remote": "github",
+    "revision": "pa-w2"
+  },
+  {
     "repository": "PixelExperience/packages_resources_MotoActions",
     "target_path": "packages/resources/MotoActions",
-    "branch": "pie"
+    "revision": "pie",
+    "remote": "github"
+  },
+  {
+    "remote": "aospa",
+    "repository": "AOSPA/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio",
+    "revision": "pie-8996"
+  },
+  {
+    "remote": "aospa",
+    "repository": "AOSPA/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display",
+    "revision": "pie-8996"
+  },
+  {
+    "remote": "aospa",
+    "repository": "AOSPA/android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media",
+    "revision": "pie-8996"
+  },
+  {
+    "remote": "caf",
+    "repository": "platform/hardware/qcom/thermal",
+    "target_path": "vendor/qcom/opensource/thermal-hal",
+    "revision": "refs/tags/LA.UM.7.2.r1-05900-sdm660.0"
   }
 ]
+
