@@ -2,6 +2,7 @@
 add_lunch_combo pa_bacon-userdebug
 add_lunch_combo pa_beryllium-userdebug
 add_lunch_combo pa_dipper-userdebug
+add_lunch_combo pa_fajita-userdebug
 add_lunch_combo pa_gemini-userdebug
 add_lunch_combo pa_oneplus2-userdebug
 add_lunch_combo pa_oneplus3-userdebug
