@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5fc35963_b85a5d8f",
+        "filename": "products/fajita/pa_fajita.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000101
+      },
+      "writtenOn": "2019-04-18T14:12:31Z",
+      "side": 1,
+      "message": "This is not correct. We aren\u0027t AOKP. Also look here for reference: https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/5345/17/products/oneplus6/pa_oneplus6.mk\nAccording to Herna we will do unified builds, so one build for both devices.",
+      "revId": "126ff50f4d6662ff33c9a92857fa8844d92953f6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
