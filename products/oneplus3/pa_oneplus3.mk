@@ -1,4 +1,4 @@
-# Copyright (C) 2016-2017 Paranoid Android
+# Copyright (C) 2016-2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -22,8 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Advanced platform features
-TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
-TARGET_DISABLE_DASH := false
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 
 include device/qcom/common/common.mk
@@ -39,9 +37,7 @@ PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-     BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/10122109:user/release-keys \
-     PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 114 dev-keys"
+TARGET_VENDOR := oneplus
 
 # Paranoid Android platform
 include vendor/pa/main.mk
