@@ -21,6 +21,8 @@
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
     $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
+    $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
+    $(LOCAL_DIR)/oneplus6t/pa_oneplus6t.mk \
     $(LOCAL_DIR)/onyx/pa_onyx.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/robin/pa_robin.mk \
