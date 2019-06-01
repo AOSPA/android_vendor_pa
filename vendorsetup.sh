@@ -3,6 +3,8 @@ add_lunch_combo pa_beryllium-userdebug
 add_lunch_combo pa_dipper-userdebug
 add_lunch_combo pa_gemini-userdebug
 add_lunch_combo pa_oneplus3-userdebug
+add_lunch_combo pa_oneplus6-userdebug
+add_lunch_combo pa_oneplus6t-userdebug
 add_lunch_combo pa_polaris-userdebug
 add_lunch_combo pa_sagit-userdebug
 
