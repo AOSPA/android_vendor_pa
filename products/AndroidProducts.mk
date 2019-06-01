@@ -1,4 +1,4 @@
-# Copyright (C) 2016-2017 Paranoid Android
+# Copyright (C) 2016-2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,6 +19,8 @@
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
+    $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
+    $(LOCAL_DIR)/oneplus6t/pa_oneplus6t.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
 
