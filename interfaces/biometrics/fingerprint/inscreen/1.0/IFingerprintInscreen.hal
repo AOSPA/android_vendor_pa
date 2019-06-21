@@ -57,4 +57,17 @@ interface IFingerprintInscreen {
      * Used when in keyguard mode.
      */
     setLongPressEnabled(bool enabled);
+    /**
+     * Calculate the dimming amount [0, 255] based on the current brightness [0, 255]
+     * This can be done by the vendor's kernel, but can also be implemented
+     * directly in this hal.
+     */
+    getDimAmount(int32_t cur_brightness) generates (int32_t cur_brightness);
+    /**
+     * Should the framework boost the brightness? In ideal scenario the boosting
+     * should be handled in the lower layers for the best user experience.
+     * If this returns false, then the implementation MUST boost the brightness
+     * according to the previous events.
+     */
+    shouldBoostBrightness() generates (bool ret);
 };
