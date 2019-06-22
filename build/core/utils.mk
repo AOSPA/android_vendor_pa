@@ -1,39 +1,3 @@
-# Board platforms lists to be used for
-# TARGET_BOARD_PLATFORM specific featurization
-QCOM_BOARD_PLATFORMS += msm8226
-QCOM_BOARD_PLATFORMS += msm8610
-QCOM_BOARD_PLATFORMS += msm8660
-QCOM_BOARD_PLATFORMS += msm8909
-QCOM_BOARD_PLATFORMS += msm8916
-QCOM_BOARD_PLATFORMS += msm8937
-QCOM_BOARD_PLATFORMS += msm8952
-QCOM_BOARD_PLATFORMS += msm8953
-QCOM_BOARD_PLATFORMS += msm8960
-QCOM_BOARD_PLATFORMS += msm8974
-QCOM_BOARD_PLATFORMS += msm8976
-QCOM_BOARD_PLATFORMS += msm8992
-QCOM_BOARD_PLATFORMS += msm8994
-QCOM_BOARD_PLATFORMS += msm8996
-QCOM_BOARD_PLATFORMS += msm8998
-QCOM_BOARD_PLATFORMS += msm_bronze
-QCOM_BOARD_PLATFORMS += apq8084
-QCOM_BOARD_PLATFORMS += sdm660
-QCOM_BOARD_PLATFORMS += sdm710
-QCOM_BOARD_PLATFORMS += sdm845
-QCOM_BOARD_PLATFORMS += msmnile
-QCOM_BOARD_PLATFORMS += trinket
-QCOM_BOARD_PLATFORMS += sm6150
-QCOM_BOARD_PLATFORMS += kona
-QCOM_BOARD_PLATFORMS += atoll
-QCOM_BOARD_PLATFORMS += lito
-QCOM_BOARD_PLATFORMS += bengal
-
-#List of targets that use video hw
-MSM_VIDC_TARGET_LIST := msm8974 msm8610 msm8226 apq8084 msm8916 msm8994 msm8909 msm8992 msm8996 msm8952 msm8937 msm8953 msm8998 sdm660 sdm710 sdm845 msmnile trinket sm6150 kona atoll lito
-
-#List of targets that use master side content protection
-MASTER_SIDE_CP_TARGET_LIST := msm8996 msm8998 sdm660 sdm710 sdm845 msmnile trinket sm6150 kona lito atoll bengal
-
 # vars for use by utils
 colon := $(empty):$(empty)
 underscore := $(empty)_$(empty)
