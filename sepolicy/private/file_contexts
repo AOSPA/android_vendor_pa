@@ -1,0 +1,2 @@
+# FOD
+/(system|system_ext|system/system_ext)/bin/hw/vendor.aospa.biometrics.fingerprint.inscreen@1.0-service    u:object_r:vendor_fod_aospa_exec:s0

@@ -1,0 +1,12 @@
+type vendor_fod_aospa, domain, coredomain;
+type vendor_fod_aospa_exec, system_file_type, exec_type, file_type;
+
+hal_server_domain(vendor_fod_aospa,vendor_fod);
+hal_attribute_hwservice(vendor_fod, vendor_fod_hwservice);
+
+# Allow for transition from init domain to FOD.
+init_daemon_domain(vendor_fod_aospa);
+
+# Allow binder communication with platform applications & servicemanager.
+binder_call(vendor_fod_aospa, platform_app)
+binder_use(vendor_fod_aospa)
