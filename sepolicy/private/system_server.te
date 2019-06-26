@@ -1,0 +1,2 @@
+# Use HALs
+hal_client_domain(system_server, hal_aospa_fod)

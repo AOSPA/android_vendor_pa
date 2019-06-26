@@ -1,0 +1,8 @@
+# HwBinder IPC from client to server
+binder_call(hal_aospa_fod_client, hal_aospa_fod_server)
+
+add_hwservice(hal_aospa_fod_server, hal_aospa_fod_hwservice)
+allow hal_aospa_fod_client hal_aospa_fod_hwservice:hwservice_manager find;
+
+# Allow binder communication with platform_app
+binder_call(hal_aospa_fod, platform_app)
