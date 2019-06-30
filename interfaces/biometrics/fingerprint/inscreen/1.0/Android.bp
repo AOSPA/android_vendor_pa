@@ -5,6 +5,7 @@ hidl_interface {
     root: "vendor.aospa",
     srcs: [
         "IFingerprintInscreen.hal",
+        "IFingerprintInscreenCallback.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
