@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a6e91b0_e8ed2269",
+        "filename": "products/oneplus6/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-01T22:13:13Z",
+      "side": 1,
+      "message": "so is this two lunch targets from one device tree?",
+      "revId": "931d32492f8559aa4f1b29e36a06364d2f7bcdc8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dc361e0e_2e6c2c09",
+        "filename": "products/oneplus6/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-01T22:13:13Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be in the default manifest?",
+      "revId": "931d32492f8559aa4f1b29e36a06364d2f7bcdc8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
