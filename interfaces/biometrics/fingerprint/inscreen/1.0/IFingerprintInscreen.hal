@@ -20,6 +20,14 @@ import IFingerprintInscreenCallback;
 
 interface IFingerprintInscreen {
     /**
+     * Information on the position of the scanner
+     * Note: X and Y are the left-upper corner of the
+     * FOD view, not the center.
+     */
+    getPositionX() generates (int32_t x);
+    getPositionY() generates (int32_t y);
+    getSize() generates (int32_t size);
+    /**
      * Called when fingerprint enrollment started
      */
     onStartEnroll();
