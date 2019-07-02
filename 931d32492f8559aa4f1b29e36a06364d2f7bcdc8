@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "192b3d97_0cf4bdbc",
+        "filename": "products/oneplus6/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-02T12:23:42Z",
+      "side": 1,
+      "message": "I take it they can\u0027t be unified cleanly?",
+      "parentUuid": "8d55bf74_251dc504",
+      "revId": "931d32492f8559aa4f1b29e36a06364d2f7bcdc8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "dc361e0e_2e6c2c09",
         "filename": "products/oneplus6/pa.dependencies",
         "patchSetId": 1
@@ -66,6 +84,24 @@
       "side": 1,
       "message": "Having this repo for non sdm845 breaks the build so we doing this.",
       "parentUuid": "dc361e0e_2e6c2c09",
+      "revId": "931d32492f8559aa4f1b29e36a06364d2f7bcdc8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ae63c869_f69a26f8",
+        "filename": "products/oneplus6/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-02T12:23:42Z",
+      "side": 1,
+      "message": "Yeah no idea why Qualcomm didn\u0027t do this in the same place on all targets.",
+      "parentUuid": "a5f51251_31549e19",
       "revId": "931d32492f8559aa4f1b29e36a06364d2f7bcdc8",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
