@@ -20,6 +20,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
+    $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
 
@@ -46,6 +47,7 @@ COMMON_LUNCH_CHOICES += \
     pa_kugo-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
+    pa_oneplus7pro-userdebug \
     pa_polaris-userdebug \
     pa_sagit-userdebug \
     pa_suzu-userdebug
