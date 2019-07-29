@@ -141,9 +141,6 @@ PRODUCT_PACKAGES += libbthost_if
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
 
-# Include proprietary header flags if vendor/head exists
--include vendor/head/head-capabilities.mk
-
 ifneq ($(HOST_OS),linux)
 ifneq ($(sdclang_already_warned),true)
 $(warning **********************************************)
