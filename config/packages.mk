@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SnapdragonGallery
 
+# Abstruct
+PRODUCT_PACKAGES += Abstruct
+
 # Retro Music Player
 PRODUCT_PACKAGES += RetroMusicPlayer
 
