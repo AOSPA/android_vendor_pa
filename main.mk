@@ -79,10 +79,12 @@ PRODUCT_PACKAGES += ParanoidHub
 # Build ParanoidPapers
 PRODUCT_PACKAGES += ParanoidPapers
 
+# Build Retro Music Player
+PRODUCT_PACKAGES += RetroMusicPlayer
+
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
-    SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonGallery
 
 # Build sound recorder
 PRODUCT_PACKAGES += SoundRecorder
