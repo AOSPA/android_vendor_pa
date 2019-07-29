@@ -1,4 +1,4 @@
-# Copyright (C) 2013-2017 Paranoid Android
+# Copyright (C) 2013-2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -37,9 +37,6 @@ ADDITIONAL_BUILD_PROPERTIES += \
     ro.config.alarm_alert=Osmium.ogg \
     ro.config.notification_sound=Ariel.ogg \
     ro.config.ringtone=Titania.ogg
-
-# Don't Hide APNs
-ADDITIONAL_BUILD_PROPERTIES += persist.sys.hideapn=false
 
 # Allow tethering without provisioning app
 ADDITIONAL_BUILD_PROPERTIES += net.tethering.noprovisioning=true
