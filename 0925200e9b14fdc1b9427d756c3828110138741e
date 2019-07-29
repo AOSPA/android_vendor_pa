@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "02aedc9f_3d5bf227",
+        "filename": "main.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000454
+      },
+      "writtenOn": "2019-07-29T21:19:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "07e7798a_5e708d58",
+      "revId": "0925200e9b14fdc1b9427d756c3828110138741e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bb811132_694ca602",
         "filename": "products/sanders/pa.dependencies",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "652c8eb2_77dd44f2",
+        "filename": "products/sanders/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000454
+      },
+      "writtenOn": "2019-07-29T21:19:04Z",
+      "side": 1,
+      "message": "is being used to compile the kernel but if you prefer, I can utilise the latest clang",
+      "parentUuid": "bb811132_694ca602",
+      "revId": "0925200e9b14fdc1b9427d756c3828110138741e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1c6e5354_2a1124d2",
         "filename": "products/sanders/pa_sanders.mk",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2019-07-29T20:42:58Z",
       "side": 1,
       "message": "is pixel 3 fingerprint right here?",
+      "revId": "0925200e9b14fdc1b9427d756c3828110138741e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d07587d6_42f582b5",
+        "filename": "products/sanders/pa_sanders.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000454
+      },
+      "writtenOn": "2019-07-29T21:19:04Z",
+      "side": 1,
+      "message": "Yes, on Sanders we use pixel fingerprint because of safetynet",
+      "parentUuid": "1c6e5354_2a1124d2",
       "revId": "0925200e9b14fdc1b9427d756c3828110138741e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
