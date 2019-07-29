@@ -21,6 +21,7 @@
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/sanders/pa_sanders.mk \
 
 # SONY OpenDevices
 # Loire 8956
