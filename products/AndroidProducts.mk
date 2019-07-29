@@ -22,6 +22,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/sanders/pa_sanders.mk \
 
 # SONY OpenDevices
 # Loire 8956
