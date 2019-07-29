@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "df011a33_05319aca",
+        "filename": "main.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-29T20:44:25Z",
+      "side": 1,
+      "message": "we\u0027re removing this anyway, but this change shouldn\u0027t be necessary.",
+      "revId": "ccc93c1d439a836a99d172c9216ecc4545fe2b78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5fe56b8c_266238b3",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-29T20:44:25Z",
+      "side": 1,
+      "message": "spacing is slightly off",
+      "revId": "ccc93c1d439a836a99d172c9216ecc4545fe2b78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8e0eaf8b_68313ef6",
+        "filename": "products/potter/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-29T20:44:25Z",
+      "side": 1,
+      "message": "do you compile kernel with this?",
+      "revId": "ccc93c1d439a836a99d172c9216ecc4545fe2b78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5a4537d4_540c8eed",
+        "filename": "products/potter/pa_potter.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-29T20:44:25Z",
+      "side": 1,
+      "message": "probably don\u0027t need this line break",
+      "revId": "ccc93c1d439a836a99d172c9216ecc4545fe2b78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aa348b98_ea73d61e",
+        "filename": "products/potter/pa_potter.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-07-29T20:44:25Z",
+      "side": 1,
+      "message": "or these ones",
+      "revId": "ccc93c1d439a836a99d172c9216ecc4545fe2b78",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
