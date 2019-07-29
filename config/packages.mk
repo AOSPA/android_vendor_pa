@@ -29,8 +29,10 @@ PRODUCT_PACKAGES += \
 
 # Snapdragon apps
 PRODUCT_PACKAGES += \
-    SnapdragonGallery \
-    SnapdragonMusic
+    SnapdragonGallery
+
+# Retro Music Player
+PRODUCT_PACKAGES += RetroMusicPlayer
 
 # CAF packages
 # TCP Connection Management
