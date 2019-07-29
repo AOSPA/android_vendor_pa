@@ -68,6 +68,9 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/pa/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
 
+# Build Abstruct
+PRODUCT_PACKAGES += Abstruct
+
 # Build Chromium Browser
 PRODUCT_PACKAGES += ChromePublic
 
@@ -78,9 +81,6 @@ endif
 
 # Build ParanoidHub
 PRODUCT_PACKAGES += ParanoidHub
-
-# Build ParanoidPapers
-PRODUCT_PACKAGES += ParanoidPapers
 
 # Build Snapdragon apps
 PRODUCT_PACKAGES += \
