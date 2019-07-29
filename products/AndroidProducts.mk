@@ -15,33 +15,14 @@
 
 # CAF
     PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/bacon/pa_bacon.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
-    $(LOCAL_DIR)/oneplus2/pa_oneplus2.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
     $(LOCAL_DIR)/oneplus6t/pa_oneplus6t.mk \
-    $(LOCAL_DIR)/onyx/pa_onyx.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
-    $(LOCAL_DIR)/robin/pa_robin.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
-    $(LOCAL_DIR)/zl1/pa_zl1.mk
-
-# Samsung Exynos family
-    PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
-    $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk
-
-# AOSP
-    PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/angler/pa_angler.mk \
-    $(LOCAL_DIR)/bullhead/pa_bullhead.mk \
-    $(LOCAL_DIR)/hammerhead/pa_hammerhead.mk \
-    $(LOCAL_DIR)/marlin/pa_marlin.mk \
-    $(LOCAL_DIR)/sailfish/pa_sailfish.mk \
-    $(LOCAL_DIR)/shamu/pa_shamu.mk
 
 # SONY OpenDevices
 # Loire 8956
