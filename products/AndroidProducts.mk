@@ -25,6 +25,7 @@
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/robin/pa_robin.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/sanders/pa_sanders.mk \
     $(LOCAL_DIR)/zl1/pa_zl1.mk
 
 # Samsung Exynos family
