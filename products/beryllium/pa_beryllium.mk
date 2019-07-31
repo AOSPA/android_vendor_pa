@@ -26,7 +26,6 @@ TARGET_USES_AOSP := false
 TARGET_USES_QCOM_BSP := false
 
 # Advanced platform features
-#TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
 TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 
 include device/qcom/common/common.mk
