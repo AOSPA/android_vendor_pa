@@ -22,9 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Set bootanimation to 1080p display.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Most advanced platform features, first.
-TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
-
 # Inherit from our common CAF device tree.
 include device/qcom/common/common.mk
 
