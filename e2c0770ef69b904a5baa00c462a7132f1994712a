@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "952c3406_3353753d",
+        "filename": "products/oneplus6/pa_oneplus6.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-08-02T11:25:32Z",
+      "side": 1,
+      "message": "Kill",
+      "revId": "e2c0770ef69b904a5baa00c462a7132f1994712a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "052ced7f_a3e6380b",
+        "filename": "products/oneplus6t/pa_oneplus6t.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-08-02T11:25:32Z",
+      "side": 1,
+      "message": "Kill",
+      "revId": "e2c0770ef69b904a5baa00c462a7132f1994712a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0234e25b_880e5646",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-08-02T11:25:32Z",
+      "side": 1,
+      "message": "Alphabetize?",
+      "revId": "e2c0770ef69b904a5baa00c462a7132f1994712a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
