@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bac7012a_e8df579a",
+        "filename": "products/sanders/pa_sanders.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-08-02T21:19:57Z",
+      "side": 1,
+      "message": "PA copyright please",
+      "revId": "0bfff05f4c533ba31cff74d77593e51291af766b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
