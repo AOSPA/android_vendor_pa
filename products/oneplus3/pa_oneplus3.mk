@@ -21,10 +21,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Advanced platform features
-TARGET_DISABLE_DASH := false
-TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
-
 include device/qcom/common/common.mk
 
 # Inherit AOSP device configuration

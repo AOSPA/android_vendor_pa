@@ -25,9 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP := false
 TARGET_USES_QCOM_BSP := false
 
-# Advanced platform features
-TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
-
 include device/qcom/common/common.mk
 include vendor/pa/main.mk
 
