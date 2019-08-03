@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9486ebe5_dc303055",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-08-03T03:38:27Z",
+      "side": 1,
+      "message": "if we need this globally, please push to device/qcom/common",
+      "revId": "b9344f75af6a68d1a70aaeaa6df99a0342727670",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
