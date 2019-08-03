@@ -115,6 +115,26 @@ PRODUCT_PACKAGES += libbthost_if
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
 
+# Accent
+PRODUCT_PACKAGES += \
+    LightGreenTheme
+
+# Dark/BlackUI Packages
+PRODUCT_PACKAGES += \
+    GBoardDarkTheme \
+    SettingsDarkTheme \
+    SystemDarkTheme \
+    SysuiQsDarkTheme \
+    SettingsBlackTheme \
+    SystemBlackTheme \
+    SysuiQsBlackTheme \
+    SettingsIntelligenceDark \
+    SettingsIntelligenceBlack
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.pa.overlay.accent.lightgreen
+
+>>>>>>> 42d78e6... vendor: pa: Add theme overlays
 ifneq ($(HOST_OS),linux)
 ifneq ($(sdclang_already_warned),true)
 $(warning **********************************************)
