@@ -1,5 +1,6 @@
 # CAF
 add_lunch_combo pa_beryllium-userdebug
+add_lunch_combo pa_davinci-userdebug
 add_lunch_combo pa_dipper-userdebug
 add_lunch_combo pa_gemini-userdebug
 add_lunch_combo pa_oneplus3-userdebug
