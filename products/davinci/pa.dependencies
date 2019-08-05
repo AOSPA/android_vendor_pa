@@ -1,0 +1,62 @@
+[
+    {
+        "remote":       "github-ssh",
+        "repository":   "33bca/priv_android_device_xiaomi_davinci",
+        "target_path":  "device/xiaomi/davinci",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "33bca/android_kernel_xiaomi_sm6150",
+        "target_path":  "kernel/xiaomi/sm6150",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github-ssh",
+        "repository":   "33bca/aospa_proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_frameworks_opt_net_wifi",
+        "target_path":  "frameworks/opt/net/wifi",
+        "revision":     "quartz-dev"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "quartz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
+        "target_path":  "vendor/qcom/opensource/commonsys/fm",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "quartz"
+    }
+]
