@@ -41,3 +41,9 @@ ADDITIONAL_BUILD_PROPERTIES += \
 # Allow tethering without provisioning app
 ADDITIONAL_BUILD_PROPERTIES += net.tethering.noprovisioning=true
 
+# Worload Classifier props
+ADDITIONAL_BUILD_PROPERTIES += \
+    vendor.perf.gestureflingboost.enable=true \
+    vendor.perf.workloadclassifier.enable=true \
+    vendor.iop.enable_uxe=1 \
+    vendor.perf.iop_v3.enable=true
