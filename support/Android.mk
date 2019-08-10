@@ -19,4 +19,6 @@ LOCAL_JAR_EXCLUDE_FILES := none
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
+include frameworks/base/packages/SettingsLib/common.mk
+
 include $(BUILD_STATIC_JAVA_LIBRARY)
