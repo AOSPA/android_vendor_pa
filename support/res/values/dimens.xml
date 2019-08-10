@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2019 The Paranoid Android Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<resources>
+    <dimen name="control_list_item_height_one_line1">55dp</dimen>
+    <dimen name="control_layout_margin_right3">24dp</dimen>
+    <dimen name="panel_view_width">375dp</dimen>
+    <dimen name="panel_spacing">27dp</dimen>
+    <dimen name="margin_top2">16dp</dimen>
+    <dimen name="margin_left2">16dp</dimen>
+    <dimen name="hue_panel_height">48dp</dimen>
+    <dimen name="sat_val_panel_height">286dp</dimen>
+    <dimen name="indicator_corner_radius">1dp</dimen>
+    <dimen name="indicator_shadow_radius">2dp</dimen>
+    <dimen name="indicator_border_width">5dp</dimen>
+    <dimen name="hue_indicator_width">18dp</dimen>
+    <dimen name="hue_indicator_offset">2dp</dimen>
+    <dimen name="sat_val_indicator_width">18dp</dimen>
+    <dimen name="control_layout_margin_left2">18dp</dimen>
+    <dimen name="control_layout_margin_top2">18dp</dimen>
+    <dimen name="control_layout_margin_right2">18dp</dimen>
+    <dimen name="control_text_size_subtitle">12sp</dimen>
+    <dimen name="control_list_item_height_one_line2">73dp</dimen>
+    <dimen name="settings_layout_margin_left2">18dp</dimen>
+    <dimen name="control_list_item_height_two_line1">73dp</dimen>
+    <dimen name="control_text_size_body1">13sp</dimen>
+    <dimen name="control_layout_margin_left1">9dp</dimen>
+    <dimen name="control_layout_margin_right1">9dp</dimen>
+</resources>
