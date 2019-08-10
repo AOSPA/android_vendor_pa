@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  ~ Copyright (C) 2019 The Android Open Source Project
+  ~ Copyright (C) 2019 Paranoid Android
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -15,10 +15,15 @@
   ~ limitations under the License
   -->
 
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.pa.support">
+<resources>
+    <declare-styleable name="DialogPreference">
+        <attr name="dialogTitle" format="string"/>
+        <attr name="dialogIcon" format="reference"/>
+        <attr name="positiveButtonText" format="string"/>
+        <attr name="negativeButtonText" format="string"/>
+        <attr name="dialogLayout" format="reference"/>
+    </declare-styleable>
 
-    <uses-sdk
-        android:minSdkVersion="27" />
-
-</manifest>
+    <attr name="CustomEditTextStyle" format="reference">
+    </attr>
+</resources>

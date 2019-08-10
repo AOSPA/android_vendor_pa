@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/color_picker_view">
+
+        <LinearLayout
+            android:id="@+id/custom_color_preview_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0c000000"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/control_layout_margin_left2"
+                android:layout_marginTop="@dimen/control_layout_margin_top2"
+                android:layout_marginEnd="@dimen/control_layout_margin_right2"
+                android:layout_marginBottom="@dimen/control_layout_margin_top2"
+                android:background="@color/control_bg_color_default"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/custom_color_preview"
+                    style="@style/control_text_style_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/control_list_item_height_one_line2"
+                    android:layout_marginStart="@dimen/settings_layout_margin_left2"
+                    android:gravity="center_vertical"
+                    android:text="@string/preview_pager_content_description"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.CategoryTitle" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/control_layout_margin_left2"
+                    android:layout_marginEnd="@dimen/control_layout_margin_right2"
+                    android:gravity="center_vertical"
+                    android:minHeight="@dimen/control_list_item_height_two_line1"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp">
+
+                    <TextView
+                        android:id="@android:id/title"
+                        style="@style/control_text_style_subtitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="16dp"
+                        android:layout_toStartOf="@+id/custom_color_preview_switch"
+                        android:ellipsize="end"
+                        android:fadingEdge="horizontal"
+                        android:singleLine="true"
+                        android:text="@string/auto_brightness_title"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/settings_text_color_primary" />
+
+                    <TextView
+                        android:id="@android:id/summary"
+                        style="@style/control_text_style_body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@android:id/title"
+                        android:layout_alignStart="@android:id/title"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="16dp"
+                        android:layout_toStartOf="@+id/custom_color_preview_switch"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/auto_brightness_summary"
+                        android:textAlignment="viewStart"
+                        android:textColor="@color/settings_text_color_secondary" />
+
+                    <Switch
+                        android:id="@+id/custom_color_preview_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:clickable="false"
+                        android:enabled="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="@dimen/control_layout_margin_left1"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginEnd="@dimen/control_layout_margin_right1"
+                    android:layout_marginBottom="28dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/headerimage"
+                            android:layout_width="21dp"
+                            android:layout_height="21dp"
+                            android:layout_marginStart="16dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_brightness_medium_black_24px" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center">
+
+                        <SeekBar
+                            android:id="@+id/custom_color_preview_seekbar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="0dp"
+                            android:paddingStart="14dp"
+                            android:paddingEnd="14dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/custom_color_preview_brightness"
+                            android:layout_width="21dp"
+                            android:layout_height="21dp"
+                            android:layout_marginStart="7dp"
+                            android:layout_marginEnd="16dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/ic_brightness_auto_black_24px" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.pa.support.colorpicker.ColorPickerView
+        android:id="@+id/color_picker_view"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_above="@+id/color_edit_view"
+        android:layout_gravity="center_horizontal"
+        android:layerType="software"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp" />
+
+    <EditText
+        android:id="@+id/color_edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/control_layout_margin_left2"
+        android:layout_marginEnd="@dimen/control_layout_margin_right2"
+        android:drawableStart="@drawable/ic_color_edit_icon"
+        android:drawablePadding="8dp"
+        android:editable="false"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:paddingBottom="16dp"
+        android:text="@string/custom_color_value"
+        android:textAlignment="viewStart" />
+</RelativeLayout>
