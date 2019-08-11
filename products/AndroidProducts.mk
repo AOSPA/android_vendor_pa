@@ -37,4 +37,5 @@
 
 # CAF
     PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/msm8998/msm8998.mk
+    $(LOCAL_DIR)/msm8998/msm8998.mk \
+    $(LOCAL_DIR)/sdm845/pa_sdm845.mk
