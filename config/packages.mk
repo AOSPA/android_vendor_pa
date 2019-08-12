@@ -23,6 +23,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
+    Longshot \
     ParanoidQuickStep \
     ThemePicker \
     #ParanoidHub
