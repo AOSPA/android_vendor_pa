@@ -68,6 +68,10 @@ PRODUCT_COPY_FILES += \
 # Build Chromium Browser
 PRODUCT_PACKAGES += ChromePublic
 
+# Build Longshot
+PRODUCT_PACKAGES += \
+    Longshot
+
 # Build ParanoidCamera
 ifneq ($(TARGET_USES_AOSP_CAMERA),true)
 PRODUCT_PACKAGES += ParanoidCamera
