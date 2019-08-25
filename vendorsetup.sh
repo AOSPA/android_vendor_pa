@@ -21,3 +21,6 @@ add_lunch_combo pa_keyaki-userdebug
 export SDCLANG_AE_CONFIG=vendor/pa/sdclang/sdclangAE.json
 export SDCLANG_CONFIG=vendor/pa/sdclang/sdclang.json
 export SDCLANG_SA_ENABLED=false
+
+# Allow missing dependencies
+export ALLOW_MISSING_DEPENDENCIES=true
