@@ -18,6 +18,12 @@
         "revision":     "pa-pie"
     },
     {
+        "target_path":  "vendor/qcom/opensource/dataservices",
+        "repository":   "paranoid-pixel-devices/android_vendor_qcom_opensource_dataservices",
+        "remote":       "github",
+        "revision":     "pa-pie"
+    },
+    {
         "target_path":  "hardware/interfaces",
         "repository":   "paranoid-pixel-devices/android_hardware_interfaces",
         "remote":       "github",
