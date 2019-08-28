@@ -14,8 +14,8 @@
 
 # Include versioning information
 # Format: AndroidVersion.Major.Maintenance (-TAG)
-export PA_VERSION := PA1-DEV
-export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
+export PA_VERSION := PA1-$(shell date -u +%Y%m%d)
+export ROM_VERSION := $(PA_VERSION)
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.modversion=$(ROM_VERSION) \
     ro.pa.version=$(PA_VERSION)
