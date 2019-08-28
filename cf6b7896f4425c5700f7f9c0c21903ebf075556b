@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1357f2b1_a3e74592",
+        "filename": "products/marlin/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-08-28T00:43:24Z",
+      "side": 1,
+      "message": "is caf\u0027s not compatible?",
+      "revId": "cf6b7896f4425c5700f7f9c0c21903ebf075556b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    }
+  ]
+}
