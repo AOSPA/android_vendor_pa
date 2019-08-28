@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2171e1c3_5e0994fa",
+        "filename": "prebuilt/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-08-28T13:54:50Z",
+      "side": 1,
+      "message": "app/Longshot.apk*",
+      "range": {
+        "startLine": 16,
+        "startChar": 19,
+        "endLine": 16,
+        "endChar": 40
+      },
+      "revId": "7a35dc8a474742c4265152c0d2b96bdcaa8b6780",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
