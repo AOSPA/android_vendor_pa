@@ -16,6 +16,24 @@
       "revId": "cf6b7896f4425c5700f7f9c0c21903ebf075556b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0b05806a_87c6f489",
+        "filename": "products/marlin/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 1000441
+      },
+      "writtenOn": "2019-08-29T05:06:12Z",
+      "side": 1,
+      "message": "Please review the new patch set. I have considered your suggestions. Everything tested. Test build successful.",
+      "parentUuid": "1357f2b1_a3e74592",
+      "revId": "cf6b7896f4425c5700f7f9c0c21903ebf075556b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
