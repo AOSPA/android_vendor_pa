@@ -14,7 +14,7 @@
 
 
 # CAF
-    PRODUCT_MAKEFILES += \
+PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
@@ -26,11 +26,28 @@
 
 # SONY OpenDevices
 # Loire 8956
-    PRODUCT_MAKEFILES += \
+PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/kugo/pa_kugo.mk \
     $(LOCAL_DIR)/suzu/pa_suzu.mk
+
 # Tone 8996
-   PRODUCT_MAKEFILES += \
+PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/dora/pa_dora.mk \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
+
+# Lunch targets
+COMMON_LUNCH_CHOICES := \
+    pa_beryllium-userdebug \
+    pa_dipper-userdebug \
+    pa_dora-userdebug \
+    pa_gemini-userdebug \
+    pa_kagura-userdebug \
+    pa_keyaki-userdebug \
+    pa_kugo-userdebug \
+    pa_oneplus3-userdebug \
+    pa_oneplus6-userdebug \
+    pa_oneplus6t-userdebug \
+    pa_polaris-userdebug \
+    pa_sagit-userdebug \
+    pa_suzu-userdebug
