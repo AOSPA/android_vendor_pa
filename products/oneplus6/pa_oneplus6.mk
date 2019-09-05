@@ -50,4 +50,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := OnePlus/OnePlus6/OnePlus6:8.1.0/OPM1.171019.011/06140300:user/release-keys
 
+# HACK, needed to flash in TWRP to avoid following error in flashing zip
+# https://github.com/omnirom/android_bootable_recovery/blob/58f2132bc3954fc704787d477500a209eedb8e29/installcommand.cpp#L128
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.device=OnePlus6
+
 endif
