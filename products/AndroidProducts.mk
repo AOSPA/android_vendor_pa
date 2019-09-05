@@ -34,3 +34,6 @@
     $(LOCAL_DIR)/dora/pa_dora.mk \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
+# Tama sdm845
+   PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/akari/pa_akari.mk
