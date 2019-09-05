@@ -26,7 +26,7 @@ TARGET_USES_AOSP := false
 TARGET_USES_QCOM_BSP := false
 
 include device/qcom/common/common.mk
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
 $(call inherit-product, device/oneplus/oneplus6t/device.mk)
@@ -49,5 +49,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="OnePlus6T-user 9 PKQ1.180716.001 1812260627 release-keys"
 
 BUILD_FINGERPRINT := OnePlus/OnePlus6T/OnePlus6T:9/PKQ1.180716.001/1812260627:user/release-keys
+
+# HACK, needed to flash in TWRP to avoid following error in flashing zip
+# https://github.com/omnirom/android_bootable_recovery/blob/58f2132bc3954fc704787d477500a209eedb8e29/installcommand.cpp#L128
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.device=OnePlus6T
 
 endif
