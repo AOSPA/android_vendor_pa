@@ -25,7 +25,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP := false
 TARGET_USES_QCOM_BSP := false
 
-include device/qcom/common/common.mk
+#include device/qcom/common/common.mk
 include vendor/pa/main.mk
 
 # Inherit AOSP device configuration
