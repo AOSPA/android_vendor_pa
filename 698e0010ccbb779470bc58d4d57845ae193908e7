@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2921e703_085df058",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-09-07T08:48:58Z",
+      "side": 1,
+      "message": "Would be great if we could move this somewhere else and remove vendorsetup.sh.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 31
+      },
+      "revId": "698e0010ccbb779470bc58d4d57845ae193908e7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
