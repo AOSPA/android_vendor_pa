@@ -104,14 +104,14 @@ endif
 
 # TCP Connection Management
 PRODUCT_PACKAGES += tcmiface
-PRODUCT_BOOT_JARS += tcmiface
+#PRODUCT_BOOT_JARS += tcmiface
 
 # Bluetooth Audio (A2DP)
 PRODUCT_PACKAGES += libbthost_if
 
 # MSIM manual provisioning
 PRODUCT_PACKAGES += telephony-ext
-PRODUCT_BOOT_JARS += telephony-ext
+#PRODUCT_BOOT_JARS += telephony-ext
 
 ifneq ($(HOST_OS),linux)
 ifneq ($(sdclang_already_warned),true)
