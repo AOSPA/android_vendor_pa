@@ -12,8 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-export VENDOR := pa
-
 # Enable SIP+VoIP
 PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
@@ -126,3 +124,93 @@ else
 # include definitions for SDCLANG
 include vendor/pa/sdclang/sdclang.mk
 endif
+
+PRODUCT_VERSION_MAJOR = 10
+PRODUCT_VERSION_MAINTENANCE := 1
+
+ifeq ($(TARGET_VENDOR_SHOW_MAINTENANCE_VERSION),true)
+    PA_VERSION_MAINTENANCE := $(PRODUCT_VERSION_MAINTENANCE)
+else
+    PA_VERSION_MAINTENANCE := 0
+endif
+
+# Set PA_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
+
+ifndef PA_BUILDTYPE
+    ifdef RELEASE_TYPE
+        # Starting with "PA_" is optional
+        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^PA_||g')
+        PA_BUILDTYPE := $(RELEASE_TYPE)
+    endif
+endif
+
+# Filter out random types, so it'll reset to UNOFFICIAL
+ifeq ($(filter RELEASE NIGHTLY SNAPSHOT EXPERIMENTAL,$(PA_BUILDTYPE)),)
+    PA_BUILDTYPE :=
+endif
+
+ifdef PA_BUILDTYPE
+    ifneq ($(PA_BUILDTYPE), SNAPSHOT)
+        ifdef PA_EXTRAVERSION
+            # Force build type to EXPERIMENTAL
+            PA_BUILDTYPE := EXPERIMENTAL
+            # Remove leading dash from PA_EXTRAVERSION
+            PA_EXTRAVERSION := $(shell echo $(PA_EXTRAVERSION) | sed 's/-//')
+            # Add leading dash to PA_EXTRAVERSION
+            PA_EXTRAVERSION := -$(PA_EXTRAVERSION)
+        endif
+    else
+        ifndef PA_EXTRAVERSION
+            # Force build type to EXPERIMENTAL, SNAPSHOT mandates a tag
+            PA_BUILDTYPE := EXPERIMENTAL
+        else
+            # Remove leading dash from PA_EXTRAVERSION
+            PA_EXTRAVERSION := $(shell echo $(PA_EXTRAVERSION) | sed 's/-//')
+            # Add leading dash to PA_EXTRAVERSION
+            PA_EXTRAVERSION := -$(PA_EXTRAVERSION)
+        endif
+    endif
+else
+    # If PA_BUILDTYPE is not defined, set to UNOFFICIAL
+    PA_BUILDTYPE := UNOFFICIAL
+    PA_EXTRAVERSION :=
+endif
+
+
+ifeq ($(PA_BUILDTYPE), UNOFFICIAL)
+    ifneq ($(TARGET_UNOFFICIAL_BUILD_ID),)
+        PA_EXTRAVERSION := -$(TARGET_UNOFFICIAL_BUILD_ID)
+    endif
+endif
+
+ifeq ($(PA_BUILDTYPE), RELEASE)
+    ifndef TARGET_VENDOR_RELEASE_BUILD_ID
+        PA_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PA_BUILD)
+    else
+        ifeq ($(TARGET_BUILD_VARIANT),user)
+            ifeq ($(PA_VERSION_MAINTENANCE),0)
+                PA_VERSION := $(PRODUCT_VERSION_MAJOR)-$(TARGET_VENDOR_RELEASE_BUILD_ID)-$(PA_BUILD)
+            else
+                PA_VERSION := $(PRODUCT_VERSION_MAJOR).$(PA_VERSION_MAINTENANCE)-$(TARGET_VENDOR_RELEASE_BUILD_ID)-$(PA_BUILD)
+            endif
+        else
+            PA_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MAINTENANCE)$(PRODUCT_VERSION_DEVICE_SPECIFIC)-$(PA_BUILD)
+        endif
+    endif
+else
+    ifeq ($(PA_VERSION_MAINTENANCE),0)
+        ifeq ($(PA_VERSION_APPEND_TIME_OF_DAY),true)
+            PA_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d_%H%M%S)-$(PA_BUILD)-$(PA_BUILDTYPE)$(PA_EXTRAVERSION)
+        else
+            PA_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(PA_BUILD)-$(PA_BUILDTYPE)$(PA_EXTRAVERSION)
+        endif
+    else
+        ifeq ($(PA_VERSION_APPEND_TIME_OF_DAY),true)
+            PA_VERSION := $(PRODUCT_VERSION_MAJOR).$(PA_VERSION_MAINTENANCE)-$(shell date -u +%Y%m%d_%H%M%S)-$(PA_BUILD)-$(PA_BUILDTYPE)$(PA_EXTRAVERSION)
+        else
+            PA_VERSION := $(PRODUCT_VERSION_MAJOR).$(PA_VERSION_MAINTENANCE)-$(shell date -u +%Y%m%d)-$(PA_BUILD)-$(PA_BUILDTYPE)$(PA_EXTRAVERSION)
+        endif
+    endif
+endif
+
+PA_DISPLAY_VERSION := $(PA_VERSION)
