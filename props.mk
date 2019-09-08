@@ -13,12 +13,8 @@
 # limitations under the License.
 
 # Include versioning information
-# Format: AndroidVersion.Major.Maintenance (-TAG)
-export PA_VERSION := PA1-DEV
-export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.modversion=$(ROM_VERSION) \
-    ro.pa.version=$(PA_VERSION)
+    ro.pa.version=$(PA_DISPLAY_VERSION)
 
 # Override undesired Google defaults
 ADDITIONAL_BUILD_PROPERTIES += \
