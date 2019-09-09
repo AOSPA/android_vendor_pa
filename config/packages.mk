@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     Longshot \
     ParanoidPapers \
     ParanoidQuickStep \
+    SettingsIntelligenceGooglePrebuilt \
     ThemePicker
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
