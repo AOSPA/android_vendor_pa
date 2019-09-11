@@ -16,6 +16,24 @@
       "revId": "27591bf10bb80ad43174a582c611df738f39609b",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a377de5_21e18c18",
+        "filename": "products/oneplus6t/pa_oneplus6t.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2019-09-11T08:19:35Z",
+      "side": 1,
+      "message": "Nice, will wait for TWRP to fix it first... This is a DNM commit anyways.",
+      "parentUuid": "da1111c4_6efdddb3",
+      "revId": "27591bf10bb80ad43174a582c611df738f39609b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
