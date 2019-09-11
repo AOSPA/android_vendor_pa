@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da1111c4_6efdddb3",
+        "filename": "products/oneplus6t/pa_oneplus6t.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2019-09-11T04:57:06Z",
+      "side": 1,
+      "message": "This could be avoided if Omni merged this: https://gerrit.omnirom.org/#/c/android_bootable_recovery/+/33639/",
+      "revId": "27591bf10bb80ad43174a582c611df738f39609b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
