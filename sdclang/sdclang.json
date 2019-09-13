@@ -1,10 +1,10 @@
 {
     "default": {
         "SDCLANG": true,
-        "SDCLANG_PATH": "vendor/qcom/sdclang-6.0/linux-x86/bin",
-        "SDCLANG_PATH_2": "vendor/qcom/sdclang-4.0/linux-x86/bin",
-        "SDCLANG_FLAGS": "-mdefault-to-arm -Wno-vectorizer-no-neon -Wno-deprecated-register -Wno-tautological-type-limit-compare -Wno-unknown-warning-option",
-        "SDCLANG_FLAGS_2": "-Wno-vectorizer-no-neon -Wno-unknown-warning-option -Wno-error"
+        "SDCLANG_PATH": "vendor/qcom/sdclang-8.0/linux-x86/bin",
+        "SDCLANG_PATH_2": "vendor/qcom/sdclang-8.0/linux-x86/bin",
+        "SDCLANG_FLAGS": "",
+        "SDCLANG_FLAGS_2": ""
     }
 }
 
