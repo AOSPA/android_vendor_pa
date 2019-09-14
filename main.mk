@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += ParanoidCamera
 endif
 
 # Build ParanoidHub
-PRODUCT_PACKAGES += ParanoidHub
+#PRODUCT_PACKAGES += ParanoidHub
 
 # Build ParanoidPapers
 PRODUCT_PACKAGES += ParanoidPapers
