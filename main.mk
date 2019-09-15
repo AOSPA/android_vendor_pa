@@ -15,7 +15,7 @@
 export VENDOR := pa
 
 # Enable SIP+VoIP
-PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+PRODUCT_COPY_FILES += frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.sip.voip.xml
 
 # Include vendor overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
@@ -24,13 +24,13 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 USE_DEX2OAT_DEBUG := false
 
 # Include APN information
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
 
 # Include support for preconfigured permissions
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:system/etc/default-permissions/pa-permissions.xml
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/default-permissions/pa-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/default-permissions/pa-permissions.xml
 
 # Include needed privapp permissions whitelist
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/privapp-permissions/pa-permissions.xml:system/etc/sysconfig/pa-permissions.xml
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/privapp-permissions/pa-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pa-permissions.xml
 
 # Copy PA specific init file
 PRODUCT_COPY_FILES += vendor/pa/prebuilt/root/init.pa.rc:root/init.pa.rc
@@ -50,20 +50,20 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/pa/prebuilt/bin/50-backuptool.sh:system/addon.d/50-backuptool.sh
+    vendor/pa/prebuilt/bin/50-backuptool.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-backuptool.sh
 
 ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
-    vendor/pa/prebuilt/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
-    vendor/pa/prebuilt/bin/backuptool_postinstall.sh:system/bin/backuptool_postinstall.sh
+    vendor/pa/prebuilt/bin/backuptool_ab.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.sh \
+    vendor/pa/prebuilt/bin/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
+    vendor/pa/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
 # Include hostapd configuration
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
-    vendor/pa/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-    vendor/pa/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
+    vendor/pa/prebuilt/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/hostapd/hostapd_default.conf \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_SYSTEM)/etc/hostapd/hostapd.deny \
+    vendor/pa/prebuilt/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_SYSTEM)/etc/hostapd/hostapd.accept
 
 # Build Chromium Browser
 PRODUCT_PACKAGES += ChromePublic
@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += WallpaperPicker
 
 # Include the custom PA bootanimation
 ifneq ($(TARGET_BOOT_ANIMATION_RES),)
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
