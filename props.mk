@@ -12,10 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+include version_defaults.mk
+ifeq ($(PA_VERSION_APPEND_TIME_OF_DAY),true)
+PA_ZIP := $(call lc,$(PA_VERSION_FLAVOR))-$(PA_VERSION_CODE)-$(call lc,$(PA_BUILD_VARIANT))-$(shell date -u +%Y%m%d_%H%M%S)
+else
+PA_ZIP := $(call lc,$(PA_VERSION_FLAVOR))-$(PA_VERSION_CODE)-$(call lc,$(PA_BUILD_VARIANT))-$(shell date -u +%Y%m%d)
+endif
+
 # Include versioning information
-# Format: AndroidVersion.Major.Maintenance (-TAG)
-export PA_VERSION := PA1-DEV
-export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
+export PA_VERSION := $(PA_VERSION_FLAVOR) $(PA_VERSION_CODE) $(PA_BUILD_VARIANT)
+export ROM_VERSION := $(PA_ZIP)
 ADDITIONAL_BUILD_PROPERTIES += \
     ro.modversion=$(ROM_VERSION) \
     ro.pa.version=$(PA_VERSION)
