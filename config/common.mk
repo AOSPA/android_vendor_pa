@@ -42,9 +42,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 
 # Default notification/alarm sounds
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.alarm_alert=Osmium.ogg \
-    ro.config.notification_sound=Ariel.ogg \
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.alarm_alert=Bright_morning.ogg \
+    ro.config.notification_sound=End_note.ogg
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
