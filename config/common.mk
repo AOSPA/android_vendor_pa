@@ -46,9 +46,9 @@ endif
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.alarm_alert=Osmium.ogg \
-    ro.config.notification_sound=Ariel.ogg \
-    ro.config.ringtone=Titania.ogg
+    ro.config.alarm_alert=Bright_morning.ogg \
+    ro.config.notification_sound=End_note.ogg \
+    ro.config.ringtone=Leaps_and_bounds.ogg
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
