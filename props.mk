@@ -34,9 +34,9 @@ ADDITIONAL_BUILD_PROPERTIES += \
 
 # Override old AOSP default sounds with newer Google stock ones
 ADDITIONAL_BUILD_PROPERTIES += \
-    ro.config.alarm_alert=Osmium.ogg \
-    ro.config.notification_sound=Ariel.ogg \
-    ro.config.ringtone=Titania.ogg
+    ro.config.alarm_alert=Bright_morning.ogg \
+    ro.config.notification_sound=End_note.ogg \
+    ro.config.ringtone=Leaps_and_bounds.ogg
 
 # Allow tethering without provisioning app
 ADDITIONAL_BUILD_PROPERTIES += net.tethering.noprovisioning=true
