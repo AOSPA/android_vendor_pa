@@ -12,7 +12,7 @@ PRODUCT_PACKAGES += \
 
 # Default ringtone
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.ringtone=Titania.ogg
+    ro.config.ringtone=Leaps_and_bounds.ogg
 
 # Tethering - allow without requiring a provisioning app
 # (for devices that check this)
