@@ -46,9 +46,9 @@ endif
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.config.alarm_alert=Osmium.ogg \
-    ro.config.notification_sound=Ariel.ogg \
-    ro.config.ringtone=Titania.ogg
+    ro.config.alarm_alert=Bright_morning.ogg \
+    ro.config.notification_sound=End_note.ogg \
+    ro.config.ringtone=Leaps_and_bounds.ogg
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
@@ -105,6 +105,9 @@ ifneq ($(TARGET_BOOT_ANIMATION_RES),)
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 endif
+
+# Audio prebuilts
+include vendor/pa/config/paranoid_audio.mk
 
 # Packages
 include vendor/pa/config/packages.mk
