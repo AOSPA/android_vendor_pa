@@ -47,6 +47,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_VENDOR := Xiaomi
 
 # Paranoid Android platform
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 endif
