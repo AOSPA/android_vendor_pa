@@ -1,0 +1,191 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e16e6e5c_f3dde98e",
+        "filename": "config/common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "we don\u0027t use this",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fea4e9e3_985043bb",
+        "filename": "config/telephony.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "aren\u0027t these all built by default?",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "509bf5ce_b5a25395",
+        "filename": "config/telephony.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "we already have this",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d084c7c6_52290c29",
+        "filename": "prebuilt/bin/sysinit",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "what do we use this for?",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "557f6521_65553e73",
+        "filename": "prebuilt/etc/init.d/00banner",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "why?",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b6d1a414_c66ac0d8",
+        "filename": "prebuilt/etc/init/pa-governor.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "file seems useless to me",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a621ec5_05d125a2",
+        "filename": "prebuilt/etc/init/pa-iosched.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "don\u0027t think we need this file",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bcbf0a67_32ec63be",
+        "filename": "prebuilt/etc/init/pa-radio.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "this file does not appear to be valid anymore.  at the very least, these would be vendor services.",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "81da2a30_7afbadf8",
+        "filename": "prebuilt/etc/init/pa-ssh.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "what does this file do?",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b304140c_d6acf4dd",
+        "filename": "prebuilt/etc/init/pa-system.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "most of this seems to be useless",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b50b3c58_ba0b9c5f",
+        "filename": "sdclang/vendorsetup.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-09-18T20:32:38Z",
+      "side": 1,
+      "message": "confirm this is inherited automatically",
+      "revId": "ed064ac4476a40261dd4a3f383de72e09c5e6c64",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
