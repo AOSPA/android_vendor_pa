@@ -106,6 +106,9 @@ endif
 # Packages
 include vendor/pa/config/packages.mk
 
+# PA version
+include vendor/pa/config/version.mk
+
 # Sdclang
 ifneq ($(HOST_OS),linux)
 ifneq ($(sdclang_already_warned),true)
