@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/pa/main.mk)
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 PRODUCT_COPY_FILES += \
     device/generic/goldfish/data/etc/permissions/privapp-permissions-goldfish.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-goldfish.xml \
