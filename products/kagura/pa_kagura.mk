@@ -31,6 +31,6 @@ PRODUCT_NAME := pa_kagura
 PRODUCT_MODEL := Xperia XZ(AOSPA)
 
 # Paranoid Android platform
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 endif
