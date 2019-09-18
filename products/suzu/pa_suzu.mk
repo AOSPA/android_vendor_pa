@@ -30,6 +30,6 @@ PRODUCT_NAME := pa_suzu
 PRODUCT_MODEL := Xperia X (AOSPA)
 
 # Paranoid Android platform
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 endif
