@@ -39,6 +39,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
      PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 114 dev-keys"
 
 # Paranoid Android platform
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 endif
