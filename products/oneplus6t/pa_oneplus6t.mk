@@ -26,10 +26,10 @@ TARGET_USES_AOSP := false
 TARGET_USES_QCOM_BSP := false
 
 include device/qcom/common/common.mk
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/oneplus/oneplus6t/device.mk)
+$(call inherit-product, device/oneplus/fajita/device.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_oneplus6t
