@@ -34,4 +34,14 @@
         <permission name="android.permission.RECOVERY"/>
     </privapp-permissions>
 
+    <privapp-permissions package="com.android.phone">
+        <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.wallpaper">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+    </privapp-permissions>
+
 </permissions>
