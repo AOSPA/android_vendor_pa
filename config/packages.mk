@@ -24,6 +24,7 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
+    ParanoidQuickStep \
     #ParanoidHub
 
 # Snapdragon apps
