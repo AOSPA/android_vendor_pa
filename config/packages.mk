@@ -27,6 +27,9 @@ PRODUCT_PACKAGES += \
     ParanoidQuickStep \
     #ParanoidHub
 
+# Paranoid Android Overlays
+PRODUCT_PACKAGES += pa-overlays
+
 # Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery
