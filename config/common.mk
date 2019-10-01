@@ -121,3 +121,8 @@ else
 # include definitions for SDCLANG
 include vendor/pa/sdclang/sdclang.mk
 endif
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    ParanoidLauncher \
+    Settings \
+    SystemUI
