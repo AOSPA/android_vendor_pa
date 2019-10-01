@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     ParanoidQuickStep \
+    ThemePicker \
     #ParanoidHub
 
 # Snapdragon apps
