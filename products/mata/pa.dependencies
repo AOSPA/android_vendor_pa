@@ -2,43 +2,37 @@
   {
     "repository": "anayw2001/android_device_essential_mata",
     "target_path": "device/essential/mata",
-    "revision": "9-caf-hmp",
+    "revision": "quartz",
     "remote": "github"
   },
   {
-    "repository": "anayw2001/android_kernel_essential_msm8998",
+    "repository": "StatiXOS/android_kernel_essential_msm8998",
     "target_path": "kernel/essential/msm8998",
-    "revision": "9-caf-hmp",
+    "revision": "10",
     "remote": "github"
   },
   {
-    "repository": "anayw2001/android_vendor_essential",
+    "repository": "StatiXOS/android_vendor_essential",
     "target_path": "vendor/essential",
-    "revision": "9-caf-hmp",
+    "revision": "10",
     "remote": "github"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_display",
     "target_path":  "hardware/qcom/display",
-    "revision":     "pie-8998"
+    "revision":     "quartz-8998"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_media",
     "target_path":  "hardware/qcom/media",
-    "revision":     "pie-8998"
+    "revision":     "quartz-8998"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_audio",
     "target_path":  "hardware/qcom/audio",
     "revision":     "pie-8998"
-  },
-  {
-    "remote":       "blobs",
-    "repository":   "proprietary_vendor_qcom_common",
-    "target_path":  "vendor/qcom/common",
-    "revision":     "pie"
   }
 ]
