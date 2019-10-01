@@ -6,7 +6,10 @@ include device/essential/mata/aosp_mata.mk
 
 # CAF includes
 include device/qcom/common/common.mk
-include vendor/qcom/common/qti-vendor.mk
+#include vendor/qcom/common/qti-vendor.mk
+
+# Only exclude normal sepolicy so we can opt into legacy
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
 
 # PA decls
 TARGET_BOOT_ANIMATION_RES := 1440
@@ -21,6 +24,6 @@ PRODUCT_MANUFACTURER := Essential Products
 PRODUCT_RELEASE_NAME := mata
 
 # PA platform includes
-include vendor/pa/main.mk
+include vendor/pa/config/common_full_phone.mk
 
 endif
