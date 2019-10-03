@@ -40,4 +40,7 @@
          increase the rate of unintentional unlocks. -->
     <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
 
+    <!-- Volte Icon -->
+    <bool name="config_display_volte">true</bool>
+
 </resources>
