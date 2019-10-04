@@ -92,6 +92,9 @@ PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/privapp-permissions-pa-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-pa.xml \
     vendor/pa/config/permissions/privapp-permissions-pa-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-pa.xml
 
+# Filesystem
+TARGET_FS_CONFIG_GEN += vendor/pa/config/config.fs
+
 # Fonts
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/pa/prebuilt/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
