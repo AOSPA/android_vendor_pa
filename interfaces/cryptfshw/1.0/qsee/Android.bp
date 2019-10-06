@@ -12,20 +12,40 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-cc_library_static {
-    name: "vendor.qti.hardware.cryptfshw@1.0-base",
-    vendor: true,
+cc_binary {
+    name: "vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee",
     defaults: ["hidl_defaults"],
+    relative_install_path: "hw",
+    vendor: true,
+    init_rc: ["vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee.rc"],
+    owner: "qti",
     srcs: [
-        "CryptfsHw.cpp",
-        "CryptfsHwUtils.cpp",
+        "QSEEComController.cpp",
+        "service.cpp",
     ],
-    export_include_dirs: ["."],
+    arch: {
+        arm: {
+            shared_libs: [
+                "libhwbinder",
+            ],
+            cflags: ["-DARCH_ARM_32"],
+        },
+    },
+    product_variables: {
+        aospa: {
+            should_wait_for_qsee: {
+                cflags: ["-DWAIT_FOR_QSEE"],
+            },
+        },
+    },
     header_libs: ["qti_kernel_headers"],
     shared_libs: [
         "libbase",
+        "libdl",
         "libhidlbase",
+        "libhidltransport",
         "libutils",
         "vendor.qti.hardware.cryptfshw@1.0",
-    ]
+    ],
+    static_libs: ["vendor.qti.hardware.cryptfshw@1.0-base"],
 }
