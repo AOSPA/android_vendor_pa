@@ -1,0 +1,5 @@
+service cryptfshw-1-0 /vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee
+    class early_hal
+    user system
+    group system
+    writepid /dev/cpuset/system-background/tasks
