@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a6a8ae9_395b816e",
+        "filename": "products/oneplus6t/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-10-07T11:06:25Z",
+      "side": 1,
+      "message": "Don\u0027t we handle this globally? If not, should we?",
+      "revId": "b39a825bd01d139ca55574d13d42cb76cb942128",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
