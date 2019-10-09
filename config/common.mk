@@ -60,11 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
-# init.d support
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/etc/init.d/00banner:$(TARGET_COPY_OUT_SYSTEM)/etc/init.d/00banner \
-    vendor/pa/prebuilt/bin/sysinit:$(TARGET_COPY_OUT_SYSTEM)/bin/sysinit
-
 # Power whitelist
 PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/pa-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pa-power-whitelist.xml
