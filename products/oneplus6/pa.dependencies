@@ -7,12 +7,6 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_device_oneplus_sdm845-common",
-        "target_path":  "device/oneplus/sdm845-common",
-        "revision":     "quartz"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_oneplus_sdm845",
         "target_path":  "kernel/oneplus/sdm845",
         "revision":     "quartz"
