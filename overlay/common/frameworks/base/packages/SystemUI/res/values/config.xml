@@ -20,20 +20,8 @@
 <!-- These resources are around just to allow their values to be customized -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- The duration in seconds to wait before the dismiss buttons are shown. -->
-    <integer name="recents_task_bar_dismiss_delay_seconds">0</integer>
-
-    <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
-    <bool name="config_show4GForLTE">false</bool>
-
-    <!-- config for showing AM/PM in 12hour format -->
-    <bool name="config_showAmpm">false</bool>
-
     <!-- Whether to show activity indicators in the status bar -->
     <bool name="config_showActivity">false</bool>
-
-    <!-- Whether to show wifi activity indicators in the status bar -->
-    <bool name="config_showWifiActivity">false</bool>
 
     <!-- If true, enable the advance anti-falsing classifier on the lockscreen. On some devices it
          does not work well, particularly with noisy touchscreens. Note that disabling it may
