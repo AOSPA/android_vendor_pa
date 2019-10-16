@@ -24,7 +24,6 @@ LOCAL_REQUIRED_MODULES := \
     AOSPABluetoothOverlay \
     AOSPAContactsProviderOverlay \
     AOSPAFrameworksOverlay \
-    AOSPAKeyguardOverlay \
     AOSPAOverlayStub \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
