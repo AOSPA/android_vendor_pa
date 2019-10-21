@@ -103,43 +103,6 @@
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
 
-    <!-- Controls the navigation bar interaction mode:
-         0: 3 button mode (back, home, overview buttons)
-         1: 2 button mode (back, home buttons + swipe up for overview)
-         2: gestures only for back, home and overview -->
-    <integer name="config_navBarInteractionMode">2</integer>
-
-    <!-- Controls whether the nav bar can move from the bottom to the side in landscape.
-         Only applies if the device display is not square. -->
-    <bool name="config_navBarCanMove">false</bool>
-
-    <!-- Controls whether the navigation bar lets through taps. -->
-    <bool name="config_navBarTapThrough">true</bool>
-
-    <!-- Controls the size of the back gesture inset. -->
-    <dimen name="config_backGestureInset">24dp</dimen>
-
-    <!-- Controls whether the navbar needs a scrim with
-     {@link Window#setEnsuringNavigationBarContrastWhenTransparent}. -->
-    <bool name="config_navBarNeedsScrim">false</bool>
-
-    <!-- Controls the opacity of the navigation bar depending on the visibility of the
-     various workspace stacks.
-     0 - Nav bar is always opaque when either the freeform stack or docked stack is visible.
-     1 - Nav bar is always translucent when the freeform stack is visible, otherwise always
-         opaque.
-     2 - Nav bar is never forced opaque.
-     -->
-    <integer name="config_navBarOpacityMode">2</integer>
-
-    <!-- Controls whether seamless rotation should be allowed even though the navbar can move
-         (which normally prevents seamless rotation). -->
-    <bool name="config_allowSeamlessRotationDespiteNavBarMoving">true</bool>
-
-    <!-- Controls whether the side edge gestures can always trigger the transient nav bar to
-         show. -->
-    <bool name="config_navBarAlwaysShowOnSideEdgeGesture">true</bool>
-
     <!-- The package name for the default wellbeing app.
          This package must be trusted, as it has the permissions to control other applications
          on the device.
