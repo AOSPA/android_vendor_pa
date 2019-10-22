@@ -17,7 +17,8 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Tethering - allow without requiring a provisioning app
 # (for devices that check this)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    net.tethering.noprovisioning=true
+    net.tethering.noprovisioning=true \
+	persist.sys.dun.override=0
 
 # IMS
 PRODUCT_PACKAGES += \
