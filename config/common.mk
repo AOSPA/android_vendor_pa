@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     adb_root
 endif
 
+# Android Beam
+PRODUCT_COPY_FILES += \
+    vendor/pa/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
+
 # ART
 # Optimize everything for preopt
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
