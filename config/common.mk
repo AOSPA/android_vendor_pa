@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
 # Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/pa/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
 # Enable ADB authentication
