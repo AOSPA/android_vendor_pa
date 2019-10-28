@@ -28,7 +28,9 @@ PRODUCT_PACKAGES += \
     #ParanoidHub
 
 # Paranoid Android Overlays
-PRODUCT_PACKAGES += pa-overlays
+PRODUCT_PACKAGES += \
+    pa-overlays \
+	ParanoidOverlayStub
 
 # Snapdragon apps
 PRODUCT_PACKAGES += \
