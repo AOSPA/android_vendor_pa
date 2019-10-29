@@ -172,6 +172,6 @@
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
     <string name="config_defaultSystemCaptionsService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService</string>
     <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
-    <string name="config_defaultListenerAccessPackages">com.google.android.as</string>
+    <string name="config_defaultListenerAccessPackages">com.android.launcher3:com.google.android.as</string>
 
 </resources>
