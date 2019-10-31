@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += ParanoidCamera
 endif
 PRODUCT_PACKAGES += \
     ChromePublic \
-    ParanoidPapers \
     SoundRecorder \
     WallpaperPicker \
     LatinIME \
