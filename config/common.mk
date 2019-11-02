@@ -107,6 +107,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
 else
 # Disable ADB authentication
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
+PRODUCT_PACKAGES += \
+    adb_root
 endif
 
 # Include the custom PA bootanimation
