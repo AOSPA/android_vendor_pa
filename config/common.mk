@@ -127,3 +127,5 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     ParanoidLauncher \
     Settings \
     SystemUI
+
+$(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
