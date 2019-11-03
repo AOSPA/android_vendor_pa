@@ -1,2 +1,6 @@
+# ADB Root
+/system/bin/adb_root                                                                                      u:object_r:adbroot_exec:s0
+/data/adbroot(/.*)?                                                                                       u:object_r:adbroot_data_file:s0
+
 # FOD
 /(system|system_ext|system/system_ext)/bin/hw/vendor.aospa.biometrics.fingerprint.inscreen@1.0-service    u:object_r:vendor_fod_aospa_exec:s0
