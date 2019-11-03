@@ -1,2 +1,5 @@
+# ADB Root
+allow system_server adbroot_service:service_manager find;
+
 # FOD
 hal_client_domain(system_server, vendor_fod)
