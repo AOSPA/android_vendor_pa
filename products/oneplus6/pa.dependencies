@@ -15,7 +15,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_oneplus_sdm845",
         "target_path":  "kernel/oneplus/sdm845",
-        "revision":     "pie"
+        "revision":     "quartz"
     },
     {
         "remote":       "blobs",
