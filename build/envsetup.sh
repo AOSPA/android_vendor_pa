@@ -8,6 +8,7 @@ Additional Paranoid Android functions:
 - cafremote:       Add git remote for matching CodeAurora repository.
 - githubremote:    Add git remote for AOSPA Github.
 - mka:             Builds using SCHED_BATCH on all processors.
+- picklist:        Utility to fetch many changes specified by a picklist.
 - repolastsync:    Prints date and time of last repo sync.
 EOF
 }
@@ -212,8 +213,12 @@ function repolastsync() {
     echo "Last repo sync: $RLSLOCAL / $RLSUTC"
 }
 
-function repopick()
-{
+function picklist() {
+    T=$(gettop)
+    $T/vendor/pa/build/tools/picklist.py $@
+}
+
+function repopick() {
     T=$(gettop)
     $T/vendor/pa/build/tools/repopick.py $@
 }
