@@ -8,7 +8,12 @@ Additional Paranoid Android functions:
 - cafremote:       Add git remote for matching CodeAurora repository.
 - githubremote:    Add git remote for AOSPA Github.
 - mka:             Builds using SCHED_BATCH on all processors.
+- mkap:            Builds the module(s) using mka and pushes them to the device.
+- cmka:            Cleans and builds using mka.
+- picklist:        Utility to fetch many changes specified by a picklist.
+- repodiff:        Diff 2 different branches or tags within the same repo
 - repolastsync:    Prints date and time of last repo sync.
+- repopick:        Utility to fetch changes from Gerrit.
 EOF
 }
 
@@ -214,6 +219,156 @@ function repolastsync() {
 
 function repopick()
 {
+    local func=$1
+    shift
+
+    adb start-server # Prevent unexpected starting server message from adb get-state in the next line
+    if ! _adb_connected; then
+        echo "No device is online. Waiting for one..."
+        echo "Please connect USB and/or enable USB debugging"
+        until _adb_connected; do
+            sleep 1
+        done
+        echo "Device Found."
+    fi
+
+    if (adb shell getprop ro.lineage.device | grep -q "$LINEAGE_BUILD") || [ "$FORCE_PUSH" = "true" ];
+    then
+    # retrieve IP and PORT info if we're using a TCP connection
+    TCPIPPORT=$(adb devices \
+        | egrep '^(([a-zA-Z0-9]|[a-zA-Z0-9][a-zA-Z0-9\-]*[a-zA-Z0-9])\.)*([A-Za-z0-9]|[A-Za-z0-9][A-Za-z0-9\-]*[A-Za-z0-9]):[0-9]+[^0-9]+' \
+        | head -1 | awk '{print $1}')
+    adb root &> /dev/null
+    sleep 0.3
+    if [ -n "$TCPIPPORT" ]
+    then
+        # adb root just killed our connection
+        # so reconnect...
+        adb connect "$TCPIPPORT"
+    fi
+    adb wait-for-device &> /dev/null
+    sleep 0.3
+    adb remount &> /dev/null
+
+    mkdir -p $OUT
+    ($func $*|tee $OUT/.log;return ${PIPESTATUS[0]})
+    ret=$?;
+    if [ $ret -ne 0 ]; then
+        rm -f $OUT/.log;return $ret
+    fi
+
+    is_gnu_sed=`sed --version | head -1 | grep -c GNU`
+
+    # Install: <file>
+    if [ $is_gnu_sed -gt 0 ]; then
+        LOC="$(cat $OUT/.log | sed -r -e 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g' -e 's/^\[ {0,2}[0-9]{1,3}% [0-9]{1,6}\/[0-9]{1,6}\] +//' \
+            | grep '^Install: ' | cut -d ':' -f 2)"
+    else
+        LOC="$(cat $OUT/.log | sed -E "s/"$'\E'"\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g" -E "s/^\[ {0,2}[0-9]{1,3}% [0-9]{1,6}\/[0-9]{1,6}\] +//" \
+            | grep '^Install: ' | cut -d ':' -f 2)"
+    fi
+
+    # Copy: <file>
+    if [ $is_gnu_sed -gt 0 ]; then
+        LOC="$LOC $(cat $OUT/.log | sed -r -e 's/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g' -e 's/^\[ {0,2}[0-9]{1,3}% [0-9]{1,6}\/[0-9]{1,6}\] +//' \
+            | grep '^Copy: ' | cut -d ':' -f 2)"
+    else
+        LOC="$LOC $(cat $OUT/.log | sed -E "s/"$'\E'"\[([0-9]{1,3}((;[0-9]{1,3})*)?)?[m|K]//g" -E 's/^\[ {0,2}[0-9]{1,3}% [0-9]{1,6}\/[0-9]{1,6}\] +//' \
+            | grep '^Copy: ' | cut -d ':' -f 2)"
+    fi
+
+    # If any files are going to /data, push an octal file permissions reader to device
+    if [ -n "$(echo $LOC | egrep '(^|\s)/data')" ]; then
+        CHKPERM="/data/local/tmp/chkfileperm.sh"
+(
+cat <<'EOF'
+#!/system/xbin/sh
+FILE=$@
+if [ -e $FILE ]; then
+    ls -l $FILE | awk '{k=0;for(i=0;i<=8;i++)k+=((substr($1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf("%0o ",k);print}' | cut -d ' ' -f1
+fi
+EOF
+) > $OUT/.chkfileperm.sh
+        echo "Pushing file permissions checker to device"
+        adb push $OUT/.chkfileperm.sh $CHKPERM
+        adb shell chmod 755 $CHKPERM
+        rm -f $OUT/.chkfileperm.sh
+    fi
+
+    RELOUT=$(echo $OUT | sed "s#^${ANDROID_BUILD_TOP}/##")
+
+    stop_n_start=false
+    for TARGET in $(echo $LOC | tr " " "\n" | sed "s#.*${RELOUT}##" | sort | uniq); do
+        # Make sure file is in $OUT/system, $OUT/data, $OUT/odm, $OUT/oem, $OUT/product, $OUT/product_services or $OUT/vendor
+        case $TARGET in
+            /system/*|/data/*|/odm/*|/oem/*|/product/*|/product_services/*|/vendor/*)
+                # Get out file from target (i.e. /system/bin/adb)
+                FILE=$OUT$TARGET
+            ;;
+            *) continue ;;
+        esac
+
+        case $TARGET in
+            /data/*)
+                # fs_config only sets permissions and se labels for files pushed to /system
+                if [ -n "$CHKPERM" ]; then
+                    OLDPERM=$(adb shell $CHKPERM $TARGET)
+                    OLDPERM=$(echo $OLDPERM | tr -d '\r' | tr -d '\n')
+                    OLDOWN=$(adb shell ls -al $TARGET | awk '{print $2}')
+                    OLDGRP=$(adb shell ls -al $TARGET | awk '{print $3}')
+                fi
+                echo "Pushing: $TARGET"
+                adb push $FILE $TARGET
+                if [ -n "$OLDPERM" ]; then
+                    echo "Setting file permissions: $OLDPERM, $OLDOWN":"$OLDGRP"
+                    adb shell chown "$OLDOWN":"$OLDGRP" $TARGET
+                    adb shell chmod "$OLDPERM" $TARGET
+                else
+                    echo "$TARGET did not exist previously, you should set file permissions manually"
+                fi
+                adb shell restorecon "$TARGET"
+            ;;
+            /system/priv-app/SystemUI/SystemUI.apk|/system/framework/*)
+                # Only need to stop services once
+                if ! $stop_n_start; then
+                    adb shell stop
+                    stop_n_start=true
+                fi
+                echo "Pushing: $TARGET"
+                adb push $FILE $TARGET
+            ;;
+            *)
+                echo "Pushing: $TARGET"
+                adb push $FILE $TARGET
+            ;;
+        esac
+    done
+    if [ -n "$CHKPERM" ]; then
+        adb shell rm $CHKPERM
+    fi
+    if $stop_n_start; then
+        adb shell start
+    fi
+    rm -f $OUT/.log
+    return 0
+    else
+        echo "The connected device does not appear to be $LINEAGE_BUILD, run away!"
+    fi
+}
+
+alias mmp='dopush mm'
+alias mmmp='dopush mmm'
+alias mmap='dopush mma'
+alias mmmap='dopush mmma'
+alias mkap='dopush mka'
+alias cmkap='dopush cmka'
+
+function picklist() {
+    T=$(gettop)
+    $T/vendor/pa/build/tools/picklist.py $@
+}
+
+function repopick() {
     T=$(gettop)
     $T/vendor/pa/build/tools/repopick.py $@
 }
