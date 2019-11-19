@@ -18,6 +18,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/cepheus/pa_cepheus.mk \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
+    $(LOCAL_DIR)/bullhead/pa_bullhead.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
@@ -45,6 +46,7 @@ COMMON_LUNCH_CHOICES += \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
     pa_davinci-userdebug \
+    pa_bullhead-userdebug \
     pa_dipper-userdebug \
     pa_dora-userdebug \
     pa_gemini-userdebug \

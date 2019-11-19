@@ -1,0 +1,46 @@
+# Copyright (C) 2019 Paranoid Android
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+# Check for the target product.
+ifeq (pa_bullhead,$(TARGET_PRODUCT))
+
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+include vendor/pa/config/common_full_phone.mk
+
+$(call inherit-product, device/lge/bullhead/device.mk)
+$(call inherit-product-if-exists, vendor/lge/bullhead/bullhead-vendor.mk)
+
+## Device identifier. This must come after all inclusions
+PRODUCT_NAME := pa_bullhead
+PRODUCT_DEVICE := bullhead
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Nexus 5X
+PRODUCT_MANUFACTURER := LGE
+PRODUCT_RESTRICT_VENDOR_FILES := false
+
+PRODUCT_COPY_FILES += device/lge/bullhead/fstab.aosp_bullhead:root/fstab.bullhead
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bullhead \
+    PRIVATE_BUILD_DESC="bullhead-user 8.1.0 OPM7.181005.003 4984324 release-keys"
+
+BUILD_FINGERPRINT := google/bullhead/bullhead:8.1.0/OPM7.181005.003/4984324:user/release-keys
+
+endif
