@@ -1,0 +1,20 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_lge_bullhead",
+        "target_path":  "device/lge/bullhead",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_lge_bullhead",
+        "target_path":  "kernel/lge/bullhead",
+        "revision":     "quartz"
+    },
+	{
+        "remote":       "github",
+        "repository":   "Sirhc95/proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "quartz"
+    }
+]
