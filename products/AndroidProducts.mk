@@ -21,6 +21,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
+    $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
     $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
     $(LOCAL_DIR)/oneplus7tpro/pa_oneplus7tpro.mk \
