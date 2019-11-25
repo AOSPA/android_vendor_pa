@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c8dfa89f_5e00249b",
+        "filename": "products/sanders/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-11-25T20:03:07Z",
+      "side": 1,
+      "message": "do we need pie hals or will q work also?",
+      "revId": "8e4be8ab613ae1a8d5f32df73018808126189e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "980bd17c_bf81066e",
+        "filename": "products/sanders/pa_sanders.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-11-25T20:03:07Z",
+      "side": 1,
+      "message": "do we still need this in Q?",
+      "revId": "8e4be8ab613ae1a8d5f32df73018808126189e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ed4dc831_77aa07ca",
+        "filename": "products/sanders/pa_sanders.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-11-25T20:03:07Z",
+      "side": 1,
+      "message": "does this flag do anything in our build system?",
+      "revId": "8e4be8ab613ae1a8d5f32df73018808126189e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a97504fb_28b76b65",
+        "filename": "products/sanders/pa_sanders.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2019-11-25T20:03:07Z",
+      "side": 1,
+      "message": "same here",
+      "revId": "8e4be8ab613ae1a8d5f32df73018808126189e12",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
