@@ -136,3 +136,4 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
+$(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
