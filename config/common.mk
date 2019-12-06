@@ -131,7 +131,7 @@ include vendor/pa/sdclang/sdclang.mk
 endif
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    ParanoidLauncher \
+    ParanoidQuickStep \
     Settings \
     SystemUI
 
