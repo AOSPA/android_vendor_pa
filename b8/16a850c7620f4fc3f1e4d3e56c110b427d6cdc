@@ -1,0 +1,11 @@
+Code-Review+1: Jake Weinstein <jake@aospa.co>
+Code-Review-1: Hernán Castañón Álvarez <herna@paranoidandroid.co>
+Code-Review+1: Akash Srivastava <akashniki@gmail.com>
+Code-Review+2: Chris Crump <chris@cypheros.co>
+Verified+1: Akash Srivastava <akashniki@gmail.com>
+Verified+1: Chris Crump <chris@cypheros.co>
+Submitted-by: Chris Crump <chris@cypheros.co>
+Submitted-at: Wed, 25 Dec 2019 10:49:11 +0000
+Reviewed-on: https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/7169
+Project: AOSPA/android_vendor_pa
+Branch: refs/heads/quartz
