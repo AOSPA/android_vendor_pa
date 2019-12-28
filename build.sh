@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # PA build helper script
 
 # red = errors, cyan = warnings, green = confirmations, blue = informational
@@ -67,7 +67,8 @@ if [ "$(update-alternatives --list javac | wc -l)" -gt 1 ]; then
 fi
 
 # Grab the build version
-PA_VERSION=$(cat $DIR_ROOT/vendor/pa/props.mk | grep 'PA_VERSION := *' | sed 's/.*= //')
+PA_VERSION="$(cat vendor/pa/config/version.mk | grep 'PA_VERSION_FLAVOR := *' | sed 's/.*= //') \
+            $(cat vendor/pa/config/version.mk | grep 'PA_VERSION_CODE := *' | sed 's/.*= //')"
 
 # Grab all the command-line parameters
 export DEVICE=$1
