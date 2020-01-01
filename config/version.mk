@@ -69,11 +69,11 @@ else
 endif
 
 # Paranoid Android System Version
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.pa.version=$(PA_VERSION)
 
 # Paranoid Android Platform Display Version
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.pa.version.flavor=$(PA_VERSION_FLAVOR) \
     ro.pa.version.code=$(PA_VERSION_CODE) \
     ro.pa.build.variant=$(PA_BUILD_VARIANT)
