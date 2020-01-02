@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "98b2673b_ff02e6b5",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2020-01-02T03:21:45Z",
+      "side": 1,
+      "message": "device/qcom/sepolicy-legacy-um like lineage would be ideal",
+      "parentUuid": "e8f041e2_05dab6ea",
+      "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6c673245_6f527436",
         "filename": "products/mata/pa_mata.mk",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2020-01-02T03:11:29Z",
       "side": 1,
       "message": "This still needed in Q?",
+      "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1812379b_1a05720e",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2020-01-02T03:21:45Z",
+      "side": 1,
+      "message": "not sure",
+      "parentUuid": "6c673245_6f527436",
       "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
