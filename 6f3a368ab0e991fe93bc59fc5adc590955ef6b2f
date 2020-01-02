@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e8f041e2_05dab6ea",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-02T03:11:29Z",
+      "side": 1,
+      "message": "Should we just sync it to the same path like we do for hals?",
+      "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6c673245_6f527436",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-02T03:11:29Z",
+      "side": 1,
+      "message": "This still needed in Q?",
+      "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
