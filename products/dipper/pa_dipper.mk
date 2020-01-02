@@ -44,7 +44,7 @@ BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.11.0.OEACN
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEACNFA release-keys" \
-    PRODUCT_NAME="dipper" \
-    TARGET_DEVICE="dipper"
+    PRODUCT_DEVICE="dipper" \
+    PRODUCT_NAME="dipper"
 
 endif
