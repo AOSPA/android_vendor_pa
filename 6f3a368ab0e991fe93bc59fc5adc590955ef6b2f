@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "3de5e7f3_b265bae0",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-02T05:03:04Z",
+      "side": 1,
+      "message": "I\u0027ll check it out soon.",
+      "parentUuid": "98b2673b_ff02e6b5",
+      "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6c673245_6f527436",
         "filename": "products/mata/pa_mata.mk",
         "patchSetId": 5
@@ -69,6 +87,24 @@
       "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5547146b_856f925d",
+        "filename": "products/mata/pa_mata.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-02T05:03:04Z",
+      "side": 1,
+      "message": "I looked and I think it is for builds with vendor.",
+      "parentUuid": "1812379b_1a05720e",
+      "revId": "6f3a368ab0e991fe93bc59fc5adc590955ef6b2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
