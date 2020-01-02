@@ -15,10 +15,6 @@
 # Check for target product
 ifeq (pa_dipper,$(TARGET_PRODUCT))
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
-
 # Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -38,13 +34,13 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 8
 PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.11.0.OEACNFA:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.171019.011 V9.5.11.0.OEACNFA release-keys" \
-    PRODUCT_NAME="dipper" \
-    TARGET_DEVICE="dipper"
+    PRIVATE_BUILD_DESC="dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys" \
+    PRODUCT_DEVICE="dipper" \
+    PRODUCT_NAME="dipper"
 
 endif
