@@ -62,7 +62,8 @@ endif
 
 # Power whitelist
 PRODUCT_COPY_FILES += \
-    vendor/pa/config/permissions/pa-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pa-power-whitelist.xml
+    vendor/pa/config/permissions/pa-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/pa-power-whitelist.xml \
+    vendor/pa/config/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml
 
 # Copy all pa-specific init rc files
 $(foreach f,$(wildcard vendor/pa/prebuilt/etc/init/*.rc),\
