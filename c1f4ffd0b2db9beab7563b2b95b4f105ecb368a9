@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "acb3da74_ab85bd69",
+        "filename": "products/cepheus/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-05T16:31:46Z",
+      "side": 1,
+      "message": "Comment removed by: Jake Weinstein",
+      "revId": "c1f4ffd0b2db9beab7563b2b95b4f105ecb368a9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
