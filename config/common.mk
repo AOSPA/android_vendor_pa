@@ -128,10 +128,16 @@ else
 include vendor/pa/sdclang/sdclang.mk
 endif
 
+# Speed Dexpreopt Package List
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     ParanoidQuickStep \
     Settings \
     SystemUI
+
+# Enable ALLOW_MISSING_DEPENDENCIES on Vendorless Builds
+ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
+  ALLOW_MISSING_DEPENDENCIES := true
+endif
 
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
