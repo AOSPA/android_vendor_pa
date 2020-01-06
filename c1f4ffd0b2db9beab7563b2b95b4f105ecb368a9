@@ -16,6 +16,24 @@
       "revId": "c1f4ffd0b2db9beab7563b2b95b4f105ecb368a9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b59e47b0_2eee4c9f",
+        "filename": "products/cepheus/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-06T00:32:21Z",
+      "side": 1,
+      "message": "Comment removed by: Jake Weinstein",
+      "parentUuid": "acb3da74_ab85bd69",
+      "revId": "c1f4ffd0b2db9beab7563b2b95b4f105ecb368a9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
