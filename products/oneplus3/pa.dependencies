@@ -1,38 +1,68 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_oneplus_oneplus3",
+        "remote":       "github",
+        "repository":   "ZVNexus/android_device_oneplus_oneplus3",
         "target_path":  "device/oneplus/oneplus3",
-        "revision":     "nougat-mr2"
+        "revision":     "quartz"
     },
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_kernel_oneplus_msm8996",
+        "remote":       "github",
+        "repository":   "ZVNexus/android_kernel_oneplus_msm8996",
         "target_path":  "kernel/oneplus/msm8996",
-        "revision":     "nougat-mr2"
+        "revision":     "quartz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_oneplus",
+        "remote":       "github",
+        "repository":   "ZVNexus/android_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "nougat-mr2"
+        "revision":     "quartz"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "nougat-mr2-8996"
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_bt",
+        "target_path":  "hardware/qcom/bt",
+        "revision":     "quartz-legacy"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "nougat-mr2-8996"
+        "revision":     "quartz-89xx"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "nougat-mr2-8996"
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_apps_Bluetooth",
+        "target_path":  "packages/apps/Bluetooth",
+        "revision":     "quartz-dev"
+    },
+    {
+        "remote":	"caf",
+        "repository":   "platform/vendor/nxp/opensource/halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "refs/tags/LA.UM.8.3.r1-07100-sdm845.0"
+    },
+    {
+        "remote":	"caf",
+        "repository":   "platform/vendor/nxp/opensource/hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "refs/tags/LA.UM.8.3.r1-07100-sdm845.0"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
     }
 ]
