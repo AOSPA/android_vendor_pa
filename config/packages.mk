@@ -16,6 +16,9 @@
 ifneq ($(TARGET_USES_AOSP_CAMERA),true)
 PRODUCT_PACKAGES += ParanoidCamera
 endif
+ifeq ($(TARGET_BUILD_VARIANT),userdebug)
+PRODUCT_PACKAGES += nano
+endif
 PRODUCT_PACKAGES += \
     ChromePublic \
     SoundRecorder \
@@ -26,7 +29,7 @@ PRODUCT_PACKAGES += \
     MarkupGoogle \
     Longshot \
     ParanoidQuickStep \
-    ThemePicker \
+    ThemePicker
     #ParanoidHub
 
 # Paranoid Android Overlays
