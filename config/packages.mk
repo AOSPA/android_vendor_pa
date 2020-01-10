@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     htop \
     lib7z \
     libsepol \
+    nano \
     pigz \
     powertop \
     setcap \
