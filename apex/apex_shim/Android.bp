@@ -1,0 +1,8 @@
+prebuilt_apex {
+    name: "com.android.apex.cts.shim.v1_prebuilt",
+    filename: "com.android.apex.cts.shim.apex",
+    src: "com.android.apex.cts.shim.apex",
+    owner: "google",
+    prefer: true,
+    installable: true,
+}

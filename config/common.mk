@@ -211,4 +211,7 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
     Dialer \
     ChromePublic
 
+# Google Play system update (APEX
+$(call inherit-product, vendor/pa/apex/apex.mk)
+
 endif #TARGET_DISABLES_GAPPS

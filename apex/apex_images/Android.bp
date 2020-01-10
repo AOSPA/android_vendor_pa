@@ -1,0 +1,37 @@
+soong_namespace {
+}
+
+prebuilt_apex {
+    name: "com.android.conscrypt",
+    src: "com.google.android.conscrypt.apex",
+    owner: "google",
+    prefer: true,
+}
+
+prebuilt_apex {
+    name: "com.android.media",
+    src: "com.google.android.media.apex",
+    owner: "google",
+    prefer: true,
+}
+
+prebuilt_apex {
+    name: "com.android.media.swcodec",
+    src: "com.google.android.media.swcodec.apex",
+    owner: "google",
+    prefer: true,
+}
+
+prebuilt_apex {
+    name: "com.android.resolv",
+    src: "com.google.android.resolv.apex",
+    owner: "google",
+    prefer: true,
+}
+
+prebuilt_apex {
+    name: "com.android.tzdata",
+    src: "com.google.android.tzdata.apex",
+    owner: "google",
+    prefer: true,
+}
