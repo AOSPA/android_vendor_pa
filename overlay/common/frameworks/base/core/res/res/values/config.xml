@@ -62,10 +62,12 @@
          "users" = list of users
          "restart" = restart device
          "screenshot" = screenshot
+         "lockdown" = Lock down device until the user authenticates
          -->
     <string-array translatable="false" name="config_globalActionsList">
         <item>power</item>
         <item>restart</item>
+        <item>lockdown</item>
         <item>screenshot</item>
         <item>bugreport</item>
     </string-array>
