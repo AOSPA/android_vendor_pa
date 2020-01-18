@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98176f68_589f9531",
+        "filename": "overlay/common/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-01-18T16:46:24Z",
+      "side": 1,
+      "message": "Comment changes look strange to me, why are we removing screenshot and adding others that aren\u0027t used?",
+      "revId": "2d70c23f11e336cfd0bde04375ba87e303d8e591",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
