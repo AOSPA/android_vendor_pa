@@ -95,6 +95,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 
+# Wallpaper overlay
+DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/wallpaper
+
 ifeq ($(TARGET_BUILD_VARIANT),user)
 # Enable ADB authentication
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
