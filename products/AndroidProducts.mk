@@ -26,6 +26,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
 # SONY OpenDevices
 # Loire 8956
@@ -56,4 +57,5 @@ COMMON_LUNCH_CHOICES += \
     pa_oneplus7pro-userdebug \
     pa_polaris-userdebug \
     pa_sagit-userdebug \
-    pa_suzu-userdebug
+    pa_suzu-userdebug \
+    pa_X01BD-userdebug
