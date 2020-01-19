@@ -141,3 +141,4 @@ endif
 
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
