@@ -25,7 +25,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     ParanoidQuickStep \
     ThemePicker \
-    #ParanoidHub
+    ParanoidHub
 
 # Paranoid Android Overlays
 PRODUCT_PACKAGES += \
