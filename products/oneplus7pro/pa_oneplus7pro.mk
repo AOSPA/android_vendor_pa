@@ -22,13 +22,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1440
 
-TARGET_USES_AOSP := false
-TARGET_USES_QCOM_BSP := false
-
-# Advanced platform features
-#TARGET_WANTS_EXTENDED_DPM_PLATFORM := true
-TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
-
 include device/qcom/common/common.mk
 include vendor/pa/config/common_full_phone.mk
 
