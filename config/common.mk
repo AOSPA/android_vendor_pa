@@ -149,7 +149,8 @@ SKIP_BOOT_JARS_CHECK := true
 
 # Charger mode images
 PRODUCT_PACKAGES += \
-    charger_res_images
+    charger_res_images \
+    product_charger_res_images
 
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
