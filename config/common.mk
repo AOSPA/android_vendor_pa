@@ -140,5 +140,10 @@ ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
   ALLOW_MISSING_DEPENDENCIES := true
 endif
 
+# Use QCOM Legacy UM SEPolicy by default for legacy boards
+ifeq ($(call is-board-platform-in-list, apq8084 msm8916 msm8937 msm8953 msm8974 msm8992 msm8994 msm8996 msm8998 sdm660),true)
+  TARGET_USES_QCOM_LEGACY_UM_SEPOLICY ?= true
+endif
+
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
