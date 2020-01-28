@@ -144,5 +144,8 @@ endif
 # and breaks WPA Supplicant compilation.
 DISABLE_EAP_PROXY := true
 
+#skip boot jars check
+SKIP_BOOT_JARS_CHECK := true
+
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
