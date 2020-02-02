@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "59bee9ac_05625905",
+        "filename": "products/nx627j/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-02-02T14:35:36Z",
+      "side": 1,
+      "message": "This path changed in Q to vendor/qcom/opensource/audio-hal/primary-hal",
+      "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9fa5b58b_f6adadfc",
+        "filename": "products/nx627j/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-02-02T14:35:36Z",
+      "side": 1,
+      "message": "Does the current display hal boot for you? I know the CAF update broke some devices that build vendor image, but I\u0027m not sure how new the bsp for your device is.",
+      "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
