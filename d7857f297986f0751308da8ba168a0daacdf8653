@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "748feabf_9fdd4272",
+        "filename": "products/nx627j/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000485
+      },
+      "writtenOn": "2020-02-02T19:16:04Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ba4e27d_d95b82b8",
+      "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9fa5b58b_f6adadfc",
         "filename": "products/nx627j/pa.dependencies",
         "patchSetId": 1
@@ -83,6 +101,24 @@
       "writtenOn": "2020-02-02T17:53:12Z",
       "side": 1,
       "message": "You can try cat /vendor/firmware_mnt/verinfo/ver_info.txt in adb shell with su",
+      "parentUuid": "372fe5b7_388673e3",
+      "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9000f94f_1090ace5",
+        "filename": "products/nx627j/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000485
+      },
+      "writtenOn": "2020-02-02T19:16:04Z",
+      "side": 1,
+      "message": "Done",
       "parentUuid": "372fe5b7_388673e3",
       "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
