@@ -69,6 +69,24 @@
       "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0e149ca9_6661962f",
+        "filename": "products/nx627j/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-02-02T17:53:12Z",
+      "side": 1,
+      "message": "You can try cat /vendor/firmware_mnt/verinfo/ver_info.txt in adb shell with su",
+      "parentUuid": "372fe5b7_388673e3",
+      "revId": "d7857f297986f0751308da8ba168a0daacdf8653",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
