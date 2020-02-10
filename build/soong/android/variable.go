@@ -11,6 +11,9 @@ type Product_variables struct {
 	Should_wait_for_qsee struct {
 		Cflags []string
 	}
+	Target_face_unlock_camera_id struct {
+		Cppflags []string
+	}
 	Target_init_vendor_lib struct {
 		Whole_static_libs []string
 	}
@@ -36,6 +39,7 @@ type ProductVariables struct {
 	Additional_gralloc_10_usage_bits  *string `json:",omitempty"`
 	Has_legacy_camera_hal1  *bool `json:",omitempty"`
 	Should_wait_for_qsee  *bool `json:",omitempty"`
+	Target_face_unlock_camera_id *string `json:",omitempty"`
 	Target_init_vendor_lib  *string `json:",omitempty"`
 	Target_needs_netd_direct_connect_rule  *bool `json:",omitempty"`
 	Target_process_sdk_version_override *string `json:",omitempty"`
