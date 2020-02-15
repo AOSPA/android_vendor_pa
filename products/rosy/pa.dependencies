@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "github"
+        "repository":   "Vishalcj17/pa_android_device_rosy"
+        "target_path":  "device/xiaomi/rosy"
+        "revision":     "pa-q"
+    },
+    {
+        "remote":       "github"
+        "repository":   "Vishalcj17/xiaomi_vendor_rosy"
+        "target_path":  "vendor/xiaomi/rosy"
+        "revision":     "ten"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LinuxPanda/android_kernel_xiaomi_rosy",
+        "target_path":  "kernel/xiaomi/rosy",
+        "revision":     "q-318"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-89xx"
+    }
+]
