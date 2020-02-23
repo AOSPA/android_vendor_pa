@@ -27,6 +27,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus7t/pa_oneplus7t.mk \
     $(LOCAL_DIR)/oneplus7tpro/pa_oneplus7tpro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
+    $(LOCAL_DIR)/rolex/pa_rolex.mk \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
@@ -62,6 +63,7 @@ COMMON_LUNCH_CHOICES += \
     pa_oneplus7t-userdebug \
     pa_oneplus7tpro-userdebug \
     pa_polaris-userdebug \
+    pa_rolex-userdebug \
     pa_rosy-userdebug \
     pa_sagit-userdebug \
     pa_suzu-userdebug \
