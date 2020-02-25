@@ -20,6 +20,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
+    $(LOCAL_DIR)/jasmine_sprout/pa_jasmine_sprout.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
@@ -47,6 +48,7 @@ COMMON_LUNCH_CHOICES += \
     pa_dipper-userdebug \
     pa_dora-userdebug \
     pa_gemini-userdebug \
+    pa_jasmine_sprout-userdebug \
     pa_kagura-userdebug \
     pa_keyaki-userdebug \
     pa_kugo-userdebug \
