@@ -34,11 +34,13 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -s, --sign-keys       Specify path to sign key mappings${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -p, --pwfile          Specify path to sign key password file${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -b, --backup-unsigned Store a copy of unsignied package along with signed${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -d, --delta           Generate a delta ota from the specified target_files zip${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -im, --image_zip      Generate fastboot flashable image zip from signed target_files${CLR_RST}"
         exit 1
 }
 
 # Setup getopt.
-long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned"
+long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,image-zip"
 getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:b --long "$long_opts" \
             -n $(basename $0) -- "$@") || \
             { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; exit 1;}
@@ -58,6 +60,8 @@ while true; do
         -s|--sign-keys|s|sign-keys) KEY_MAPPINGS="$2"; shift;;
         -p|--pwfile|p|pwfile) PWFILE="$2"; shift;;
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
+        -d|--delta|d|delta) DELTA_TARGET_FILES="$2"; shift;;
+	-im|--image-zip|img|image-zip) FLAG_IMG_ZIP=y;;
         --) shift; break;;
     esac
     shift
@@ -195,17 +199,33 @@ elif [ "${KEY_MAPPINGS}" ]; then
         ${MAKE} bacon"$CMD"
         mv $OUT/pa-${PA_VERSION}.zip $DIR_ROOT/pa-${PA_VERSION}-unsigned.zip
     else
-        ${MAKE} target-files-package otatools"$CMD"
+        ${MAKE} dist"$CMD"
     fi
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
     ./build/tools/releasetools/sign_target_files_apks -o -d $KEY_MAPPINGS \
-    $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
-    pa_signed-target_files.zip
+        out/dist/pa_$DEVICE-target_files-*.zip \
+        pa-$PA_VERSION-signed-target_files.zip
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
     ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-    --block --backup=true \
-    pa_signed-target_files.zip \
-    pa-${PA_VERSION}.zip
+        --block --backup=true ${INCREMENTAL} \
+        pa-$PA_VERSION-signed-target_files.zip \
+        pa-$PA_VERSION.zip
+    if [ "$DELTA_TARGET_FILES" ]; then
+        # die if base target doesn't exist
+        if [ ! -f "$DELTA_TARGET_FILES" ]; then
+                echo -e "${CLR_BLD_RED}Delta error: base target files don't exist ($DELTA_TARGET_FILES)${CLR_RST}"
+                exit 1
+        fi
+        ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
+            --block --backup=true --incremental_from $DELTA_TARGET_FILES \
+            pa-$PA_VERSION-signed-target_files.zip \
+            pa-$PA_VERSION-delta.zip
+    fi
+    if [ "$FLAG_IMG_ZIP" = 'y' ]; then
+        ./build/tools/releasetools/img_from_target_files \
+            pa-$PA_VERSION-signed-target_files.zip \
+            pa-$PA_VERSION-signed-image.zip
+    fi
 # Build rom package
 else
     ${MAKE} bacon"$CMD"

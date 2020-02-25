@@ -1,0 +1,110 @@
+[
+    {
+        "repository":   "AOSPA/android_device_samsung_hlte",
+        "target_path":  "device/samsung/hlte",
+        "remote":       "aospa",
+        "revision":     "quartz"
+    },
+    {
+        "repository":   "AOSPA/android_device_samsung_hlte-common",
+        "target_path":  "device/samsung/hlte-common",
+        "remote":       "aospa",
+        "revision":     "quartz"
+    },
+    {
+        "repository":   "AOSPA/android_kernel_samsung_hlte",
+        "target_path":  "kernel/samsung/hlte",
+        "remote":       "aospa",
+        "revision":     "quartz"
+    },
+    {
+        "repository":   "proprietary_vendor_samsung",
+        "target_path":  "vendor/samsung",
+        "remote":       "blobs",
+        "revision":     "quartz"
+    },
+    {
+        "repository":   "Jprimero15/android_hardware_samsung",
+        "target_path":  "hardware/samsung",
+        "remote":       "github",
+        "revision":     "quartz"
+    },
+    {
+        "repository":   "LineageOS/android_hardware_broadcom_libbt",
+        "target_path":  "hardware/broadcom/libbt",
+        "remote":       "github",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "repository":   "LineageOS/android_hardware_broadcom_nfc",
+        "target_path":  "hardware/broadcom/nfc",
+        "remote":       "github",
+        "revision":     "lineage-17.1"
+    }, 
+    {
+        "target_path":  "hardware/broadcom/wlan",
+        "repository":   "platform/hardware/broadcom/wlan",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-10.0.0_r39"
+    },
+    {
+        "target_path":  "external/wpa_supplicant_8",
+        "repository":   "platform/external/wpa_supplicant_8",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-10.0.0_r39"
+    },
+    {
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "remote":       "aospa",
+        "revision":     "quartz-8974"
+    },
+    {
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "remote":       "aospa",
+        "revision":     "quartz-8974"
+    },
+    {
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "remote":       "aospa",
+        "revision":     "quartz-8974"
+    },
+    {
+        "repository":   "AOSPA/android_frameworks_av",
+        "target_path":  "frameworks/av",
+        "remote":       "aospa",
+        "revision":     "quartz-aosp-wfd"
+    },   
+    {
+        "repository":   "AOSPA/android_frameworks_opt_net_wifi",
+        "target_path":  "frameworks/opt/net/wifi",
+        "remote":       "aospa",
+        "revision":     "quartz-dev"
+    },   
+    {
+        "repository":   "AOSPA/android_packages_apps_Bluetooth",
+        "target_path":  "packages/apps/Bluetooth",
+        "remote":       "aospa",
+        "revision":     "quartz-dev"
+    },
+    {
+        "repository":   "Jprimero15/android_packages_apps_Snap",
+        "target_path":  "packages/apps/Snap",
+        "remote":       "github",
+        "revision":     "quartz"
+    },
+    { 
+        "repository":   "LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9",
+        "target_path":  "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9",
+        "remote":       "github",
+        "revision":     "lineage-17.1"
+    },    
+    { 
+        "repository":   "LineageOS/android_system_tools_dtbtool",
+        "target_path":  "system/tools/dtbtool",
+        "remote":       "github",
+        "revision":     "lineage-17.1"
+    }
+]

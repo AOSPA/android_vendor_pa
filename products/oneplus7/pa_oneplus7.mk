@@ -25,7 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/oneplus/oneplus7/device.mk)
 
 # Inherit common PA configuration
-$(call inherit-product, device/qcom/common/common.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Override build properties
@@ -41,7 +40,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7 \
     PRODUCT_NAME=OnePlus7 \
     PRIVATE_BUILD_DESC="OnePlus7-user 10 QKQ1.190716.003 2003130755 release-keys"
-
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 
 endif

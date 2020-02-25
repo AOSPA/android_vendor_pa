@@ -12,57 +12,93 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Paranoid Android packages
-ifneq ($(TARGET_USES_AOSP_CAMERA),true)
-PRODUCT_PACKAGES += ParanoidCamera
-endif
+# Abstruct
+PRODUCT_PACKAGES += Abstruct
+
+# AOSP Packages
 PRODUCT_PACKAGES += \
     SoundRecorder \
     WallpaperPicker \
     LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
-    Longshot \
-    ParanoidPapers \
-    ParanoidQuickStep \
-    ThemePicker \
-    ParanoidHub
-
-ifeq ($(TARGET_DISABLES_GAPPS), true)
-PRODUCT_PACKAGES += \
-    ChromePublic \
-    MarkupGoogle \
-    MatchmakerPrebuilt
-endif
-
-# Paranoid Android Overlays
-PRODUCT_PACKAGES += \
-    pa-overlays \
-    ParanoidOverlayStub
-
-# Snapdragon apps
-PRODUCT_PACKAGES += \
-    SnapdragonGallery
-
-# Abstruct
-PRODUCT_PACKAGES += Abstruct
-
-# Retro Music Player
-PRODUCT_PACKAGES += RetroMusicPlayer
-
-# CAF packages
-# TCP Connection Management
-PRODUCT_PACKAGES += tcmiface
-PRODUCT_BOOT_JARS += tcmiface
+    ThemePicker
 
 # Bluetooth Audio (A2DP)
 PRODUCT_PACKAGES += libbthost_if
 
-# MSIM manual provisioning
-PRODUCT_PACKAGES += telephony-ext
-PRODUCT_BOOT_JARS += telephony-ext
+# Charger mode images
+PRODUCT_PACKAGES += \
+    charger_res_images
 
-# Extra tools in PA
+ifneq ($(TARGET_USES_AOSP_CHARGER),true)
+PRODUCT_PACKAGES += \
+    product_charger_res_images
+endif
+
+# HIDL
+PRODUCT_PACKAGES += \
+    android.hidl.base@1.0 \
+    android.hidl.manager@1.0 \
+    android.hidl.base@1.0.vendor \
+    android.hidl.manager@1.0.vendor
+
+# Paranoid Packages
+ifneq ($(TARGET_USES_AOSP_CAMERA),true)
+PRODUCT_PACKAGES += ParanoidCamera
+endif
+
+PRODUCT_PACKAGES += \
+    Longshot \
+    ParanoidPapers \
+    ParanoidQuickStep \
+
+ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
+    PRODUCT_PACKAGES += \
+    ParanoidHub
+endif
+
+TARGET_ENABLE_FACE_SENSE := true
+PRODUCT_PACKAGES += \
+    ParanoidFaceSense
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
+
+ifeq ($(TARGET_DISABLES_GAPPS), true)
+PRODUCT_PACKAGES += \
+    ChromeModernPublic \
+    MarkupGoogle \
+    MatchmakerPrebuilt
+endif
+
+# Overlays
+PRODUCT_PACKAGES += \
+    AOSPAOverlays
+
+# QTI VNDK Framework Detect
+PRODUCT_PACKAGES += \
+    libvndfwk_detect_jni.qti \
+    libqti_vndfwk_detect \
+    libvndfwk_detect_jni.qti.vendor \
+    libqti_vndfwk_detect.vendor
+
+# Retro Music Player
+PRODUCT_PACKAGES += RetroMusicPlayer
+
+# Snapdragon Apps
+PRODUCT_PACKAGES += \
+    SnapdragonGallery
+
+# Tools - FS
+PRODUCT_PACKAGES += \
+    fsck.exfat \
+    fsck.ntfs \
+    mke2fs \
+    mkfs.exfat \
+    mkfs.ntfs \
+    mount.ntfs
+
+# Tools - Misc
 PRODUCT_PACKAGES += \
     7z \
     awk \
@@ -83,16 +119,7 @@ PRODUCT_PACKAGES += \
     wget \
     zip
 
-# Filesystems tools
-PRODUCT_PACKAGES += \
-    fsck.exfat \
-    fsck.ntfs \
-    mke2fs \
-    mkfs.exfat \
-    mkfs.ntfs \
-    mount.ntfs
-
-# Openssh
+# Tools - openssh
 PRODUCT_PACKAGES += \
     scp \
     sftp \
@@ -102,6 +129,6 @@ PRODUCT_PACKAGES += \
     ssh-keygen \
     start-ssh
 
-# rsync
+# Tools - rsync
 PRODUCT_PACKAGES += \
     rsync

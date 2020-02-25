@@ -25,7 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_IS_ONEPLUS_T_DEVICE := true
 TARGET_USES_ONEPLUS_DYNAMIC_PARTITIONS := true
 
-include device/qcom/common/common.mk
 include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
@@ -44,7 +43,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7T \
     PRODUCT_NAME=OnePlus7T \
     PRIVATE_BUILD_DESC="OnePlus7-user 10 QKQ1.190716.003 2003061855 release-keys"
-
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 
 endif
