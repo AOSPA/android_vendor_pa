@@ -1,4 +1,4 @@
-# Copyright (C) 2018 Paranoid Android
+# Copyright (C) 2020 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -34,7 +34,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI MIX 2S
 PRODUCT_MANUFACTURER := Xiaomi
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys"
 

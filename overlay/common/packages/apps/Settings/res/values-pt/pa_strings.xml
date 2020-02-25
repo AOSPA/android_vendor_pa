@@ -27,23 +27,25 @@
     <string name="offscreen_gesture_summary">Desenha padrões ou carrega no ecrã para executar ações</string>
     <string name="keywords_gestures">ecrã desenhar deslizar dedo</string>
 
-    <string name="gestures_double_tap">Toque-duplo</string>
+    <string name="gestures_double_tap">Toque Duplo</string>
+   <string name="gestures_single_tap">Um Toque</string>
     <string name="gestures_draw_v">Desenho V</string>
     <string name="gestures_draw_inverse_v">Desenho V Inverso</string>
-    <string name="gestures_draw_o">Desenho O</string>
-    <string name="gestures_draw_m">Desenho M</string>
-    <string name="gestures_draw_w">Desenho W</string>
-    <string name="gestures_draw_s">Desenho S</string>
-    <string name="gestures_draw_arrow_left">Desenho &lt;</string>
-    <string name="gestures_draw_arrow_right">Desenho &gt;</string>
-    <string name="gestures_one_finger_swipe_up">Um-dedo deslizar para cima</string>
-    <string name="gestures_one_finger_swipe_right">Um-dedo deslizar para a direita</string>
-    <string name="gestures_one_finger_swipe_down">Um-dedo deslizar para baixo</string>
-    <string name="gestures_one_finger_swipe_left">Um-dedo deslizar para a esquerda</string>
-    <string name="gestures_two_finger_swipe">Dois-dedos deslizar</string>
+    <string name="gestures_draw_o">Desenhar O</string>
+    <string name="gestures_draw_m">Desenhar M</string>
+    <string name="gestures_draw_w">Desenhar W</string>
+    <string name="gestures_draw_s">Desenhar S</string>
+    <string name="gestures_draw_arrow_left">Desenhar &lt;</string>
+    <string name="gestures_draw_arrow_right">Desenhar &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Deslizar um dedo para cima</string>
+    <string name="gestures_one_finger_swipe_right">Deslizar um dedo para a direita</string>
+    <string name="gestures_one_finger_swipe_down">Deslizar um dedo para baixo</string>
+    <string name="gestures_one_finger_swipe_left">Deslizar um dedo para a esquerda</string>
+    <string name="gestures_two_finger_swipe">Deslizar dois dedos</string>
 
     <string name="gestures_disabled">Desativado</string>
     <string name="gestures_wake_device">Acordar dispositivo</string>
+    <string name="gestures_pulse_ambient_display">Pulsar para o ambient display</string>
     <string name="gestures_toggle_flashlight">Alternar Lanterna</string>
     <string name="gestures_toggle_airplane_mode">Alternar modo de avião</string>
     <string name="gestures_play_pause_music">Iniciar/Pausar música</string>
@@ -54,7 +56,7 @@
 
     <!-- Swipe to screenshot -->
     <string name="swipe_to_screenshot_title">Desliza para captura de ecrã</string>
-    <string name="swipe_to_screenshot_summary">Desliza 3 dedos para baixo no ecrã para capturar ecrã</string>
+    <string name="swipe_to_screenshot_summary">Desliza 3 dedos para baixo no ecrã para capturar</string>
 
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controlo de reprodução</string>
@@ -72,7 +74,7 @@
     <string name="security_settings_fingerprint_sensor_location_right">do lado direito</string>
 
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Dados movéis</string>
+    <string name="data_usage_app_restrict_data">Dados móveis</string>
     <string name="data_usage_app_restrict_data_summary">Ativa o uso de dados móveis</string>
     <string name="data_usage_app_restrict_vpn">Dados VPN</string>
     <string name="data_usage_app_restrict_vpn_summary">Ativar o uso de dados VPN</string>
@@ -80,8 +82,8 @@
     <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
 
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Disposição da Barra de Navegação Invertida</string>
-    <string name="navbar_invert_info">Isto irá inverter os botões \"Atrás\" e \"Recentes\" da barra de navegação</string>
+    <string name="navbar_invert_layout_title">Barra de Navegação Invertida</string>
+    <string name="navbar_invert_info">Isto irá inverter os botões \"Voltar\" e \"Recentes\" da barra de navegação</string>
 
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Háptico em chamada</string>
@@ -107,7 +109,7 @@
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Deteção de bolso</string>
-    <string name="pocket_judge_summary">Bloquear ecrã e botões quando o dispositivo está no bolso</string>
+    <string name="pocket_judge_summary">Bloquear ecrã e botões enquanto o dispositivo estiver no bolso</string>
 
     <!-- Pulse Ambient Light -->
     <string name="pulse_ambient_light_title">Pulso</string>
@@ -125,4 +127,22 @@
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depurção enraizada</string>
     <string name="adb_enable_summary_root">Permitir correr a depurção Android como raíz</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Fechar</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Reprodução adaptativa</string>
+    <string name="adaptive_playback_timeout_title">Usar um tempo limite de</string>
+    <string name="adaptive_playback_timeout_none_summary">Desativado</string>
+    <string name="adaptive_playback_timeout_30_secs">30 segundos</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativo (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuto</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativo (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativo (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativo (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativo (10 minutos)</string>
 </resources>

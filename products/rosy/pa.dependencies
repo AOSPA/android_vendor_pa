@@ -30,6 +30,12 @@
         "revision":     "quartz-dev"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "quartz-89xx"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_qcom_common",
         "target_path":  "vendor/qcom/common",
