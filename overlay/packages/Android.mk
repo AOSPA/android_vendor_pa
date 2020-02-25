@@ -17,7 +17,9 @@ include $(CLEAR_VARS)
 
 LOCAL_MODULE := pa-overlays
 LOCAL_REQUIRED_MODULES := \
+    AccentColorDodgerBlueOverlay \
     AccentColorPixelBlueOverlay \
+    AccentColorRedOverlay \
     AccentColorTealOverlay \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay
