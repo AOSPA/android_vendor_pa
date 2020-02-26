@@ -13,7 +13,7 @@
   },
   {
     "remote":       "blobs",
-    "repository":   "ThankYouMario/proprietary_vendor_essential",
+    "repository":   "proprietary_vendor_essential",
     "target_path":  "vendor/essential",
     "revision":     "quartz"
   },
