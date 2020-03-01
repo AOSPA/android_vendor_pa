@@ -30,7 +30,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
-    $(LOCAL_DIR)/X01BD/pa_X01BD.mk
+    $(LOCAL_DIR)/X01BD/pa_X01BD.mk \
+    $(LOCAL_DIR)/raphael/pa_raphael.mk
 
 # SONY OpenDevices
 # Loire 8956
@@ -63,6 +64,7 @@ COMMON_LUNCH_CHOICES += \
     pa_oneplus7tpro-userdebug \
     pa_polaris-userdebug \
     pa_rosy-userdebug \
+    pa_raphael-userdebug \
     pa_sagit-userdebug \
     pa_suzu-userdebug \
     pa_X00TD-userdebug \
