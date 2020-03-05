@@ -50,9 +50,10 @@ def recurse_include(manifest):
     if includes is not None:
         for file in includes:
             extra_manifest = ET.parse(extra_manifests_dir + file.get('name')).getroot()
-            for project in extra_manifest:
-                manifest.append(project)
-            manifest.append(recurse_include(extra_manifest))
+            for elem in extra_manifest:
+                manifest.append(elem)
+            for elem in recurse_include(extra_manifest):
+                manifest.append(elem)
     return manifest
 
 if __name__ == '__main__':
