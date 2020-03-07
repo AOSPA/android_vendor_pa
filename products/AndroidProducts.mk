@@ -20,12 +20,12 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/gemini/pa_gemini.mk \
-    $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
     $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/chiron/pa_chiron.mk \
 
 # SONY OpenDevices
 # Loire 8956
@@ -50,10 +50,10 @@ COMMON_LUNCH_CHOICES += \
     pa_kagura-userdebug \
     pa_keyaki-userdebug \
     pa_kugo-userdebug \
-    pa_mata-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
     pa_oneplus7pro-userdebug \
     pa_polaris-userdebug \
     pa_sagit-userdebug \
+    pa_chiron-userdebug \
     pa_suzu-userdebug
