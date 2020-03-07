@@ -27,6 +27,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+    $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
 # SONY OpenDevices
@@ -60,4 +61,5 @@ COMMON_LUNCH_CHOICES += \
     pa_rosy-userdebug \
     pa_sagit-userdebug \
     pa_suzu-userdebug \
+    pa_X00TD-userdebug \
     pa_X01BD-userdebug
