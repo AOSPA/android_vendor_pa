@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b748fc65_8bc00dc3",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-07T13:22:12Z",
+      "side": 1,
+      "message": "Please put it back where it was",
+      "revId": "31a50e60e3d823b4259a436a0dc4ec374ec1dd6f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
