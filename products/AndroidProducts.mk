@@ -18,6 +18,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/A6020/pa_A6020.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/cepheus/pa_cepheus.mk \
+    $(LOCAL_DIR)/chiron/pa_chiron.mk \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
@@ -52,6 +53,7 @@ COMMON_LUNCH_CHOICES += \
     pa_A6020-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
+    pa_chiron-userdebug \
     pa_davinci-userdebug \
     pa_dipper-userdebug \
     pa_dora-userdebug \
