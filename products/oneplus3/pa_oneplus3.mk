@@ -21,12 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-include device/qcom/common/common.mk
-
-# Inherit AOSP device configuration
+# Inherit device configuration
 $(call inherit-product, device/oneplus/oneplus3/oneplus3.mk)
 
-# Override AOSP build properties
+# Inherit common PA configuration
+$(call inherit-product, device/qcom/common/common.mk)
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+
+# Override build properties
 PRODUCT_NAME := pa_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_BRAND := OnePlus
@@ -37,8 +39,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
      BUILD_FINGERPRINT=OnePlus/OnePlus3/OnePlus3:7.1.1/NMF26F/10122109:user/release-keys \
      PRIVATE_BUILD_DESC="OnePlus3-user 7.1.1 NMF26F 114 dev-keys"
-
-# Paranoid Android platform
-include vendor/pa/config/common_full_phone.mk
 
 endif
