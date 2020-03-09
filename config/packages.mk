@@ -12,16 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Abstruct
-PRODUCT_PACKAGES += Abstruct
 
 # AOSP Packages
 PRODUCT_PACKAGES += \
     SoundRecorder \
     WallpaperPicker \
     LatinIME \
-    LiveWallpapers \
-    LiveWallpapersPicker \
     ThemePicker
 
 # Bluetooth Audio (A2DP)
