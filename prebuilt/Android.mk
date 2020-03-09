@@ -30,6 +30,7 @@ LOCAL_CERTIFICATE   := PRESIGNED
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
+<<<<<<< HEAD
 
 include $(CLEAR_VARS)
 LOCAL_MODULE        := MatchmakerPrebuilt
@@ -53,3 +54,5 @@ LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
+=======
+>>>>>>> parent of 18770454f... pa: Ship Device Personalization Services

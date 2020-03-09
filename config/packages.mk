@@ -43,9 +43,6 @@ PRODUCT_PACKAGES += Abstruct
 # Retro Music Player
 PRODUCT_PACKAGES += RetroMusicPlayer
 
-# Device Personalization Services
-PRODUCT_PACKAGES += MatchmakerPrebuilt
-
 # CAF packages
 # TCP Connection Management
 PRODUCT_PACKAGES += tcmiface
