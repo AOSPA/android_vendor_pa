@@ -21,10 +21,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-include device/qcom/common/common.mk
-
 # Inherit AOSP device configuration
 $(call inherit-product, device/oneplus/oneplus3/oneplus3.mk)
+
+include device/qcom/common/common.mk
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_oneplus3

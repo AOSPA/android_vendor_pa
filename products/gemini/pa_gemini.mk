@@ -22,11 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Set bootanimation to 1080p display.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from our common CAF device tree.
-include device/qcom/common/common.mk
-
 # Inherit the device configuration itself.
 $(call inherit-product, device/xiaomi/gemini/device.mk)
+
+# Inherit from our common CAF device tree.
+include device/qcom/common/common.mk
 
 # Override device build properties.
 PRODUCT_NAME := pa_gemini
