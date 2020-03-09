@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f7ee428f_291d659b",
+        "filename": "prebuilt/bin/backuptool.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-03-09T11:54:44Z",
+      "side": 1,
+      "message": "depends on https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/8623",
+      "revId": "542d66be79d8bfbcac7248790e6a05f8ac590120",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
