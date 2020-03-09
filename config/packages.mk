@@ -24,7 +24,6 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     ParanoidPapers \
-    MarkupGoogle \
     Longshot \
     ParanoidQuickStep \
     ThemePicker \
