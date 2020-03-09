@@ -22,13 +22,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
-include device/qcom/common/common.mk
-include vendor/pa/config/common_full_phone.mk
-
-# Inherit AOSP device configuration
+# Inherit device configuration
 $(call inherit-product, device/xiaomi/dipper/device.mk)
 
-# Override AOSP build properties
+# Inherit common PA configuration
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+$(call inherit-product, device/qcom/common/common.mk)
+
+# Override build properties
 PRODUCT_NAME := pa_dipper
 PRODUCT_DEVICE := dipper
 PRODUCT_BRAND := Xiaomi

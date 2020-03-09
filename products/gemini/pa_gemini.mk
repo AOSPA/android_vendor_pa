@@ -22,13 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Set bootanimation to 1080p display.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit from our common CAF device tree.
-include device/qcom/common/common.mk
+# Inherit common PA configuration
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+$(call inherit-product, device/qcom/common/common.mk)
 
-# Inherit the device configuration itself.
-$(call inherit-product, device/xiaomi/gemini/device.mk)
-
-# Override device build properties.
+# Override build properties
 PRODUCT_NAME := pa_gemini
 PRODUCT_DEVICE := gemini
 PRODUCT_BRAND := Xiaomi
@@ -45,8 +43,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="gemini-user 8.0.0 OPR1.170623.032 V9.6.1.0.OAAMIFD release-keys"
 
 TARGET_VENDOR := Xiaomi
-
-# Paranoid Android platform
-include vendor/pa/config/common_full_phone.mk
 
 endif

@@ -18,19 +18,17 @@ ifeq (pa_kagura,$(TARGET_PRODUCT))
 # Use the AOSP stack
 TARGET_USES_AOSP := true
 
-# Inherit AOSP device configuration
-$(call inherit-product, device/sony/kagura/aosp_f8331.mk)
-
-# Generic CAF packages
-include device/qcom/common/common.mk
-
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Override AOSP build properties
+# Inherit device configuration
+$(call inherit-product, device/sony/kagura/aosp_f8331.mk)
+
+# Inherit common PA configuration
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+$(call inherit-product, device/qcom/common/common.mk)
+
+# Override build properties
 PRODUCT_NAME := pa_kagura
 PRODUCT_MODEL := Xperia XZ(AOSPA)
-
-# Paranoid Android platform
-include vendor/pa/config/common_full_phone.mk
 
 endif

@@ -19,16 +19,16 @@ ifeq (pa_oneplus6,$(TARGET_PRODUCT))
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
 
-include device/qcom/common/common.mk
-include vendor/pa/config/common_full_phone.mk
-
-# Inherit AOSP device configuration
+# Inherit device configuration
 $(call inherit-product, device/oneplus/oneplus6/oneplus6.mk)
 
-# Override AOSP build properties
+# Inherit common PA configuration
+$(call inherit-product, device/qcom/common/common.mk)
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+
+# Override build properties
 PRODUCT_NAME := pa_oneplus6
 PRODUCT_DEVICE := oneplus6
 PRODUCT_BRAND := OnePlus

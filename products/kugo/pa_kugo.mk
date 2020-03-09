@@ -20,16 +20,16 @@ TARGET_USES_AOSP := true
 TARGET_EXCLUDE_QCOM_SEPOLICY=true
 BOARD_USE_ENFORCING_SELINUX:= true
 
-# Inherit AOSP device configuration
+# Inherit device configuration
 $(call inherit-product, device/sony/kugo/aosp_f5321.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Override AOSP build properties
+# Override build properties
 PRODUCT_NAME := pa_kugo
 PRODUCT_MODEL := Xperia X Compact (AOSPA)
 
 # Paranoid Android platform
-include vendor/pa/config/common_full_phone.mk
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 endif

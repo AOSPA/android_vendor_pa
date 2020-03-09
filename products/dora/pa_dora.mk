@@ -18,15 +18,16 @@ ifeq (pa_dora,$(TARGET_PRODUCT))
 # Use the AOSP stack
 TARGET_USES_AOSP := true
 
-# Inherit AOSP device configuration
+# Inherit device configuration
 $(call inherit-product, device/sony/dora/aosp_f8131.mk)
 
-# Generic CAF packages
-include device/qcom/common/common.mk
+# Inherit common PA configuration
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+$(call inherit-product, device/qcom/common/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Override AOSP build properties
+# Override build properties
 PRODUCT_NAME := pa_dora
 PRODUCT_MODEL := Xperia X Performance (AOSPA)
 
