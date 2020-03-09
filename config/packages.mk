@@ -21,8 +21,7 @@ PRODUCT_PACKAGES += \
     SoundRecorder \
     WallpaperPicker \
     LatinIME \
-    LiveWallpapers \
-    LiveWallpapersPicker \
+    ParanoidPapers \
     MarkupGoogle \
     Longshot \
     ParanoidQuickStep \
@@ -37,9 +36,6 @@ PRODUCT_PACKAGES += \
 # Snapdragon apps
 PRODUCT_PACKAGES += \
     SnapdragonGallery
-
-# Abstruct
-PRODUCT_PACKAGES += Abstruct
 
 # Retro Music Player
 PRODUCT_PACKAGES += RetroMusicPlayer
