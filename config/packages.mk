@@ -23,7 +23,6 @@ PRODUCT_PACKAGES += \
     LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
-    MarkupGoogle \
     Longshot \
     ParanoidQuickStep \
     ThemePicker \
