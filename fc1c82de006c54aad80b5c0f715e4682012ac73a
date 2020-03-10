@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "22cc511f_72021a52",
+        "filename": "products/X00TD/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-10T13:01:09Z",
+      "side": 1,
+      "message": "For now, caf is synced by default, but it shouldn\u0027t really be any different than our fork. If you remove this does WiFi still work?",
+      "revId": "fc1c82de006c54aad80b5c0f715e4682012ac73a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9d940923_435e6752",
+        "filename": "products/X00TD/pa_X00TD.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-10T13:01:09Z",
+      "side": 1,
+      "message": "2020 Paranoid Android please",
+      "revId": "fc1c82de006c54aad80b5c0f715e4682012ac73a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
