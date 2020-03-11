@@ -50,8 +50,6 @@ else
     PA_BUILD_VARIANT := Alpha
   else ifeq ($(PA_BUILDTYPE), BETA)
     PA_BUILD_VARIANT := Beta
-  else ifeq ($(PA_BUILDTYPE), RELEASE)
-    PA_BUILD_VARIANT :=
   endif
 endif
 
@@ -63,7 +61,7 @@ else
 endif
 
 ifneq ($(filter Alpha Beta,$(PA_BUILD_VARIANT)),)
-  PA_VERSION := $(shell echo $(PA_VERSION_FLAVOR) | tr A-Z a-z)-$(shell echo $(PA_BUILD_VARIANT) | tr A-Z a-z)-$(PA_VERSION_CODE)-$(PA_BUILD)-$(BUILD_DATE)
+  PA_VERSION := $(shell echo $(PA_VERSION_FLAVOR) | tr A-Z a-z)-$(PA_VERSION_CODE)-$(PA_BUILD)-$(BUILD_DATE)
 else ifeq ($(PA_BUILD_VARIANT),)
   PA_VERSION := $(shell echo $(PA_VERSION_FLAVOR) | tr A-Z a-z)-$(PA_VERSION_CODE)-$(PA_BUILD)-$(BUILD_DATE)
 else
@@ -77,5 +75,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Paranoid Android Platform Display Version
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.version.flavor=$(PA_VERSION_FLAVOR) \
-    ro.pa.version.code=$(PA_VERSION_CODE) \
+    ro.pa.version.code=$(PA_VERSION_CODE)
+
+# Only set PA Build Variant Property on Alpha and Beta builds
+ifneq ($(filter Alpha Beta,$(PA_BUILD_VARIANT)),)
+PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.build.variant=$(PA_BUILD_VARIANT)
+endif
