@@ -209,7 +209,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
 # Build rom package
 else
     ${MAKE} bacon"$CMD"
-    cp $OUT/pa-${PA_VERSION}.zip $DIR_ROOT
+    ln -sf $OUT/pa-${PA_VERSION}.zip $DIR_ROOT
 fi
 RETVAL=$?
 echo -e ""
