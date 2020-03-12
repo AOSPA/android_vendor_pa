@@ -137,6 +137,11 @@ endif
 # Optimize everything for preopt
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
+# Use default filter for problematic apps
+PRODUCT_DEXPREOPT_QUICKEN_APPS += \
+    Dialer \
+    ChromePublic
+
 # Enable ALLOW_MISSING_DEPENDENCIES on Vendorless Builds
 ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
   ALLOW_MISSING_DEPENDENCIES := true
