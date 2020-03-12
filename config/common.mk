@@ -134,11 +134,8 @@ else
 include vendor/pa/sdclang/sdclang.mk
 endif
 
-# Speed Dexpreopt Package List
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    ParanoidQuickStep \
-    Settings \
-    SystemUI
+# Optimize everything for preopt
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
 # Enable ALLOW_MISSING_DEPENDENCIES on Vendorless Builds
 ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
