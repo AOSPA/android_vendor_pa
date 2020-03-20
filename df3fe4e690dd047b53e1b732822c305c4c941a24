@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7525b25c_7ad9eb42",
+        "filename": "products/oneplus7tpro5g/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2020-03-20T00:22:25Z",
+      "side": 1,
+      "message": "Why this vendor? Ours should work afaik",
+      "revId": "df3fe4e690dd047b53e1b732822c305c4c941a24",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
