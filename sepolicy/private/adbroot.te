@@ -9,3 +9,6 @@ add_service(adbroot, adbroot_service)
 
 allow adbroot adbroot_data_file:dir rw_dir_perms;
 allow adbroot adbroot_data_file:file create_file_perms;
+
+set_prop(adbroot, shell_prop)
+set_prop(adbroot, ctl_adbd_prop)
