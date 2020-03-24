@@ -56,10 +56,6 @@ PRODUCT_BOOT_JARS += tcmiface
 # Bluetooth Audio (A2DP)
 PRODUCT_PACKAGES += libbthost_if
 
-# MSIM manual provisioning
-PRODUCT_PACKAGES += telephony-ext
-PRODUCT_BOOT_JARS += telephony-ext
-
 # Extra tools in PA
 PRODUCT_PACKAGES += \
     7z \
