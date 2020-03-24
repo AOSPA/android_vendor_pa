@@ -27,6 +27,10 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
 
+# Mediatek
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/begonia/pa_begonia.mk
+
 # SONY OpenDevices
 # Loire 8956
 PRODUCT_MAKEFILES += \
@@ -41,6 +45,7 @@ PRODUCT_MAKEFILES += \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    pa_begonia-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
     pa_davinci-userdebug \
