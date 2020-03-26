@@ -85,10 +85,12 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/pa/prebuilt/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
 	vendor/pa/prebuilt/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
+ifeq ($(TARGET_DISABLES_GAPPS), true)
 # Markup Google
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
     vendor/pa/prebuilt/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
+endif
 
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -146,11 +148,6 @@ endif
 # Optimize everything for preopt
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
-# Use default filter for problematic apps
-PRODUCT_DEXPREOPT_QUICKEN_APPS += \
-    Dialer \
-    ChromePublic
-
 # Enable ALLOW_MISSING_DEPENDENCIES on Vendorless Builds
 ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
   ALLOW_MISSING_DEPENDENCIES := true
@@ -188,5 +185,21 @@ PRODUCT_COPY_FILES += \
     vendor/pa/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/pa/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
 
+ifneq ($(TARGET_DISABLES_GAPPS), true)
+
+# Inherit GApps Makefiles
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+
+# Do not preoptimize prebuilts when building GApps
+DONT_DEXPREOPT_PREBUILTS := true
+
+else
+
+# Use default filter for problematic AOSP apps
+PRODUCT_DEXPREOPT_QUICKEN_APPS += \
+    Dialer \
+    ChromePublic
+
+endif #TARGET_DISABLES_GAPPS

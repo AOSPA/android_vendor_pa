@@ -32,7 +32,7 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := MatchmakerPrebuilt
+LOCAL_MODULE        := MatchmakerGooglePrebuilt
 LOCAL_SRC_FILES     := priv-app/MatchmakerPrebuilt.apk
 LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
@@ -55,7 +55,7 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MarkupGoogle
+LOCAL_MODULE := MarkupGooglePrebuilt
 LOCAL_SRC_FILES := app/MarkupGoogle.apk
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
