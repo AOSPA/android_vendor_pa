@@ -23,4 +23,11 @@
     <!-- LDAC codec priority -->
     <integer name="a2dp_source_codec_priority_ldac">100001</integer>
 
+    <!-- max priority is used to dynamically increase the priority
+         of codecs(mainly Aptx Adaptive) to highest value based
+         on config
+         Value of a2dp_source_codec_priority_max should be set to
+         1000 + priority of codec with highest priority-->
+    <integer name="a2dp_source_codec_priority_max">110001</integer>
+
 </resources>
