@@ -26,7 +26,7 @@ PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep \
     ThemePicker \
-    #ParanoidHub
+    ParanoidHub
 
 # Paranoid Android Overlays
 PRODUCT_PACKAGES += \
