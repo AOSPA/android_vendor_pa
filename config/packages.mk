@@ -17,15 +17,13 @@ ifneq ($(TARGET_USES_AOSP_CAMERA),true)
 PRODUCT_PACKAGES += ParanoidCamera
 endif
 PRODUCT_PACKAGES += \
-    ChromePublic \
     SoundRecorder \
     WallpaperPicker \
     LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
-    ParanoidPapers \
-    MarkupGoogle \
     Longshot \
+    ParanoidPapers \
     ParanoidQuickStep \
     ThemePicker \
     #ParanoidHub
