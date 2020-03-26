@@ -84,11 +84,6 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/pa/prebuilt/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
 	vendor/pa/prebuilt/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-# Markup Google
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
-    vendor/pa/prebuilt/lib64/libsketchology_native.so:system/lib64/libsketchology_native.so
-
 # Enforce privapp-permissions whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
@@ -181,5 +176,13 @@ PRODUCT_COPY_FILES += \
     vendor/pa/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/pa/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
 
+# set arch for gapps
+ifeq ($(TARGET_ARCH),arm64)
+TARGET_GAPPS_ARCH := arm64
+else ifeq ($(TARGET_ARCH),arm)
+TARGET_GAPPS_ARCH := arm64
+endif
+
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
