@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "93611102_78bc024e",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1000143
+      },
+      "writtenOn": "2020-03-26T23:29:43Z",
+      "side": 1,
+      "message": "Don\u0027t we want to use \"?\u003d\" for this?",
+      "revId": "994f0beae28fba3683ac1316391b4614184cd241",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
