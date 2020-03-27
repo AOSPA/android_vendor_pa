@@ -51,6 +51,24 @@
       "revId": "994f0beae28fba3683ac1316391b4614184cd241",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fa350c50_57b85647",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1000055
+      },
+      "writtenOn": "2020-03-27T04:22:56Z",
+      "side": 1,
+      "message": "yes, in vendor/products",
+      "parentUuid": "7fb8f03d_b63f9f31",
+      "revId": "994f0beae28fba3683ac1316391b4614184cd241",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
