@@ -16,6 +16,24 @@
       "revId": "994f0beae28fba3683ac1316391b4614184cd241",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "af35bbd1_82ce8bbd",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-03-27T03:18:43Z",
+      "side": 1,
+      "message": "No, we should just set it to the same as the first arch. There\u0027s no scenario where you\u0027d target a different arch for GMS than the rest of the OS, I have no idea why this flag even exists.",
+      "parentUuid": "93611102_78bc024e",
+      "revId": "994f0beae28fba3683ac1316391b4614184cd241",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
