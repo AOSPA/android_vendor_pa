@@ -34,6 +34,23 @@
       "revId": "994f0beae28fba3683ac1316391b4614184cd241",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7fb8f03d_b63f9f31",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 180,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2020-03-27T04:17:50Z",
+      "side": 1,
+      "message": "What about arm? Should we set this in pa_xxx.mk?",
+      "revId": "994f0beae28fba3683ac1316391b4614184cd241",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
