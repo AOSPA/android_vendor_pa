@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0db98f4d_b0e9b60a",
+        "filename": "config/common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 1000450
+      },
+      "writtenOn": "2020-03-28T06:55:43Z",
+      "side": 0,
+      "message": "This caused a nasty error: https://pb.envs.net/?d09792166c3810c9#4g9BVugaTHPdFvJKicH4GnLbUEaqQwH34tjHZj5gSQ1V\n\nWhen adding back Dialer I was able to complete a build",
+      "revId": "f940aeb4bf49e6401f4a40a1ab5556c1375c177a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
