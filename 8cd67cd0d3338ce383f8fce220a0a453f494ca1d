@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff799dbe_f2819849",
+        "filename": "products/sagit/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-03-29T20:00:39Z",
+      "side": 1,
+      "message": "https://github.com/xiaomi-msm8998/device_xiaomi_sagit/tree/238244b861fd0ed0906d3acbaadc6827e9f84b11",
+      "revId": "8cd67cd0d3338ce383f8fce220a0a453f494ca1d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ee089cd6_4fdcfb1c",
+        "filename": "products/sagit/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-03-29T20:00:39Z",
+      "side": 1,
+      "message": "https://github.com/xiaomi-msm8998/device_xiaomi_msm8998-common/tree/d455550d6adae28cf23b19a04cf068e0ba82daaa",
+      "revId": "8cd67cd0d3338ce383f8fce220a0a453f494ca1d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d5050750_32bda0ef",
+        "filename": "products/sagit/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-03-29T20:00:39Z",
+      "side": 1,
+      "message": "https://github.com/xiaomi-msm8998/kernel_xiaomi_msm8998/tree/dbf5f195ed25f6d246b197766bc15b97bb878aea",
+      "revId": "8cd67cd0d3338ce383f8fce220a0a453f494ca1d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5992b317_dc191094",
+        "filename": "products/sagit/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-03-29T20:00:39Z",
+      "side": 1,
+      "message": "https://github.com/ArianK16a/proprietary_vendor_xiaomi-1/tree/18f74e7ba989d393dbe538ae7c8ba779accba421",
+      "revId": "8cd67cd0d3338ce383f8fce220a0a453f494ca1d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
