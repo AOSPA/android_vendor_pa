@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2019 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Paranoid Android version -->
+    <string name="pa_version">Versión de Paranoid Android</string>
+
+    <string name="reset_all_settings">RESETEAR TODO</string>
+    <string name="reset_selected_settings">RESETEAR SELECCIONADOS</string>
+    <string name="reset_settings_title">Preferencias de características</string>
+    <string name="reset_settings_summary">Resetear las preferencias de las características de Paranoid Android</string>
+    <string name="keywords_settings_reset">Resetear</string>
+
+    <!-- Gestures Settings -->
+    <string name="quick_gestures_title">Gestos rápidos</string>
+    <string name="offscreen_gesture_title">Gestos con pantalla apagada</string>
+    <string name="offscreen_gesture_summary">Dibuja patrones o toca en la pantalla para realizar acciones</string>
+    <string name="keywords_gestures">pantalla pantalla táctil dibujar deslizar dedo</string>
+
+    <string name="gestures_double_tap">Doble pulsación</string>
+    <string name="gestures_draw_v">Dibujar V</string>
+    <string name="gestures_draw_inverse_v">Dibujar V inversa</string>
+    <string name="gestures_draw_o">Dibujar O</string>
+    <string name="gestures_draw_m">Dibujar M</string>
+    <string name="gestures_draw_w">Dibujar W</string>
+    <string name="gestures_draw_s">Dibujar S</string>
+    <string name="gestures_draw_arrow_left">Dibujar &lt;</string>
+    <string name="gestures_draw_arrow_right">Dibujar &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Deslizar un dedo hacia arriba</string>
+    <string name="gestures_one_finger_swipe_right">Deslizar un dedo hacia la derecha</string>
+    <string name="gestures_one_finger_swipe_down">Deslizar un dedo hacia abajo</string>
+    <string name="gestures_one_finger_swipe_left">Deslizar un dedo hacia la izquierda</string>
+    <string name="gestures_two_finger_swipe">Deslizar dos dedos</string>
+
+    <string name="gestures_disabled">Desactivado</string>
+    <string name="gestures_wake_device">Despertar dispositivo</string>
+    <string name="gestures_toggle_flashlight">Activar flash</string>
+    <string name="gestures_toggle_airplane_mode">Activar modo avión</string>
+    <string name="gestures_play_pause_music">Reproducir/Pausar música</string>
+    <string name="gestures_next_music">Siguiente canción</string>
+    <string name="gestures_previous_music">Canción previa</string>
+    <string name="gestures_open_camera">Abrir cámara</string>
+    <string name="gestures_open_dialer">Abrir teléfono</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Captura de pantalla con tres dedos</string>
+    <string name="swipe_to_screenshot_summary">Deslice con tres dedos en la pantalla para tomar una captura de pantalla</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga en las teclas de volumen cambiará las pistas de música</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localiza el sense de huellas en <xliff:g id="sensor_location">%1$s</xliff:g> de tu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localiza el sense de huellas en <xliff:g id="sensor_location">%1$s</xliff:g> de tu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localiza el sense de huellas en <xliff:g id="sensor_location">%1$s</xliff:g> de tu teléfono.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">parte trasera</string>
+    <string name="security_settings_fingerprint_sensor_location_front">parte delantera</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lado izquierdo</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lado derecho</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Datos móviles</string>
+    <string name="data_usage_app_restrict_data_summary">Activar el uso de datos móviles</string>
+    <string name="data_usage_app_restrict_vpn">Datos VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activar el uso de datos VPN</string>
+    <string name="data_usage_app_restrict_wifi">Datos Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar uso de datos Wi\u2011Fi</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invertir la disposición de las teclas de navegación</string>
+    <string name="navbar_invert_info">Esto invertirá las teclas de \"Atrás\" y \"Recientes\" en los botones de la barra de navegación</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Respues hápticas en llamada</string>
+    <string name="incall_feeedback_summary">Vibrar para indicar el estado de la llamada</string>
+
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Vibración &amp; respuestas hápticas</string>
+    <string name="summary_vibration_preferences">Cambia las intensidades, patrones y más</string>
+    <string name="keywords_vibration_preferences">patrón de vibración, intensidad de vibración, en llamada, hápticos, pulsación, intensidad de vibración</string>
+    <string name="ringtone_vibration_pattern">Patrón de vibración del tono de llamada</string>
+    <string name="vibration_intensity_ringer">Intensidad de la vibración del tono de llamada</string>
+    <string name="vibration_intensity_notification">Intensidad de la vibración de las notificaciones</string>
+    <string name="vibration_intensity_disabled">Desactivado</string>
+    <string name="vibration_intensity_light">Suave</string>
+    <string name="vibration_intensity_medium">Medio</string>
+    <string name="vibration_intensity_strong">Fuerte</string>
+    <string name="vibration_intensity_custom">Personalizado</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Modo bolsillo</string>
+    <string name="pocket_judge_summary">Bloquear la pantalla y los botones cuando el dispositivo está en el bolsillo</string>
+
+    <!-- Pulse Ambient Light -->
+    <string name="pulse_ambient_light_title">Pulso</string>
+    <string name="pulse_ambient_light_summary">Iluminar los laterales de la pantalla al recibir notificaciones</string>
+    <string name="ambient_notification_light_accent_title">Color de acento del sistema</string>
+    <string name="ambient_notification_light_color_automatic_title">Color de la notificación</string>
+    <string name="pulse_ambient_light_color">Mientras palpita, mostrar</string>
+
+</resources>
