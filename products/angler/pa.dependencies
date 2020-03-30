@@ -1,0 +1,50 @@
+[
+    {
+        "target_path":  "device/google/contexthub",
+        "repository":   "device/google/contexthub",
+        "remote":	"aosp",
+        "revision":     "refs/tags/android-10.0.0_r31"
+    },
+    {
+        "target_path":  "hardware/qcom/audio",
+        "repository":   "platform/hardware/qcom/audio",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-10.0.0_r31"
+    },
+    {
+        "target_path":  "hardware/broadcom/wlan",
+        "repository":   "platform/hardware/broadcom/wlan",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-10.0.0_r31"
+    },
+    {
+        "target_path":  "hardware/broadcom/libbt",
+        "repository":   "platform/hardware/broadcom/libbt",
+        "remote":       "aosp",
+        "revision":     "refs/tags/android-10.0.0_r31"
+    },
+    {
+        "target_path":  "hardware/qcom/msm8994",
+        "repository":   "platform/hardware/qcom/msm8994",
+        "remote":	"aosp",
+        "revision":     "refs/tags/android-10.0.0_r31"
+    },
+    {
+        "target_path":  "hardware/qcom/display",
+        "repository":   "Sirhc95/hardware_qcom_display",
+        "remote":       "github",
+        "revision":     "quartz-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/gps",
+        "repository":   "Sirhc95/hardware_qcom_gps",
+        "remote":	"github",
+        "revision":     "quartz-aosp"
+    },
+    {
+        "target_path":  "hardware/qcom/media",
+        "repository":   "Sirhc95/hardware_qcom_media",
+        "remote":       "github",
+        "revision":     "quartz-aosp"
+    }
+]
