@@ -41,8 +41,13 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
 
+# AOSP
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/angler/pa_angler.mk
+
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    pa_angler-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
     pa_davinci-userdebug \
