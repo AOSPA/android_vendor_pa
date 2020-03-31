@@ -23,6 +23,9 @@ type Product_variables struct {
 	Target_uses_color_metadata struct {
 		Cppflags []string
 	}
+	Target_ignores_ftp_pptp_conntrack_failure struct {
+		Cppflags []string
+	}
 }
 
 type ProductVariables struct {
@@ -33,4 +36,5 @@ type ProductVariables struct {
 	Target_process_sdk_version_override *string `json:",omitempty"`
 	Target_shim_libs  *string `json:",omitempty"`
 	Target_uses_color_metadata  *bool `json:",omitempty"`
+	Target_ignores_ftp_pptp_conntrack_failure  *bool `json:",omitempty"`
 }
