@@ -27,7 +27,6 @@ $(call inherit-product, device/xiaomi/cepheus/msmnile.mk)
 
 # Inherit common PA configuration
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
-$(call inherit-product, device/qcom/common/common.mk)
 
 # Override build properties
 PRODUCT_NAME := pa_cepheus

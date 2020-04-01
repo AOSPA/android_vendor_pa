@@ -23,7 +23,6 @@ $(call inherit-product, device/sony/dora/aosp_f8131.mk)
 
 # Inherit common PA configuration
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
-$(call inherit-product, device/qcom/common/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
