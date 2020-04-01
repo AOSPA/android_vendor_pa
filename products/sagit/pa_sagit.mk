@@ -25,7 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/sagit/device.mk)
 
 # Inherit common PA configuration
-$(call inherit-product, device/qcom/common/common.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Override build properties
