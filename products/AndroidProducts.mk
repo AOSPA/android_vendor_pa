@@ -22,7 +22,9 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
+    $(LOCAL_DIR)/oneplus7/pa_oneplus7.mk \
     $(LOCAL_DIR)/oneplus7pro/pa_oneplus7pro.mk \
+    $(LOCAL_DIR)/oneplus7t/pa_oneplus7t.mk \
     $(LOCAL_DIR)/oneplus7tpro/pa_oneplus7tpro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
@@ -54,7 +56,9 @@ COMMON_LUNCH_CHOICES += \
     pa_mata-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
+    pa_oneplus7-userdebug \
     pa_oneplus7pro-userdebug \
+    pa_oneplus7t-userdebug \
     pa_oneplus7tpro-userdebug \
     pa_polaris-userdebug \
     pa_rosy-userdebug \
