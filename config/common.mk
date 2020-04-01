@@ -111,7 +111,8 @@ endif
 # Include the custom PA bootanimation
 ifneq ($(TARGET_BOOT_ANIMATION_RES),)
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
+    vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation.zip \
+    vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES)-dark.zip:$(TARGET_COPY_OUT_PRODUCT)/media/bootanimation-dark.zip
 endif
 
 # Packages
