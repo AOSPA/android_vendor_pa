@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f0508bab_1dac3675",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-04-01T10:44:28Z",
+      "side": 1,
+      "message": "s|device/qcom/vendor|device/qcom/common|g ?",
+      "revId": "5f40aa52155871c1d6cc1a69d6df76fd48c0ad41",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
