@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dec58759_f71ca2b0",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-04-01T10:41:51Z",
+      "side": 1,
+      "message": "That might be also worth to include in the is-vendor-board-platform,QCOM guard?",
+      "revId": "2275fe528547182480a0557f429c6ffb003b67b8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
