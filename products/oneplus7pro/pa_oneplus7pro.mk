@@ -25,7 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 $(call inherit-product, device/oneplus/oneplus7pro/device.mk)
 
 # Inherit common PA configuration
-$(call inherit-product, device/qcom/common/common.mk)
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
 # Override build properties
