@@ -16,9 +16,9 @@
 -->
 <permissions>
 
-    <privapp-permissions package="com.android.camera2">
-        <permission name="android.permission.BIND_WALLPAPER"/>
-        <permission name="android.permission.PREVENT_POWER_KEY"/>
+    <privapp-permissions package="co.aospa.camera">
+        <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+        <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
     <!-- Additional permissions on top of privapp-permissions-platform.xml -->
