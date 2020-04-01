@@ -27,6 +27,9 @@ $(call inherit-product, device/oneplus/oneplus6/oneplus6.mk)
 # Inherit common PA configuration
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
+# Inherit all optional Qualcomm component Makefiles
+$(call inherit-product, device/qcom/common/*/qti*.mk)
+
 # Override build properties
 PRODUCT_NAME := pa_oneplus6
 PRODUCT_DEVICE := oneplus6
