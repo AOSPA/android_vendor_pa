@@ -126,6 +126,10 @@ include vendor/pa/config/version.mk
 
 # QCOM
 include vendor/pa/config/qcom_utils.mk
+# Include Common Qualcomm Device Tree on Qualcomm Boards
+ifeq ($(call is-vendor-board-platform,QCOM),true)
+$(call inherit-product, device/qcom/common/common.mk)
+endif
 
 # Sdclang
 ifneq ($(HOST_OS),linux)
