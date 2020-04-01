@@ -33,9 +33,6 @@ $(call inherit-product, device/essential/mata/device.mk)
 # Inherit from the PA configuration.
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
-# Include the common CAF configurations.
-$(call inherit-product, device/qcom/common/common.mk)
-
 # Recovery FStab
 TARGET_RECOVERY_FSTAB := device/essential/mata/rootdir/etc/fstab.mata
 

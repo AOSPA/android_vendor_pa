@@ -25,7 +25,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_IS_ONEPLUS_T_DEVICE := true
 TARGET_USES_ONEPLUS_DYNAMIC_PARTITIONS := true
 
-include device/qcom/common/common.mk
 include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
