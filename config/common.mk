@@ -125,6 +125,9 @@ include vendor/pa/config/packages.mk
 # PA version
 include vendor/pa/config/version.mk
 
+# QCOM
+include vendor/pa/config/qcom_utils.mk
+
 # Sdclang
 ifneq ($(HOST_OS),linux)
 ifneq ($(sdclang_already_warned),true)
