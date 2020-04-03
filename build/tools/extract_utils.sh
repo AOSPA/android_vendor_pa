@@ -890,16 +890,16 @@ function write_blueprint_header() {
 
     printf "/**\n" > $1
     NUM_REGEX='^[0-9]+$'
-    if [[ ! $INITIAL_COPYRIGHT_YEAR =~ $NUM_REGEX ]] || [ $INITIAL_COPYRIGHT_YEAR -lt 2019 ]; then
-        BLUEPRINT_INITIAL_COPYRIGHT_YEAR=2019
+    if [[ ! $INITIAL_COPYRIGHT_YEAR =~ $NUM_REGEX ]] || [ $INITIAL_COPYRIGHT_YEAR -lt 2020 ]; then
+        BLUEPRINT_INITIAL_COPYRIGHT_YEAR=2020
     else
         BLUEPRINT_INITIAL_COPYRIGHT_YEAR=$INITIAL_COPYRIGHT_YEAR
     fi
 
     if [ $BLUEPRINT_INITIAL_COPYRIGHT_YEAR -eq $YEAR ]; then
         printf " * Copyright (C) $YEAR Paranoid Android\n" >> $1
-    elif [ $BLUEPRINT_INITIAL_COPYRIGHT_YEAR -le 2019 ]; then
-        printf " * Copyright (C) 2019-$YEAR Paranoid Android\n" >> $1
+    elif [ $BLUEPRINT_INITIAL_COPYRIGHT_YEAR -le 2020 ]; then
+        printf " * Copyright (C) 2020-$YEAR Paranoid Android\n" >> $1
     else
         printf " * Copyright (C) $BLUEPRINT_INITIAL_COPYRIGHT_YEAR-$YEAR Paranoid Android\n" >> $1
     fi
