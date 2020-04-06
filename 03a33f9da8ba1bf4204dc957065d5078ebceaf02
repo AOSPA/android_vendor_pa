@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "60e15ffb_8ce85d01",
+        "filename": "config/common.mk",
+        "patchSetId": 14
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2020-04-06T13:39:16Z",
+      "side": 1,
+      "message": "Copy from vendor/gapps maybe? We\u0027re syncing that repo for all anyways... Won\u0027t need duplicate copy in vendor/pa.",
+      "range": {
+        "startLine": 200,
+        "startChar": 4,
+        "endLine": 200,
+        "endChar": 51
+      },
+      "revId": "03a33f9da8ba1bf4204dc957065d5078ebceaf02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "121fd8a1_50c10142",
+        "filename": "config/packages.mk",
+        "patchSetId": 14
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2020-04-06T13:39:16Z",
+      "side": 1,
+      "message": "We should use .apk from vendor/gapps for these too. No point in having duplicates.. I suggest we remove apks we have in vendor/pa like earlier PS of this patch. Include these apps from vendor/gapps for non-gapps variant too.",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 35,
+        "endChar": 28
+      },
+      "revId": "03a33f9da8ba1bf4204dc957065d5078ebceaf02",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
