@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e9dde72e_66d78618",
+        "filename": "config/common.mk",
+        "patchSetId": 15
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 1000126
+      },
+      "writtenOn": "2020-04-06T14:06:58Z",
+      "side": 1,
+      "message": "Shouldn\u0027t be needed.",
+      "range": {
+        "startLine": 198,
+        "startChar": 0,
+        "endLine": 201,
+        "endChar": 121
+      },
+      "revId": "bd20715c88c77828778a1f7d3ec71d8941fe99d8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
