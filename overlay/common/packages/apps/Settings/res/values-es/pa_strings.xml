@@ -114,4 +114,10 @@
     <string name="ambient_notification_light_color_automatic_title">Color de la notificación</string>
     <string name="pulse_ambient_light_color">Mientras palpita, mostrar</string>
 
+    <!-- Home handle sizing -->
+    <string name="back_options_dialog_title">Opciones</string>
+    <string name="home_handle_sizer_title">Tamaño de la barra de gestos</string>
+    <string name="home_handle_low_label">Pequeña</string>
+    <string name="home_handle_high_label">Grande</string>
+
 </resources>
