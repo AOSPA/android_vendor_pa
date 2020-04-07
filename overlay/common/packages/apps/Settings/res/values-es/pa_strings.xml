@@ -120,4 +120,11 @@
     <string name="home_handle_low_label">Pequeña</string>
     <string name="home_handle_high_label">Grande</string>
 
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuración con root</string>
+    <string name="adb_enable_summary_root">Permitir que la depuración Android use permisos root</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Cerrar</string>
+
 </resources>
