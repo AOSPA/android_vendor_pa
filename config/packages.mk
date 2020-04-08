@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep \
     ThemePicker \
-    ParanoidHub
+    ParanoidHub \
+    ParanoidFaceLock
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \

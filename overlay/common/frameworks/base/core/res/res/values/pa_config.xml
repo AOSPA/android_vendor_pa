@@ -20,4 +20,7 @@ implied.
     <!-- Whether auto face unlock is enabled by default -->
     <bool name="config_autoFaceUnlockEnabledByDefault">true</bool>
 
+    <!-- Defines the component for the external face service -->
+    <string name="config_externalFaceService">com.paranoid.facelock/com.paranoid.facelock.service.FaceAuthService</string>
+
 </resources>
