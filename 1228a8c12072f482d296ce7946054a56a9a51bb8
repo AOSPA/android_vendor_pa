@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "195656ab_0e4cabaa",
+        "filename": "themed_bootanimation/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-04-11T02:19:18Z",
+      "side": 1,
+      "message": "don\u0027t think this will work",
+      "revId": "1228a8c12072f482d296ce7946054a56a9a51bb8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
