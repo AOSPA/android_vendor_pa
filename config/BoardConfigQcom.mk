@@ -28,6 +28,8 @@ ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8909 msm8916 msm8937 
 endif
 
 # For pre-UM display and gps HAL
+ifneq ($(TARGET_USES_AOSP), true)
 ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8610 msm8974 msm8992 msm8994 msm8909 msm8916 msm8952 msm8976),true)
   TARGET_USES_QCOM_BSP := true
+endif
 endif
