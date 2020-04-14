@@ -113,4 +113,7 @@
     <string name="config_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
     <!-- Fully-qualified class name for the styles & wallpaper picker activity. -->
     <string name="config_styles_and_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
+
+    <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
+    <string name="config_face_enroll" translatable="false">com.paranoid.facesense/com.paranoid.facesense.FaceEnrollEnrolling</string>
 </resources>
