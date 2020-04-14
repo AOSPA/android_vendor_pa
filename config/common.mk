@@ -183,7 +183,7 @@ ifneq ($(TARGET_DISABLES_GAPPS), true)
 # Inherit GApps Makefiles
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
+$(call inherit-product-if-exists, vendor/google/gapps/gapps-vendor.mk)
 
 # Do not preoptimize prebuilts when building GApps
 DONT_DEXPREOPT_PREBUILTS := true
