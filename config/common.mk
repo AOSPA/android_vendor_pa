@@ -72,7 +72,8 @@ ifneq ($(TARGET_DISABLES_GAPPS), true)
 # Inherit GApps Makefiles
 $(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
 $(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
+$(call inherit-product-if-exists, vendor/google/gms/gms-vendor.mk)
+$(call inherit-product-if-exists, vendor/google/pixel/pixel-vendor.mk)
 
 # Do not preoptimize prebuilts when building GApps
 DONT_DEXPREOPT_PREBUILTS := true
@@ -131,27 +132,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true \
     net.tethering.noprovisioning=true \
     persist.sys.disable_rescue=true \
-    ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.build.selinux=1 \
     ro.carrier=unknown \
     ro.com.android.dataroaming=false \
     ro.config.bt_sco_vol_steps=30 \
     ro.config.media_vol_steps=30 \
-    ro.error.receiver.system.apps=com.google.android.gms \
-    ro.opa.eligible_device=true \
-    ro.setupwizard.enterprise_mode=1 \
-    setupwizard.theme=glif_v3_light \
     ro.storage_manager.enabled=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-
-ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.com.google.clientidbase=android-google
-else
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
-endif
 
 # QCOM
 include vendor/pa/config/qcom_utils.mk
