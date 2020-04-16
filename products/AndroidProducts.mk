@@ -16,6 +16,7 @@
 # CAF
 PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/A6020/pa_A6020.mk \
+    $(LOCAL_DIR)/bacon/pa_bacon.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/cepheus/pa_cepheus.mk \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
@@ -48,6 +49,7 @@ PRODUCT_MAKEFILES += \
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     pa_A6020-userdebug \
+    pa_bacon-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
     pa_davinci-userdebug \

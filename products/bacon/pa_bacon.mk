@@ -1,0 +1,55 @@
+#
+# Copyright (C) 2020 Paranoid Android
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# Check for target product
+ifeq (pa_bacon,$(TARGET_PRODUCT))
+
+# Inherit framework first
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_k.mk)
+
+# Inherit from bacon device
+$(call inherit-product, device/oneplus/bacon/bacon.mk)
+
+# Inherit some common Paranoid Android stuff
+$(call inherit-product, vendor/pa/config/common_full_phone.mk)
+
+# Device identifications
+PRODUCT_NAME := pa_bacon
+PRODUCT_DEVICE := bacon
+PRODUCT_BRAND := oneplus
+PRODUCT_MANUFACTURER := OnePlus
+PRODUCT_MODEL := A0001
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="bacon-user 5.1.1 LMY48B YOG4PAS1N0 release-keys" \
+    PRODUCT_NAME=bacon \
+    TARGET_DEVICE=A0001
+
+BUILD_FINGERPRINT := oneplus/bacon/A0001:5.1.1/LMY48B/YOG4PAS1N0:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# GApps
+TARGET_DISABLES_GAPPS := true
+
+endif
