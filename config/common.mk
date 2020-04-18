@@ -36,6 +36,12 @@ ifeq ($(TARGET_SUPPORTS_64_BIT_APPS), true)
 TARGET_ENABLE_MEDIADRM_64 := true
 endif
 
+# Face Sense
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.biometrics.face.xml \
+    vendor/pa/config/permissions/hiddenapi-whitelist-co.aospa.facesense.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/hiddenapi-whitelist-co.aospa.facesense.xml \
+    vendor/pa/config/permissions/privapp-permissions-co.aospa.facesense.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-co.aospa.facesense.xml
+
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/pa/config/config.fs
 
