@@ -77,6 +77,7 @@ PRODUCT_COPY_FILES += \
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/handheld_core_hardware.xml \
+    vendor/pa/config/permissions/pa-default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/pa-default-permissions.xml \
     vendor/pa/config/permissions/privapp-permissions-pa-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-pa.xml \
     vendor/pa/config/permissions/privapp-permissions-pa-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-pa.xml
 
@@ -97,6 +98,9 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Common overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pa/overlay/common
 DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
+
+# Paranoid Overlay for face resources
+include vendor/pa/biometrics-face/overlay.mk
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
 # Enable ADB authentication
