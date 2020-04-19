@@ -31,7 +31,7 @@
 -->
 
 <exceptions>
-    <exception package="com.paranoid.facesense">
+    <exception package="co.aospa.facesense">
         <permission name="android.permission.CAMERA" fixed="false"/>
     </exception>
 </exceptions>
