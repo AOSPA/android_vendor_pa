@@ -16,7 +16,7 @@
  */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.paranoid.overlaystub"
+    package="co.aospa.overlaystub"
     android:versionCode="1"
     android:versionName="1.0">
 
