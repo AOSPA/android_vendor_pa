@@ -116,4 +116,12 @@
 
     <!-- ComponentName to launch a vendor-specific enrollment activity if available -->
     <string name="config_face_enroll" translatable="false">co.aospa.facesense/co.aospa.facesense.FaceEnrollEnrolling</string>
+
+    <!-- Settings intelligence package name -->
+    <string name="config_settingsintelligence_package_name" translatable="false">
+        com.google.android.settings.intelligence
+    </string>
+
+    <!-- Settings intelligence interaction log intent action -->
+    <string name="config_settingsintelligence_log_action" translatable="false">com.google.android.settings.intelligence.contextualcards.CARD_INTERACTION_RECEIVER</string>
 </resources>
