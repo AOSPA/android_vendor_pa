@@ -26,7 +26,8 @@ PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep \
     ThemePicker \
-    ParanoidHub
+    ParanoidHub \
+    SettingsIntelligencePrebuilt
 
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS), true)
 TARGET_ENABLE_FACE_SENSE := true
