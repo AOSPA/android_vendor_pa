@@ -45,8 +45,8 @@ endif
 
 # Paranoid Android Overlays
 PRODUCT_PACKAGES += \
-    pa-overlays \
-    ParanoidOverlayStub
+    aospa-overlays \
+    AOSPAOverlayStub
 
 # Snapdragon apps
 PRODUCT_PACKAGES += \
