@@ -124,4 +124,7 @@
 
     <!-- Settings intelligence interaction log intent action -->
     <string name="config_settingsintelligence_log_action" translatable="false">com.google.android.settings.intelligence.contextualcards.CARD_INTERACTION_RECEIVER</string>
+
+    <!-- Whether or not homepage should display user's account avatar -->
+    <bool name="config_show_avatar_in_homepage">true</bool>
 </resources>
