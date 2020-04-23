@@ -13,8 +13,8 @@
     },
     {
         "remote":       "blobs",
-        "repository":   "proprietary_vendor_lenovo_A6020",
-        "target_path":  "vendor/lenovo/A6020",
+        "repository":   "proprietary_vendor_lenovo",
+        "target_path":  "vendor/lenovo",
         "revision":     "quartz"
     },
     {
