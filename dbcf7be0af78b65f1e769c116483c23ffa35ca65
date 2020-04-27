@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4bf32f18_ab69a6c6",
+        "filename": "products/chiron/pa.dependencies",
+        "patchSetId": 8
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2020-04-27T21:09:59Z",
+      "side": 1,
+      "message": "Why do you sync the quartz-dev branch of this?",
+      "revId": "dbcf7be0af78b65f1e769c116483c23ffa35ca65",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
