@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3bd7b913_a943ea16",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-04-29T18:06:09Z",
+      "side": 1,
+      "message": "Can you link me to any repos that aren\u0027t already on AOSPA GitHub?",
+      "revId": "ed7ed05ec6a043e02a06d0a4f0f11e902d85a92e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "409a12de_f8a9b194",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-04-29T18:06:09Z",
+      "side": 1,
+      "message": "Does this sync? Usually you need all the attributes",
+      "revId": "ed7ed05ec6a043e02a06d0a4f0f11e902d85a92e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
