@@ -14,6 +14,8 @@
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
+BUILD_FINGERPRINT ?= google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
     ro.com.android.dateformat=MM-dd-yyyy \

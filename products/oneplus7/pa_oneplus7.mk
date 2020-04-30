@@ -42,6 +42,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus7 \
     PRIVATE_BUILD_DESC="OnePlus7-user 10 QKQ1.190716.003 2003130755 release-keys"
 
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
-
 endif
