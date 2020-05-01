@@ -25,8 +25,12 @@ PRODUCT_PACKAGES += \
     Longshot \
     ParanoidPapers \
     ParanoidQuickStep \
-    ThemePicker \
+    ThemePicker
+
+ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
+    PRODUCT_PACKAGES += \
     ParanoidHub
+endif
 
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS), true)
 TARGET_ENABLE_FACE_SENSE := true
