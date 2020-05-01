@@ -26,7 +26,9 @@ PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep \
     ThemePicker \
+ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
     ParanoidHub
+endif
 
 ifeq ($(TARGET_SUPPORTS_64_BIT_APPS), true)
 TARGET_ENABLE_FACE_SENSE := true
