@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e126441b_0debe041",
+        "filename": "products/rolex/pa_rolex.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-05-03T04:58:25Z",
+      "side": 1,
+      "message": "shouldn\u0027t arch and density be in device tree?",
+      "revId": "1c3fb1522e8bc8a5433301e894f64451f03422fe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
