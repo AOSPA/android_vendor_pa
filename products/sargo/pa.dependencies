@@ -1,0 +1,62 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_google_bonito",
+        "target_path":  "device/google/bonito",
+        "revision":     "quartz"
+    },
+        {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_google_bonito-sepolicy",
+        "target_path":  "device/google/bonito-sepolicy",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "quartz-aosp"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-aosp-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "quartz-aosp-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-aosp-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_google_msm-4.9",
+        "target_path":  "kernel/google/msm-4.9",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_google_sargo",
+        "target_path":  "vendor/google/sargo",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_data-ipa-cfg-mgr",
+        "target_path":  "vendor/qcom/opensource/data-ipa-cfg-mgr",
+        "revision":     "quartz-aosp"
+    }
+]
