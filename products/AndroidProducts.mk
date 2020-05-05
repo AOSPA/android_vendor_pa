@@ -47,9 +47,24 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
 
+# Tama 845
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/akari/pa_akari.mk \
+    $(LOCAL_DIR)/akari_dual/pa_akari_dual.mk \
+    $(LOCAL_DIR)/akatsuki/pa_akatsuki.mk \
+    $(LOCAL_DIR)/akatsuki_dual/pa_akatsuki_dual.mk \
+    $(LOCAL_DIR)/apollo/pa_apollo.mk \
+    $(LOCAL_DIR)/apollo_dual/pa_apollo_dual.mk
+
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
     pa_A6020-userdebug \
+	pa_akari-userdebug \
+	pa_akari_dual-userdebug \
+	pa_akatsuki-userdebug \
+	pa_akatsuki_dual-userdebug \
+	pa_apollo-userdebug \
+	pa_apollo_dual-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
     pa_davinci-userdebug \
