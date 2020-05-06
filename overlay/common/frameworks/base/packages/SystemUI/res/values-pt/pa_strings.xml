@@ -23,24 +23,42 @@
     <string name="on_the_spot_confirm">OKAY</string>
 
     <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_quick_pull_down">Gostarias que ao puxar a parte direita da barra de estado abrisse rapidamente o painel de Definições Rápidas?</string>
+    <string name="quick_settings_quick_pull_down">Gostarias de aceder ao painel de Quick Settings deslizando na parte direita da barra de estado?</string>
     <!-- OnTheSpot: Title of the Quick Settings quick pull-down feature for the reset dialog. [CHAR LIMIT=NONE] -->
-    <string name="quick_settings_quick_pull_down_name">Puxar rapidamente as Definições Rápidas</string>
-    <string name="quick_settings_quick_pull_down_summary">Expandir automaticamente as Definições Rápidas ao puxar pela parte direita do ecrã</string>
+    <string name="quick_settings_quick_pull_down_name">Mostrar rapidamente as Quick Settings</string>
+    <string name="quick_settings_quick_pull_down_summary">Expandir automaticamente as Quick Settings ao deslizar na parte direita da barra de estado</string>
 
     <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
-    <string name="extended_restart">Gostarias de manter pressionado o botão de reinício para aceder às opções de reinício avançado?</string>
+    <string name="extended_restart">Gostarias de ao manter pressionado o botão de reinícar consigas aceder às outras opções de reiníciar?</string>
     <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
     <string name="extended_restart_name">Reinício Avançado</string>
-    <string name="extended_restart_summary">Reiniciar o dispositivo com diferentes modos como gestor de arranque e recuperação</string>
+    <string name="extended_restart_summary">Reiniciar o dispositivo em diferentes modos como por exemplo bootloader e recovery</string>
 
      <!-- Screen Stabilization -->
     <string name="quick_settings_stabilization_label">Estabilização de Ecrã</string>
-    <string name="quick_settings_stabilization_off">Estabilização está desativada</string>
-    <string name="quick_settings_stabilization_on">Estabilização está ativa</string>
+    <string name="quick_settings_stabilization_off">Estabilização está desactivada</string>
+    <string name="quick_settings_stabilization_on">Estabilização está activa</string>
     <string name="low_label">Baixo</string>
     <string name="high_label">Alto</string>
     <string name="stabilization_velocity_friction">Velocidade de Fricção</string>
     <string name="stabilization_velocity_amplitude">Velocidade da Amplitude</string>
     <string name="stabilization_position_friction">Posição da Fricção</string>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Caffeine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caffeine off</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caffeine on</string>
+
+    <!-- Screen record -->
+    <string name="quick_settings_screen_record_label">Gravador de ecrã</string>
+    <string name="quick_settings_screen_record_start">Começar</string>
+    <string name="quick_settings_screen_record_stop">Parar</string>
+    <string name="screenrecord_audio_label">Gravar audio</string>
+    <string name="screenrecord_description">Enquanto gravas, o sistema Android pode capturar informação sensível que está visível no teu ecrã. Isto inclui palavras passe, informação de pagamentos, fotografias, mensagens, e audio.</string>
+    <string name="screenrecord_mic_label">Microfone</string>
+    <string name="screenrecord_ongoing_screen_and_audio">A gravar o ecrã e audio</string>
+    <string name="screenrecord_ongoing_screen_only">A gravar o ecrã</string>
+    <string name="screenrecord_start">Começar</string>
+    <string name="screenrecord_start_label">Começar a gravar?</string>
+    <string name="screenrecord_taps_label">Mostrar toques no ecrã</string>
 </resources>

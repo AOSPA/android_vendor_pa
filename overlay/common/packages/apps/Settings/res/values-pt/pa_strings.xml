@@ -13,52 +13,53 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Paranoid Android version -->
-    <string name="pa_version">Versão Paranoid Android</string>
+    <string name="pa_version">Versão do Paranoid Android</string>
 
     <string name="reset_all_settings">REPÔR TUDO</string>
-    <string name="reset_selected_settings">REPÔR SELECIONADO</string>
+    <string name="reset_selected_settings">REPÔR SELECCIONADO</string>
     <string name="reset_settings_title">Preferências de funcionalidades</string>
-    <string name="reset_settings_summary">Repôr preferências de funcionalidades Paranoid Android </string>
+    <string name="reset_settings_summary">Repôr preferências do Paranoid Android</string>
     <string name="keywords_settings_reset">repôr</string>
 
     <!-- Gestures Settings -->
     <string name="quick_gestures_title">Gestos rápidos</string>
-    <string name="offscreen_gesture_title">Gestos de ecrã desligado</string>
-    <string name="offscreen_gesture_summary">Desenha padrões ou carrega no ecrã para executar ações</string>
+    <string name="offscreen_gesture_title">Gestos com o ecrã desligado</string>
+    <string name="offscreen_gesture_summary">Desenha padrões ou toca no ecrã para executar acções</string>
     <string name="keywords_gestures">ecrã desenhar deslizar dedo</string>
 
-    <string name="gestures_double_tap">Toque-duplo</string>
-    <string name="gestures_draw_v">Desenho V</string>
-    <string name="gestures_draw_inverse_v">Desenho V Inverso</string>
-    <string name="gestures_draw_o">Desenho O</string>
-    <string name="gestures_draw_m">Desenho M</string>
-    <string name="gestures_draw_w">Desenho W</string>
-    <string name="gestures_draw_s">Desenho S</string>
-    <string name="gestures_draw_arrow_left">Desenho &lt;</string>
-    <string name="gestures_draw_arrow_right">Desenho &gt;</string>
-    <string name="gestures_one_finger_swipe_up">Um-dedo deslizar para cima</string>
-    <string name="gestures_one_finger_swipe_right">Um-dedo deslizar para a direita</string>
-    <string name="gestures_one_finger_swipe_down">Um-dedo deslizar para baixo</string>
-    <string name="gestures_one_finger_swipe_left">Um-dedo deslizar para a esquerda</string>
-    <string name="gestures_two_finger_swipe">Dois-dedos deslizar</string>
+    <string name="gestures_double_tap">Toque duplo</string>
+    <string name="gestures_single_tap">Um Toque</string>
+    <string name="gestures_draw_v">Desenho de um V</string>
+    <string name="gestures_draw_inverse_v">Desenho de um V Inverso</string>
+    <string name="gestures_draw_o">Desenho de um O</string>
+    <string name="gestures_draw_m">Desenho de um M</string>
+    <string name="gestures_draw_w">Desenho de um W</string>
+    <string name="gestures_draw_s">Desenho de um S</string>
+    <string name="gestures_draw_arrow_left">Desenho de um &lt;</string>
+    <string name="gestures_draw_arrow_right">Desenho de um &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Deslizar para cima com um dedo</string>
+    <string name="gestures_one_finger_swipe_right">Deslizar para a direita com um dedo</string>
+    <string name="gestures_one_finger_swipe_down">Deslizar para baixo com um dedo</string>
+    <string name="gestures_one_finger_swipe_left">Deslizar para a esquerda com um dedo</string>
+    <string name="gestures_two_finger_swipe">Deslizar com dois dedos</string>
 
-    <string name="gestures_disabled">Desativado</string>
-    <string name="gestures_wake_device">Acordar dispositivo</string>
+    <string name="gestures_disabled">Desactivado</string>
+    <string name="gestures_wake_device">Ligar o ecrã</string>
     <string name="gestures_toggle_flashlight">Alternar Lanterna</string>
     <string name="gestures_toggle_airplane_mode">Alternar modo de avião</string>
-    <string name="gestures_play_pause_music">Iniciar/Pausar música</string>
+    <string name="gestures_play_pause_music">Iniciar/Parar a música</string>
     <string name="gestures_next_music">Próxima música</string>
     <string name="gestures_previous_music">Música Anterior</string>
-    <string name="gestures_open_camera">Abrir câmera</string>
-    <string name="gestures_open_dialer">Abrir discador</string>
+    <string name="gestures_open_camera">Abrir a câmera</string>
+    <string name="gestures_open_dialer">Abrir o telefone</string>
 
     <!-- Swipe to screenshot -->
-    <string name="swipe_to_screenshot_title">Desliza para captura de ecrã</string>
-    <string name="swipe_to_screenshot_summary">Desliza 3 dedos para baixo no ecrã para capturar ecrã</string>
+    <string name="swipe_to_screenshot_title">Desliza para tirar uma captura de ecrã</string>
+    <string name="swipe_to_screenshot_summary">Desliza 3 dedos para baixo no ecrã para tirar uma captura de ecrã</string>
 
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Controlo de reprodução</string>
-    <string name="volume_button_music_control_summary">Quando o ecrã está desligado, manter pressionado os botões do volume irá saltar faixas de músicas</string>
+    <string name="volume_button_music_control_summary">Quando o ecrã está desligado, manter pressionado os botões do volume irá alternar as faixas de músicas</string>
 
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localiza o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do teu tablet.</string>
@@ -73,28 +74,28 @@
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Dados movéis</string>
-    <string name="data_usage_app_restrict_data_summary">Ativa o uso de dados móveis</string>
+    <string name="data_usage_app_restrict_data_summary">Activa o uso de dados móveis</string>
     <string name="data_usage_app_restrict_vpn">Dados VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Ativar o uso de dados VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Activar o uso de dados VPN</string>
     <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Activar o uso de dados Wi\u2011Fi</string>
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Disposição da Barra de Navegação Invertida</string>
     <string name="navbar_invert_info">Isto irá inverter os botões \"Atrás\" e \"Recentes\" da barra de navegação</string>
 
     <!-- In-call feedback -->
-    <string name="incall_feeedback_vibrate_title">Háptico em chamada</string>
+    <string name="incall_feeedback_vibrate_title">Vibração durante a chamada</string>
     <string name="incall_feeedback_summary">Vibrar para indicar o estado da chamada</string>
 
     <!-- Custom Vibration fragment -->
-    <string name="vibration_preferences">Háptico &amp; vibração</string>
-    <string name="summary_vibration_preferences">Mudar intensidade, padrão e mais</string>
+    <string name="vibration_preferences">Vibração</string>
+    <string name="summary_vibration_preferences">Muda a intensidade, padrão e mais</string>
     <string name="keywords_vibration_preferences">padrão de vibração, intensidade de vibração, em chamada, háptico, toque, força de vibração</string>
     <string name="ringtone_vibration_pattern">Padrão de vibração do toque de chamada</string>
     <string name="vibration_intensity_ringer">Intensidade da vibração do toque de chamada</string>
     <string name="vibration_intensity_notification">Intensidade de vibração da notificação</string>
-    <string name="vibration_intensity_disabled">Desativado</string>
+    <string name="vibration_intensity_disabled">Desactivado</string>
     <string name="vibration_intensity_light">Leve</string>
     <string name="vibration_intensity_medium">Médio</string>
     <string name="vibration_intensity_strong">Forte</string>
@@ -106,8 +107,8 @@
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
 
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Deteção de bolso</string>
-    <string name="pocket_judge_summary">Bloquear ecrã e botões quando o dispositivo está no bolso</string>
+    <string name="pocket_judge_title">Detecção de bolso</string>
+    <string name="pocket_judge_summary">Bloquear o ecrã e botões quando o dispositivo está no bolso</string>
 
     <!-- Pulse Ambient Light -->
     <string name="pulse_ambient_light_title">Pulso</string>
@@ -121,8 +122,4 @@
     <string name="home_handle_sizer_title">Tamanho da barra de gestos</string>
     <string name="home_handle_low_label">Pequeno</string>
     <string name="home_handle_high_label">Grande</string>
-
-    <!-- Android debugging as root -->
-    <string name="adb_enable_root">Depurção enraizada</string>
-    <string name="adb_enable_summary_root">Permitir correr a depurção Android como raíz</string>
 </resources>
