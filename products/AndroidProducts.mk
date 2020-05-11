@@ -21,6 +21,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/chiron/pa_chiron.mk \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
+    $(LOCAL_DIR)/judypn/pa_judypn.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
@@ -57,6 +58,7 @@ COMMON_LUNCH_CHOICES += \
     pa_davinci-userdebug \
     pa_dipper-userdebug \
     pa_dora-userdebug \
+    pa_judypn-userdebug \
     pa_kagura-userdebug \
     pa_keyaki-userdebug \
     pa_kugo-userdebug \
