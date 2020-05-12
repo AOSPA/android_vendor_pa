@@ -1,0 +1,68 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_lge_judypn",
+        "target_path":  "device/lge/judypn",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_lge_sdm845-common",
+        "target_path":  "device/lge/sdm845-common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_kernel_lge_sdm845",
+        "target_path":  "kernel/lge/sdm845",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/proprietary_vendor_lge",
+        "target_path":  "vendor/lge",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "quartz-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
+        "target_path":  "vendor/qcom/opensource/commonsys/fm",
+        "revision":     "quartz"
+    }
+]
