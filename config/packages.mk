@@ -47,10 +47,10 @@ PRODUCT_PACKAGES += \
     MatchmakerPrebuilt
 endif
 
-# Paranoid Android Overlays
+# Overlays
 PRODUCT_PACKAGES += \
-    pa-overlays \
-    ParanoidOverlayStub
+    AOSPAOverlays \
+    AOSPAOverlayStub
 
 # Snapdragon apps
 PRODUCT_PACKAGES += \
