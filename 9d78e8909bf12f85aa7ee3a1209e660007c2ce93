@@ -22,6 +22,30 @@
       "revId": "9d78e8909bf12f85aa7ee3a1209e660007c2ce93",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2b9d17ca_e38f762f",
+        "filename": "overlay/common/packages/apps/ParanoidLauncher/res/values-ru/pa_strings.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2020-05-13T11:42:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a593c68_4301296a",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 12
+      },
+      "revId": "9d78e8909bf12f85aa7ee3a1209e660007c2ce93",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
