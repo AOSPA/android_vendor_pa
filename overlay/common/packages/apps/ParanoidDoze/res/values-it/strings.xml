@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Acceso</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Spento</string>
+
+    <!-- App Name -->
+    <string name="doze_settings_app_name">Impostazioni risparmia energia</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">Display circostante</string>
+    <string name="ambient_display_summary">Attiva lo schermo quando ricevi notifiche</string>
+
+    <!-- Always on -->
+    <string name="ambient_display_always_on_title">Sempre acceso</string>
+    <string name="ambient_display_always_on_summary">Mostra ora, icone di notifica e altre informazioni. Maggiore utilizzo della batteria.</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Ripresa sensore</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Sensore di prossimità</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Movimento della mano</string>
+    <string name="hand_wave_gesture_summary">Notifiche a impulsi sul movimento della mano</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Ripresa</string>
+    <string name="pick_up_gesture_summary">Notifiche a impulsi alla ripresa</string>
+
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Riattivare</string>
+    <string name="wake_gesture_summary">Riattiva il dispositivo invece di notifiche pulsanti</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Taschino</string>
+    <string name="pocket_gesture_summary">Notifiche a impulsi sulla rimozione dal taschino</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">Aiuto</string>
+    <string name="doze_settings_help_text">Queste funzioni utilizzano gli eventi del sensore per lanciare un impulso di notifica risparmio energetico. Il sensore scelto è abilitato solo quando il dispositivo riceve una notifica, questo aiuta a ridurre l'utilizzo della batteria. C'è anche un'opzione per abilitare il sensore scelto non appena lo schermo si spegne, questo causerà un maggiore utilizzo della batteria.</string>
+    
+</resources>
