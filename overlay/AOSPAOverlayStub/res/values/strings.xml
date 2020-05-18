@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2020 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,14 +15,46 @@
 -->
 <resources>
 
-	<!-- Default Theme -->
-	<string name="theme_name_default">Default</string>
-	<string name="theme_title_default">@string/theme_name_default</string>
-	<string name="theme_overlay_color_default">android.auto_generated_rro_vendor__</string>
-	<string name="theme_overlay_font_default">android.auto_generated_rro_vendor__</string>
-	<string name="theme_wallpaper_default">@drawable/default_bg</string>
-	<string name="theme_wallpaper_thumbnail_default">@drawable/default_bg</string>
-	<string name="theme_wallpaper_title_default">Stay Paranoid</string>
-	<string name="theme_wallpaper_attribution_default">Paranoid Android</string>
+    <!-- Default -->
+    <string name="theme_name_default">Default</string>
+    <string name="theme_title_default">@string/theme_name_default</string>
+    <string name="theme_wallpaper_title_default">Crystal Canyons</string>
+    <string name="theme_wallpaper_attribution_default">Hampus Olsson</string>
+
+    <!-- Blue -->
+    <string name="theme_name_blue">Blue</string>
+    <string name="theme_title_blue">@string/theme_name_blue</string>
+    <string name="theme_overlay_color_blue">co.aospa.theme.color.pixelblue</string>
+    <string name="theme_overlay_font_blue">co.aospa.theme.font.googlesans</string>
+    <string name="theme_overlay_icon_android_blue">com.android.theme.icon_pack.filled.android</string>
+    <string name="theme_overlay_icon_launcher_blue">com.android.theme.icon_pack.filled.launcher</string>
+    <string name="theme_overlay_icon_settings_blue">com.android.theme.icon_pack.filled.settings</string>
+    <string name="theme_overlay_icon_sysui_blue">com.android.theme.icon_pack.filled.systemui</string>
+    <string name="theme_wallpaper_title_blue">Spinning Lifeform</string>
+    <string name="theme_wallpaper_attribution_blue">Hampus Olsson</string>
+
+    <!-- Purple -->
+    <string name="theme_name_purple">Purple</string>
+    <string name="theme_title_purple">@string/theme_name_purple</string>
+    <string name="theme_overlay_color_purple">com.android.theme.color.purple</string>
+    <string name="theme_overlay_font_purple">co.aospa.theme.font.googlesans</string>
+    <string name="theme_overlay_icon_android_purple">com.android.theme.icon_pack.filled.android</string>
+    <string name="theme_overlay_icon_launcher_purple">com.android.theme.icon_pack.filled.launcher</string>
+    <string name="theme_overlay_icon_settings_purple">com.android.theme.icon_pack.filled.settings</string>
+    <string name="theme_overlay_icon_sysui_purple">com.android.theme.icon_pack.filled.systemui</string>
+    <string name="theme_wallpaper_title_purple">Refract</string>
+    <string name="theme_wallpaper_attribution_purple">Hampus Olsson</string>
+
+    <!-- Red -->
+    <string name="theme_name_red">Red</string>
+    <string name="theme_title_red">@string/theme_name_red</string>
+    <string name="theme_overlay_color_red">co.aospa.theme.color.red</string>
+    <string name="theme_overlay_font_red">co.aospa.theme.font.googlesans</string>
+    <string name="theme_overlay_icon_android_red">com.android.theme.icon_pack.filled.android</string>
+    <string name="theme_overlay_icon_launcher_red">com.android.theme.icon_pack.filled.launcher</string>
+    <string name="theme_overlay_icon_settings_red">com.android.theme.icon_pack.filled.settings</string>
+    <string name="theme_overlay_icon_sysui_red">com.android.theme.icon_pack.filled.systemui</string>
+    <string name="theme_wallpaper_title_red">Bleeding Lifeform</string>
+    <string name="theme_wallpaper_attribution_red">Hampus Olsson</string>
 
 </resources>

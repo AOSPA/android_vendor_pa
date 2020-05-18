@@ -17,8 +17,9 @@
 
     <string-array name="themes">
         <item>default</item>
-        <item>electrigreen</item>
-        <item>throwback</item>
+        <item>blue</item>
+        <item>purple</item>
+        <item>red</item>
     </string-array>
 
 </resources>
