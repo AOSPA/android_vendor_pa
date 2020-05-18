@@ -19,6 +19,6 @@
     android:versionName="1.0">
 
     <application
-    android:label="Overlays"
+    android:label="AOSPAOverlayStub"
     android:hasCode="false" />
 </manifest>
