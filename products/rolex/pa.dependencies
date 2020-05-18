@@ -38,6 +38,12 @@
     },
     {
         "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "quartz"
@@ -53,5 +59,11 @@
         "repository":   "AOSPA/android_packages_apps_Bluetooth",
         "target_path":  "packages/apps/Bluetooth",
         "revision":     "quartz-dev"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_packages_apps_Snap",
+        "target_path":  "packages/apps/Snap",
+        "revision":     "quartz"
     }
 ]
