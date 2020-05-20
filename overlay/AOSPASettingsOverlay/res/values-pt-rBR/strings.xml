@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Button shown which shows accessibility toggles for face enrollment when clicked. [CHAR LIMIT=32] -->
+    <string name="security_settings_face_enroll_introduction_accessibility">Definir para visão/mov. limitado</string>
+    <!-- Additional details shown when the accessibility toggle is expanded. [CHAR LIMIT=NONE]-->
+    <string name="security_settings_face_enroll_introduction_accessibility_expanded">Se você tiver alguma limitação de visão ou de movimento da cabeça, essa opção é uma maneira mais fácil de configurar o desbloqueio facial. Quando você estiver usando o desbloqueio facial, pode ser necessário que sua cabeça fique mais diretamente na frente do smartphone.</string>
+    <!-- Message shown for a toggle which when enabled, allows the user to enroll using a simpler flow for accessibility [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_accessibility_diversity">Usar desbloqueio facial de acessibilidade</string>
+    <!-- Message shown for a toggle which when enabled, allows the user to enroll using a simpler flow for accessibility [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_accessibility_vision">Exigir olhos abertos</string>
+    <!-- Introduction title shown in face enrollment to introduce the face unlock feature [CHAR LIMIT=40] -->
+    <string name="security_settings_face_enroll_introduction_title">Configurar desbloqueio facial</string>
+    <string name="security_settings_face_enroll_introduction_footer_part_0">Óculos de grau ou óculos de sol com lentes claras são permitidos.</string>
+    <!-- Introduction message shown in face enrollment that provides extra detail. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_footer_part_1">Os dados gravados pelo \"Desbloqueio facial\" são armazenados de forma segura e nunca saem do seu smartphone. Você pode excluí-los a qualquer momento nas configurações.\n\nSeu smartphone usará ocasionalmente suas imagens recentes do \"Desbloqueio facial\" para criar modelos de rosto melhores.</string>
+    <!-- Introduction message shown in face enrollment that provides extra detail. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_footer_part_2">Olhar para o smartphone pode desbloqueá-lo mesmo que essa não seja sua intenção. O smartphone poderá ser desbloqueado por outra pessoa se for direcionado para seu rosto.\n\nÉ possível configurar a necessidade de olhos abertos para o desbloqueio em Configurações.</string>
+    <!-- Introduction message shown in face enrollment that provides extra detail. [CHAR LIMIT=NONE] -->
+    <string name="security_settings_face_enroll_introduction_footer_part_3">Pode acontecer de o smartphone ser desbloqueado por alguém que se pareça muito com você, por exemplo, seu filho ou um gêmeo idêntico.</string>
+
+</resources>
