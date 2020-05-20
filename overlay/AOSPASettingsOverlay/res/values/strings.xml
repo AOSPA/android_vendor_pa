@@ -27,9 +27,9 @@
     <string name="security_settings_face_enroll_introduction_title">Set up face unlock</string>
     <string name="security_settings_face_enroll_introduction_footer_part_0">Glasses or lightly tinted sunglasses are OK.</string>
     <!-- Introduction message shown in face enrollment that provides extra detail. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_footer_part_1">The data recorded by face unlock is stored securely and never leaves your phone. You can delete your data anytime in settings.\10\10Your phone will occasionally use your recent face unlock images to create improved face models.</string>
+    <string name="security_settings_face_enroll_introduction_footer_part_1">The data recorded by face unlock is stored securely and never leaves your phone. You can delete your data anytime in settings.\n\nYour phone will occasionally use your recent face unlock images to create improved face models.</string>
     <!-- Introduction message shown in face enrollment that provides extra detail. [CHAR LIMIT=NONE] -->
-    <string name="security_settings_face_enroll_introduction_footer_part_2">Looking at the phone can unlock it even when you don’t intend to. Your phone can be unlocked by someone else if it’s held up to your face.\10\10You can require your eyes to be open for unlocking in Settings.</string>
+    <string name="security_settings_face_enroll_introduction_footer_part_2">Looking at the phone can unlock it even when you don’t intend to. Your phone can be unlocked by someone else if it’s held up to your face.\n\nYou can require your eyes to be open for unlocking in Settings.</string>
     <!-- Introduction message shown in face enrollment that provides extra detail. [CHAR LIMIT=NONE] -->
     <string name="security_settings_face_enroll_introduction_footer_part_3">Your phone can be unlocked by someone who looks a lot like you, say, an identical sibling.</string>
 
