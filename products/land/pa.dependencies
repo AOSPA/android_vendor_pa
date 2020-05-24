@@ -1,21 +1,22 @@
 [
     {
-        "remote": "aospa",
-        "repository": "AOSPA/android_device_xiaomi_land",
-        "target_path": "device/xiaomi/land",
-        "revision": "quartz"
-    },
-    {
-        "remote": "blobs",
-        "repository": "proprietary_vendor_xiaomi",
-        "target_path": "vendor/xiaomi",
-        "revision": "quartz"
-    },
-    {
-        "remote": "aospa",
-        "repository": "AOSPA/android_kernel_xiaomi_msm8937",
-        "target_path": "kernel/xiaomi/msm8937",
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_land",
+        "target_path":  "device/xiaomi/land",
         "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_xiaomi_msm8937",
+        "target_path":  "kernel/xiaomi/msm8937",
+        "revision":     "quartz"
+    },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
