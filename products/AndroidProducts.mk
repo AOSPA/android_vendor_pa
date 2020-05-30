@@ -30,6 +30,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/hltetmo/pa_hltetmo.mk \
     $(LOCAL_DIR)/jasmine_sprout/pa_jasmine_sprout.mk \
     $(LOCAL_DIR)/land/pa_land.mk \
+    $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
     $(LOCAL_DIR)/lavender/pa_lavender.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/onc/pa_onc.mk \
@@ -68,6 +69,7 @@ COMMON_LUNCH_CHOICES += \
     pa_hltetmo-userdebug \
     pa_jasmine_sprout-userdebug \
     pa_land-userdebug \
+    pa_laurel_sprout-userdebug \
     pa_lavender-userdebug \
     pa_mata-userdebug \
     pa_onc-userdebug \
