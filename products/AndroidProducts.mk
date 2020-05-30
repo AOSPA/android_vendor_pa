@@ -22,6 +22,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/davinci/pa_davinci.mk \
     $(LOCAL_DIR)/dipper/pa_dipper.mk \
     $(LOCAL_DIR)/land/pa_land.mk \
+    $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
@@ -63,6 +64,7 @@ COMMON_LUNCH_CHOICES += \
     pa_kugo-userdebug \
     pa_mata-userdebug \
     pa_land-userdebug \
+    pa_laurel_sprout-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
     pa_oneplus7-userdebug \
