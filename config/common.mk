@@ -106,10 +106,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
 
 ifeq ($(TARGET_BUILD_VARIANT),user)
 # Enable ADB authentication
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=1
 else
 # Disable ADB authentication
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.adb.secure=0
 PRODUCT_PACKAGES += \
     adb_root
 endif
