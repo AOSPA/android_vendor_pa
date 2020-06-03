@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="reset_all_settings">REDEFINIR TUDO</string>
+    <string name="reset_selected_settings">REDEFINIR SELECIONADOS</string>
+    <string name="reset_settings_title">Preferências de recursos</string>
+    <string name="reset_settings_summary">Redefinir as preferências de recursos do Paranoid Android</string>
+    <string name="keywords_settings_reset">Redefinir</string>
+
+    <!-- Gestures Settings -->
+    <string name="offscreen_gesture_title">Gestos com a tela desligada</string>
+    <string name="offscreen_gesture_summary">Desenha padrões na tela para executar ações</string>
+    <string name="keywords_gestures">tela desenhar deslizar dedo</string>
+
+    <string name="gestures_disabled">Desativado</string>
+    <string name="gestures_wake_device">Ligar a tela do dispositivo</string>
+    <string name="gestures_toggle_flashlight">Ligar/desligar Lanterna</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Deslize para captura de tela</string>
+    <string name="swipe_to_screenshot_summary">Deslize 3 dedos para baixo na tela para capturar</string>
+
+   <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Controle de reprodução</string>
+    <string name="volume_button_music_control_summary">Quando a tela está desligada, manter pressionado os botões do volume irá para proximas faixas de músicas</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localizar o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do teu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localizar o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> teu dispositvo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localizar o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do teu celular.</string>
+    
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Inverter a Barra de Navegação</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Háptico em chamada</string>
+    <string name="incall_feeedback_summary">Vibrar para indicar o estado da chamada</string>
+     
+    <!-- Pocket judge -->
+    <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
+
+    <!-- Pulse Ambient Light -->
+    <string name="pulse_ambient_light_summary">Iluminar as partes laterais da tela no pulso da notificação</string>
+
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">Tamanho da barra de gestos</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Depuração com root</string>
+    <string name="adb_enable_summary_root">Permitir a depuração Android com root</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
+</resources>
