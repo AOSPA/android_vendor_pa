@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "79a82f4d_e8f8aab5",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "proprietary_vendor_huawei_angler",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f256a29d_1cbb151e",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "remote should be blobs",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f56a3b5d_811fb651",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "Why not track this from our GitHub? Updating the repos is probably better then updating the dependencies. (Yeah they won\u0027t change much but still)",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3a967920_fe28bfe1",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7a94bb2_a8e85e10",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a65e5a0d_2731b61e",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0993589c_91b3861e",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "probably add this to the device tree like it was done in the past. The repo won\u0027t change much anyways",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9843242c_9152da99",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "Why not use our repo?",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8b178cb5_a3e78455",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-04T14:00:07Z",
+      "side": 1,
+      "message": "Do you really need this? \nit only contains hwcomposer.msm8994 which you already build in the device tree and kernel headers",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
