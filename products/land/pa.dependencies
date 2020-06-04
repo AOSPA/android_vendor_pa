@@ -52,5 +52,11 @@
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_packages_apps_Snap",
+        "target_path":  "packages/apps/Snap",
+        "revision":     "quartz"
     }
 ]
