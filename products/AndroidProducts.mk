@@ -28,6 +28,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/hltekor/pa_hltekor.mk \
     $(LOCAL_DIR)/hltetmo/pa_hltetmo.mk \
     $(LOCAL_DIR)/land/pa_land.mk \
+    $(LOCAL_DIR)/lavender/pa_lavender.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus3/pa_oneplus3.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
@@ -62,6 +63,7 @@ COMMON_LUNCH_CHOICES += \
     pa_hltetmo-userdebug \
     pa_mata-userdebug \
     pa_land-userdebug \
+    pa_lavender-userdebug \
     pa_oneplus3-userdebug \
     pa_oneplus6-userdebug \
     pa_oneplus7-userdebug \
