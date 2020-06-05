@@ -22,6 +22,6 @@
         android:category="android.theme.customization.accent_color"
         android:priority="600" />
     <application
-        android:label="@string/accent_color_touch_red_overlay"
+        android:label="@string/accent_color_torch_red_overlay"
         android:hasCode="false" />
 </manifest>
