@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b70dff7f_a050fac6",
+        "filename": "products/perseus/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2020-06-05T18:14:21Z",
+      "side": 1,
+      "message": "This is a useless thing",
+      "range": {
+        "startLine": 80,
+        "startChar": 0,
+        "endLine": 85,
+        "endChar": 5
+      },
+      "revId": "10182c7d241e10e16402a311eaab5e835ddb751c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
