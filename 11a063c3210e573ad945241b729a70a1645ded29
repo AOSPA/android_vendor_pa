@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "fd0e8080_331a4104",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "79a82f4d_e8f8aab5",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f256a29d_1cbb151e",
         "filename": "products/angler/pa.dependencies",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "aa2138bc_27e8388c",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f256a29d_1cbb151e",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f56a3b5d_811fb651",
         "filename": "products/angler/pa.dependencies",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2020-06-04T14:00:07Z",
       "side": 1,
       "message": "Why not track this from our GitHub? Updating the repos is probably better then updating the dependencies. (Yeah they won\u0027t change much but still)",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b2e512e_d5264217",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "AOSPA/android_hardware_broadcom_libbt doesn\u0027t have a quartz branch.",
+      "parentUuid": "f56a3b5d_811fb651",
       "revId": "11a063c3210e573ad945241b729a70a1645ded29",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
@@ -70,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "0d202bb4_60d24006",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "AOSPA/android_hardware_broadcom_wlan doesn\u0027t have a quartz branch.",
+      "parentUuid": "3a967920_fe28bfe1",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f7a94bb2_a8e85e10",
         "filename": "products/angler/pa.dependencies",
         "patchSetId": 2
@@ -87,6 +159,24 @@
     },
     {
       "key": {
+        "uuid": "a245d2b7_c9622b04",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7a94bb2_a8e85e10",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a65e5a0d_2731b61e",
         "filename": "products/angler/pa.dependencies",
         "patchSetId": 2
@@ -98,6 +188,24 @@
       "writtenOn": "2020-06-04T14:00:07Z",
       "side": 1,
       "message": "Same",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8fb899fd_f549166a",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "android_hardware_qcom_display is tracked from AOSPA on quartz-aosp-8994 branch.",
+      "parentUuid": "a65e5a0d_2731b61e",
       "revId": "11a063c3210e573ad945241b729a70a1645ded29",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
@@ -138,6 +246,24 @@
     },
     {
       "key": {
+        "uuid": "16c16aed_3d410fc2",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "I don\u0027t feel comfortable pushing 8 commits to a branch I\u0027m not even sure applies to my device.",
+      "parentUuid": "9843242c_9152da99",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8b178cb5_a3e78455",
         "filename": "products/angler/pa.dependencies",
         "patchSetId": 2
@@ -149,6 +275,24 @@
       "writtenOn": "2020-06-04T14:00:07Z",
       "side": 1,
       "message": "Do you really need this? \nit only contains hwcomposer.msm8994 which you already build in the device tree and kernel headers",
+      "revId": "11a063c3210e573ad945241b729a70a1645ded29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5640cf58_ffac8217",
+        "filename": "products/angler/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 1000533
+      },
+      "writtenOn": "2020-06-05T06:01:40Z",
+      "side": 1,
+      "message": "angler requires more kernel headers, mostly found in hardware/qcom/msm8994.",
+      "parentUuid": "8b178cb5_a3e78455",
       "revId": "11a063c3210e573ad945241b729a70a1645ded29",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
