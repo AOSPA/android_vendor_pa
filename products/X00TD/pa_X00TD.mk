@@ -44,8 +44,6 @@ TARGET_VENDOR_PRODUCT_NAME := X00TD
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="sdm660_64-user 9 PKQ1 1455 release-keys"
 
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 # The following system and vendor props will be set by vendor init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.device \

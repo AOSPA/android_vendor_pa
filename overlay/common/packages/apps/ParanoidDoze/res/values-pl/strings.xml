@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Wł</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Wył</string>
+
+    <!-- App Name -->
+    <string name="doze_settings_app_name">Ustawienia Uśpienia</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">Wyświetlacz Otoczenia</string>
+    <string name="ambient_display_summary">Wybudź ekran, gdy otrzymasz powiadomienie</string>
+
+    <!-- Always on -->
+    <string name="ambient_display_always_on_title">Zawsze Wł</string>
+    <string name="ambient_display_always_on_summary">Pokaż godzinę, ikony powiadomień oraz inne informacje. Zwiększone zużycie energii.</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Czujnik podniesienia</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Czujnik zbliżeniowy</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Machnięcie ręką</string>
+    <string name="hand_wave_gesture_summary">Pulsuj powiadomienia przy machnięciu ręką</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Podniesienie</string>
+    <string name="pick_up_gesture_summary">Pulsuj powiadomienia przy podniesieniu</string>
+
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Wybudzanie</string>
+    <string name="wake_gesture_summary">Wybudź urządzenie zamiast pulsowania powiadomień</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Kieszeń</string>
+    <string name="pocket_gesture_summary">Pulsuj powiadomienia przy wyjęciu z kieszeni</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">Pomoc</string>
+    <string name="doze_settings_help_text">Funkcje te wykorzystują zdarzenia czujników do uruchomienia pulsu powiadomień w trybie Doze. Wybrany czujnik jest włączony tylko wtedy, gdy urządzenie otrzyma powiadomienie, co pomaga zmniejszyć zużycie baterii. Istnieje również opcja włączenia wybranego czujnika, gdy tylko ekran się wyłączy, spowoduje to większe zużycie baterii.</string>
+
+</resources>
