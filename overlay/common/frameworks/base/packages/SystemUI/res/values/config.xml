@@ -42,4 +42,7 @@
     <!-- Show camera affordance on Keyguard -->
     <bool name="config_keyguardShowCameraAffordance">true</bool>
 
+    <!-- Show RSRP Signal level for LTE -->
+    <bool name="config_showRsrpSignalLevelforLTE">true</bool>
+
 </resources>
