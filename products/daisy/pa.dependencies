@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_daisy",
+        "target_path":  "device/xiaomi/daisy",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_msm8953-common",
+        "target_path":  "device/xiaomi/msm8953-common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_xiaomi_msm8953",
+        "target_path":  "kernel/xiaomi/msm8953",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-89xx"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_apps_Bluetooth",
+        "target_path":  "packages/apps/Bluetooth",
+        "revision":     "quartz-dev"
+    }
+]
