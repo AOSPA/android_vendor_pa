@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8017a176_fd5e8f47",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T14:19:40Z",
+      "side": 1,
+      "message": "\"Halten\" muss groß geschrieben werden, weil sich das \"das\" darauf bezieht.",
+      "revId": "4d2c0ef0121e9586f2ff44d2974679a3b219c431",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
