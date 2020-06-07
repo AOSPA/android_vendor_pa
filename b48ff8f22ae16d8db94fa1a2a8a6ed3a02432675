@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2a349d40_7e3969f4",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T11:03:14Z",
+      "side": 1,
+      "message": "Zeichne ein",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1054cdea_4073834a",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T11:03:14Z",
+      "side": 1,
+      "message": "Zeichne ein",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "64c11aaf_638cf4ad",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T11:03:14Z",
+      "side": 1,
+      "message": "I´m not sure but I think it sounds better with articles. What you think?",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1bac38b1_613b790a",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T11:03:14Z",
+      "side": 1,
+      "message": "I still don\u0027t like Tausche",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
