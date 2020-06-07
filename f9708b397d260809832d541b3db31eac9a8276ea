@@ -1,0 +1,378 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f31df8b_b720aff8",
+        "filename": "overlay/common/frameworks/base/core/res/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "I think the \"entsperren\" should be \"Entsperren\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4beee3dc_f2ce611f",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Why is it written in capital letters?",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bb422ec9_a0a35517",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6f45ed3c_806ff1ef",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Remove the space after \"öffnet\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2ee9822e_69d6d2b7",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "remove the space after \"zuzugreifen\" and I think you need a comma after \"halten\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f15b0cd4_4394f9e0",
+        "filename": "overlay/common/packages/apps/ParanoidDoze/res/values-de/strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "?",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b89a0cd_ca4ebf86",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Why capital letters?",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "535e86ae_bfa3ab96",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b20b817a_b18df384",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "It\u0027s a 1:1 translation but I don\u0027t think it really fits here.",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cecdc45a_75649455",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "\"Zeichne ein Muster\" otherwise it sounds weird",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c03a3d1c_4c1491a9",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "?",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "811e7f87_2d0c51eb",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "It´s either \"doppelt Tippen\" or \"Doppeltippen\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "15b372a7_d935c3f6",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "I would add an \"ein\". The same for the next 6 lines",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "16474eea_a52339b7",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "missing translation for the type of gesture you have to draw",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "13369200_f549729f",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b580979f_dc718df3",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Starte",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "094ce1d9_bf6a61bc",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Nächster, or probability even better \"Nächster Titel\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "71acfa91_6f38bb4d",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Vorheriger, or probability even better \"Vorheriger Titel\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36717d8d_e839f047",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "add an article \"Öffne die Kamera\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6abdc2f8_a614704f",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a190f5dd_ab116770",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "\"Verändere\" sounds better to me then \"Tausche\"",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf2627c1_3246b1c4",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 115,
+      "author": {
+        "id": 1000130
+      },
+      "writtenOn": "2020-06-07T09:57:40Z",
+      "side": 1,
+      "message": "\"Blockieren des Bildschirm und der Tasten, wenn das Gerät in der Tasche ist\" or \n\"Blockiert Bildschirm und Tasten, wenn das Gerät in der Tasche ist\"\n\nThe current translation sounds weird",
+      "revId": "f9708b397d260809832d541b3db31eac9a8276ea",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
