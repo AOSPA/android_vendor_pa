@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "1e68fd81_c71d4b1f",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000527
+      },
+      "writtenOn": "2020-06-07T11:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a349d40_7e3969f4",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1054cdea_4073834a",
         "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
         "patchSetId": 8
@@ -33,6 +51,24 @@
       "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bb70bb04_8b63fedd",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000527
+      },
+      "writtenOn": "2020-06-07T11:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1054cdea_4073834a",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "b6910889_83cbaa96",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000527
+      },
+      "writtenOn": "2020-06-07T11:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "64c11aaf_638cf4ad",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1bac38b1_613b790a",
         "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
         "patchSetId": 8
@@ -67,6 +121,24 @@
       "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dff7dc5b_6c0d17a2",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 8
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1000527
+      },
+      "writtenOn": "2020-06-07T11:30:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1bac38b1_613b790a",
+      "revId": "b48ff8f22ae16d8db94fa1a2a8a6ed3a02432675",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
