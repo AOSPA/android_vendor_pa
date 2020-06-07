@@ -16,6 +16,24 @@
       "revId": "4d2c0ef0121e9586f2ff44d2974679a3b219c431",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ad174d3d_88a4385d",
+        "filename": "overlay/common/packages/apps/Settings/res/values-de/pa_strings.xml",
+        "patchSetId": 14
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1000527
+      },
+      "writtenOn": "2020-06-07T14:39:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8017a176_fd5e8f47",
+      "revId": "4d2c0ef0121e9586f2ff44d2974679a3b219c431",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
