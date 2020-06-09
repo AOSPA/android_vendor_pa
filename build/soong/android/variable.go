@@ -11,7 +11,10 @@ type Product_variables struct {
 	Should_wait_for_qsee struct {
 		Cflags []string
 	}
-	Target_init_vendor_lib struct {
+    Target_enforce_ab_ota_partition_list struct {
+        Cflags []string
+    }
+    Target_init_vendor_lib struct {
 		Whole_static_libs []string
 	}
 	Target_process_sdk_version_override struct {
@@ -38,4 +41,5 @@ type ProductVariables struct {
 	Target_shim_libs  *string `json:",omitempty"`
 	Target_surfaceflinger_fod_lib  *string `json:",omitempty"`
 	Target_uses_color_metadata  *bool `json:",omitempty"`
+    Target_enforce_ab_ota_partition_list    *bool `json:",omitempty"`
 }
