@@ -32,14 +32,14 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/oneplus7t/pa_oneplus7t.mk \
     $(LOCAL_DIR)/oneplus7tpro/pa_oneplus7tpro.mk \
     $(LOCAL_DIR)/polaris/pa_polaris.mk \
+    $(LOCAL_DIR)/raphael/pa_raphael.mk \
     $(LOCAL_DIR)/rolex/pa_rolex.mk \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
     $(LOCAL_DIR)/sakura/pa_sakura.mk \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
-    $(LOCAL_DIR)/X01BD/pa_X01BD.mk \
-    $(LOCAL_DIR)/raphael/pa_raphael.mk
+    $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
 # SONY OpenDevices
 # Loire 8956
