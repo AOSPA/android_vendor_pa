@@ -165,22 +165,6 @@ DISABLE_EAP_PROXY := true
 #skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
 
-# Charger mode images
-PRODUCT_PACKAGES += \
-    charger_res_images
-
-ifneq ($(TARGET_USES_AOSP_CHARGER),true)
-PRODUCT_PACKAGES += \
-    product_charger_res_images
-endif
-
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.manager@1.0 \
-    android.hidl.base@1.0.vendor \
-    android.hidl.manager@1.0.vendor
-
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
 
