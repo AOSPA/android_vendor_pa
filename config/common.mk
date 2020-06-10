@@ -179,13 +179,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # leave less information available via JDWP.
 PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 
-# Treble
-# Enable ALLOW_MISSING_DEPENDENCIES on Vendorless Builds
-ifeq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
-  ALLOW_MISSING_DEPENDENCIES := true
-endif
-
-
 # Wi-Fi
 
 # Disable EAP Proxy because it depends on proprietary headers
