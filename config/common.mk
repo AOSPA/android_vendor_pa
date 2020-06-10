@@ -34,8 +34,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     setupwizard.theme=glif_v3_light \
     ro.storage_manager.enabled=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
-    persist.sys.fflag.override.settings_network_and_internet_v2=true
+    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
 
 ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -160,22 +159,6 @@ DISABLE_EAP_PROXY := true
 
 #skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
-
-# Charger mode images
-PRODUCT_PACKAGES += \
-    charger_res_images
-
-ifneq ($(TARGET_USES_AOSP_CHARGER),true)
-PRODUCT_PACKAGES += \
-    product_charger_res_images
-endif
-
-# HIDL
-PRODUCT_PACKAGES += \
-    android.hidl.base@1.0 \
-    android.hidl.manager@1.0 \
-    android.hidl.base@1.0.vendor \
-    android.hidl.manager@1.0.vendor
 
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
