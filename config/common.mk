@@ -212,3 +212,6 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
     ChromePublic
 
 endif #TARGET_DISABLES_GAPPS
+
+# Customization
+include vendor/google-customization/config.mk
