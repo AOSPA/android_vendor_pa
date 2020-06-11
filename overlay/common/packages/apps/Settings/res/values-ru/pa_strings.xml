@@ -85,7 +85,7 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать панель навигации</string>
-    <string name="navbar_invert_info">Это поменяет кнопки \"Назад\" и \"Недавние\" на панели навигации</string>
+    <string name="navbar_invert_info">Это поменяет кнопки «Назад» и «Недавние» на панели навигации</string>
 
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Вибрация при вызове</string>
