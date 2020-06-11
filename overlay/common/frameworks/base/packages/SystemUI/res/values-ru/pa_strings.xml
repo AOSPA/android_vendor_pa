@@ -61,6 +61,25 @@
     <string name="screenrecord_start">Начать</string>
     <string name="screenrecord_start_label">Начать запись?</string>
     <string name="screenrecord_taps_label">Показывать нажатия</string>
-    <string name="status_bar_screen_record" translatable="false">screen_record</string>
+
+    <!-- Screen pinning dialog description. (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Оно будет в поле зрения, до тех пор, пока  вы не открепите его. Чтобы открепить, нажмите и удерживайте кнопку «Назад».</string>
+
+    <!-- Notify use that they are in Lock-to-app (for devices without navbar)-->
+    <string name="screen_pinning_toast_no_navbar">Чтобы открепить экран, нажмите и удерживайте кнопку «Назад»</string>
+
+    <!-- Screen pinning dialog description. (for devices without navbar and with gestures on fingerprint sensor) -->
+    <string name="screen_pinning_description_no_navbar_fpsensor">Оно будет в поле зрения, до тех пор, пока  вы не открепите его. Чтобы открепить, нажмите и удерживайте датчик отпечатков пальцев.</string>
+
+    <!-- Notify use that they are in Lock-to-app (for devices without navbar and with gestures on fingerprint sensor)-->
+    <string name="screen_pinning_toast_no_navbar_fpsensor">Чтобы открепить этот экран, нажмите и удерживайте датчик отпечатков пальцев</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Сменить SIM для Моб. Интернета</string>
+    <string name="qs_data_switch_toast_0">Нет SIM-карты</string>
+    <string name="qs_data_switch_toast_1">Только одна SIM-карта!</string>
+    <string name="qs_data_switch_changed_1">Используется SIM 1 для Моб. Интернета</string>
+    <string name="qs_data_switch_changed_2">Используется SIM 2 для Моб. Интернета</string>
+
 </resources>
 
