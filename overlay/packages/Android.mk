@@ -16,6 +16,8 @@ LOCAL_PATH:= vendor/pa/overlay/packages
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := pa-overlays
+
+# Accents
 LOCAL_REQUIRED_MODULES := \
     AccentColorDodgerBlueOverlay \
     AccentColorHadalZoneOverlay \
@@ -28,9 +30,16 @@ LOCAL_REQUIRED_MODULES := \
     AccentColorSlateOverlay \
     AccentColorSuperNovaOverlay \
     AccentColorTealOverlay \
-    AccentColorTorchRedOverlay \
+    AccentColorTorchRedOverlay
+
+# Fonts
+LOCAL_REQUIRED_MODULES += \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay
+
+# Icon Shapes
+LOCAL_REQUIRED_MODULES += \
+    IconShapePebbleOverlay
 
 include $(BUILD_PHONY_PACKAGE)
 include $(call first-makefiles-under,$(LOCAL_PATH))
