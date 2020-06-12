@@ -41,6 +41,7 @@ LOCAL_REQUIRED_MODULES := \
     AOSPAThemePickerOverlay \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
+    IconShapePebbleOverlay \
     ParanoidDozeOverlay \
     ParanoidHubOverlay \
     ParanoidLauncherOverlay
