@@ -19,9 +19,11 @@ LOCAL_MODULE := pa-overlays
 
 # Accents
 LOCAL_REQUIRED_MODULES := \
+    AccentColorLeprechaunGreenOverlay \
     AccentColorDodgerBlueOverlay \
     AccentColorHadalZoneOverlay \
     AccentColorLostInForestOverlay \
+    AccentColorMysticRedOverlay \
     AccentColorPixelBlueOverlay \
     AccentColorPurpleHeatOverlay \
     AccentColorRedOverlay \
