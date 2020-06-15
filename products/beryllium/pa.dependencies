@@ -60,6 +60,12 @@
         "revision":     "quartz"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
+        "target_path":  "vendor/qcom/opensource/commonsys/fm",
+        "revision":     "quartz"
+    },
+    {
         "remote":       "caf",
         "repository":   "platform/vendor/nxp/opensource/hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
