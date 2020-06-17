@@ -1,3 +1,6 @@
+# Filesystem
+TARGET_FS_CONFIG_GEN += vendor/pa/config/pa-config.fs
+
 # Kernel
 include vendor/pa/config/BoardConfigKernel.mk
 

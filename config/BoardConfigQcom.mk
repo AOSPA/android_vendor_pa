@@ -24,6 +24,9 @@ ifneq (,$(filter display, $(BOARD_COMMON_QTI_COMPONENTS)))
   include hardware/qcom/display/config/display-board.mk
 endif
 
+# Filesystem
+TARGET_FS_CONFIG_GEN += vendor/pa/config/qcom-config.fs
+
 # Kernel
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
