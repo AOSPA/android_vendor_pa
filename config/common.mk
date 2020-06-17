@@ -46,6 +46,9 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 endif
 
+# Filesystem
+TARGET_FS_CONFIG_GEN += vendor/pa/config/config.fs
+
 # Fingerprint On Display
 ifeq ($(TARGET_USES_FOD),true)
 DEVICE_FRAMEWORK_MANIFEST_FILE += vendor/pa/config/fod_framework_manifest.xml
