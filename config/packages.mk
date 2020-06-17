@@ -68,7 +68,7 @@ endif
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
-    ChromePublic \
+    ChromeModernPublic \
     MarkupGoogle \
     MatchmakerPrebuilt
 endif

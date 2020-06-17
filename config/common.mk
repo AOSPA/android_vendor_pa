@@ -70,7 +70,7 @@ else
 # Use default filter for problematic AOSP apps
 PRODUCT_DEXPREOPT_QUICKEN_APPS += \
     Dialer \
-    ChromePublic
+    ChromeModernPublic
 
 endif #TARGET_DISABLES_GAPPS
 
