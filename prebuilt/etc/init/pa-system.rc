@@ -18,6 +18,9 @@ on boot
     # Persistent properties (only created if persist exists)
     mkdir /persist/properties 0770 system system
 
+    # Restore contexts on vendor_overlay to make sure all contexts are correct
+    restorecon_recursive /product/vendor_overlay
+
 # bugreport is triggered by holding down volume down, volume up and power
 service bugreport /system/bin/dumpstate -d -p -B -z \
         -o /data/user_de/0/com.android.shell/files/bugreports/bugreport
