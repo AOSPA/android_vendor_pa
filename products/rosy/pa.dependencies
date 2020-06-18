@@ -25,12 +25,6 @@
     },
     {
         "remote":       "aospa",
-        "repository":   "AOSPA/android_packages_apps_Bluetooth",
-        "target_path":  "packages/apps/Bluetooth",
-        "revision":     "quartz-dev"
-    },
-    {
-        "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_gps",
         "target_path":  "hardware/qcom/gps",
         "revision":     "quartz-89xx"
