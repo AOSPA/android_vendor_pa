@@ -58,13 +58,11 @@ ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
     ParanoidHub
 endif
 
-ifeq ($(TARGET_SUPPORTS_64_BIT_APPS), true)
 TARGET_ENABLE_FACE_SENSE := true
 PRODUCT_PACKAGES += \
     ParanoidFaceSense
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
-endif
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
