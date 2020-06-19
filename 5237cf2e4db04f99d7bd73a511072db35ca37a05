@@ -1,0 +1,157 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dadb9d6e_216e8c11",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "missing vendor/xiaomi and device/xiaomi/wayne.\n\nmiuicamera we will have a repo for that soon, so let\u0027s add the changes to that.\n\nAny of these missing remote probably will fail to sync.",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c246ec7_55cd57a4",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "Copyright should be 2020 Paranoid Android",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "868b925e_64f7b759",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "shouldn\u0027t need this",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1dec784b_322fa71c",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "or this",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2f2243b_52078a72",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "or this",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "349f9724_d219579d",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "or this",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e98b60c7_30a2d66d",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "or this",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f145ebc9_71dd4e9d",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "not sure about this",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb008b6c_082aa4ba",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T15:30:47Z",
+      "side": 1,
+      "message": "is this needed?",
+      "revId": "5237cf2e4db04f99d7bd73a511072db35ca37a05",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
