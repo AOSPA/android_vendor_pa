@@ -1,0 +1,19 @@
+[
+  {
+    "repository":  "evo-devices/android_device_xiaomi_sdm660-common",
+    "target_path": "device/xiaomi/sdm660-common",
+    "branch":      "lineage-17.0"
+  },
+  {
+    "repository":  "evo-devices/android_kernel_xiaomi_sdm660",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch":      "kernel.lnx.4.4.r38-rel-wifi"
+  },
+  {
+    "remote":      "gh",
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_Miuicamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "branch":      "lineage-17.0"
+  }
+]
+
