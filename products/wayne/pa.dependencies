@@ -15,5 +15,19 @@
     "target_path": "vendor/xiaomi/MiuiCamera",
     "branch":      "lineage-17.0"
   }
+  {
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_wayne",
+    "target_path": "vendor/xiaomi/wayne",
+    "branch":      "master"
+  }
+  {
+    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common"
+    "target_path": "vendor/xiaomi/sdm660-common"
+    "branch":      "master"
+  }
+  {
+    "repository":  "adiatul16/android_device_xiaomi_wayne"
+    "target_path": "device/xiaomi/wayne"
+    "branch":      "quartz"
+  }
 ]
-

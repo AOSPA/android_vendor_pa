@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2020 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,14 +20,6 @@
 # included in a build is to use PRODUCT_PACKAGES in a product
 # definition file).
 #
-#TWRP
-BUILD_TWRP := false
-
-#AOSP SU
-WITH_SU := false
-
-#Build type
-CUSTOM_BUILD_TYPE=UNOFFICIAL
 
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/wayne/device.mk)
@@ -38,11 +30,6 @@ $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 # Define first api level
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-#GAPPS
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-TARGET_INCLUDE_WIFI_EXT := true
-TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Build Fingerprint
