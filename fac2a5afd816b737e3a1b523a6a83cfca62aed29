@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "e84637e4_16825946",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 7
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T20:29:24Z",
+      "side": 1,
+      "message": "This one should not have the comma.",
+      "revId": "fac2a5afd816b737e3a1b523a6a83cfca62aed29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "279f6c45_c82b3ed5",
         "filename": "products/wayne/pa.dependencies",
         "patchSetId": 7
