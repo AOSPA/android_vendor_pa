@@ -50,6 +50,57 @@
       "revId": "fac2a5afd816b737e3a1b523a6a83cfca62aed29",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5c32d357_4b33d95c",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-06-19T23:38:58Z",
+      "side": 1,
+      "message": "Add\n# Check for target product\nifeq (pa_wayne,$(TARGET_PRODUCT))",
+      "revId": "fac2a5afd816b737e3a1b523a6a83cfca62aed29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e27c1504_ddb5c8e8",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-06-19T23:38:58Z",
+      "side": 1,
+      "message": "add\n# Inherit from those products. Most specific first.\n$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)\n$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk",
+      "revId": "fac2a5afd816b737e3a1b523a6a83cfca62aed29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5030c111_1c953547",
+        "filename": "products/wayne/pa_wayne.mk",
+        "patchSetId": 7
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-06-19T23:38:58Z",
+      "side": 1,
+      "message": "Add\nendif",
+      "revId": "fac2a5afd816b737e3a1b523a6a83cfca62aed29",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
