@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6851d07a_35d2dcb1",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T18:40:48Z",
+      "side": 1,
+      "message": "remove xiaomi from the repo name and target path.",
+      "revId": "3ddbdab064fa9b5cec468667934d5105e44c103d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b312be0b_efc0867b",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-19T18:40:48Z",
+      "side": 1,
+      "message": "all of these until the last one need a comma.",
+      "revId": "3ddbdab064fa9b5cec468667934d5105e44c103d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
