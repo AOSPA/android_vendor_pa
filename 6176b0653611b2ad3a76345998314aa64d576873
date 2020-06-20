@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b52a26ac_16c64327",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 17
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000237
+      },
+      "writtenOn": "2020-06-20T19:21:33Z",
+      "side": 1,
+      "message": "You have two vendor repos going to the same directory.\nUse one from our org.",
+      "revId": "6176b0653611b2ad3a76345998314aa64d576873",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
