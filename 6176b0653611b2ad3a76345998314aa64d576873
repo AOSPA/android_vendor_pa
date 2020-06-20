@@ -16,6 +16,23 @@
       "revId": "6176b0653611b2ad3a76345998314aa64d576873",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f325f3e3_943b9e4d",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 17
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000237
+      },
+      "writtenOn": "2020-06-20T19:32:10Z",
+      "side": 1,
+      "message": "You clearly have it here. This also goes into vendor/xiaomi",
+      "revId": "6176b0653611b2ad3a76345998314aa64d576873",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
