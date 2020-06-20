@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "01194648_e7802612",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 15
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-06-20T18:28:09Z",
+      "side": 1,
+      "message": "unnecessary line break",
+      "revId": "112d160f5177215ace233de5700cc5d38e177652",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
