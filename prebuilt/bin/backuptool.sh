@@ -6,7 +6,7 @@
 export C=/tmp/backupdir
 export SYSDEV="$(readlink -nf "$2")"
 export SYSFS="$3"
-export Flavour=Quartz
+export Version=10
 
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
 cp -f /tmp/install/bin/backuptool.functions /tmp
@@ -36,8 +36,8 @@ if [ ! -r $S/build.prop ]; then
   echo "Backup/restore is not possible. Partition is probably empty"
   return 1
 fi
-if ! grep -q "^ro.pa.version.flavor=$Flavour.*" $S/etc/prop.default; then
-  echo "Backup/restore is not possible. Incompatible ROM version: $Flavour"
+if ! grep -q "^ro.build.version.release=$Version.*" $S/build.prop; then
+  echo "Backup/restore is not possible. Incompatible Android version"
   return 2
 fi
 return 0
