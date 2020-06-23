@@ -35,13 +35,13 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -p, --pwfile          Specify path to sign key password file${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -b, --backup-unsigned Store a copy of unsignied package along with signed${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -d, --delta           Generate a delta ota from the specified target_files zip${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}  -im, --image_zip      Generate fastboot flashable image zip from signed target_files${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -I, --image_zip      Generate fastboot flashable image zip from signed target_files${CLR_RST}"
         exit 1
 }
 
 # Setup getopt.
 long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,image-zip"
-getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:b --long "$long_opts" \
+getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:bd:I --long "$long_opts" \
             -n $(basename $0) -- "$@") || \
             { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; exit 1;}
 
@@ -61,7 +61,7 @@ while true; do
         -p|--pwfile|p|pwfile) PWFILE="$2"; shift;;
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
         -d|--delta|d|delta) DELTA_TARGET_FILES="$2"; shift;;
-	-im|--image-zip|img|image-zip) FLAG_IMG_ZIP=y;;
+        -I|--image-zip|img|image-zip) FLAG_IMG_ZIP=y;;
         --) shift; break;;
     esac
     shift
@@ -144,20 +144,6 @@ fi
 PA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_FLAVOR := *' | sed 's/.*= //') \
 $(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_CODE := *' | sed 's/.*= //')"
 
-# Prep for a clean build, if requested so
-if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
-        echo -e "${CLR_BLD_BLU}Cleaning output files left from old builds${CLR_RST}"
-        echo -e ""
-        ${MAKE} clobber"$CMD"
-fi
-
-# Prep for a installclean build, if requested so
-if [ "$FLAG_INSTALLCLEAN_BUILD" = 'y' ]; then
-        echo -e "${CLR_BLD_BLU}Cleaning compiled image files left from old builds${CLR_RST}"
-        echo -e ""
-        ${MAKE} installclean"$CMD"
-fi
-
 # Sync up, if asked to
 if [ "$FLAG_SYNC" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Downloading the latest source files${CLR_RST}"
@@ -176,9 +162,24 @@ echo -e ""
 # Lunch-time!
 echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependencies sync)${CLR_RST}"
 echo -e ""
+
 PA_VERSION=$(lunch "pa_$DEVICE-$BUILD_TYPE" | grep 'PA_VERSION=*' | sed 's/.*=//')
 lunch "pa_$DEVICE-$BUILD_TYPE"
 echo -e ""
+
+# Prep for a clean build, if requested so
+if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
+        echo -e "${CLR_BLD_BLU}Cleaning output files left from old builds${CLR_RST}"
+        echo -e ""
+        ${MAKE} clean"$CMD"
+fi
+
+# Prep for a installclean build, if requested so
+if [ "$FLAG_INSTALLCLEAN_BUILD" = 'y' ]; then
+        echo -e "${CLR_BLD_BLU}Cleaning compiled image files left from old builds${CLR_RST}"
+        echo -e ""
+        ${MAKE} installclean"$CMD"
+fi
 
 # Build away!
 RETVAL=0
@@ -199,38 +200,57 @@ elif [ "${KEY_MAPPINGS}" ]; then
         ${MAKE} bacon"$CMD"
         mv $OUT/pa-${PA_VERSION}.zip $DIR_ROOT/pa-${PA_VERSION}-unsigned.zip
     else
-        ${MAKE} dist"$CMD"
+        ${MAKE} target-files-package otatools"$CMD"
     fi
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
     ./build/tools/releasetools/sign_target_files_apks -o -d $KEY_MAPPINGS \
-        out/dist/pa_$DEVICE-target_files-*.zip \
+        $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
         pa-$PA_VERSION-signed-target_files.zip
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
     ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
         --block --backup=true ${INCREMENTAL} \
         pa-$PA_VERSION-signed-target_files.zip \
         pa-$PA_VERSION.zip
-    if [ "$DELTA_TARGET_FILES" ]; then
-        # die if base target doesn't exist
-        if [ ! -f "$DELTA_TARGET_FILES" ]; then
-                echo -e "${CLR_BLD_RED}Delta error: base target files don't exist ($DELTA_TARGET_FILES)${CLR_RST}"
-                exit 1
-        fi
-        ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-            --block --backup=true --incremental_from $DELTA_TARGET_FILES \
-            pa-$PA_VERSION-signed-target_files.zip \
-            pa-$PA_VERSION-delta.zip
-    fi
-    if [ "$FLAG_IMG_ZIP" = 'y' ]; then
-        ./build/tools/releasetools/img_from_target_files \
-            pa-$PA_VERSION-signed-target_files.zip \
-            pa-$PA_VERSION-signed-image.zip
-    fi
 # Build rom package
 else
     ${MAKE} bacon"$CMD"
     ln -sf $OUT/pa-${PA_VERSION}.zip $DIR_ROOT
+
 fi
+
+# Generate delta zip
+if [ "$DELTA_TARGET_FILES" ]; then
+    # die if base target doesn't exist
+    if [ ! -f "$DELTA_TARGET_FILES" ]; then
+            echo -e "${CLR_BLD_RED}Delta error: base target files don't exist ($DELTA_TARGET_FILES)${CLR_RST}"
+            exit 1
+    fi
+    if [ "${KEY_MAPPINGS}" ]; then
+        ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
+            --block --backup=true --incremental_from $DELTA_TARGET_FILES \
+            pa-$PA_VERSION-signed-target_files.zip \
+            pa-$PA_VERSION-delta.zip
+    else
+        ./build/tools/releasetools/ota_from_target_files \
+            --block --backup=true --incremental_from $DELTA_TARGET_FILES \
+            $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
+            pa-$PA_VERSION-delta.zip
+    fi
+fi
+
+# Generate image zip
+if [ "$FLAG_IMG_ZIP" = 'y' ]; then
+    if [ "${KEY_MAPPINGS}" ]; then
+        ./build/tools/releasetools/img_from_target_files \
+            pa-$PA_VERSION-signed-target_files.zip \
+            pa-$PA_VERSION-signed-image.zip
+    else
+        ./build/tools/releasetools/img_from_target_files \
+            $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
+            pa-$PA_VERSION-signed-image.zip
+    fi
+fi
+
 RETVAL=$?
 echo -e ""
 
