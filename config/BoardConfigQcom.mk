@@ -19,6 +19,11 @@ BOARD_USES_ADRENO := true
 TARGET_USES_AOSP_FOR_AUDIO ?= false
 TARGET_USES_QCOM_MM_AUDIO := true
 
+# Display
+ifneq (,$(filter display, $(BOARD_COMMON_QTI_COMPONENTS)))
+  include hardware/qcom/display/config/display-board.mk
+endif
+
 # Kernel
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
