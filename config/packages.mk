@@ -43,6 +43,10 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0.vendor \
     android.hidl.manager@1.0.vendor
 
+# Neural Network
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full-rtti
+
 # Paranoid Packages
 ifneq ($(TARGET_USES_AOSP_CAMERA),true)
 PRODUCT_PACKAGES += ParanoidCamera
