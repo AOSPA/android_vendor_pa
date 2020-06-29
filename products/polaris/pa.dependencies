@@ -57,7 +57,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
         "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
-        "revision":     "quartz"
+        "revision":     "quartz-845"
     },
     {
         "remote":       "caf",
