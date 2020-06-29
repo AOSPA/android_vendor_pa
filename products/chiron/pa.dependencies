@@ -52,5 +52,12 @@
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "quartz-8998"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
+        "revision":     "quartz"
+
     }
 ]
