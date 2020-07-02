@@ -42,6 +42,10 @@ LOCAL_REQUIRED_MODULES := \
     FontGoogleSansOverlay \
     FontSlateForOnePlusOverlay \
     IconShapePebbleOverlay \
+    NavigationBarModeGesturalOverlayNoPill \
+    NavigationBarModeGesturalOverlayNoPillNarrowBack \
+    NavigationBarModeGesturalOverlayNoPillWideBack \
+    NavigationBarModeGesturalOverlayNoPillExtraWideBack \
     ParanoidDozeOverlay \
     ParanoidHubOverlay \
     ParanoidLauncherOverlay
