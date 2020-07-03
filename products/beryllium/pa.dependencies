@@ -71,4 +71,10 @@
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "refs/tags/LA.UM.8.3.r1-07600-sdm845.0"
     }
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
+        "revision":     "quartz"
+    }
 ]

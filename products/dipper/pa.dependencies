@@ -70,5 +70,11 @@
         "repository":   "platform/vendor/nxp/opensource/hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
         "revision":     "nfc.vendor.lnx.1.1.r2-rel"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
+        "revision":     "quartz"
     }
 ]
