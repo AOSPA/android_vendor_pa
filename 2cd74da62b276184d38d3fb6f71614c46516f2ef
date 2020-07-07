@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3c58a7c6_bc5a266b",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 20
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2020-07-07T14:53:18Z",
+      "side": 1,
+      "message": "This needs to be AOSPA",
+      "revId": "2cd74da62b276184d38d3fb6f71614c46516f2ef",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f8670d14_5f315c1c",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 20
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2020-07-07T14:53:18Z",
+      "side": 1,
+      "message": "You need to add something like https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/12771 here",
+      "revId": "2cd74da62b276184d38d3fb6f71614c46516f2ef",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
