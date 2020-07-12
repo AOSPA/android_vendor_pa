@@ -13,8 +13,7 @@
 # limitations under the License.
 
 # Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
+PRODUCT_PACKAGES += Abstruct
 
 # AOSP Packages
 PRODUCT_PACKAGES += \
@@ -75,8 +74,7 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 # Retro Music Player
-PRODUCT_PACKAGES += \
-    RetroMusicPlayer
+PRODUCT_PACKAGES += RetroMusicPlayer
 
 # Shell
 PRODUCT_PACKAGES += \
