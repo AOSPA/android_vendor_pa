@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b344bc5_7c064387",
+        "filename": "products/equuleus/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-07-12T15:14:45Z",
+      "side": 1,
+      "message": "This should be quartz-845 branch",
+      "revId": "460ef65a802b6a766c34129c26da3725d07c4dfa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
