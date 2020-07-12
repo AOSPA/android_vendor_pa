@@ -75,10 +75,10 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
 endif #TARGET_DISABLES_GAPPS
 
 # Gestures
-ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-endif
+#ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
+#endif
 
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pa/overlay/common
@@ -197,3 +197,6 @@ DISABLE_EAP_PROXY := true
 
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
+
+# Lawnchair
+$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)

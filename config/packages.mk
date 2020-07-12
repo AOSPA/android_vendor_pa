@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Abstruct
-PRODUCT_PACKAGES += Abstruct
+#PRODUCT_PACKAGES += Abstruct
 
 # AOSP Packages
 PRODUCT_PACKAGES += \
@@ -54,19 +54,19 @@ endif
 
 PRODUCT_PACKAGES += \
     Longshot \
-    ParanoidPapers \
-    ParanoidQuickStep \
+    ParanoidPapers
+    #ParanoidQuickStep \
 
-ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
-    PRODUCT_PACKAGES += \
-    ParanoidHub
-endif
+#ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
+#    PRODUCT_PACKAGES += \
+#    ParanoidHub
+#endif
 
-TARGET_ENABLE_FACE_SENSE := true
-PRODUCT_PACKAGES += \
-    ParanoidFaceSense
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
+#TARGET_ENABLE_FACE_SENSE := true
+#PRODUCT_PACKAGES += \
+#    ParanoidFaceSense
+#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+#    ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
 
 ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
@@ -87,7 +87,7 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 # Retro Music Player
-PRODUCT_PACKAGES += RetroMusicPlayer
+#PRODUCT_PACKAGES += RetroMusicPlayer
 
 # Snapdragon Apps
 PRODUCT_PACKAGES += \
