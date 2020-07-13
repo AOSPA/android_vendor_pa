@@ -16,6 +16,24 @@
       "revId": "460ef65a802b6a766c34129c26da3725d07c4dfa",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "22e0ff1c_6a86de49",
+        "filename": "products/equuleus/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000455
+      },
+      "writtenOn": "2020-07-13T00:46:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0b344bc5_7c064387",
+      "revId": "460ef65a802b6a766c34129c26da3725d07c4dfa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
