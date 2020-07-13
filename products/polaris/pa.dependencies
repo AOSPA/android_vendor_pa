@@ -63,12 +63,12 @@
         "remote":       "caf",
         "repository":   "platform/vendor/nxp/opensource/halimpl",
         "target_path":  "vendor/nxp/opensource/halimpl",
-        "revision":     "refs/tags/LA.UM.8.3.r1-07600-sdm845.0"
+        "revision":     "refs/tags/LA.UM.8.3.r1-08100-sdm845.0"
     },
     {
         "remote":       "caf",
         "repository":   "platform/vendor/nxp/opensource/hidlimpl",
         "target_path":  "vendor/nxp/opensource/hidlimpl",
-        "revision":     "refs/tags/LA.UM.8.3.r1-07600-sdm845.0"
+        "revision":     "refs/tags/LA.UM.8.3.r1-08100-sdm845.0"
     }
 ]
