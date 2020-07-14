@@ -123,9 +123,17 @@
 
     <!-- Home handle sizing -->
     <string name="back_options_dialog_title">Opções</string>
-    <string name="home_handle_sizer_title">Tamanho da barra de gestos</string>
+    <string name="home_handle_sizer_title">Tamanho da barra de gestos.</string>
     <string name="home_handle_low_label">Pequeno</string>
     <string name="home_handle_high_label">Largo</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Inteira</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_height_message">Altura da região sensível ao gesto voltar.</string>
+
+    <!-- NavigationBar Gestural Mode (Hide Pill) -->
+    <string name="gesture_pill_message">Ocultar a barra de gestos.</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuração com root</string>
@@ -190,4 +198,39 @@
     <string name="backlight_summary_disabled">Desativado</string>
     <string name="backlight_summary_enabled_with_timeout">Ativar por <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Ativado</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Gerenciar ícones</string>
+    <string name="icon_manager_summary">Controle a visibilide dos ícones na barra de status</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Som de captura de tela</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular volume do toque &amp; notificações</string>
+
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Deslize para cima para desbloquear</string>
+    <string name="security_settings_face_require_swipe_summary">Deslize para cima na tela de bloqueio para usar o desbloqueio facial</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Lanterna rápida</string>
+    <string name="power_button_torch_summary">Quando a tela estiver desligada, manter pressionado o botão de energia irá ativar a lanterna</string>
+
+    <!-- App lock -->
+    <string name="applock_title">Bloqueio de aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
+    <string name="applock_show_only_on_wake_on_summary">Uma vez autenticado, o aplicativo permanece desbloqueado até que a tela seja desligada</string>
+    <string name="applock_show_only_on_wake_off_summary">Uma vez autenticado, o aplicativo permanece desbloqueado por 15 segundos após sair</string>
+    <string name="applock_lock_notifications">Ocultar o conteúdo da notificação enquanto o aplicativo estiver bloqueado</string>
+    <string name="applock_setup">Configurar bloqueio de aplicativos</string>
+    <string name="applock_overlay_summary">Este recurso não está disponível porque este aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
 </resources>
