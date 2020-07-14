@@ -16,7 +16,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+
     <!-- Label for feature switch [CHAR LIMIT=30] -->
     <string name="switch_bar_on">Включено</string>
 
@@ -62,4 +63,5 @@
     <!-- Help texts -->
     <string name="doze_settings_help_title">Помощь</string>
     <string name="doze_settings_help_text">Эти функции используют показания датчиков устройства, для показа пульсирующих уведомлений. Выбранный датчик активируется только при получении нового уведомления, что позволяет уменьшить потребление заряда аккумулятора. Так же, есть возможность включить выбранный датчик при блокировки экрана, это увеличит потребление энергии.</string>
+
 </resources>
