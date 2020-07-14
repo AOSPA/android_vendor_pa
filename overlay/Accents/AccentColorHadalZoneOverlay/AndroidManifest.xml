@@ -14,14 +14,13 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.theme.color.hadalzone"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="co.aospa.theme.color.hadalzone">
+
     <overlay
-        android:targetPackage="android"
         android:category="android.theme.customization.accent_color"
-        android:priority="600" />
+        android:priority="600"
+        android:targetPackage="android" />
+
     <application
-        android:label="@string/accent_color_hadal_zone_overlay"
-        android:hasCode="false" />
+        android:label="@string/accent_color_hadal_zone_overlay" />
 </manifest>

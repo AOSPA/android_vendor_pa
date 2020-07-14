@@ -16,7 +16,6 @@ android_app {
     name: "AOSPAOverlayStub",
     sdk_version: "current",
     certificate: "platform",
-    privileged: false,
     dex_preopt: {
         enabled: false,
     },
