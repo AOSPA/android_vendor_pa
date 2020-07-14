@@ -14,16 +14,13 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.theme.color.teal"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="co.aospa.theme.color.teal">
 
     <overlay
-    android:targetPackage="android"
-    android:category="android.theme.customization.accent_color"
-    android:priority="600" />
+        android:category="android.theme.customization.accent_color"
+        android:priority="600"
+        android:targetPackage="android" />
 
     <application
-    android:label="@string/accent_color_teal_overlay"
-    android:hasCode="false" />
+        android:label="@string/accent_color_teal_overlay" />
 </manifest>

@@ -72,10 +72,6 @@ PRODUCT_PACKAGES += \
     SnapdragonGallery
 endif
 
-# Overlays
-PRODUCT_PACKAGES += \
-    AOSPAOverlays
-
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \

@@ -14,11 +14,5 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.overlaystub"
-    android:versionCode="1"
-    android:versionName="1.0">
-
-    <application
-    android:label="Overlays"
-    android:hasCode="false" />
+    package="co.aospa.overlaystub">
 </manifest>
