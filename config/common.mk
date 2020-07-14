@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
 
+# Bluetooth
+# Disable AAC whitelist
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.vendor.bt.a2dp.aac_whitelist=false
+
 # Boot Animation
 ifneq ($(TARGET_BOOT_ANIMATION_RES),)
 PRODUCT_COPY_FILES += \
