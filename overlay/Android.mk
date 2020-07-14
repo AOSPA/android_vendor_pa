@@ -12,44 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/pa/overlay
-
-include $(CLEAR_VARS)
-
-LOCAL_MODULE := AOSPAOverlays
-LOCAL_REQUIRED_MODULES := \
-    AccentColorDodgerBlueOverlay \
-    AccentColorHadalZoneOverlay \
-    AccentColorLostInForestOverlay \
-    AccentColorPixelBlueOverlay \
-    AccentColorPurpleHeatOverlay \
-    AccentColorRedOverlay \
-    AccentColorRoseOverlay \
-    AccentColorScooterOverlay \
-    AccentColorSlateOverlay \
-    AccentColorSuperNovaOverlay \
-    AccentColorTealOverlay \
-    AccentColorTorchRedOverlay \
-    AOSPABluetoothOverlay \
-    AOSPAContactsProviderOverlay \
-    AOSPAFrameworksOverlay \
-    AOSPAOverlayStub \
-    AOSPASettingsOverlay \
-    AOSPASettingsProviderOverlay \
-    AOSPASystemUIOverlay \
-    AOSPATelephonyOverlay \
-    AOSPAThemePickerOverlay \
-    FontGoogleSansOverlay \
-    FontSlateForOnePlusOverlay \
-    IconShapePebbleOverlay \
-    NavigationBarModeGesturalOverlayNoPill \
-    NavigationBarModeGesturalOverlayNoPillNarrowBack \
-    NavigationBarModeGesturalOverlayNoPillWideBack \
-    NavigationBarModeGesturalOverlayNoPillExtraWideBack \
-    ParanoidDozeOverlay \
-    ParanoidHubOverlay \
-    ParanoidLauncherOverlay
-
-include $(BUILD_PHONY_PACKAGE)
+LOCAL_PATH := $(call my-dir)
 
 include $(call first-makefiles-under,$(LOCAL_PATH))

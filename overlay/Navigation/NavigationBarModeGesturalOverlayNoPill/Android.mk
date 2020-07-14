@@ -1,5 +1,4 @@
-#
-#  Copyright 2018, The Android Open Source Project
+# Copyright 2020, The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,20 +11,13 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-LOCAL_PATH:= $(call my-dir)
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
-
-LOCAL_RRO_THEME := NavigationBarModeGesturalNoPillNarrowBack
-
+LOCAL_PACKAGE_NAME := NavigationBarModeGesturalOverlayNoPill
 LOCAL_PRODUCT_MODULE := true
-
-LOCAL_SRC_FILES := $(call all-subdir-java-files)
-
 LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res
-
-LOCAL_PACKAGE_NAME := NavigationBarModeGesturalOverlayNoPillNarrowBack
+LOCAL_RRO_THEME := NavigationBarModeGesturalNoPill
 LOCAL_SDK_VERSION := current
-
 include $(BUILD_RRO_PACKAGE)
