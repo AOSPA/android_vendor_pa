@@ -2,37 +2,37 @@
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_xiaomi_jasmine_sprout",
-        "target_path":  "device/xiaomi/jasmine_sprout"
+        "target_path":  "device/xiaomi/jasmine_sprout",
         "revision":     "quartz"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_xiaomi_sdm660-common",
-        "target_path":  "device/xiaomi/sdm660-common"
+        "target_path":  "device/xiaomi/sdm660-common",
         "revision":     "quartz"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_kernel_xiaomi_sdm660",
-        "target_path":  "kernel/xiaomi/sdm660"
+        "target_path":  "kernel/xiaomi/sdm660",
         "revision":     "quartz"
     },
     {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
-        "target_path":  "vendor/xiaomi"
+        "target_path":  "vendor/xiaomi",
         "revision":     "quartz"
     },
     {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
-        "target_path":  "device/qcom/common"
+        "target_path":  "device/qcom/common",
         "revision":     "quartz"
     },
     {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_qcom_common",
-        "target_path":  "vendor/qcom/common"
+        "target_path":  "vendor/qcom/common",
         "revision":     "quartz"
     },
     {
