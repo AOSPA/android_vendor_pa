@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright 2019 Paranoid Android
+    Copyright 2019-2020 Paranoid Android
+
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
@@ -13,7 +14,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <!-- Extended Restart -->
     <!-- Defined in res/res/values/strings.xml -
@@ -21,6 +22,7 @@
     <string name="global_action_quick_restart">Reinício rápido</string>
     <string name="global_action_recovery">Recuperação</string>
     <string name="global_action_bootloader">Bootloader</string>
+
     <!-- Shutdown Thread -->
     <string name="global_restart">Reiniciar</string>
     <string name="global_restart_message">Reiniciando\u2026</string><!-- Can be used in SysUIReboot -->
@@ -30,11 +32,12 @@
     <string name="global_restart_bootloader">Bootloader</string>
     <string name="global_restart_bootloader_message">Reiniciando em modo bootloader\u2026</string><!-- Can be used in SysUIReboot -->
 
-    <!-- Pocket Lock --> 
+    <!-- Pocket Lock -->
     <string name="pocket_lock_message_long_press">Pressione e segure o botão de energia para desbloquear</string>
 
     <!-- Popup camera dialog -->
     <string name="popup_camera_dialog_message">Deseja levantar a câmera frontal?</string>
     <string name="popup_camera_dialog_no">Não</string>
     <string name="popup_camera_dialog_raise">Sim</string>
+
 </resources>

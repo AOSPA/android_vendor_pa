@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2016-2019 Paranoid Android
+<!-- Copyright 2016-2020 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -150,4 +150,5 @@
     <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
     <string name="adaptive_playback_timeout_10_min">10 minut</string>
     <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+
 </resources>

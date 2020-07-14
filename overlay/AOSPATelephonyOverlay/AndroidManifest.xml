@@ -14,16 +14,10 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.phone.overlay"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="co.aospa.phone.overlay">
 
     <overlay
-    android:targetPackage="com.android.phone"
-    android:priority="600"
-    android:isStatic="true" />
-
-    <application
-    android:label="AOSPATelephonyOverlay"
-    android:hasCode="false" />
+        android:isStatic="true"
+        android:priority="600"
+        android:targetPackage="com.android.phone" />
 </manifest>

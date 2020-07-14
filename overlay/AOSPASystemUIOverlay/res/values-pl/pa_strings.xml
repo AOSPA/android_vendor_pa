@@ -1,35 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-/**
- * Copyright (c) 2009, The Android Open Source Project
- *
- * Licensed under the Apache License, Version 2.0 (the "License"); 
- * you may not use this file except in compliance with the License. 
- * You may obtain a copy of the License at 
- *
- *     http://www.apache.org/licenses/LICENSE-2.0 
- *
- * Unless required by applicable law or agreed to in writing, software 
- * distributed under the License is distributed on an "AS IS" BASIS, 
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
- * See the License for the specific language governing permissions and 
- * limitations under the License.
- */
+    Copyright 2020 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+
     <!-- OnTheSpot: Action denial button text. [CHAR LIMIT=NONE] -->
     <string name="on_the_spot_deny">NIE DZIĘKUJE</string>
+
     <!-- OnTheSpot: Action confirmation button text. [CHAR LIMIT=NONE] -->
     <string name="on_the_spot_confirm">OK</string>
 
     <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
     <string name="quick_settings_quick_pull_down">Czy chcesz, aby prawa strona paska statusu wysuwała panel Szybkich Ustawień?</string>
+
     <!-- OnTheSpot: Title of the Quick Settings quick pull-down feature for the reset dialog. [CHAR LIMIT=NONE] -->
     <string name="quick_settings_quick_pull_down_name">Szybkie wysuwanie panelu Szybkich Ustawień</string>
     <string name="quick_settings_quick_pull_down_summary">Automatyczne wysuwanie panelu Szybkich Ustawień poprzez przeciągnięcie od boku ekranu</string>
 
     <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
     <string name="extended_restart">Czy chcesz dłużej przytrzymać przycisk restartu, aby uzyskać dostęp do opcji rozszerzonego restartu?</string>
+
     <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
     <string name="extended_restart_name">Rozszerzony Restart</string>
     <string name="extended_restart_summary">Restartuj urządzenie do innych trybów takich jak bootloader i recovery</string>
@@ -61,4 +63,5 @@
     <string name="screenrecord_start">Start</string>
     <string name="screenrecord_start_label">Rozpocząć nagrywanie?</string>
     <string name="screenrecord_taps_label">Pokazuj dotknięcia na ekranie</string>
+
 </resources>

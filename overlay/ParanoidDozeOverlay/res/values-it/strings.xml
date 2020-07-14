@@ -16,7 +16,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
 
     <!-- Label for feature switch [CHAR LIMIT=30] -->
     <string name="switch_bar_on">Acceso</string>
@@ -65,4 +65,3 @@
     <string name="doze_settings_help_text">Queste funzioni utilizzano gesti sul sensore per lanciare un impulso di notifica. Il sensore scelto è abilitato solo quando il dispositivo riceve una notifica, questo aiuta a ridurre l\'utilizzo della batteria. C\'è anche un\'opzione per abilitare il sensore scelto non appena lo schermo si spegne, questo causerà un maggiore utilizzo della batteria.</string>
     
 </resources>
-
