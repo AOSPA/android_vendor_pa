@@ -14,18 +14,14 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.theme.font.googlesans"
-    android:versionCode="1"
-    android:versionName="1.0">
+    package="co.aospa.theme.font.googlesans">
 
     <overlay
-    android:targetPackage="android"
-    android:category="android.theme.customization.font"
-    android:priority="600" />
+        android:category="android.theme.customization.font"
+        android:priority="600"
+        android:targetPackage="android" />
 
-    <application
-    android:label="@string/font_google_sans_overlay"
-    android:hasCode="false">
+    <application>
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="google-sans,google-sans-medium" />
