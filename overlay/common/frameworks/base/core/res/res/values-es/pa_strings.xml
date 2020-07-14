@@ -39,33 +39,4 @@
     <string name="popup_camera_dialog_no">No</string>
     <string name="popup_camera_dialog_raise">Sí</string>
 
-    <!-- Screen Stabilization -->
-    <string name="quick_settings_stabilization_label">Estabilización de pantalla</string>
-    <string name="quick_settings_stabilization_off">La estabilización está desactivada</string>
-    <string name="quick_settings_stabilization_on">La estabilización está activada</string>
-    <string name="low_label">Bajo</string>
-    <string name="high_label">Alto</string>
-    <string name="stabilization_velocity_friction">Velocidad de Fricción</string>
-    <string name="stabilization_velocity_amplitude">Velocidad de Amplitud</string>
-    <string name="stabilization_position_friction">Fricción de Posición</string>
-
-    <!-- Caffeine tile -->
-    <string name="quick_settings_caffeine_label">Cafeína</string>
-    <string name="accessibility_quick_settings_caffeine_off">Cafeína desactivado</string>
-    <string name="accessibility_quick_settings_caffeine_on">Cafeína activado</string>
-
-    <!-- Screen record -->
-    <string name="quick_settings_screen_record_label">Grabación de pantalla</string>
-    <string name="quick_settings_screen_record_start">Empezar</string>
-    <string name="quick_settings_screen_record_stop">Detener</string>
-    <string name="screenrecord_audio_label">Grabar audio</string>
-    <string name="screenrecord_description">Mientras graba, el sistema de Android puede capturar cualquier información sensible que sea visible en tu pantalla. Esto incluye contraseñas, pagos, información, fotos, mensajes y audio.</string>
-    <string name="screenrecord_mic_label">Micrófono</string>
-    <string name="screenrecord_ongoing_screen_and_audio">Grabando pantalla y audio</string>
-    <string name="screenrecord_ongoing_screen_only">Grabando pantalla</string>
-    <string name="screenrecord_start">Empezar</string>
-    <string name="screenrecord_start_label">¿Empezar grabación?</string>
-    <string name="screenrecord_taps_label">Mostrar toques en pantalla</string>
-    <string name="status_bar_screen_record" translatable="false">screen_record</string>
-
  </resources>
