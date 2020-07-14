@@ -21,6 +21,10 @@ else
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
 endif
 
+# Bluetooth
+# Disable AAC whitelist
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.vendor.bt.a2dp.aac_whitelist=false
+
 # Enforce privapp-permissions whitelist.
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
