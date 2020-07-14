@@ -197,3 +197,6 @@ DISABLE_EAP_PROXY := true
 
 # Move Wi-Fi modules to vendor
 PRODUCT_VENDOR_MOVE_ENABLED := true
+
+# Disable AAC whitelist
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.vendor.bt.a2dp.aac_whitelist=false
