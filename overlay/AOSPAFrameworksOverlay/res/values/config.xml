@@ -1,31 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015-2017 Paranoid Android
+     Copyright (C) 2015-2020 Paranoid Android
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string-array name="config_locationProviderPackageNames" translatable="false">
-        <!-- The Google provider -->
-        <item>com.google.android.gms</item>
-        <!-- The standard AOSP fused location provider -->
-        <item>com.android.location.fused</item>
-    </string-array>
-
-    <!-- A list of potential packages, in priority order, that may contain an
-         ephemeral resolver. Each package will be be queried for a component
-         that has been granted the PACKAGE_EPHEMERAL_AGENT permission.
-         This may be empty if ephemeral apps are not supported. -->
-    <string-array name="config_ephemeralResolverPackage">
-        <item>com.google.android.gms</item>
-    </string-array>
+<resources>
 
     <bool name="config_cellBroadcastAppLinks">true</bool>
 
@@ -47,9 +36,6 @@
         <item>com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService</item>
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
     </string-array>
-
-    <!-- Flag indicating which package name can access the persistent data partition -->
-    <string name="config_persistentDataPackageName" translatable="false">com.google.android.gms</string>
 
     <!-- Defines the default set of global actions. Actions may still be disabled or hidden based
          on the current state of the device.
@@ -81,15 +67,6 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
-    <!-- Set this to true to enable the platform's auto-power-save modes like doze and
-         app standby.  These are not enabled by default because they require a standard
-         cloud-to-device messaging service for apps to interact correctly with the modes
-         (such as to be able to deliver an instant message to the device even when it is
-         dozing).  This should be enabled if you have such services and expect apps to
-         correctly use them when installed on your device.  Otherwise, keep this disabled
-         so that applications can still use their own mechanisms. -->
-    <bool name="config_enableAutoPowerModes">true</bool>
-
     <!-- The threshold angle for any motion detection in auto-power save modes.
          In hundreths of a degree. -->
     <integer name="config_autoPowerModeThresholdAngle">45</integer>
@@ -105,13 +82,6 @@
 
     <!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
-
-    <!-- The package name for the default wellbeing app.
-         This package must be trusted, as it has the permissions to control other applications
-         on the device.
-         Example: "com.android.wellbeing"
-     -->
-    <string name="config_defaultWellbeingPackage">com.google.android.apps.wellbeing</string>
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
@@ -162,19 +132,12 @@
     <!-- Should the pinner service pin the Camera application? -->
     <bool name="config_pinnerCameraApp">true</bool>
 
-    <!-- The component name, flattened to a string, for the default autofill service
-         to  enabled for an user. This service must be trusted, as it can be activated
-         without explicit consent of the user. If no autofill service with the
-          specified name exists on the device, autofill will be disabled by default.
-    -->
-    <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
-
+    <!-- TODO - Move to AOSPAGMSOverlay in Android 11 since these overlays call GMS components. -->
     <string name="config_defaultAppPredictionService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService</string>
     <string name="config_defaultContentSuggestionsService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentSuggestionsService</string>
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
     <string name="config_defaultSystemCaptionsService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.CaptionsService</string>
     <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
-    <string name="config_defaultListenerAccessPackages">com.android.launcher3:com.google.android.as</string>
 
     <!-- Amount of time in ms the user needs to press the relevant keys to trigger the
          screenshot chord -->

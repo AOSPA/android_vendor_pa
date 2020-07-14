@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 Paranoid Android
+<!-- Copyright (C) 2019-2020 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,8 +17,10 @@
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
     <string name="title_show_google_app">Mostra l\'app Google</string>
+
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_left">Quando scorri verso destra dalla schermata principale</string>
+
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Quando scorri verso sinistra dalla schermata principale</string>
 
@@ -30,5 +32,5 @@
     <string name="icon_pack_title">Pacchetto icone</string>
     <string name="icon_pack_summary">Il pacchetto icone corrente è% 1 $ s</string>
     <string name="icon_pack_apply">Applica</string>
-</resources>
 
+</resources>
