@@ -14,20 +14,24 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+
     <!-- OnTheSpot: Action denial button text. [CHAR LIMIT=NONE] -->
     <string name="on_the_spot_deny">NON</string>
+
     <!-- OnTheSpot: Action confirmation button text. [CHAR LIMIT=NONE] -->
     <string name="on_the_spot_confirm">OUI</string>
 
     <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
     <string name="quick_settings_quick_pull_down">Souhaitez vous un déroulement rapide du panneau des paramètres rapide en utilisant le côté droit de la barre d\'état?</string>
+
     <!-- OnTheSpot: Title of the Quick Settings quick pull-down feature for the reset dialog. [CHAR LIMIT=NONE] -->
     <string name="quick_settings_quick_pull_down_name">Déroulement rapide du panneau des paramètres</string>
     <string name="quick_settings_quick_pull_down_summary">Étendre automatiquement le panneau des paramètres rapides lorsque vous glissez sur le côté de la barre d\'état</string>
 
     <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
     <string name="extended_restart">Souhaitez vous un accès aux options de démarrages supplémentaires lors d\'un appui long sur le bouton de redémarrage?</string>
+
     <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
     <string name="extended_restart_name">Redémarrages supplémentaires</string>
     <string name="extended_restart_summary">Permet de redémarrer l\'appareil dans différents modes tels que la récupération ou l\'amorçage</string>
