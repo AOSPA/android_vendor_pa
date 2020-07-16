@@ -88,10 +88,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 endif
 
-# Overlays
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pa/overlay/common
-DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
-
 # Packages
 include vendor/pa/config/packages.mk
 
