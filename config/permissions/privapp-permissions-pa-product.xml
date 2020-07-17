@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019 The LineageOS Project
-     Copyright (C) 2019 Paranoid Android
+<!-- Copyright (C) 2019-2020 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,72 +15,12 @@
 -->
 <permissions>
 
-    <privapp-permissions package="com.android.camera2">
-        <permission name="android.permission.BIND_WALLPAPER"/>
-        <permission name="android.permission.PREVENT_POWER_KEY"/>
-    </privapp-permissions>
-
     <privapp-permissions package="co.aospa.camera">
         <permission name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
-    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
-    <privapp-permissions package="com.android.dialer">
-        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
-    </privapp-permissions>
-
-    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
-    <privapp-permissions package="com.android.launcher3">
-        <permission name="android.permission.MANAGE_ACTIVITY_STACKS"/>
-        <permission name="android.permission.STATUS_BAR"/>
-    </privapp-permissions>
-
-    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
-    <privapp-permissions package="com.android.settings">
-        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
-    </privapp-permissions>
-
-    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
-    <privapp-permissions package="com.android.systemui">
-        <permission name="android.permission.MODIFY_DAY_NIGHT_MODE"/>
-        <permission name="android.permission.REBOOT"/>
-        <permission name="android.permission.RECOVERY"/>
-        <permission name="android.permission.SHUTDOWN"/>
-        <permission name="android.permission.WRITE_APN_SETTINGS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="org.codeaurora.ims">
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
-        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.android.wallpaper">
-        <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
-        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
-        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.google.android.as">
-        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
-        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT"/>
-        <permission name="android.permission.CAPTURE_MEDIA_OUTPUT"/>
-        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
-        <permission name="android.permission.LOCATION_HARDWARE"/>
-        <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
-        <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
-        <permission name="android.permission.MONITOR_DEFAULT_SMS_PACKAGE"/>
-        <permission name="android.permission.PACKAGE_USAGE_STATS"/>
-        <permission name="android.permission.READ_OEM_UNLOCK_STATE"/>
-        <permission name="android.permission.REQUEST_NOTIFICATION_ASSISTANT_SERVICE"/>
-        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
-        <permission name="android.permission.UPDATE_DEVICE_STATS"/>
+    <privapp-permissions package="co.aospa.facesense">
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
@@ -92,7 +31,17 @@
         <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="co.aospa.facesense">
+    <!-- Additional permissions on top of privapp-permissions-platform.xml -->
+    <privapp-permissions package="com.android.systemui">
+        <permission name="android.permission.REBOOT"/>
+        <permission name="android.permission.RECOVERY"/>
+        <permission name="android.permission.SHUTDOWN"/>
+        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.android.wallpaper">
+        <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
+        <permission name="android.permission.SET_WALLPAPER_COMPONENT"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
     </privapp-permissions>
 
