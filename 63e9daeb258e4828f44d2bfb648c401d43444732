@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b085d70d_89bcc4a2",
+        "filename": "prebuilt/app/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000092
+      },
+      "writtenOn": "2020-07-17T07:30:25Z",
+      "side": 1,
+      "message": "Comma.",
+      "revId": "63e9daeb258e4828f44d2bfb648c401d43444732",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
