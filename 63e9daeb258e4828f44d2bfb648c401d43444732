@@ -16,6 +16,24 @@
       "revId": "63e9daeb258e4828f44d2bfb648c401d43444732",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7071c35f_0fe1ce6c",
+        "filename": "prebuilt/app/Android.bp",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-07-17T12:20:59Z",
+      "side": 1,
+      "message": "Actually having a space is also valid, that\u0027s what we do for the extract utilities change. https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/10438\n\nWe can use a comma here though if you want.",
+      "parentUuid": "b085d70d_89bcc4a2",
+      "revId": "63e9daeb258e4828f44d2bfb648c401d43444732",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
