@@ -19,6 +19,9 @@ $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 # Get the defaults going.
 TARGET_BOOT_ANIMATION_RES := 1440
 
+# Exclude QCOM SEPolicy
+TARGET_EXCLUDE_QCOM_SEPOLICY := true
+
 # Inherit from the PA configuration.
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
