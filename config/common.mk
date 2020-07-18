@@ -89,8 +89,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 endif
 
 # Overlays
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/pa/overlay/common
-DEVICE_PACKAGE_OVERLAYS += vendor/pa/overlay/common
+include vendor/pa/overlay/overlays.mk
 
 # Packages
 include vendor/pa/config/packages.mk

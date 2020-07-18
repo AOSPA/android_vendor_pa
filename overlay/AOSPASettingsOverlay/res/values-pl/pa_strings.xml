@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2016-2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Paranoid Android version -->
+    <string name="pa_version">Wersja Paranoid Android</string>
+
+    <string name="reset_all_settings">RESETUJ WSZYSTKO</string>
+    <string name="reset_selected_settings">RESETUJ WYBRANE</string>
+    <string name="reset_settings_title">Preferencje funkcji</string>
+    <string name="reset_settings_summary">Resetuj preferencje funkcji Paranoid Android</string>
+    <string name="keywords_settings_reset">resetuj</string>
+
+    <!-- Gestures Settings -->
+    <string name="quick_gestures_title">Szybkie gesty</string>
+    <string name="offscreen_gesture_title">Gesty wyłączonego ekranu</string>
+    <string name="offscreen_gesture_summary">Narysuj wzory lub dotknij na ekranie, aby wykonać czynności</string>
+    <string name="keywords_gestures">ekranie wzory czynności narysuj dotknij</string>
+
+    <string name="gestures_double_tap">Podwójne dotknięcie</string>
+    <string name="gestures_single_tap">Pojedyncze dotknięcie</string>
+    <string name="gestures_draw_v">Narysuj V</string>
+    <string name="gestures_draw_inverse_v">Narysuj Odwrócone V</string>
+    <string name="gestures_draw_o">Narysuj O</string>
+    <string name="gestures_draw_m">Narysuj M</string>
+    <string name="gestures_draw_w">Narysuj W</string>
+    <string name="gestures_draw_s">Narysuj S</string>
+    <string name="gestures_draw_arrow_left">Narysuj &lt;</string>
+    <string name="gestures_draw_arrow_right">Narysuj &gt;</string>
+    <string name="gestures_one_finger_swipe_up">Przeciągnięcie jednym palcem w górę</string>
+    <string name="gestures_one_finger_swipe_right">Przeciągnięcie jednym palcem w prawo</string>
+    <string name="gestures_one_finger_swipe_down">Przeciągnięcie jednym palcem w dół</string>
+    <string name="gestures_one_finger_swipe_left">Przeciągnięcie jednym palcem w lewo</string>
+    <string name="gestures_two_finger_swipe">Przeciągnięcie dwoma palcami</string>
+
+    <string name="gestures_disabled">Wyłączone</string>
+    <string name="gestures_wake_device">Wybudź urządzenie</string>
+    <string name="gestures_pulse_ambient_display">Pulsuj do Ambient Display</string>
+    <string name="gestures_toggle_flashlight">Włącz latarkę</string>
+    <string name="gestures_toggle_airplane_mode">Włącz tryb samolotowy</string>
+    <string name="gestures_play_pause_music">Odtwórz/Zatrzymaj muzykę</string>
+    <string name="gestures_next_music">Następny utwór</string>
+    <string name="gestures_previous_music">Poprzedni utwór</string>
+    <string name="gestures_open_camera">Uruchom aparat</string>
+    <string name="gestures_open_dialer">Uruchom dialer</string>
+
+    <!-- Swipe to screenshot -->
+    <string name="swipe_to_screenshot_title">Przeciągnij, aby wykonać zrzut ekranu</string>
+    <string name="swipe_to_screenshot_summary">Przeciągnij 3 palcami w dół ekranu, aby wykonać zrzut ekranu</string>
+
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
+    <string name="volume_button_music_control_summary">Gdy ekran jest wyłączony, dłuższe przytrzymanie klawiszy głośności będzie pomijać utwory</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Zlokalizuj czytnik odcisków palców na <xliff:g id="sensor_location">%1$s</xliff:g> twojego tabletu.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Zlokalizuj czytnik odcisków palców na <xliff:g id="sensor_location">%1$s</xliff:g> twojego urządzenia.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Zlokalizuj czytnik odcisków palców na <xliff:g id="sensor_location">%1$s</xliff:g> twojego telefonu.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">tyle</string>
+    <string name="security_settings_fingerprint_sensor_location_front">froncie</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lewej stronie</string>
+    <string name="security_settings_fingerprint_sensor_location_right">prawej stronie</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Dane komórkowe</string>
+    <string name="data_usage_app_restrict_data_summary">Włącz wykorzystanie danych komórkowych</string>
+    <string name="data_usage_app_restrict_vpn">Dane VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Włącz wykorzystanie danych VPN</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi dane</string>
+    <string name="data_usage_app_restrict_wifi_summary">Włącz wykorzystanie danych Wi\u2011Fi</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Odwróć układ Paska Nawigacyjnego</string>
+    <string name="navbar_invert_info">Spowoduje to zamianę przycisków \"Wstecz\" i \"Ostatnie\" na pasku nawigacyjnym</string>
+
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">Wibracje podczas połączeń</string>
+    <string name="incall_feeedback_summary">Wibruj, aby wskazać status połączenia</string>
+
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">Haptyka &amp; wibracji</string>
+    <string name="summary_vibration_preferences">Zmień intensywność, wzór i więcej</string>
+    <string name="keywords_vibration_preferences">wzór wibracji, intensywność wibracji, podczas połączeń, haptyka, dotknięcie, siła wibracji</string>
+    <string name="ringtone_vibration_pattern">Wzór wibracji dzwonka</string>
+    <string name="vibration_intensity_ringer">Intensywność wibracji dzwonka</string>
+    <string name="vibration_intensity_notification">Intensywność wibracji powiadomień</string>
+    <string name="vibration_intensity_disabled">Wyłączona</string>
+    <string name="vibration_intensity_light">Lekka</string>
+    <string name="vibration_intensity_medium">Średnia</string>
+    <string name="vibration_intensity_strong">Mocna</string>
+    <string name="vibration_intensity_custom">Własna</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Tryb kieszonkowy</string>
+    <string name="pocket_judge_summary">Blokuj ekran i przyciski, gdy urządzenie jest w kieszeni</string>
+
+    <!-- Pulse Ambient Light -->
+    <string name="pulse_ambient_light_title">Puls</string>
+    <string name="pulse_ambient_light_summary">Rozświetl boczne krawędzie ekranu przy pulsie powiadomień</string>
+    <string name="ambient_notification_light_accent_title">Kolor akcentu systemowego</string>
+    <string name="ambient_notification_light_color_automatic_title">Kolor powiadomień</string>
+    <string name="pulse_ambient_light_color">Podczas pulsowania, użyj</string>
+
+    <!-- Home handle sizing -->
+    <string name="back_options_dialog_title">Opcje</string>
+    <string name="home_handle_sizer_title">Rozmiar paska gestów</string>
+    <string name="home_handle_low_label">Mały</string>
+    <string name="home_handle_high_label">Duży</string>
+
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Zrootowane debugowanie</string>
+    <string name="adb_enable_summary_root">Zezwalaj na debugowanie Androida jako root</string>
+
+    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
+    <string name="suggestion_button_close">Zamknij</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Odtwarzanie adaptacyjne</string>
+    <string name="adaptive_playback_disabled_summary">Wyłączone</string>
+    <string name="adaptive_playback_timeout_title">Użyj limitu czasu wynoszącego</string>
+    <string name="adaptive_playback_timeout_none">Bez limitu czasu</string>
+    <string name="adaptive_playback_timeout_none_summary">Włączone (bez limitu czasu)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekund</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Włączone (30 sekund)</string>
+    <string name="adaptive_playback_timeout_1_min">1 minuta</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Włączone (1 minuta)</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuty</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Włączone (2 minuty)</string>
+    <string name="adaptive_playback_timeout_5_min">5 minut</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
+    <string name="adaptive_playback_timeout_10_min">10 minut</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+
+</resources>

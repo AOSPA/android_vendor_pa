@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2020 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+
+    <!-- OnTheSpot: Action denial button text. [CHAR LIMIT=NONE] -->
+    <string name="on_the_spot_deny">NÃO OBRIGADO</string>
+
+    <!-- OnTheSpot: Action confirmation button text. [CHAR LIMIT=NONE] -->
+    <string name="on_the_spot_confirm">OK</string>
+
+    <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_quick_pull_down">Gostarias que ao puxar a parte direita da barra de estado abrisse rapidamente o painel de Definições Rápidas?</string>
+
+    <!-- OnTheSpot: Title of the Quick Settings quick pull-down feature for the reset dialog. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_quick_pull_down_name">Puxar rapidamente as Definições Rápidas</string>
+    <string name="quick_settings_quick_pull_down_summary">Expandir automaticamente as Definições Rápidas ao puxar pela parte direita do ecrã</string>
+
+    <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
+    <string name="extended_restart">Gostarias de manter pressionado o botão de reinício para aceder às opções de reinício avançado?</string>
+
+    <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
+    <string name="extended_restart_name">Reinício Avançado</string>
+    <string name="extended_restart_summary">Reiniciar o dispositivo com diferentes modos como gestor de arranque e recuperação</string>
+
+     <!-- Screen Stabilization -->
+    <string name="quick_settings_stabilization_label">Estabilização de Ecrã</string>
+    <string name="quick_settings_stabilization_off">Estabilização está desativada</string>
+    <string name="quick_settings_stabilization_on">Estabilização está ativa</string>
+    <string name="low_label">Baixo</string>
+    <string name="high_label">Alto</string>
+    <string name="stabilization_velocity_friction">Velocidade de Fricção</string>
+    <string name="stabilization_velocity_amplitude">Velocidade da Amplitude</string>
+    <string name="stabilization_position_friction">Posição da Fricção</string>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Cafeína</string>
+    <string name="accessibility_quick_settings_caffeine_off">Cafeína ativa</string>
+    <string name="accessibility_quick_settings_caffeine_on">Cafeína desativada</string>
+
+    <!-- Screen record -->
+    <string name="quick_settings_screen_record_label">Gravação do ecrã</string>
+    <string name="quick_settings_screen_record_start">Iniciar</string>
+    <string name="quick_settings_screen_record_stop">Parar</string>
+    <string name="screenrecord_audio_label">Gravar aúdio</string>
+    <string name="screenrecord_description">Durante a gravação, o Sistema Android pode capturar qualquer informação sensível que estiver visível no ecrã ou a reproduzir no dispositivo. Isto incluí passwords, informações de pagamento, fotos, mensagens e aúdio.</string>
+    <string name="screenrecord_mic_label">Microfone</string>
+    <string name="screenrecord_ongoing_screen_and_audio">Gravar ecrã e aúdio</string>
+    <string name="screenrecord_ongoing_screen_only">Gravando ecrã</string>
+    <string name="screenrecord_start">Iniciar</string>
+    <string name="screenrecord_start_label">Iniciar Gravação?</string>
+    <string name="screenrecord_taps_label">Mostar toques no ecrã</string>
+
+</resources>

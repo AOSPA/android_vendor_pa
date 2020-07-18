@@ -75,11 +75,6 @@ PRODUCT_PACKAGES += \
     MatchmakerPrebuilt
 endif
 
-# Paranoid Android Overlays
-PRODUCT_PACKAGES += \
-    pa-overlays \
-    ParanoidOverlayStub
-
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \

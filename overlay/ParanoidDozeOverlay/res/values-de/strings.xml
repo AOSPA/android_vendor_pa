@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">An</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Aus</string>
+
+    <!-- App Name -->
+    <string name="doze_settings_app_name">Doze Einstellungen</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">Inaktivitätsdisplay</string>
+    <string name="ambient_display_summary">Einschalten des Bildschirms bei Benachrichtigungen</string>
+
+    <!-- Always on -->
+    <string name="ambient_display_always_on_title">Immer-an</string>
+    <string name="ambient_display_always_on_summary">Zeige Uhrzeit, Benachrichtigungssymbole und weitere Infos. Erhöhter Batterieverbrauch.</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Hebe-Sensor</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Näherungssensor</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Handwink Geste</string>
+    <string name="hand_wave_gesture_summary">Pulsierende Benachrichtigungen beim Winken mit der Hand</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Anheben</string>
+    <string name="pick_up_gesture_summary">Pulsierende Benachrichtigungen beim Anheben des Gerätes</string>
+
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Aufwachen</string>
+    <string name="wake_gesture_summary">Aufwecken des Gerätes anstatt pulsierenden Benachrichtigungen</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Tasche</string>
+    <string name="pocket_gesture_summary">Pulsierende Benachrichtigungen bei Entnahme aus der Tasche</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_ok">OK</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">Hilfe</string>
+    <string name="doze_settings_help_text">Diese Funktionen nutzen Sensor Events für einen doze Benachrichtigungsimpuls. Der ausgewählte Sensor wird nur aktiviert, wenn das Gerät eine Benachrichtigung erhält, was hilft den Akkuverbrauch zu reduzieren. Es gibt aber auch die Option, den ausgewählten Sensor einzuschalten sobald der Bildschirm aus geht, was aber zu einem erhöhten Akkuverbrauch führt.</string>
+
+</resources>

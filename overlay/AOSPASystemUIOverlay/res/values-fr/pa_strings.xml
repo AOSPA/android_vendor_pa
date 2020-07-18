@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2014-2020 Paranoid Android
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources>
+
+    <!-- OnTheSpot: Action denial button text. [CHAR LIMIT=NONE] -->
+    <string name="on_the_spot_deny">NON</string>
+
+    <!-- OnTheSpot: Action confirmation button text. [CHAR LIMIT=NONE] -->
+    <string name="on_the_spot_confirm">OUI</string>
+
+    <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_quick_pull_down">Souhaitez vous un déroulement rapide du panneau des paramètres rapide en utilisant le côté droit de la barre d\'état?</string>
+
+    <!-- OnTheSpot: Title of the Quick Settings quick pull-down feature for the reset dialog. [CHAR LIMIT=NONE] -->
+    <string name="quick_settings_quick_pull_down_name">Déroulement rapide du panneau des paramètres</string>
+    <string name="quick_settings_quick_pull_down_summary">Étendre automatiquement le panneau des paramètres rapides lorsque vous glissez sur le côté de la barre d\'état</string>
+
+    <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
+    <string name="extended_restart">Souhaitez vous un accès aux options de démarrages supplémentaires lors d\'un appui long sur le bouton de redémarrage?</string>
+
+    <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
+    <string name="extended_restart_name">Redémarrages supplémentaires</string>
+    <string name="extended_restart_summary">Permet de redémarrer l\'appareil dans différents modes tels que la récupération ou l\'amorçage</string>
+
+    <!-- Screen Stabilization -->
+    <string name="quick_settings_stabilization_label">Stabilisateur de l\'écran</string>
+    <string name="quick_settings_stabilization_off">Stabilisation désactivée</string>
+    <string name="quick_settings_stabilization_on">Stabilisation activée</string>
+    <string name="low_label">Faible</string>
+    <string name="high_label">Élevée</string>
+    <string name="stabilization_velocity_friction">Vitesse de friction</string>
+    <string name="stabilization_velocity_amplitude">Amplitude des vitesses</string>
+    <string name="stabilization_position_friction">Position de friction</string>
+
+    <!-- Caffeine tile -->
+    <string name="quick_settings_caffeine_label">Caféine</string>
+    <string name="accessibility_quick_settings_caffeine_off">Caféine activé</string>
+    <string name="accessibility_quick_settings_caffeine_on">Caféine désactivé</string>
+
+    <!-- Screen record -->
+    <string name="quick_settings_screen_record_label">Capture vidéo</string>
+    <string name="quick_settings_screen_record_start">Démarrer</string>
+    <string name="quick_settings_screen_record_stop">Arrêter</string>
+    <string name="screenrecord_audio_label">Enregistrer le son</string>
+    <string name="screenrecord_description">Pendant l\'enregistrement, le système peut capturer des information sensibles visibles à l\écran ou en cours sur votre télèphone. Ceci inclus les mots de passe, Informations de paiement, photos, messages et élèments sonores.</string>
+    <string name="screenrecord_mic_label">Microphone</string>
+    <string name="screenrecord_ongoing_screen_and_audio">Capture de l\écran et du son</string>
+    <string name="screenrecord_ongoing_screen_only">Capture de l\écran</string>
+    <string name="screenrecord_start">Démarrer</string>
+    <string name="screenrecord_start_label">Démarrer l\'enregistrement?</string>
+    <string name="screenrecord_taps_label">Afficher les appuis sur l\écran</string>
+
+    <!-- Screen pinning dialog description. (for devices without navbar) -->
+    <string name="screen_pinning_description_no_navbar">Ceci restera ici jusqu\'à que vous le dépinglez. Toucher &amp; maintenir le bouton retour pour dépingler.</string>
+
+    <!-- Notify use that they are in Lock-to-app (for devices without navbar)-->
+    <string name="screen_pinning_toast_no_navbar">Pour dépingler cet écran, Appuyer &amp; maintenir le bouton retour.</string>
+
+    <!-- Screen pinning dialog description. (for devices without navbar and with gestures on fingerprint sensor) -->
+    <string name="screen_pinning_description_no_navbar_fpsensor">Ceci restera ici jusqu\'à que vous le dépinglez. Toucher &amp; maintenir le capteur d\'empreinte pour dépingler.</string>
+
+    <!-- Notify use that they are in Lock-to-app (for devices without navbar and with gestures on fingerprint sensor)-->
+    <string name="screen_pinning_toast_no_navbar_fpsensor">Pour dépingler cet écran, Appuyer &amp; maintenir le capteur d\'empreinte.</string>
+
+    <!-- DataSwitch Tile -->
+    <string name="qs_data_switch_label">Intervertir les SIM</string>
+    <string name="qs_data_switch_toast_0">Aucune carte SIM insérée</string>
+    <string name="qs_data_switch_toast_1">Une seule carte SIM insérée</string>
+    <string name="qs_data_switch_changed_1">Utilise les données mobiles de la SIM 1</string>
+    <string name="qs_data_switch_changed_2">Utilise les données mobiles de la SIM 2</string>
+
+</resources>

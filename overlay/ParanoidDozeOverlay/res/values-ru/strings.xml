@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Включено</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Отключено</string>
+
+    <!-- App Name -->
+    <string name="doze_settings_app_name">Настройки Doze</string>
+
+    <!-- Ambient Display -->
+    <string name="ambient_display_title">Ambient Display</string>
+    <string name="ambient_display_summary">Пробуждение экрана при получении уведомлений</string>
+
+    <!-- Always on -->
+    <string name="ambient_display_always_on_title">Всегда включено</string>
+    <string name="ambient_display_always_on_summary">Показывать время,значки уведомлений и другую информацию. Возможно увеличеное потребление батареи.</string>
+
+    <!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Датчик поднятия</string>
+
+    <!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Датчик приближения</string>
+
+    <!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Жесты смахиванием</string>
+    <string name="hand_wave_gesture_summary">Показывать пульсирующее уведомление при проведении рукой над экраном</string>
+
+    <!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Поднятние устрйоства</string>
+    <string name="pick_up_gesture_summary">Показывать пульсирующее уведомление при поднятнии устрйоства</string>
+
+    <!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Пробуждение</string>
+    <string name="wake_gesture_summary">Включить экран вместое пульсирующего уведомления</string>
+
+    <!-- Pocket gesture -->
+    <string name="pocket_gesture_title">В кармане</string>
+    <string name="pocket_gesture_summary">Пульсирующее уведомление при доставании уйстровста из кармана</string>
+
+    <!-- Dialog texts -->
+    <string name="dialog_ok">ОК</string>
+
+    <!-- Help texts -->
+    <string name="doze_settings_help_title">Помощь</string>
+    <string name="doze_settings_help_text">Эти функции используют показания датчиков устройства, для показа пульсирующих уведомлений. Выбранный датчик активируется только при получении нового уведомления, что позволяет уменьшить потребление заряда аккумулятора. Так же, есть возможность включить выбранный датчик при блокировки экрана, это увеличит потребление энергии.</string>
+
+</resources>

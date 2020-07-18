@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2016 The CyanogenMod Project
+                   2017 The LineageOS Project
+                   2020 Paranoid Android
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    
+	<!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Ativado</string>
+    
+	<!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Desativado</string>
+    
+	<!-- App Name -->
+    <string name="doze_settings_app_name">Configurações Doze</string>
+    
+	<!-- Ambient Display -->
+    <string name="ambient_display_title">Exibição ambiente</string>
+    <string name="ambient_display_summary">Ligar a tela ao receber notificações</string>
+    
+	<!-- Always on -->
+    <string name="ambient_display_always_on_title">Sempre Ligado</string>
+    <string name="ambient_display_always_on_summary">Mostrar hora, ícones de notificação e outras informações. Aumenta o uso de bateria.</string>
+    
+	<!-- Pickup sensor -->
+    <string name="pickup_sensor_title">Sensor de movimento</string>
+    
+	<!-- Proximity sensor -->
+    <string name="proximity_sensor_title">Sensor de proximidade</string>
+    
+	<!-- Hand wave gesture -->
+    <string name="hand_wave_gesture_title">Movimento da mão</string>
+    <string name="hand_wave_gesture_summary">Mostrar notificações agitando a mão</string>
+    
+	<!-- Pick-up gesture -->
+    <string name="pick_up_gesture_title">Pegar</string>
+    <string name="pick_up_gesture_summary">Mostrar notificações ao pegar o dispositivo</string>
+    
+	<!-- Pick-up to wake gesture-->
+    <string name="wake_gesture_title">Acordar o dispositivo</string>
+    <string name="wake_gesture_summary">Acordar o dispositivo ao invés de mostrar as notificações</string>
+    
+	<!-- Pocket gesture -->
+    <string name="pocket_gesture_title">Bolso</string>
+    <string name="pocket_gesture_summary">Mostrar notificações ao retirar do bolso</string>
+    
+	<!-- Dialog texts -->
+    <string name="dialog_ok">OK</string>
+    
+	<!-- Help texts -->
+    <string name="doze_settings_help_title">Ajuda</string>
+    <string name="doze_settings_help_text">Estes recursos interagem com sensores para pulsar a exibição ambiente. O sensor escolhido só é ativado quando o dispositivo recebe uma notificação, isso ajuda a reduzir o consumo de bateria. Há também uma opção para ativar o sensor escolhido assim que a tela desliga, que causará maior consumo da bateria.</string>
+
+</resources>
