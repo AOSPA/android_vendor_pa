@@ -72,10 +72,9 @@ PRODUCT_PACKAGES += \
     SnapdragonGallery
 endif
 
-# Paranoid Android Overlays
+# Overlays
 PRODUCT_PACKAGES += \
-    pa-overlays \
-    ParanoidOverlayStub
+    AOSPAOverlays
 
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
