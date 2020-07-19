@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c6b28c97_a71c8005",
+        "filename": "products/laurel_sprout/pa.dependencies",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2020-07-19T13:47:33Z",
+      "side": 1,
+      "message": "Add spaces",
+      "revId": "b6c4d9723295926a991fdb33b86895a66e3e52ee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f9018c03_9ba60439",
+        "filename": "products/laurel_sprout/pa_laurel_sprout.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000468
+      },
+      "writtenOn": "2020-07-19T13:47:33Z",
+      "side": 1,
+      "message": "Needed??",
+      "revId": "b6c4d9723295926a991fdb33b86895a66e3e52ee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
