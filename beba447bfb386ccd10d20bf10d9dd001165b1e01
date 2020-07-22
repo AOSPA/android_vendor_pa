@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dcff9f93_3aeb548a",
+        "filename": "config/packages.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000429
+      },
+      "writtenOn": "2020-07-22T11:20:48Z",
+      "side": 0,
+      "message": "Shouldn\u0027t LatinIME stay?",
+      "revId": "beba447bfb386ccd10d20bf10d9dd001165b1e01",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
