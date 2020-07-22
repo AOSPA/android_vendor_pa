@@ -18,7 +18,6 @@ PRODUCT_PACKAGES += Abstruct
 # AOSP Packages
 PRODUCT_PACKAGES += \
     SoundRecorder \
-    WallpaperPicker \
     LatinIME \
     LiveWallpapers \
     LiveWallpapersPicker \
