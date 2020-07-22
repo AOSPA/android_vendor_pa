@@ -16,6 +16,24 @@
       "revId": "beba447bfb386ccd10d20bf10d9dd001165b1e01",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74363393_2a42eb5a",
+        "filename": "config/packages.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-07-22T11:53:09Z",
+      "side": 0,
+      "message": "All devices inherit from product/aosp_base_telephony.mk AFAIK, and that eventually picks up LatinIME here.\n\nhttps://github.com/AOSPA/android_build/blob/quartz/target/product/handheld_product.mk#L31",
+      "parentUuid": "dcff9f93_3aeb548a",
+      "revId": "beba447bfb386ccd10d20bf10d9dd001165b1e01",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
