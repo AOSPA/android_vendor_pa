@@ -13,21 +13,14 @@
 # limitations under the License.
 
 # Abstruct
-PRODUCT_PACKAGES += Abstruct
+PRODUCT_PACKAGES += \
+    Abstruct
 
 # AOSP Packages
 PRODUCT_PACKAGES += \
-    SoundRecorder \
-    WallpaperPicker \
-    LatinIME \
-    LiveWallpapers \
-    LiveWallpapersPicker \
     ThemePicker
 
-# Bluetooth Audio (A2DP)
-PRODUCT_PACKAGES += libbthost_if
-
-# Charger mode images
+# Charger Images
 PRODUCT_PACKAGES += \
     charger_res_images
 
@@ -55,16 +48,19 @@ endif
 PRODUCT_PACKAGES += \
     Longshot \
     ParanoidPapers \
-    ParanoidQuickStep \
+    ParanoidQuickStep
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
     PRODUCT_PACKAGES += \
     ParanoidHub
 endif
 
+# Face Sense
 TARGET_ENABLE_FACE_SENSE := true
+
 PRODUCT_PACKAGES += \
     ParanoidFaceSense
+
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
 
@@ -72,7 +68,8 @@ ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_PACKAGES += \
     ChromeModernPublic \
     MarkupGoogle \
-    MatchmakerPrebuilt
+    MatchmakerPrebuilt \
+    SnapdragonGallery
 endif
 
 # Paranoid Android Overlays
@@ -88,52 +85,9 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
 
 # Retro Music Player
-PRODUCT_PACKAGES += RetroMusicPlayer
-
-# Snapdragon Apps
 PRODUCT_PACKAGES += \
-    SnapdragonGallery
+    RetroMusicPlayer
 
-# Tools - FS
+# Shell
 PRODUCT_PACKAGES += \
-    fsck.exfat \
-    fsck.ntfs \
-    mke2fs \
-    mkfs.exfat \
-    mkfs.ntfs \
-    mount.ntfs
-
-# Tools - Misc
-PRODUCT_PACKAGES += \
-    7z \
-    awk \
-    bash \
-    bzip2 \
-    curl \
-    getcap \
-    htop \
-    lib7z \
-    libsepol \
-    nano \
-    pigz \
-    powertop \
-    setcap \
-    unrar \
-    unzip \
-    vim \
-    wget \
-    zip
-
-# Tools - openssh
-PRODUCT_PACKAGES += \
-    scp \
-    sftp \
-    ssh \
-    sshd \
-    sshd_config \
-    ssh-keygen \
-    start-ssh
-
-# Tools - rsync
-PRODUCT_PACKAGES += \
-    rsync
+    nano
