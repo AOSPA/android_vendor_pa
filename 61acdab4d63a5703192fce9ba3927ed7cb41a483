@@ -16,6 +16,24 @@
       "revId": "61acdab4d63a5703192fce9ba3927ed7cb41a483",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66732264_5faec2a7",
+        "filename": "config/packages.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-07-23T18:26:53Z",
+      "side": 1,
+      "message": "We do for some, I didn\u0027t test each one but we did have some of the FS stuff, I just removed to open a discussion of what we actually need from this since it seems this bit was just copy pasted from LOS and I don\u0027t really see a particular usecase for most of this stuff for us even if it was synced, it was determined we did want to keep nano though.",
+      "parentUuid": "a87a5439_0781495a",
+      "revId": "61acdab4d63a5703192fce9ba3927ed7cb41a483",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
