@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "87ca782c_0b28a68b",
+        "filename": "config/packages.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-23T17:13:42Z",
+      "side": 1,
+      "message": "Do we really need this?  We have the GMS one for GMS builds.",
+      "revId": "beba447bfb386ccd10d20bf10d9dd001165b1e01",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d6d7294a_45998895",
+        "filename": "config/packages.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-23T17:13:42Z",
+      "side": 1,
+      "message": "This is in build/make/target/product/handheld_product.mk, so we should have it.",
+      "revId": "beba447bfb386ccd10d20bf10d9dd001165b1e01",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94c2c5cb_a877908b",
+        "filename": "config/packages.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-23T17:13:42Z",
+      "side": 1,
+      "message": "this is in build/make/target/product/full_base.mk, so we should have it.",
+      "revId": "beba447bfb386ccd10d20bf10d9dd001165b1e01",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
