@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5e645a7b_ce0cfe26",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-07-24T14:25:50Z",
+      "side": 1,
+      "message": "Follow this commit to correct your dependencies   https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/13109",
+      "revId": "ed0e4cb08284604ecc66a93d637aa883b4604efb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
