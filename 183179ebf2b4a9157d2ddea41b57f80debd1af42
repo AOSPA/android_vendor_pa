@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "28f00caa_c428d6f3",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-07-24T18:07:29Z",
+      "side": 1,
+      "message": "a comma is missing",
+      "revId": "183179ebf2b4a9157d2ddea41b57f80debd1af42",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f163e354_f423aea8",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-07-24T18:07:29Z",
+      "side": 1,
+      "message": "a comma is missing",
+      "revId": "183179ebf2b4a9157d2ddea41b57f80debd1af42",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b3916bbe_27f69afe",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-07-24T18:07:29Z",
+      "side": 1,
+      "message": "a comma is missing",
+      "revId": "183179ebf2b4a9157d2ddea41b57f80debd1af42",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fb930514_2acbe641",
+        "filename": "products/wayne/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000518
+      },
+      "writtenOn": "2020-07-24T18:07:29Z",
+      "side": 1,
+      "message": "a comma is missing",
+      "revId": "183179ebf2b4a9157d2ddea41b57f80debd1af42",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
