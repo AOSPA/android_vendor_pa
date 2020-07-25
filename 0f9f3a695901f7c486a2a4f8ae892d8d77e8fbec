@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "751266e6_4bef975f",
+        "filename": "config/common.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-07-25T17:23:25Z",
+      "side": 1,
+      "message": "Why do we need this? I don\u0027t want to maintain it, can\u0027t gapps packages do it?",
+      "revId": "0f9f3a695901f7c486a2a4f8ae892d8d77e8fbec",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
