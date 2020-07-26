@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     AOSPAFrameworksOverlay \
     AOSPAOverlayStub \
     AOSPASettingsOverlay \
+    AOSPASettingsProviderOverlay \
     AOSPASystemUIOverlay \
     AOSPATelephonyOverlay \
     AOSPAThemePickerOverlay \
