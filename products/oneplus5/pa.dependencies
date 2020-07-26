@@ -42,6 +42,12 @@
         "revision":     "quartz"
     },
     {
+        "remote":       "github",
+        "repository":   "kdrag0n/proton-clang",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-proton",
+        "revision":     "master"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
