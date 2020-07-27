@@ -94,5 +94,11 @@
         "repository":   "platform/vendor/nxp/opensource/packages/apps/Nfc",
         "target_path":  "vendor/nxp/opensource/commonsys/packages/apps/Nfc",
         "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
+        "target_path":  "vendor/qcom/opensource/commonsys/fm",
+        "revision":     "quartz"
     }
 ]
