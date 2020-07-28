@@ -12,6 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# ADB
+ifneq ($(TARGET_BUILD_VARIANT),user)
+PRODUCT_PACKAGES += \
+    adb_root
+endif
+
 # Abstruct
 PRODUCT_PACKAGES += \
     Abstruct
