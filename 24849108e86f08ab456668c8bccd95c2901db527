@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3b5d1e5f_96437b48",
+        "filename": "overlay/AOSPASettingsOverlay/res/values-es/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-07-28T02:50:06Z",
+      "side": 1,
+      "message": "Needs \\n\\n instead of \\10\\10",
+      "revId": "24849108e86f08ab456668c8bccd95c2901db527",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ddccd923_1404bf3b",
+        "filename": "overlay/AOSPASettingsOverlay/res/values-pl/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-07-28T02:50:06Z",
+      "side": 1,
+      "message": "Needs \\n\\n instead of \\10\\10",
+      "revId": "24849108e86f08ab456668c8bccd95c2901db527",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f11f9dd3_4c513bb8",
+        "filename": "overlay/AOSPASettingsOverlay/res/values-pt/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-07-28T02:50:06Z",
+      "side": 1,
+      "message": "Needs \\n\\n instead of \\10\\10",
+      "revId": "24849108e86f08ab456668c8bccd95c2901db527",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6eb34ae1_7ad83db3",
+        "filename": "overlay/AOSPASettingsOverlay/res/values-ru/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-07-28T02:50:06Z",
+      "side": 1,
+      "message": "Needs \\n\\n instead of \\10\\10",
+      "revId": "24849108e86f08ab456668c8bccd95c2901db527",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
