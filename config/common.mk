@@ -12,17 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# ADB
-ifeq ($(TARGET_BUILD_VARIANT),user)
-# Enable ADB authentication
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=1
-else
-# Disable ADB authentication
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.adb.secure=0
-PRODUCT_PACKAGES += \
-    adb_root
-endif
-
 # Android Beam
 PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/android.software.nfc.beam.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.nfc.beam.xml
@@ -43,10 +32,6 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bin/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
     vendor/pa/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
 endif
-
-# Bluetooth
-# Disable AAC whitelist
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.vendor.bt.a2dp.aac_whitelist=false
 
 # Boot Animation
 ifneq ($(TARGET_BOOT_ANIMATION_RES),)
@@ -87,19 +72,16 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
 
 endif #TARGET_DISABLES_GAPPS
 
-# Gestures
-ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
-endif
-
 # Overlays
 include vendor/pa/overlay/overlays.mk
 
 # Packages
 include vendor/pa/config/packages.mk
 
-# PA version
+# Properties
+include vendor/pa/config/properties.mk
+
+# Version
 include vendor/pa/config/version.mk
 
 # Permissions
@@ -117,29 +99,6 @@ ifeq ($(TARGET_DISABLES_GAPPS), true)
 PRODUCT_COPY_FILES += \
     vendor/gapps/system/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml
 endif
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.control_privapp_permissions=enforce
-
-# Properties
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-
-BUILD_FINGERPRINT ?= google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    keyguard.no_require_sim=true \
-    ro.com.android.dateformat=MM-dd-yyyy \
-    media.recorder.show_manufacturer_and_model=true \
-    net.tethering.noprovisioning=true \
-    persist.sys.disable_rescue=true \
-    ro.build.selinux=1 \
-    ro.carrier=unknown \
-    ro.com.android.dataroaming=false \
-    ro.config.bt_sco_vol_steps=30 \
-    ro.config.media_vol_steps=30 \
-    ro.storage_manager.enabled=true \
-    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
-    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
 
 # QCOM
 include vendor/pa/config/qcom_utils.mk
