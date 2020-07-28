@@ -53,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "a03b325d_ff556da2",
+        "filename": "overlay/AOSPASettingsOverlay/res/values-ru/strings.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-07-28T10:00:13Z",
+      "side": 1,
+      "message": "Update copyright, these translations weren\u0027t created in 2007.",
+      "revId": "24849108e86f08ab456668c8bccd95c2901db527",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6eb34ae1_7ad83db3",
         "filename": "overlay/AOSPASettingsOverlay/res/values-ru/strings.xml",
         "patchSetId": 4
