@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 endif
 
+# Charger Images
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,vendor/pa/charger,$(TARGET_COPY_OUT_PRODUCT)/etc/res)
+
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/pa/config/config.fs
 

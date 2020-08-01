@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
 
 # Charger Images
 PRODUCT_PACKAGES += \
-    charger_res_images \
-    product_charger_res_images
+    charger_res_images
 
 # HIDL
 PRODUCT_PACKAGES += \
