@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "feda0529_6641a6c2",
+        "filename": "config/permissions/privapp-permissions-pa-system.xml",
+        "patchSetId": 9
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000373
+      },
+      "writtenOn": "2020-08-02T11:20:46Z",
+      "side": 0,
+      "message": "without this my redmi 2 non gapps unofficial build is bootlooping\n\nE AndroidRuntime: java.lang.IllegalStateException: Signature|privileged permissions not in privapp-permissions whitelist: {org.codeaurora.gallery: android.permission.MODIFY_AUDIO_ROUTING}",
+      "revId": "88301b2d439b4681588538f339829dd16b445ce7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
