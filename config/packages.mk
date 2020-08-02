@@ -22,12 +22,8 @@ PRODUCT_PACKAGES += \
 
 # Charger Images
 PRODUCT_PACKAGES += \
-    charger_res_images
-
-ifneq ($(TARGET_USES_AOSP_CHARGER),true)
-PRODUCT_PACKAGES += \
+    charger_res_images \
     product_charger_res_images
-endif
 
 # HIDL
 PRODUCT_PACKAGES += \
