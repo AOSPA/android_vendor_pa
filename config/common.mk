@@ -123,7 +123,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Properties
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
+ifeq ($(TARGET_BUILD_VARIANT),user)
 BUILD_FINGERPRINT ?= google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+endif
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     keyguard.no_require_sim=true \
