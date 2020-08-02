@@ -21,7 +21,8 @@
         android:priority="600"
         android:targetPackage="android" />
 
-    <application>
+    <application
+        android:label="@string/font_slate_for_oneplus_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
             android:value="Slate,Slate-book,slate-medium" />
