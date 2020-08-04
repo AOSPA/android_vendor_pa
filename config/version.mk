@@ -34,7 +34,7 @@ ifndef PA_VERSION_CODE
   # The version code is the upgradable portion during the cycle of
   # every major Android release. Each version code upgrade indicates
   # our own major release during each lifecycle.
-  PA_VERSION_CODE := 4
+  PA_VERSION_CODE := 5
 endif
 
 # Determines the variant of the build.
