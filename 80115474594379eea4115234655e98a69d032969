@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "0b4a210e_439cc92f",
+        "filename": "products/mido/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-05T15:23:56Z",
+      "side": 1,
+      "message": "why are not you using common tree?",
+      "revId": "80115474594379eea4115234655e98a69d032969",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "26c12f0c_e332a329",
+        "filename": "products/mido/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-05T15:23:56Z",
+      "side": 1,
+      "message": "can you try using our msm8953 kernel?",
+      "revId": "80115474594379eea4115234655e98a69d032969",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1d164d23_6e0e2ba4",
         "filename": "products/mido/pa_mido.mk",
         "patchSetId": 1
