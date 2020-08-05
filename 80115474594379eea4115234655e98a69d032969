@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1d164d23_6e0e2ba4",
+        "filename": "products/mido/pa_mido.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-05T15:06:28Z",
+      "side": 1,
+      "message": "You can drop the BUILD_FINGERPRINT.\nCoral fingerprint is already defined for everyone.",
+      "revId": "80115474594379eea4115234655e98a69d032969",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
