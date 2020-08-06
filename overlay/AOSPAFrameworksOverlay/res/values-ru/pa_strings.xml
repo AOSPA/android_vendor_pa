@@ -40,4 +40,6 @@
     <string name="popup_camera_dialog_no">Нет</string>
     <string name="popup_camera_dialog_raise">Да</string>
 
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Для звонков и уведомлений включен звуковой сигнал.</string>
 </resources>

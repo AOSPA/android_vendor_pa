@@ -55,9 +55,12 @@
     <string name="quick_settings_screen_record_label">Запись экрана</string>
     <string name="quick_settings_screen_record_start">Начать</string>
     <string name="quick_settings_screen_record_stop">Остановить</string>
-    <string name="screenrecord_audio_label">Запись звука</string>
     <string name="screenrecord_description">Во время записи экрана, система Android может захватывать любую конфиденциальную информацию, которая видна на вашем экране или воспроизводится на вашем устройстве. В том числе: пароли, платежная информация, фотографии, сообщения и аудио.</string>
-    <string name="screenrecord_mic_label">Микрофон</string>
+    <string name="screenrecord_audio_title">Источник звука</string>
+    <string name="screenrecord_audio_summary">Настройка записи звука.</string>
+    <string name="screenrecord_audio_recording_internal">Системные</string>
+    <string name="screenrecord_audio_recording_microphone">Микрофон</string>
+    <string name="screenrecord_audio_recording_off">Отключено</string>
     <string name="screenrecord_ongoing_screen_and_audio">Запись экрана и звука</string>
     <string name="screenrecord_ongoing_screen_only">Запись экрана</string>
     <string name="screenrecord_start">Начать</string>
@@ -83,4 +86,22 @@
     <string name="qs_data_switch_changed_1">Используется SIM 1 для Моб. Интернета</string>
     <string name="qs_data_switch_changed_2">Используется SIM 2 для Моб. Интернета</string>
 
+    <!-- App lock -->
+    <string name="applock_locked">&#160;заблокированно.</string>
+    <string name="applock_fingerprint_face">, отпечаток пальца или лицо для разблокировки.</string>
+    <string name="applock_face">&#160;или ваше лицо для разблокировки.</string>
+    <string name="applock_fingerprint">&#160;или ваш отпечаток пальца для разблокировки.</string>
+    <string name="applock_locked_notification">Приложение заблокированно</string>
+
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
+    <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления выкл.</string> 
+    <string name="accessibility_quick_settings_heads_up_on">Всплывающие уведомления вкл.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены</string>
+
+    <!-- DC Dimming -->
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_dc_brightness_mode">Режим яркости</string>
+    <string name="quick_settings_dc_full_auto">Автоматический режим</string>
 </resources>
