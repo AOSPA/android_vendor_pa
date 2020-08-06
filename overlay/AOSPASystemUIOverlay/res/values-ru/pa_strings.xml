@@ -79,8 +79,26 @@
     <!-- DataSwitch Tile -->
     <string name="qs_data_switch_label">Сменить SIM для Моб. Интернета</string>
     <string name="qs_data_switch_toast_0">Нет SIM-карты</string>
-    <string name="qs_data_switch_toast_1">Только одна SIM-карта!</string>
+    <string name="qs_data_switch_toast_1">Только однаgi SIM-карта!</string>
     <string name="qs_data_switch_changed_1">Используется SIM 1 для Моб. Интернета</string>
     <string name="qs_data_switch_changed_2">Используется SIM 2 для Моб. Интернета</string>
 
+    <!-- App lock -->
+    <string name="applock_locked">&#160;заблокированно.</string>
+    <string name="applock_fingerprint_face">, отпечаток пальца или лицо для разблокировки.</string>
+    <string name="applock_face">&#160;или ваше лицо для разблокировки.</string>
+    <string name="applock_fingerprint">&#160;или ваш отпечаток пальца для разблокировки.</string>
+    <string name="applock_locked_notification">Приложение заблокированно</string>
+    
+    <!-- Heads up QS tile -->
+    <string name="quick_settings_heads_up_label">Всплывающие уведомления</string>
+    <string name="accessibility_quick_settings_heads_up_off">Всплывающие уведомления выкл.</string> 
+    <string name="accessibility_quick_settings_heads_up_on">Всплывающие уведомления вкл.</string>
+    <string name="accessibility_quick_settings_heads_up_changed_off">Всплывающие уведомления отключены</string>
+    <string name="accessibility_quick_settings_heads_up_changed_on">Всплывающие уведомления включены</string>
+
+    <!-- DC Dimming -->
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_dc_brightness_mode">Режим яркости</string>
+    <string name="quick_settings_dc_full_auto">Автоматический режим</string>
 </resources>
