@@ -112,7 +112,7 @@
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Защита от случайной разблокировки</string>
-    <string name="pocket_judge_summary">Блокировка нажатий на экран и кнопкок, когда устройство находится в карамне</string>
+    <string name="pocket_judge_summary">Блокировка нажатий на экран и кнопкок, когда устройство находится в кармане</string>
 
     <!-- Pulse Ambient Light -->
     <string name="pulse_ambient_light_title">Pulse</string>
@@ -126,6 +126,14 @@
     <string name="home_handle_sizer_title">Размер панели для жестов</string>
     <string name="home_handle_low_label">Маленькая</string>
     <string name="home_handle_high_label">Большая</string>
+
+    <!-- NavigationBar Gestural Mode (Hide Pill) -->
+    <string name="gesture_pill_message">Скрыть навигационную панель для полноэкранных жестов.</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Полная</string>
+    <string name="back_height_high_label">Низкая</string>
+    <string name="back_height_message">Высота области экрана для жеста «Назад».</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Root-отладка</string>
@@ -193,7 +201,7 @@
 
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Менеджер иконок</string>
-    <string name="icon_manager_summary">Настроить виидмость иконок в статус баре</string>
+    <string name="icon_manager_summary">Настроить видмость иконок в статус баре</string>
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скриншота</string>
@@ -206,7 +214,6 @@
     <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану блокировки для использования разблокировки по лицу</string>
 
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_title">Быстрый запуск фонарика</string>
     <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие на кнопку «Питание», включит фонарик</string>
-
 </resources>
