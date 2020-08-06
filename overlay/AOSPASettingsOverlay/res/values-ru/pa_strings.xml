@@ -78,11 +78,11 @@
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Мобильный Интернет</string>
-    <string name="data_usage_app_restrict_data_summary">Включить использование Мобильного Интернета</string>
-    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
-    <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных по Wi-Fi</string>
+    <string name="data_usage_app_restrict_data_summary">Включить статистику Мобильного Интернета</string>
+    <string name="data_usage_app_restrict_vpn">Статистика VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить статистику данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Статистика Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить статистику данных по Wi-Fi</string>
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать панель навигации</string>
@@ -112,7 +112,7 @@
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Защита от случайной разблокировки</string>
-    <string name="pocket_judge_summary">Блокировка нажатий на экран и кнопкок, когда устройство находится в карамне</string>
+    <string name="pocket_judge_summary">Блокировка нажатий на экран и кнопок, когда устройство находится в кармане</string>
 
     <!-- Pulse Ambient Light -->
     <string name="pulse_ambient_light_title">Pulse</string>
@@ -126,6 +126,14 @@
     <string name="home_handle_sizer_title">Размер панели для жестов</string>
     <string name="home_handle_low_label">Маленькая</string>
     <string name="home_handle_high_label">Большая</string>
+
+    <!-- NavigationBar Gestural Mode (Hide Pill) -->
+    <string name="gesture_pill_message">Скрыть навигационную панель для полноэкранных жестов.</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Полная</string>
+    <string name="back_height_high_label">Низкая</string>
+    <string name="back_height_message">Высота области экрана для жеста «Назад».</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Root-отладка</string>
@@ -176,7 +184,7 @@
     <string name="hardware_keys_swipe_right_key_title">Свайп вправо</string>
     <string name="hardware_keys_swipe_left_key_title">Свайп влево</string>
     <string name="hardware_keys_long_tap_key_title">Долгое нажатие</string>
-    <string name="hardware_keys_swipe_tap_title">Дейтвие при свайпеSwipe action</string>
+    <string name="hardware_keys_swipe_tap_title">Дейcтвие при свайпе</string>
     <string name="hardware_keys_long_tap_title">Действие при долгом нажатии</string>
     <string name="button_wake_title">Разбудить устройство</string>
 
@@ -193,7 +201,7 @@
 
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Менеджер иконок</string>
-    <string name="icon_manager_summary">Настроить виидмость иконок в статус баре</string>
+    <string name="icon_manager_summary">Настроить видимость иконок в статус баре</string>
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скриншота</string>
@@ -203,10 +211,64 @@
 
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Проведите вверх для разблокировки</string>
-    <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану блокировки для использования разблокировки по лицу</string>
+    <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану для разблокировки по лицу</string>
 
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_title">Быстрый запуск фонарика</string>
     <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие на кнопку «Питание», включит фонарик</string>
+    
+    <!-- Battery light -->
+    <string name="battery_light_title">Включить LED-диод во времям зарядки или при низком заряде батареи</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="sucess_vib_title">Успешная аутентификация</string>
+    <string name="sucess_vib_summary">Вибрировать при успешной аутентификации</string>
+
+    <!-- Battery style -->
+    <string name="battery_style_title">Стиль батареи</string>
+    <string name="battery_style_bar">На строке состояния</string>
+    <string name="battery_style_circle">Круг</string>
+    <string name="battery_style_full_circle">Заполненный круг</string>
+    <string name="battery_style_hidden">Скрыть иконку</string>
+
+     <!-- App lock -->
+    <string name="applock_title">Блокировка приложений</string>
+    <string name="applock_locked">Заблокировано</string>
+    <string name="applock_unlocked">Разблокировано</string>
+    <string name="applock_locked_apps">Заблокированные приложения</string>
+    <string name="applock_unlocked_apps">Разблокированные приложения</string>
+    <string name="applock_show_only_on_wake">Единоразовая аунтентификация</string>
+    <string name="applock_show_only_on_wake_on_summary">После аунтентификации, приложение остается разблокированным, пока экран не будет выключен</string>
+    <string name="applock_show_only_on_wake_off_summary">После аунтентификации, приложение ещё остается разблокированным на 15 секунд, после выхода</string>
+    <string name="applock_notification_info">Вы можете скрыть или отобразить содержимое уведомления для каждого приложения, нажав на значок уведомления в настройках заблокированного приложения</string>
+    <string name="applock_show_notif">Показать содержимое уведомлений</string>
+    <string name="applock_hide_notif">Скрыть содержимое уведомлений</string>
+    <string name="applock_setup">Настройка блокировки приложений</string>
+    <string name="applock_overlay_summary">Данная функци недоступна, так как приложение заблокировано</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 приложение заблокировано</item>
+        <item quantity="two">2 приложения заблокировано</item>
+        <item quantity="few">%d приложения заблокировано</item>
+        <item quantity="other">%d приложений заблокировано</item>
+    </plurals>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Снижает нагрузку на глаза при низкой освещенности, но может привети к ухудшению качества и цветопередачи изображения.</string>
+    <string name="dc_dimming_auto_mode_title">По расписанию</string>
+    <string name="dc_dimming_mode_brightness">Включить, при яркости ниже выбранного порогового значения</string>
+    <string name="dc_dimming_mode_full">В зависимости от времени и яркости</string>
+    <string name="dc_dimming_brightness_title">Порог яркости</string>
+    <string name="dc_dimming_brightness_disabled">Отключено</string>
+    <string name="dc_dimming_restore_auto_mode">Восстановить автоматический режим</string>
+    <string name="dc_dimming_brightness_info">Активировать DC Dimming при средней яркости, ниже порогового значения</string>
+    <string name="dc_dimming_off_auto_mode_auto">Автоматическое включение</string>
+    <string name="dc_dimming_on_auto_mode_auto">Автоматическое выключение</string>
+    <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain, глаза, мерцание, шим</string>
+
+    <!-- Cycle through ringer modes -->
+    <!-- Option for prevent ringing setting -->
+    <string name="prevent_ringing_option_cycle">Круговое переключение режимов</string>
+    <!-- Summary for prevent ringing setting -->
+    <string name="prevent_ringing_option_cycle_summary">Включено (круговое переключение режимов)</string>
 </resources>
