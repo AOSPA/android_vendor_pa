@@ -78,11 +78,11 @@
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Мобильный Интернет</string>
-    <string name="data_usage_app_restrict_data_summary">Включить использование Мобильного Интернета</string>
-    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
-    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
-    <string name="data_usage_app_restrict_wifi">Данные Wi-Fi</string>
-    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных по Wi-Fi</string>
+    <string name="data_usage_app_restrict_data_summary">Включить статистику Мобильного Интернета</string>
+    <string name="data_usage_app_restrict_vpn">Статистика VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить статистику данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Статистика Wi-Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить статистику данных по Wi-Fi</string>
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать панель навигации</string>
@@ -112,7 +112,7 @@
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Защита от случайной разблокировки</string>
-    <string name="pocket_judge_summary">Блокировка нажатий на экран и кнопкок, когда устройство находится в карамне</string>
+    <string name="pocket_judge_summary">Блокировка нажатий на экран и кнопок, когда устройство находится в кармане</string>
 
     <!-- Pulse Ambient Light -->
     <string name="pulse_ambient_light_title">Pulse</string>
@@ -126,6 +126,14 @@
     <string name="home_handle_sizer_title">Размер панели для жестов</string>
     <string name="home_handle_low_label">Маленькая</string>
     <string name="home_handle_high_label">Большая</string>
+
+    <!-- NavigationBar Gestural Mode (Hide Pill) -->
+    <string name="gesture_pill_message">Скрыть навигационную панель для полноэкранных жестов.</string>
+
+    <!-- Back gesture height -->
+    <string name="back_height_low_label">Полная</string>
+    <string name="back_height_high_label">Низкая</string>
+    <string name="back_height_message">Высота области экрана для жеста «Назад».</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Root-отладка</string>
@@ -176,7 +184,7 @@
     <string name="hardware_keys_swipe_right_key_title">Свайп вправо</string>
     <string name="hardware_keys_swipe_left_key_title">Свайп влево</string>
     <string name="hardware_keys_long_tap_key_title">Долгое нажатие</string>
-    <string name="hardware_keys_swipe_tap_title">Дейтвие при свайпеSwipe action</string>
+    <string name="hardware_keys_swipe_tap_title">Дейcтвие при свайпе</string>
     <string name="hardware_keys_long_tap_title">Действие при долгом нажатии</string>
     <string name="button_wake_title">Разбудить устройство</string>
 
@@ -193,7 +201,7 @@
 
     <!-- Status bar Icon Manager -->
     <string name="icon_manager_title">Менеджер иконок</string>
-    <string name="icon_manager_summary">Настроить виидмость иконок в статус баре</string>
+    <string name="icon_manager_summary">Настроить видмость иконок в статус баре</string>
 
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Звук скриншота</string>
@@ -203,10 +211,23 @@
 
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Проведите вверх для разблокировки</string>
-    <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану блокировки для использования разблокировки по лицу</string>
+    <string name="security_settings_face_require_swipe_summary">Проведите вверх по экрану для разблокировки по лицу</string>
 
     <!-- Torch Power button gestures -->
-    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_title">Быстрый запуск фонарика</string>
     <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие на кнопку «Питание», включит фонарик</string>
+    
+    <!-- Battery light -->
+    <string name="battery_light_title">Включить LED-диод во времям зарядки или при низком заряде батареи</string>
 
+    <!-- Fingerprint authentication vibration -->
+    <string name="sucess_vib_title">Успешная аутентификация</string>
+    <string name="sucess_vib_summary">Вибрировать при успешной аутентификации</string>
+
+    <!-- Battery style -->
+    <string name="battery_style_title">Стиль батареи</string>
+    <string name="battery_style_bar">На строке состояния</string>
+    <string name="battery_style_circle">Круг</string>
+    <string name="battery_style_full_circle">Заполненный круг</string>
+    <string name="battery_style_hidden">Скрыть иконку</string>
 </resources>
