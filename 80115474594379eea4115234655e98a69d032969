@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8c9e99f1_55934d00",
+        "filename": "products/mido/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2020-08-06T03:23:36Z",
+      "side": 1,
+      "message": "Right now, no one uses common trees for mido.\nIt\u0027s the end of Q\nWe can give a try at R",
+      "parentUuid": "0b4a210e_439cc92f",
+      "revId": "80115474594379eea4115234655e98a69d032969",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "26c12f0c_e332a329",
         "filename": "products/mido/pa.dependencies",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "fb2305d8_4ebfde59",
+        "filename": "products/mido/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2020-08-06T03:23:36Z",
+      "side": 1,
+      "message": "Your msm8953 kernel is 4.9, we use 3.18\nAnd also, 4.9 for our device isn\u0027t stable.",
+      "parentUuid": "26c12f0c_e332a329",
+      "revId": "80115474594379eea4115234655e98a69d032969",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1d164d23_6e0e2ba4",
         "filename": "products/mido/pa_mido.mk",
         "patchSetId": 1
@@ -50,6 +86,24 @@
       "revId": "80115474594379eea4115234655e98a69d032969",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d64d038a_461e4599",
+        "filename": "products/mido/pa_mido.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2020-08-06T03:23:36Z",
+      "side": 1,
+      "message": "okayyy!",
+      "parentUuid": "1d164d23_6e0e2ba4",
+      "revId": "80115474594379eea4115234655e98a69d032969",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": false
     }
   ]
 }
