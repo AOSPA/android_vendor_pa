@@ -226,7 +226,9 @@
     <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
     <string name="applock_show_only_on_wake_on_summary">Uma vez autenticado, o aplicativo permanece desbloqueado até que a tela seja desligada</string>
     <string name="applock_show_only_on_wake_off_summary">Uma vez autenticado, o aplicativo permanece desbloqueado por 15 segundos após sair</string>
-    <string name="applock_lock_notifications">Ocultar o conteúdo da notificação enquanto o aplicativo estiver bloqueado</string>
+    <string name="applock_notification_info">Você pode configurar a visibilidade do conteúdo das notificações para cada aplicativo clicando no ícone de notificações ao lado do cadeado</string>
+    <string name="applock_show_notif">Mostrando conteúdo das notificações</string>
+    <string name="applock_hide_notif">Ocultando conteúdo das notificações</string>
     <string name="applock_setup">Configurar bloqueio de aplicativos</string>
     <string name="applock_overlay_summary">Este recurso não está disponível porque este aplicativo está bloqueado</string>
     <plurals name="applock_summary">
