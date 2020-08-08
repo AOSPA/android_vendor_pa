@@ -100,4 +100,12 @@
     <string name="applock_fingerprint">&#160;ou sua biometria para desbloquear.</string>
     <string name="applock_locked_notification">Aplicativo está bloqueado</string>
 
+    <!-- DC Dimming -->
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_dc_brightness_mode">Modo de brilho</string>
+    <string name="quick_settings_dc_full_auto">Automático</string>
+
+    <!-- Cycle though ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Chamadas e notificações farão o dispositivo tocar</string>
+
 </resources>

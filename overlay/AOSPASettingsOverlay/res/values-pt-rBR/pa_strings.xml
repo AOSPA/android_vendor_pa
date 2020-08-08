@@ -115,7 +115,7 @@
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
 
     <!-- Pulse Ambient Light -->
-    <string name="pulse_ambient_light_title">Pulso</string>
+    <string name="pulse_ambient_light_title">Notificações edge</string>
     <string name="pulse_ambient_light_summary">Iluminar as partes laterais da tela no pulso da notificação</string>
     <string name="ambient_notification_light_accent_title">Tonalidade do sistema</string>
     <string name="ambient_notification_light_color_automatic_title">Cor da notificação</string>
@@ -217,6 +217,21 @@
     <string name="power_button_torch_title">Lanterna rápida</string>
     <string name="power_button_torch_summary">Quando a tela estiver desligada, manter pressionado o botão de energia irá ativar a lanterna</string>
 
+    <!-- Battery light -->
+    <string name="battery_light_title">Ligar a luz durante o carregamento</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="sucess_vib_title">Autenticação bem-sucedida</string>
+    <string name="sucess_vib_summary">Vibrar quando uma autenticação for bem-sucedida</string>
+
+
+    <!-- Battery style -->
+    <string name="battery_style_title">Estilo do ícone de bateria</string>
+    <string name="battery_style_bar">Barra</string>
+    <string name="battery_style_circle">Círculo</string>
+    <string name="battery_style_full_circle">Círculo (preenchido)</string>
+    <string name="battery_style_hidden">Oculto</string>
+
     <!-- App lock -->
     <string name="applock_title">Bloqueio de aplicativos</string>
     <string name="applock_locked">Bloqueado</string>
@@ -226,7 +241,9 @@
     <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
     <string name="applock_show_only_on_wake_on_summary">Uma vez autenticado, o aplicativo permanece desbloqueado até que a tela seja desligada</string>
     <string name="applock_show_only_on_wake_off_summary">Uma vez autenticado, o aplicativo permanece desbloqueado por 15 segundos após sair</string>
-    <string name="applock_lock_notifications">Ocultar o conteúdo da notificação enquanto o aplicativo estiver bloqueado</string>
+    <string name="applock_notification_info">Você pode configurar a visibilidade do conteúdo das notificações para cada aplicativo clicando no ícone de notificações ao lado do cadeado</string>
+    <string name="applock_show_notif">Mostrando conteúdo das notificações</string>
+    <string name="applock_hide_notif">Ocultando conteúdo das notificações</string>
     <string name="applock_setup">Configurar bloqueio de aplicativos</string>
     <string name="applock_overlay_summary">Este recurso não está disponível porque este aplicativo está bloqueado</string>
     <plurals name="applock_summary">
@@ -234,4 +251,23 @@
         <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
 
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Dimming</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, mas pode causar redução na qualidade de imagem e cor.</string>
+    <string name="dc_dimming_auto_mode_title">Programar</string>
+    <string name="dc_dimming_mode_brightness">Ativar quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_mode_full">Depender do horário e do nível de brilho</string>
+    <string name="dc_dimming_brightness_title">Limite do brilho</string>
+    <string name="dc_dimming_brightness_disabled">Desativado</string>
+    <string name="dc_dimming_restore_auto_mode">Restaurar modo automático</string>
+    <string name="dc_dimming_brightness_info">Ativar DC Dimming apenas quando o brilho estiver abaixo do limite definido</string>
+    <string name="dc_dimming_off_auto_mode_auto">Será ativado automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Será desativado automaticamente</string>
+    <string name="keywords_display_dc_dimming">dc dimming, cintilação, olho, fadiga</string>
+
+    <!-- Cycle through ringer modes -->
+    <!-- Option for prevent ringing setting -->
+    <string name="prevent_ringing_option_cycle">Alternar modos</string>
+    <!-- Summary for prevent ringing setting -->
+    <string name="prevent_ringing_option_cycle_summary">Ativado (alternar modos)</string>
 </resources>
