@@ -42,12 +42,6 @@
 	"revision":     "quartz-855"
   },
   {
-	"remote":       "aospa",
-	"repository":   "AOSPA/android_hardware_qcom_bootctrl",
-	"target_path":  "hardware/qcom/bootctrl",
-	"revision":     "quartz-aosp"
-  },
-  {
 	"remote":	"aospa",
 	"repository":   "AOSPA/android_hardware_qcom_media",
 	"target_path":	"hardware/qcom/media",
@@ -64,6 +58,12 @@
         "repository":	 "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
 	"target_path":   "vendor/qcom/opensource/commonsys-intf/display",
 	"revision":      "quartz"
+  },
+  {
+        "remote":       "github",
+        "repository":   "kdrag0n/proton-clang",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-12.0",
+        "revision":     "master"
   },
   {
         "remote":       "aospa",
