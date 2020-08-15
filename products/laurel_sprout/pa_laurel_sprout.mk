@@ -40,4 +40,7 @@ TARGET_VENDOR_PRODUCT_NAME := laurel_sprout
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="laurel_sprout-user 10 QKQ1.190910.002 V11.0.15.0.QFQMIXM release-keys"
+
 endif
