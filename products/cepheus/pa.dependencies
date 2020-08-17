@@ -57,7 +57,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_packages_apps_Bluetooth",
         "target_path":  "packages/apps/Bluetooth",
-        "revision":     "quartz-dev"
+        "revision":     "quartz"
     },
     {
         "remote":       "caf",
