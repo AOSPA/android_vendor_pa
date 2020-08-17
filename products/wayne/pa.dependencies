@@ -1,30 +1,30 @@
 [
   {
-    "remote":      "aospa"
+    "remote":      "aospa",
     "repository":  "AOSPA/android_device_xiaomi_sdm660-common",
     "target_path": "device/xiaomi/sdm660-common",
     "branch":      "quartz"
   },
   {
-    "remote":      "aospa"
+    "remote":      "aospa",
     "repository":  "AOSPA/android_kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/sdm660",
     "branch":      "quartz"
   },
   {
-    "remote":      "aospa"
+    "remote":      "aospa",
     "repository":  "AOSPA/android_vendor_Miuicamera",
     "target_path": "vendor/MiuiCamera",
     "branch":      "quartz"
   },
   {
-    "remote":      "aospa"
+    "remote":      "aospa",
     "repository":  "AOSPA/android_device_xiaomi_wayne",
     "target_path": "device/xiaomi/wayne",
     "branch":      "quartz"
   },
   {
-    "remote":      "blobs"
+    "remote":      "blobs",
     "repository":  "proprietary_vendor_xiaomi",
     "target_path": "vendor/xiaomi",
     "branch":      "quartz"
