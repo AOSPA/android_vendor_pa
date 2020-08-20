@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8171e98_a1104422",
+        "filename": "products/violet/pa_violet.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-20T19:51:10Z",
+      "side": 1,
+      "message": "# Check for target product\nifeq (pa_violet,$(TARGET_PRODUCT))\n\n# Inherit from those products. Most specific first.\n$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)\n$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)\n\n# Include Paranoid Android common configuration\nTARGET_BOOT_ANIMATION_RES :\u003d 1080",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d96e6b9_9e762349",
+        "filename": "products/violet/pa_violet.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-20T19:51:10Z",
+      "side": 1,
+      "message": "We aren\u0027t LineageOS.",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f6c04257_2b0bc290",
+        "filename": "products/violet/pa_violet.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-20T19:51:10Z",
+      "side": 1,
+      "message": "We already define a common build fingerprint for everyone, then you can drop this.",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8098e294_4229e842",
+        "filename": "products/violet/pa_violet.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-08-20T19:51:10Z",
+      "side": 1,
+      "message": "endif",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
