@@ -50,6 +50,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/sakura/pa_sakura.mk \
     $(LOCAL_DIR)/wayne/pa_wayne.mk \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
+    $(LOCAL_DIR)/TP1803/pa_TP1803.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk
 
@@ -89,5 +90,6 @@ COMMON_LUNCH_CHOICES += \
     pa_sakura-userdebug \
     pa_wayne-userdebug \
     pa_whyred-userdebug \
+    pa_TP1803-userdebug \
     pa_X00TD-userdebug \
     pa_X01BD-userdebug
