@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9de662a1_a8d4c08a",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-20T19:27:33Z",
+      "side": 1,
+      "message": "alphabetize please",
+      "revId": "025dd7cefdb483473d395851f3fa8aab622f0475",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a88efe94_076fafe5",
+        "filename": "products/violet/pa_violet.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-20T19:27:33Z",
+      "side": 1,
+      "message": "try to match the copyright, comments, and overall style of our device makefiles, such as raphael and laurel_sprout",
+      "revId": "025dd7cefdb483473d395851f3fa8aab622f0475",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
