@@ -1,0 +1,74 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "raghavt20/pa_device_xiaomi_violet",
+        "target_path":  "device/xiaomi/violet",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "raghavt20/pa_device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "raghavt20/pa_kernel_xiaomi_sm6150",
+        "target_path":  "kernel/xiaomi/sm6150",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "gitlab",
+        "repository":   "raghavt20/vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "lineage-17.1"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "quartz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_packages_apps_Bluetooth",
+        "target_path":  "packages/apps/Bluetooth",
+        "revision":     "quartz-dev"
+    }
+]
