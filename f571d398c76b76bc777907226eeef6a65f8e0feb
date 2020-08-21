@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "884d43cd_c8c247ca",
+        "filename": "config/common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-21T23:41:16Z",
+      "side": 1,
+      "message": "This was a hack for old prebuilt vendors, which shouldn\u0027t be an issue anymore. Do we still need both of these copies or are they already handled elsewhere?",
+      "revId": "f571d398c76b76bc777907226eeef6a65f8e0feb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
