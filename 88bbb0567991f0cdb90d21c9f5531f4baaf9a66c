@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba826d44_45622942",
+        "filename": "products/mido/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T03:01:16Z",
+      "side": 1,
+      "message": "Change this to aospa as we will be tracking from there",
+      "revId": "88bbb0567991f0cdb90d21c9f5531f4baaf9a66c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7372811a_3cc10e9d",
+        "filename": "products/mido/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T03:01:16Z",
+      "side": 1,
+      "message": "Same for this also change it to AOSPA and follow it for all",
+      "revId": "88bbb0567991f0cdb90d21c9f5531f4baaf9a66c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
