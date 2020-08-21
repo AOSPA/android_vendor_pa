@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "a7f38b03_0ce8e59f",
+        "filename": "products/violet/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T02:56:43Z",
+      "side": 1,
+      "message": "Change the remote and repository to AOSPA as we will track from there",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "a67a696e_ed489d38",
         "filename": "products/violet/pa.dependencies",
         "patchSetId": 2
@@ -13,6 +30,24 @@
       "writtenOn": "2020-08-21T02:49:39Z",
       "side": 1,
       "message": "Change this to like this:\nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/12986/5/products/wayne/pa.dependencies#27\n\nAlso make sure that you have shimmed megvii because we cant host it due to DMCA.",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "31b2862e_fec81f20",
+        "filename": "products/violet/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T02:56:43Z",
+      "side": 1,
+      "message": "\u003e Change this to like this:\n\u003e https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/11990/4/products/lavender/pa.dependencies#21\n\u003e \n\u003e Also make sure that you have shimmed megvii because we cant host it due to DMCA.",
+      "parentUuid": "a67a696e_ed489d38",
       "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
