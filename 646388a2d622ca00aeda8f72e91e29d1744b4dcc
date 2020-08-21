@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "a67a696e_ed489d38",
+        "filename": "products/violet/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T02:49:39Z",
+      "side": 1,
+      "message": "Change this to like this:\nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/12986/5/products/wayne/pa.dependencies#27\n\nAlso make sure that you have shimmed megvii because we cant host it due to DMCA.",
+      "revId": "646388a2d622ca00aeda8f72e91e29d1744b4dcc",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "d8171e98_a1104422",
         "filename": "products/violet/pa_violet.mk",
         "patchSetId": 2
