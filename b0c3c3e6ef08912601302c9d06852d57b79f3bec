@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2c3c61b9_93ce3186",
+        "filename": "products/violet/pa.dependencies",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T15:07:43Z",
+      "side": 1,
+      "message": "So did you shim the megvii libs?",
+      "revId": "b0c3c3e6ef08912601302c9d06852d57b79f3bec",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
