@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4c3ec3b3_d19fbf62",
+        "filename": "products/mido/pa_mido.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-08-21T16:36:43Z",
+      "side": 1,
+      "message": "Just to keep it uniform do it like this \nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/12986/5/products/wayne/pa_wayne.mk#35",
+      "revId": "adf667098e7b109b8c4f7d5c1b2bf839189e0ec8",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
