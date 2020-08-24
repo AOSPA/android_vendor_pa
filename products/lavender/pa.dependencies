@@ -24,6 +24,12 @@
     "revision":     "quartz"
   },
   {
+    "remote":       "caf",
+    "repository":   "platform/hardware/qcom/thermal",
+    "target_path":  "vendor/qcom/opensource/thermal-hal",
+    "revision":     "refs/tags/LA.UM.8.2.r1-07200-sdm660.0"
+  },
+  {
     "remote":       "aospa",
     "repository":   "AOSPA/android_device_qcom_common",
     "target_path":  "device/qcom/common",
