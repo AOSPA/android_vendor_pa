@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "606ff95f_ca63ab96",
+        "filename": "overlay/AOSPAFrameworksOverlay/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-08-30T14:07:20Z",
+      "side": 1,
+      "message": "Do you have the cloud-to-device messaging service it talks about without GMS?",
+      "revId": "429ca10300226fdab266a005ddacee33946eb857",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
