@@ -1,0 +1,38 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_oneplus_common",
+        "target_path":  "device/oneplus/common",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_oneplus_oneplus8",
+        "target_path":  "device/oneplus/oneplus8",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_oneplus_sm8250",
+        "target_path":  "kernel/oneplus/sm8250",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "ruby"
+    }
+]
