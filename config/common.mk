@@ -87,7 +87,7 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
 endif #TARGET_DISABLES_GAPPS
 
 # Gestures
-ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
+ifneq ($(TARGET_USES_NAVBAR),true)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 endif
