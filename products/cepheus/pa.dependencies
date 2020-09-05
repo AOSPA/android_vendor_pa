@@ -9,7 +9,7 @@
         "remote":       "github",
         "repository":   "AOSPA/android_kernel_xiaomi_sm8150",
         "target_path":  "kernel/xiaomi/sm8150",
-        "revision":     "quartz"
+        "revision":     "quartz-cepheus"
     },
     {
         "remote":       "blobs",
