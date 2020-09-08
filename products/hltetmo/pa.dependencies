@@ -72,6 +72,12 @@
         "revision":     "quartz-8974"
     },
     {
+        "repository":   "LineageOS/android_hardware_sony_timekeep",
+        "target_path":  "hardware/sony/timekeep",
+        "remote":       "github",
+        "revision":     "lineage-17.1"
+    },
+    {
         "repository":   "AOSPA/android_frameworks_av",
         "target_path":  "frameworks/av",
         "remote":       "aospa",
