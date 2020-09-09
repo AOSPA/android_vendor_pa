@@ -16,6 +16,7 @@ PRODUCT_PACKAGES += \
     AccentColorDodgerBlueOverlay \
     AccentColorHadalZoneOverlay \
     AccentColorLostInForestOverlay \
+    AccentColorMagentaOverlay \
     AccentColorPixelBlueOverlay \
     AccentColorPurpleHeatOverlay \
     AccentColorRedOverlay \
