@@ -1,6 +1,6 @@
 
 # Copyright (C) 2017 Unlegacy-Android
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2020 The LineageOS Project
 # Copyright (C) 2019 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,13 +15,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# -----------------------------------------------------------------
-# PA OTA update package
+# ---------------------
+# PA OTA Update Package
+# ---------------------
 
 PA_TARGET_PACKAGE := $(PRODUCT_OUT)/pa-$(PA_VERSION).zip
 
 .PHONY: bacon
 bacon: $(INTERNAL_OTA_PACKAGE_TARGET)
 	$(hide) mv $(INTERNAL_OTA_PACKAGE_TARGET) $(PA_TARGET_PACKAGE)
-	$(hide) $(MD5SUM) $(PA_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(PA_TARGET_PACKAGE).md5sum
+	$(hide) md5sum $(PA_TARGET_PACKAGE) | sed "s|$(PRODUCT_OUT)/||" > $(PA_TARGET_PACKAGE).md5sum
 	@echo "Package Complete: $(PA_TARGET_PACKAGE)" >&2
