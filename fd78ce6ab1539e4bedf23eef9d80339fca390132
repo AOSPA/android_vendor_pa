@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3b56678f_99ac3fd9",
+        "filename": "overlay/Accents/AccentColorMagentaOverlay/res/values/strings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2020-09-12T23:47:12Z",
+      "side": 1,
+      "message": "I thought this is magenta :)",
+      "revId": "fd78ce6ab1539e4bedf23eef9d80339fca390132",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
