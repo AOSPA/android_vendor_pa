@@ -59,24 +59,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
 
-ifeq ($(TARGET_DISABLES_GAPPS), true)
-PRODUCT_PACKAGES += \
-    ChromeModernPublic \
-    MarkupGoogle \
-    MatchmakerPrebuilt \
-    SnapdragonGallery
-endif
-
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libqti_vndfwk_detect \
     libvndfwk_detect_jni.qti.vendor \
     libqti_vndfwk_detect.vendor
-
-# Retro Music Player
-PRODUCT_PACKAGES += \
-    RetroMusicPlayer
 
 # Shell
 PRODUCT_PACKAGES += \

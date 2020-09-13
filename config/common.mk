@@ -53,25 +53,22 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,vendor/pa/prebuilt/fonts,$(TARGET_COPY_OUT_PRODUCT)/fonts) \
         vendor/pa/prebuilt/etc/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
-# GApps
-ifneq ($(TARGET_DISABLES_GAPPS), true)
+# GMS
+ifneq ($(TARGET_DISABLES_GMS), true)
 
-# Inherit GApps Makefiles
-$(call inherit-product-if-exists, vendor/partner_gms/products/gms.mk)
-$(call inherit-product-if-exists, vendor/partner_gms/products/turbo.mk)
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
+# Inherit GMS, Pixel Features, and Modules.
+$(call inherit-product, vendor/google/gms/config.mk)
 
-# Do not preoptimize prebuilts when building GApps
+# Don't preoptimize prebuilts when building GMS.
 DONT_DEXPREOPT_PREBUILTS := true
 
 else
 
-# Use default filter for problematic AOSP apps
+# Use default filter for problematic AOSP apps.
 PRODUCT_DEXPREOPT_QUICKEN_APPS += \
-    Dialer \
-    ChromeModernPublic
+    Dialer
 
-endif #TARGET_DISABLES_GAPPS
+endif #TARGET_DISABLES_GMS
 
 # Gestures
 ifneq ($(TARGET_USES_HARDWARE_KEYS),true)
@@ -98,13 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/pa/config/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/pa/config/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml
 
-ifeq ($(TARGET_DISABLES_GAPPS), true)
-PRODUCT_COPY_FILES += \
-    vendor/gapps/system/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml
-endif
-
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.control_privapp_permissions=enforce
+
+# Pixel Features
+$(call inherit-product, vendor/google/pixel/config.mk)
 
 # Properties
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
@@ -117,27 +112,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.recorder.show_manufacturer_and_model=true \
     net.tethering.noprovisioning=true \
     persist.sys.disable_rescue=true \
-    ro.atrace.core.services=com.google.android.gms,com.google.android.gms.ui,com.google.android.gms.persistent \
     ro.build.selinux=1 \
     ro.carrier=unknown \
     ro.com.android.dataroaming=false \
     ro.config.bt_sco_vol_steps=30 \
     ro.config.media_vol_steps=30 \
-    ro.error.receiver.system.apps=com.google.android.gms \
-    ro.opa.eligible_device=true \
-    ro.setupwizard.enterprise_mode=1 \
-    setupwizard.theme=glif_v3_light \
     ro.storage_manager.enabled=true \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
     ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html
-
-ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.com.google.clientidbase=android-google
-else
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.com.google.clientidbase=$(PRODUCT_GMS_CLIENTID_BASE)
-endif
 
 # QCOM
 include vendor/pa/config/qcom_utils.mk
