@@ -31,19 +31,6 @@ PRODUCT_COPY_FILES += \
 # Optimize everything for preopt
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
-# Backup Tool
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
-    vendor/pa/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
-    vendor/pa/prebuilt/bin/50-backuptool.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-backuptool.sh \
-
-ifeq ($(AB_OTA_UPDATER),true)
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/bin/backuptool_ab.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.sh \
-    vendor/pa/prebuilt/bin/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
-    vendor/pa/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
-endif
-
 # Bluetooth
 # Disable AAC whitelist
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += persist.vendor.bt.a2dp.aac_whitelist=false
