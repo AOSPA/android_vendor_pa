@@ -35,7 +35,6 @@ PRODUCT_PACKAGES += \
     AOSPATelephonyOverlay \
     AOSPAThemePickerOverlay \
     FontGoogleSansOverlay \
-    FontSlateForOnePlusOverlay \
     IconShapePebbleOverlay \
     NavigationBarModeGesturalOverlayNoPill \
     NavigationBarModeGesturalOverlayNoPillNarrowBack \
