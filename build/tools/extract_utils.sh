@@ -382,9 +382,6 @@ function write_blueprint_packages() {
         EXTENSION=${BASENAME##*.}
         PKGNAME=${BASENAME%.*}
 
-        # Add to final package list
-        PACKAGE_LIST+=("$PKGNAME")
-
         SRC="proprietary"
         if [ "$PARTITION" = "system" ]; then
             SRC+="/system"
@@ -398,7 +395,20 @@ function write_blueprint_packages() {
             SRC+="/odm"
         fi
 
-        if [ "$CLASS" = "SHARED_LIBRARIES" ]; then
+        if [ "$CLASS" = "APEX" ]; then
+            ARGS=(${ARGS//;/ })
+            SRC="$SRC/apex"
+            printf 'prebuilt_apex {\n'
+            for ARG in "${ARGS[@]}"; do
+                if [[ "$ARG" =~ "PKGNAME" ]]; then
+                    PKGNAME=${ARG##*\=}
+                    printf '\tname: "%s",\n' "$PKGNAME"
+                fi
+            done
+            printf '\tsrc: "%s/%s",\n' "$SRC" "$FILE"
+            printf '\towner: "%s",\n' "${VENDOR%\/*}"
+            printf '\tfilename: "%s",\n' "$BASENAME"
+        elif [ "$CLASS" = "SHARED_LIBRARIES" ]; then
             printf 'cc_prebuilt_library_shared {\n'
             printf '\tname: "%s",\n' "$PKGNAME"
             printf '\towner: "%s",\n' "${VENDOR%\/*}"
@@ -505,7 +515,7 @@ function write_blueprint_packages() {
                 printf '\tsub_dir: "%s",\n' "$DIRNAME"
             fi
         fi
-        if [ "$CLASS" = "SHARED_LIBRARIES" ] || [ "$CLASS" = "EXECUTABLES" ] ; then
+        if [ "$CLASS" = "SHARED_LIBRARIES" ] || [ "$CLASS" = "EXECUTABLES" ] || [ "$CLASS" = "APEX" ] ; then
             printf '\tprefer: true,\n'
         fi
         if [ "$EXTRA" = "priv-app" ]; then
@@ -521,6 +531,9 @@ function write_blueprint_packages() {
             printf '\tdevice_specific: true,\n'
         fi
         printf '}\n\n'
+
+        # Add to final package list.
+        PACKAGE_LIST+=("$PKGNAME")
     done
 }
 
@@ -785,6 +798,16 @@ function write_product_packages() {
     fi
     if [ "${#O_LIB64[@]}" -gt "0" ]; then
         write_blueprint_packages "SHARED_LIBRARIES" "odm" "64" "O_LIB64" >> "$ANDROIDBP"
+    fi
+
+    # Apex
+    local APEX=( $(prefix_match "apex/") )
+    if [ "${#APEX[@]}" -gt "0" ]; then
+        write_blueprint_packages "APEX" "" "" "APEX" >> "$ANDROIDBP"
+    fi
+    local S_APEX=( $(prefix_match "system/apex/") )
+    if [ "${#S_APEX[@]}" -gt "0" ]; then
+        write_blueprint_packages "APEX" "system" "" "S_APEX" >> "$ANDROIDBP"
     fi
 
     # Apps
