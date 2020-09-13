@@ -27,14 +27,14 @@ ifndef PA_VERSION_FLAVOR
   # This is the global pa version flavor that determines the focal point
   # behind our releases. This is bundled alongside the $(PA_VERSION_CODE)
   # and only changes per major Android releases.
-  PA_VERSION_FLAVOR := Quartz
+  PA_VERSION_FLAVOR := Ruby
 endif
 
 ifndef PA_VERSION_CODE
   # The version code is the upgradable portion during the cycle of
   # every major Android release. Each version code upgrade indicates
   # our own major release during each lifecycle.
-  PA_VERSION_CODE := 5
+  PA_VERSION_CODE := 1
 endif
 
 # Determines the variant of the build.
