@@ -14,7 +14,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.aospa.theme.font.slateforoneplus">
+    package="co.aospa.theme.font.oneplussans">
 
     <overlay
         android:category="android.theme.customization.font"
@@ -22,9 +22,9 @@
         android:targetPackage="android" />
 
     <application
-        android:label="@string/font_slate_for_oneplus_overlay">
+        android:label="@string/font_oneplus_sans_overlay">
         <meta-data
             android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
-            android:value="Slate,Slate-book,slate-medium" />
+            android:value="OnePlusSans,OnePlusSans-light,OnePlusSans-medium" />
     </application>
 </manifest>
