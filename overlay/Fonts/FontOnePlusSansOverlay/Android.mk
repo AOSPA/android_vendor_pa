@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_PACKAGE_NAME := FontSlateForOnePlusOverlay
-LOCAL_RRO_THEME := FontSlateForOnePlus
+LOCAL_PACKAGE_NAME := FontOnePlusSansOverlay
+LOCAL_RRO_THEME := FontOnePlusSans
 LOCAL_SDK_VERSION := current
 include $(BUILD_RRO_PACKAGE)

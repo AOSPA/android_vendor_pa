@@ -16,7 +16,16 @@
 -->
 <resources>
 
-    <!-- OnePlus Slate font name -->
-    <string name="font_slate_for_oneplus_overlay" translatable="false">Slate For OnePlus</string>
+    <!-- Name of a font family to use for headlines. If empty, falls back to platform default -->
+    <string name="config_headlineFontFamily">OnePlusSans</string>
+
+    <!-- Name of the font family used for system surfaces where the font should use medium weight -->
+    <string name="config_headlineFontFamilyMedium">OnePlusSans-medium</string>
+
+    <!-- Name of a font family to use for body text. -->
+    <string name="config_bodyFontFamily">OnePlusSans-light</string>
+
+    <!-- Name of a font family to use for medium body text. -->
+    <string name="config_bodyFontFamilyMedium">OnePlusSans</string>
 
 </resources>
