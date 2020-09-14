@@ -1,4 +1,4 @@
-// Copyright (C) 2019 The LineageOS Project
+// Copyright (C) 2019-2020 The LineageOS Project
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -25,9 +25,6 @@ cc_binary {
     ],
     arch: {
         arm: {
-            shared_libs: [
-                "libhwbinder",
-            ],
             cflags: ["-DARCH_ARM_32"],
         },
     },
@@ -43,7 +40,6 @@ cc_binary {
         "libbase",
         "libdl",
         "libhidlbase",
-        "libhidltransport",
         "libutils",
         "vendor.qti.hardware.cryptfshw@1.0",
     ],
