@@ -59,6 +59,24 @@
     },
     {
       "key": {
+        "uuid": "e9eae2a6_f9b29be3",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000606
+      },
+      "writtenOn": "2020-09-15T16:41:08Z",
+      "side": 1,
+      "message": "yeah my bad they are there in device.mk during the unification process of the tree forgot to move it.\nWill do now",
+      "parentUuid": "0d3b1fff_f0106062",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c80b69b3_82a1a775",
         "filename": "products/miatoll/pa_miatoll.mk",
         "patchSetId": 4
