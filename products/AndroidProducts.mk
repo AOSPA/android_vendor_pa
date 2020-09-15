@@ -48,6 +48,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
     $(LOCAL_DIR)/sakura/pa_sakura.mk \
+    $(LOCAL_DIR)/ursa/pa_ursa.mk \
     $(LOCAL_DIR)/wayne/pa_wayne.mk \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
