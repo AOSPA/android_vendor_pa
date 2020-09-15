@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03363d88_1cc67dae",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000600
+      },
+      "writtenOn": "2020-09-15T11:14:02Z",
+      "side": 1,
+      "message": "We are not LineageOS",
+      "revId": "16c874f733402094947336f352e36c39cb6c8978",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
