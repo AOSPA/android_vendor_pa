@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1b6af33d_674f2c9a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 6
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-09-15T23:19:30Z",
+      "side": 1,
+      "message": "When writing a description for a commit. You need to break 2 lines. Following this example:\n(Else, git will understand everything as a part of the commit message)\n\npa: products: Add Miatoll\n\nSupported devices:\n* Poco M2 Pro (gram)\n* Redmi Note 9s/9 Pro (curtana)\n* Redmi Note 9 Pro Global (joyeuse)\n* Redmi Note 9 Max (excalibur)",
+      "revId": "35838048e851a04d42f07ebd33c1a996a39fe1f9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
