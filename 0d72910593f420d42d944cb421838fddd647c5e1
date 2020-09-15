@@ -42,6 +42,23 @@
     },
     {
       "key": {
+        "uuid": "0d3b1fff_f0106062",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-09-15T16:26:11Z",
+      "side": 1,
+      "message": "Don\u0027t you need this?\n\n# Inherit from those products. Most specific first.\n$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)\n$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c80b69b3_82a1a775",
         "filename": "products/miatoll/pa_miatoll.mk",
         "patchSetId": 4
@@ -87,6 +104,23 @@
       "writtenOn": "2020-09-15T16:20:11Z",
       "side": 1,
       "message": "Put a space between the PA board flag \u0026 inherit line.",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9e439a95_609f70e1",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-09-15T16:26:11Z",
+      "side": 1,
+      "message": "Is your SafetyNet okay without a PRIVATE_BUILD_DESC?",
       "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
