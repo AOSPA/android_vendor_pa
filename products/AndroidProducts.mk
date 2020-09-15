@@ -42,6 +42,11 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/rolex/pa_rolex.mk \
     $(LOCAL_DIR)/rosy/pa_rosy.mk \
     $(LOCAL_DIR)/sagit/pa_sagit.mk \
+<<<<<<< HEAD   (16934f Create custom soong namespace for AOSP vs QVA)
+=======
+    $(LOCAL_DIR)/sakura/pa_sakura.mk \
+    $(LOCAL_DIR)/ursa/pa_ursa.mk \
+>>>>>>> CHANGE (3a4a2f pa: products: Add Xiaomi Mi 8 Explorer Edition (ursa))
     $(LOCAL_DIR)/wayne/pa_wayne.mk \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
@@ -75,6 +80,11 @@ COMMON_LUNCH_CHOICES += \
     pa_rosy-userdebug \
     pa_raphael-userdebug \
     pa_sagit-userdebug \
+<<<<<<< HEAD   (16934f Create custom soong namespace for AOSP vs QVA)
+=======
+    pa_sakura-userdebug \
+    pa_ursa-userdebug \
+>>>>>>> CHANGE (3a4a2f pa: products: Add Xiaomi Mi 8 Explorer Edition (ursa))
     pa_wayne-userdebug \
     pa_whyred-userdebug \
     pa_X00TD-userdebug \
