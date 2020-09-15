@@ -16,6 +16,40 @@
       "revId": "35838048e851a04d42f07ebd33c1a996a39fe1f9",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "15cd1ea5_6e971ccc",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-09-15T23:22:08Z",
+      "side": 1,
+      "message": "Taking it from our remote repository, the path will be \"vendor/xiaomi\"",
+      "revId": "35838048e851a04d42f07ebd33c1a996a39fe1f9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5ac6aa3c_dead5e1c",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-09-15T23:22:08Z",
+      "side": 1,
+      "message": "Missing endif for the ifeq at top of the makefile.",
+      "revId": "35838048e851a04d42f07ebd33c1a996a39fe1f9",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
