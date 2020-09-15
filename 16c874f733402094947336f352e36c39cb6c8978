@@ -34,6 +34,24 @@
       "revId": "16c874f733402094947336f352e36c39cb6c8978",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "05f04680_e430fee5",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-09-15T13:08:04Z",
+      "side": 1,
+      "message": "In general it\u0027s better to start from our device makefiles than theirs. If they had done that, they wouldn\u0027t need to manually add the comments and boot animation flag, etc.",
+      "parentUuid": "679c8f43_7437f828",
+      "revId": "16c874f733402094947336f352e36c39cb6c8978",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
