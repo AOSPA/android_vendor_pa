@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94ea7dc6_1d1bbe17",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-09-15T15:52:49Z",
+      "side": 1,
+      "message": "You can drop ParanoidDoze from dependencies, it\u0027s synced on manifest",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 6
+      },
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
