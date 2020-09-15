@@ -16,6 +16,24 @@
       "revId": "16c874f733402094947336f352e36c39cb6c8978",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "679c8f43_7437f828",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:57:24Z",
+      "side": 1,
+      "message": "That doesn\u0027t matter if they were the ones who originally wrote this makefile. Renaming some things for PA doesn\u0027t justify removing their copyright at all, not how copyright works.",
+      "parentUuid": "03363d88_1cc67dae",
+      "revId": "16c874f733402094947336f352e36c39cb6c8978",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
