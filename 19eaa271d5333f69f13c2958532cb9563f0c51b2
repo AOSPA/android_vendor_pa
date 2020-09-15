@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6fb424d7_d1125831",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000543
+      },
+      "writtenOn": "2020-09-15T09:38:29Z",
+      "side": 1,
+      "message": "This should be only proprietary_vendor_xiaomi",
+      "revId": "19eaa271d5333f69f13c2958532cb9563f0c51b2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
