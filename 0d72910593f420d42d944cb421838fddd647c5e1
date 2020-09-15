@@ -22,6 +22,74 @@
       "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9661aae0_b324a4a2",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T16:20:11Z",
+      "side": 1,
+      "message": "Please end sentences with periods.",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c80b69b3_82a1a775",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T16:20:11Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b532a52b_b3acafe9",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T16:20:11Z",
+      "side": 1,
+      "message": "Ditto",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8e5365d3_d5f0a4b8",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T16:20:11Z",
+      "side": 1,
+      "message": "Put a space between the PA board flag \u0026 inherit line.",
+      "revId": "0d72910593f420d42d944cb421838fddd647c5e1",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
