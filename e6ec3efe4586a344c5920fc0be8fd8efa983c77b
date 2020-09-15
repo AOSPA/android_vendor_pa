@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "17c8ec8e_0a96effd",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:55:59Z",
+      "side": 1,
+      "message": "Why can\u0027t you use the CAF branch?",
+      "revId": "e6ec3efe4586a344c5920fc0be8fd8efa983c77b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c28a907_1909e97c",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:55:59Z",
+      "side": 1,
+      "message": "nitpick, \"ParanoidDoze\"",
+      "revId": "e6ec3efe4586a344c5920fc0be8fd8efa983c77b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8057542d_d1c42de5",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:55:59Z",
+      "side": 1,
+      "message": "Delete hanging comment.",
+      "revId": "e6ec3efe4586a344c5920fc0be8fd8efa983c77b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1f36b598_768f155d",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:55:59Z",
+      "side": 1,
+      "message": "\"# Ensure device is the target product.\"",
+      "revId": "e6ec3efe4586a344c5920fc0be8fd8efa983c77b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cc3a1d88_376ba7d0",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:55:59Z",
+      "side": 1,
+      "message": "\"# Inherit from the device configuration.\"",
+      "revId": "e6ec3efe4586a344c5920fc0be8fd8efa983c77b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6908a227_c330c63d",
+        "filename": "products/miatoll/pa_miatoll.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-15T12:55:59Z",
+      "side": 1,
+      "message": "\"# Inherit from the AOSPA configuration.\"\n\nAlso define your boot animation resolution here, \"TARGET_BOOT_ANIMATION_RES\".",
+      "revId": "e6ec3efe4586a344c5920fc0be8fd8efa983c77b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
