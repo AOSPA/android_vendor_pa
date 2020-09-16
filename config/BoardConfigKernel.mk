@@ -37,8 +37,6 @@
 #                                          is in PATH
 #   USE_CCACHE                         = Enable ccache (global Android flag)
 
-BUILD_TOP := $(shell pwd)
-
 TARGET_AUTO_KDIR := $(shell echo $(TARGET_DEVICE_DIR) | sed -e 's/^device/kernel/g')
 TARGET_KERNEL_SOURCE ?= $(TARGET_AUTO_KDIR)
 ifneq ($(TARGET_PREBUILT_KERNEL),)
@@ -52,7 +50,7 @@ else
 KERNEL_ARCH := $(TARGET_KERNEL_ARCH)
 endif
 
-GCC_PREBUILTS := $(BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86
+GCC_PREBUILTS := $(PWD)/prebuilts/gcc/$(HOST_OS)-x86
 ifeq ($(TARGET_KERNEL_NEW_GCC_COMPILE),true)
     ifeq ($(TARGET_KERNEL_CLANG_COMPILE),true)
         $(error TARGET_KERNEL_NEW_GCC_COMPILE cannot be used with TARGET_KERNEL_CLANG_COMPILE!)
@@ -127,13 +125,13 @@ ifeq ($(KERNEL_ARCH),arm64)
 endif
 
 ifeq ($(HOST_OS),darwin)
-  KERNEL_MAKE_FLAGS += C_INCLUDE_PATH=$(BUILD_TOP)/external/elfutils/libelf:/usr/local/opt/openssl/include
+  KERNEL_MAKE_FLAGS += C_INCLUDE_PATH=$(PWD)/external/elfutils/libelf:/usr/local/opt/openssl/include
   KERNEL_MAKE_FLAGS += LIBRARY_PATH=/usr/local/opt/openssl/lib
 else
-  KERNEL_MAKE_FLAGS += C_INCLUDE_PATH=$(BUILD_TOP)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/include
-  KERNEL_MAKE_FLAGS += LIBRARY_PATH=$(BUILD_TOP)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/lib/x86_64-linux-gnu
-  KERNEL_MAKE_FLAGS += HOSTCFLAGS="-L $(BUILD_TOP)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/lib/x86_64-linux-gnu"
-  KERNEL_MAKE_FLAGS += HOSTLDFLAGS="-L $(BUILD_TOP)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/lib/x86_64-linux-gnu"
+  KERNEL_MAKE_FLAGS += C_INCLUDE_PATH=$(PWD)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/include
+  KERNEL_MAKE_FLAGS += LIBRARY_PATH=$(PWD)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/lib/x86_64-linux-gnu
+  KERNEL_MAKE_FLAGS += HOSTCFLAGS="-L $(PWD)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/lib/x86_64-linux-gnu"
+  KERNEL_MAKE_FLAGS += HOSTLDFLAGS="-L $(PWD)/prebuilts/openssl/$(HOST_OS)-x86/1.1.1/lib/x86_64-linux-gnu"
 endif
 
 ifneq ($(TARGET_KERNEL_ADDITIONAL_FLAGS),)
@@ -141,9 +139,9 @@ ifneq ($(TARGET_KERNEL_ADDITIONAL_FLAGS),)
 endif
 
 TOOLS_PATH_OVERRIDE := \
-    PATH=$(BUILD_TOP)/$(prebuilt_build_tools_aospa_bin):$$PATH \
-    LD_LIBRARY_PATH=$(BUILD_TOP)/$(prebuilt_build_tools_aospa)/$(HOST_PREBUILT_TAG)/lib:$$LD_LIBRARY_PATH \
-    PERL5LIB=$(BUILD_TOP)/$(prebuilt_build_tools_aospa)/common/perl-base
+    PATH=$(PWD)/$(prebuilt_build_tools_aospa_bin):$$PATH \
+    LD_LIBRARY_PATH=$(PWD)/$(prebuilt_build_tools_aospa)/$(HOST_PREBUILT_TAG)/lib:$$LD_LIBRARY_PATH \
+    PERL5LIB=$(PWD)/$(prebuilt_build_tools_aospa)/common/perl-base
 
 # Set DTBO image locations so the build system knows to build them
 ifeq (true,$(filter true, $(TARGET_NEEDS_DTBOIMAGE) $(BOARD_KERNEL_SEPARATED_DTBO)))
@@ -151,10 +149,10 @@ BOARD_PREBUILT_DTBOIMAGE ?= $(TARGET_OUT_INTERMEDIATES)/DTBO_OBJ/arch/$(KERNEL_A
 endif
 
 # Set use the full path to the dtc command
-KERNEL_DTC_CMD := $(BUILD_TOP)/prebuilts/build-tools/$(HOST_OS)-x86/bin/dtc
+KERNEL_DTC_CMD := $(PWD)/prebuilts/build-tools/$(HOST_OS)-x86/bin/dtc
 
 # Set use the full path to the make command
-KERNEL_MAKE_CMD := $(BUILD_TOP)/prebuilts/build-tools/$(HOST_OS)-x86/bin/make
+KERNEL_MAKE_CMD := $(PWD)/prebuilts/build-tools/$(HOST_OS)-x86/bin/make
 
 # Set the full path to the gcc command
 ifeq ($(HOST_OS),darwin)
@@ -166,15 +164,15 @@ KERNEL_MAKE_FLAGS += HOSTCC=$(KERNEL_HOST_TOOLCHAIN_ROOT)gcc
 KERNEL_MAKE_FLAGS += HOSTCXX=$(KERNEL_HOST_TOOLCHAIN_ROOT)g++
 
 # Since Linux 4.16, flex and bison are required
-KERNEL_MAKE_FLAGS += LEX=$(BUILD_TOP)/prebuilts/build-tools/$(HOST_OS)-x86/bin/flex
-KERNEL_MAKE_FLAGS += YACC=$(BUILD_TOP)/prebuilts/build-tools/$(HOST_OS)-x86/bin/bison
-KERNEL_MAKE_FLAGS += M4=$(BUILD_TOP)/prebuilts/build-tools/$(HOST_OS)-x86/bin/m4
-TOOLS_PATH_OVERRIDE += BISON_PKGDATADIR=$(BUILD_TOP)/prebuilts/build-tools/common/bison
+KERNEL_MAKE_FLAGS += LEX=$(PWD)/prebuilts/build-tools/$(HOST_OS)-x86/bin/flex
+KERNEL_MAKE_FLAGS += YACC=$(PWD)/prebuilts/build-tools/$(HOST_OS)-x86/bin/bison
+KERNEL_MAKE_FLAGS += M4=$(PWD)/prebuilts/build-tools/$(HOST_OS)-x86/bin/m4
+TOOLS_PATH_OVERRIDE += BISON_PKGDATADIR=$(PWD)/prebuilts/build-tools/common/bison
 
 # Set the out dir for the kernel's O= arg
 # This needs to be an absolute path, so only set this if the standard out dir isn't used
 OUT_DIR_PREFIX := $(shell echo $(OUT_DIR) | sed -e 's|/target/.*$$||g')
 KERNEL_BUILD_OUT_PREFIX :=
 ifeq ($(OUT_DIR_PREFIX),out)
-KERNEL_BUILD_OUT_PREFIX := $(BUILD_TOP)/
+KERNEL_BUILD_OUT_PREFIX := $(PWD)/
 endif
