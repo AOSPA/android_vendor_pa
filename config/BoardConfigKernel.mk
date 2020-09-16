@@ -107,11 +107,14 @@ ifeq ($(KERNEL_ARCH),arm64)
    KERNEL_CROSS_COMPILE += CROSS_COMPILE_ARM32="$(KERNEL_TOOLCHAIN_arm)/$(KERNEL_TOOLCHAIN_PREFIX_arm)"
 endif
 
+prebuilt_build_tools_aospa := prebuilts/tools-pa
+prebuilt_build_tools_aospa_bin := $(prebuilt_build_tools_aospa)/$(HOST_PREBUILT_TAG)/bin
+
 # Clear this first to prevent accidental poisoning from env
 KERNEL_MAKE_FLAGS :=
 
 # Add back threads, ninja cuts this to $(nproc)/2
-KERNEL_MAKE_FLAGS += -j$(shell nproc --all)
+KERNEL_MAKE_FLAGS += -j$(shell $(prebuilt_build_tools_aospa_bin)/nproc --all)
 
 ifeq ($(KERNEL_ARCH),arm)
   # Avoid "Unknown symbol _GLOBAL_OFFSET_TABLE_" errors
@@ -138,9 +141,9 @@ ifneq ($(TARGET_KERNEL_ADDITIONAL_FLAGS),)
 endif
 
 TOOLS_PATH_OVERRIDE := \
-    PATH=$(BUILD_TOP)/prebuilts/tools-pa/$(HOST_OS)-x86/bin:$$PATH \
-    LD_LIBRARY_PATH=$(BUILD_TOP)/prebuilts/tools-pa/$(HOST_OS)-x86/lib:$$LD_LIBRARY_PATH \
-    PERL5LIB=$(BUILD_TOP)/prebuilts/tools-pa/common/perl-base
+    PATH=$(BUILD_TOP)/$(prebuilt_build_tools_aospa_bin):$$PATH \
+    LD_LIBRARY_PATH=$(BUILD_TOP)/$(prebuilt_build_tools_aospa)/$(HOST_PREBUILT_TAG)/lib:$$LD_LIBRARY_PATH \
+    PERL5LIB=$(BUILD_TOP)/$(prebuilt_build_tools_aospa)/common/perl-base
 
 # Set DTBO image locations so the build system knows to build them
 ifeq (true,$(filter true, $(TARGET_NEEDS_DTBOIMAGE) $(BOARD_KERNEL_SEPARATED_DTBO)))
