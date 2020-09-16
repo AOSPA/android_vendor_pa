@@ -16,6 +16,23 @@
       "revId": "59ba13e74172ba72f0f30324e1bd48d9803ecc2f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dabbcc20_e7d38ee4",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-16T12:55:31Z",
+      "side": 1,
+      "message": "Remove this, already synced to vendor/pa/biometrics-face.",
+      "revId": "59ba13e74172ba72f0f30324e1bd48d9803ecc2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
