@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "b116160b_1894fe4f",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000606
+      },
+      "writtenOn": "2020-09-16T13:05:53Z",
+      "side": 1,
+      "message": "Getting issues while building so switching to thjs branch",
+      "parentUuid": "c7d8f5de_d76519a8",
+      "revId": "59ba13e74172ba72f0f30324e1bd48d9803ecc2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "dabbcc20_e7d38ee4",
         "filename": "products/miatoll/pa.dependencies",
         "patchSetId": 2
@@ -30,6 +48,24 @@
       "writtenOn": "2020-09-16T12:55:31Z",
       "side": 1,
       "message": "Remove this, already synced to vendor/pa/biometrics-face.",
+      "revId": "59ba13e74172ba72f0f30324e1bd48d9803ecc2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c233044_0e43735d",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 1000606
+      },
+      "writtenOn": "2020-09-16T13:05:53Z",
+      "side": 1,
+      "message": "Cloning that repo in vendor/pa-biometrics-face solved the issue which I faced during building where can i share the build error I faced",
+      "parentUuid": "dabbcc20_e7d38ee4",
       "revId": "59ba13e74172ba72f0f30324e1bd48d9803ecc2f",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
