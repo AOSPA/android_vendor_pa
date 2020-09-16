@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     AOSPABluetoothOverlay \
     AOSPAFrameworksOverlay \
     AOSPAOverlayStub \
+    AOSPASettingsIntelligenceOverlay \
     AOSPASettingsOverlay \
     AOSPASystemUIOverlay \
     AOSPATelephonyOverlay \
