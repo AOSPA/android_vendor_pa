@@ -1,4 +1,3 @@
-#
 # Copyright (C) 2020 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -12,7 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
 # AV
 BOARD_USES_ADRENO := true
@@ -73,7 +71,6 @@ ifeq ($(TARGET_USES_QCOM_LEGACY_SEPOLICY),true)
     TARGET_USES_QCOM_LATEST_SEPOLICY ?= true
 endif
 
-include device/pa/sepolicy/qcom/sepolicy.mk
-include device/qcom/sepolicy/sepolicy.mk
+-include device/qcom/sepolicy/SEPolicy.mk
 
 endif # Exclude QCOM SEPolicy
