@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c7d8f5de_d76519a8",
+        "filename": "products/miatoll/pa.dependencies",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-09-16T12:53:57Z",
+      "side": 1,
+      "message": "Any reason you can\u0027t use the main branch? Shouldn\u0027t be a problem if you use the QTI BT stack.",
+      "revId": "59ba13e74172ba72f0f30324e1bd48d9803ecc2f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
