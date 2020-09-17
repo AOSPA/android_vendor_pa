@@ -1,30 +1,26 @@
-ifneq ($(TARGET_NO_KERNEL),true)
-ifeq ($(strip $(BOARD_KERNEL_SEPARATED_DTBO)),true)
+DTBO_OUT := $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ
 
-ifneq ($(BOARD_CUSTOM_DTBOIMG_MK),)
-include $(BOARD_CUSTOM_DTBOIMG_MK)
-else
-
-MKDTIMG := $(HOST_OUT_EXECUTABLES)/mkdtimg$(HOST_EXECUTABLE_SUFFIX)
-
-# Most specific paths must come first in possible_dtbo_dirs
-possible_dtbo_dirs = $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/dts $(KERNEL_OUT)/arch/arm/boot/dts
-
-define build-dtboimage-target
-    $(call pretty,"Target dtbo image: $(BOARD_PREBUILT_DTBOIMAGE)")
-    $(hide) for dir in $(possible_dtbo_dirs); do \
-                if [ -d "$$dir" ]; then \
-                    dtbo_dir="$$dir"; \
-                    break; \
-                fi; \
-            done; \
-            $(MKDTIMG) create $@ --page_size=$(BOARD_KERNEL_PAGESIZE) $$(find "$$dtbo_dir" -name '*.dtbo')
-    $(hide) chmod a+r $@
+# Make a DTBO target
+# $(1): The DTBO target to build (eg. dtbo.img, defconfig)
+define make-dtbo-target
+$(call internal-make-kernel-target,$(DTBO_OUT),$(1))
 endef
 
-$(BOARD_PREBUILT_DTBOIMAGE): $(MKDTIMG) $(INSTALLED_KERNEL_TARGET)
-	$(build-dtboimage-target)
-
-endif # BOARD_CUSTOM_DTBOIMG_MK
+ifeq ($(BOARD_KERNEL_SEPARATED_DTBO),true)
+MKDTIMG := $(HOST_OUT_EXECUTABLES)/mkdtimg$(HOST_EXECUTABLE_SUFFIX)
+MKDTBOIMG := $(HOST_OUT_EXECUTABLES)/mkdtboimg.py$(HOST_EXECUTABLE_SUFFIX)
+$(BOARD_PREBUILT_DTBOIMAGE): $(DTC) $(MKDTIMG) $(MKDTBOIMG)
+$(BOARD_PREBUILT_DTBOIMAGE):
+	@echo "Building dtbo.img"
+	$(call make-dtbo-target,$(KERNEL_DEFCONFIG))
+	$(call make-dtbo-target,dtbs)
+	$(MKDTBOIMG) create $@ --page_size=$(BOARD_KERNEL_PAGESIZE) $(shell find $(DTBO_OUT)/arch/$(KERNEL_ARCH)/boot/dts -type f -name "*.dtbo" | sort)
+else
+$(BOARD_PREBUILT_DTBOIMAGE):
+	@echo "Building dtbo.img"
+	$(call make-dtbo-target,$(KERNEL_DEFCONFIG))
+	$(call make-dtbo-target,dtbo.img)
 endif # BOARD_KERNEL_SEPARATED_DTBO
-endif # TARGET_NO_KERNEL
+
+.PHONY: dtboimage
+dtboimage: $(INSTALLED_DTBOIMAGE_TARGET)
