@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ca18e59_4ab211fc",
+        "filename": "overlay/AOSPASettingsOverlay/res/values-ru/pa_strings.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 204,
+      "author": {
+        "id": 1000460
+      },
+      "writtenOn": "2020-09-17T08:39:20Z",
+      "side": 1,
+      "message": "Видимость",
+      "revId": "4623024df63b6f4c830cd512940890cc8b3aa203",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
