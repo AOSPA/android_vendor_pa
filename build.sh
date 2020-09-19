@@ -129,17 +129,6 @@ if [ -z "$JOBS" ]; then
         fi
 fi
 
-# Use mka when available and jobs not specified
-if [ "$(command -v 'mka')" ]; then
-  if [ -z "${CMD}" ]; then
-    MAKE="mka"
-  else
-    MAKE="make"
-  fi
-else
-  MAKE="make"
-fi
-
 # Grab the build version
 PA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_FLAVOR := *' | sed 's/.*= //') \
 $(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_CODE := *' | sed 's/.*= //')"
@@ -148,14 +137,14 @@ $(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_CODE := *' | sed 
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Cleaning output files left from old builds${CLR_RST}"
         echo -e ""
-        ${MAKE} clobber"$CMD"
+        m clobber"$CMD"
 fi
 
 # Prep for a installclean build, if requested so
 if [ "$FLAG_INSTALLCLEAN_BUILD" = 'y' ]; then
         echo -e "${CLR_BLD_BLU}Cleaning compiled image files left from old builds${CLR_RST}"
         echo -e ""
-        ${MAKE} installclean"$CMD"
+        m installclean"$CMD"
 fi
 
 # Sync up, if asked to
@@ -187,7 +176,7 @@ echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
 # Build a specific module
 if [ "${MODULE}" ]; then
-    ${MAKE} $MODULE"$CMD"
+    m $MODULE"$CMD"
 # Build signed rom package if specified
 elif [ "${KEY_MAPPINGS}" ]; then
     # Set sign key password file if specified
@@ -196,10 +185,10 @@ elif [ "${KEY_MAPPINGS}" ]; then
     fi
     # Generate otapackage if in need of unsigned build
     if [ "$FLAG_BACKUP_UNSIGNED" = 'y' ]; then
-        ${MAKE} bacon"$CMD"
+        m bacon"$CMD"
         mv $OUT/pa-${PA_VERSION}.zip $DIR_ROOT/pa-${PA_VERSION}-unsigned.zip
     else
-        ${MAKE} dist"$CMD"
+        m dist"$CMD"
     fi
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
     ./build/tools/releasetools/sign_target_files_apks -o -d $KEY_MAPPINGS \
@@ -228,7 +217,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
     fi
 # Build rom package
 else
-    ${MAKE} bacon"$CMD"
+    m bacon"$CMD"
     ln -sf $OUT/pa-${PA_VERSION}.zip $DIR_ROOT
 fi
 RETVAL=$?
