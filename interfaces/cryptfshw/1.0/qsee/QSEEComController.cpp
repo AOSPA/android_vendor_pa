@@ -74,8 +74,7 @@ Controller::Controller() {
 
 #ifdef WAIT_FOR_QSEE
     if (!IsQseecomUp()) {
-        LOG_TO(SYSTEM, ERROR)
-                << "Timed out waiting for QSEECom listeners. Aborting FDE key operation";
+        LOG(ERROR) << "Timed out waiting for QSEECom listeners. Aborting FDE key operation";
         return;
     }
 #endif
@@ -106,16 +105,16 @@ int Controller::createKey(int usage, const char* passwd) {
 
     ret = mFn_create_key(usage, hash32);
     if (ret) {
-        LOG_TO(SYSTEM, ERROR) << "Error::Qseecom call to create encryption key for usage " << usage
-                              << " failed with ret = " << ret << ", errno = " << errno;
+        LOG(ERROR) << "Error::Qseecom call to create encryption key for usage " << usage
+                   << " failed with ret = " << ret << ", errno = " << errno;
         if (errno == ERANGE) {
             ret = CRYPTFS_HW_KMS_MAX_FAILURE;
         } else {
             ret = CRYPTFS_HW_CREATE_KEY_FAILED;
         }
     } else {
-        LOG_TO(SYSTEM, ERROR) << "SUCESS::Qseecom call to create encryption key for usage " << usage
-                              << " success with ret = " << ret;
+        LOG(ERROR) << "SUCESS::Qseecom call to create encryption key for usage " << usage
+                   << " success with ret = " << ret;
     }
 
     secure_memset(hash32, 0, MAX_PASSWORD_LEN);
@@ -134,16 +133,16 @@ int Controller::updateKey(int usage, const char* oldpw, const char* newpw) {
 
     ret = mFn_update_key_user_info(usage, current_hash32, new_hash32);
     if (ret) {
-        LOG_TO(SYSTEM, ERROR) << "Error::Qseecom call to update the encryption key for usage "
-                              << usage << " failed with ret = " << ret << ", errno = " << errno;
+        LOG(ERROR) << "Error::Qseecom call to update the encryption key for usage " << usage
+                   << " failed with ret = " << ret << ", errno = " << errno;
         if (errno == ERANGE) {
             ret = CRYPTFS_HW_KMS_MAX_FAILURE;
         } else {
             ret = CRYPTFS_HW_UPDATE_KEY_FAILED;
         }
     } else {
-        LOG_TO(SYSTEM, ERROR) << "SUCCESS::Qseecom call to update the encryption key for usage "
-                              << usage << " success with ret = " << ret;
+        LOG(ERROR) << "SUCCESS::Qseecom call to update the encryption key for usage " << usage
+                   << " success with ret = " << ret;
     }
 
     secure_memset(current_hash32, 0, MAX_PASSWORD_LEN);
@@ -159,12 +158,12 @@ int Controller::wipeKey(int usage) {
 
     ret = mFn_wipe_key(usage);
     if (ret) {
-        LOG_TO(SYSTEM, ERROR) << "Error::Qseecom call to wipe the encryption key for usage "
-                              << usage << " failed with ret = " << ret << ", errno = " << errno;
+        LOG(ERROR) << "Error::Qseecom call to wipe the encryption key for usage " << usage
+                   << " failed with ret = " << ret << ", errno = " << errno;
         ret = CRYPTFS_HW_WIPE_KEY_FAILED;
     } else {
-        LOG_TO(SYSTEM, ERROR) << "SUCCESS::Qseecom call to wipe the encryption key for usage "
-                              << usage << " success with ret = " << ret;
+        LOG(ERROR) << "SUCCESS::Qseecom call to wipe the encryption key for usage " << usage
+                   << " success with ret = " << ret;
     }
     return ret;
 }
