@@ -41,6 +41,7 @@ int main() {
     android::hardware::ProcessState::initWithMmapSize((size_t)16384);
 #endif
 
+    android::base::InitLogging(nullptr, android::base::LogdLogger(android::base::SYSTEM));
     LOG(DEBUG) << "CryptfsHw HAL service is starting.";
 
     auto controller = std::make_unique<Controller>();
