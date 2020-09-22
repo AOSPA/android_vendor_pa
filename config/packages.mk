@@ -47,7 +47,6 @@ PRODUCT_PACKAGES += ParanoidCamera
 endif
 
 PRODUCT_PACKAGES += \
-    Longshot \
     ParanoidPapers \
     ParanoidQuickStep
 
