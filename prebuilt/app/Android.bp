@@ -18,10 +18,3 @@ android_app_import {
     presigned: true,
     product_specific: true,
 }
-
-android_app_import {
-    apk: "Longshot.apk",
-    certificate: "platform",
-    name: "Longshot",
-    product_specific: true,
-}
