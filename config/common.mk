@@ -20,6 +20,11 @@ PRODUCT_COPY_FILES += \
 # Optimize everything for preopt
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
 
+# Blur
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1
+
 # Boot Animation
 ifneq ($(TARGET_BOOT_ANIMATION_RES),)
 PRODUCT_COPY_FILES += \
