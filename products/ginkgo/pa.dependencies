@@ -39,7 +39,7 @@
         "remote":       "aospa",
         "repository":   "AOSPA/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
-        "revision":     "quartz-855"
+        "revision":     "quartz-665"
     },
     {
         "remote":       "aospa",
@@ -56,7 +56,7 @@
     {
         "remote":       "github",
         "repository":   "kdrag0n/proton-clang",
-        "target_path":  "prebuilts/clang/host/linux-x86/clang-11.0",
+        "target_path":  "prebuilts/clang/host/linux-x86/clang-12.0",
         "revision":     "master"
     },
     { 
@@ -66,40 +66,10 @@
         "revision":     "quartz-a3"
     },
     {
-        "remote":       "caf",
-        "repository":   "platform/vendor/nxp/interfaces/opensource/nfc",
-        "target_path":  "vendor/nxp/opensource/interfaces/nfc",
-        "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
-    },
-    {
-        "remote":       "caf",
-        "repository":   "platform/vendor/nxp/opensource/external/libnfc-nci",
-        "target_path":  "vendor/nxp/opensource/commonsys/external/libnfc-nci",
-        "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
-    },
-    {
-        "remote":       "caf",
-        "repository":   "platform/vendor/nxp/opensource/frameworks",
-        "target_path":  "vendor/nxp/opensource/commonsys/frameworks",
-        "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
-    },
-    {
-        "remote":       "caf",
-        "repository":   "platform/vendor/nxp/opensource/halimpl",
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_nxp_opensource_halimpl",
         "target_path":  "vendor/nxp/opensource/halimpl",
-        "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
-    },
-    {
-        "remote":       "caf",
-        "repository":   "platform/vendor/nxp/opensource/hidlimpl",
-        "target_path":  "vendor/nxp/opensource/hidlimpl",
-        "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
-    },
-    {
-        "remote":       "caf",
-        "repository":   "platform/vendor/nxp/opensource/packages/apps/Nfc",
-        "target_path":  "vendor/nxp/opensource/commonsys/packages/apps/Nfc",
-        "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
+        "revision":     "quartz-sn100x"
     },
     {
         "remote":       "blobs",
