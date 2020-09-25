@@ -10,7 +10,7 @@ else
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 endif
 
-KERNEL_LLVM_SUPPORT := true
+KERNEL_LLVM_SUPPORT ?= true
 
 # Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
 # is included before build/core/Makefile, where it is required to
