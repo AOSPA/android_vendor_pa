@@ -1,3 +1,6 @@
+# Build
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
+
 # Kernel
 include vendor/pa/config/BoardConfigKernel.mk
 
