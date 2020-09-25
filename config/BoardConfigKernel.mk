@@ -1,11 +1,17 @@
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # Architecture
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_ARCH ?= $(TARGET_ARCH)
 
 # Compiler
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+ifeq ($(TARGET_KERNEL_ARCH),arm64)
+    TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+else ifeq ($(TARGET_KERNEL_ARCH),arm)
+    TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
+else
+    $(error "$(TARGET_KERNEL_ARCH) is not supported as a kernel building target.")
+endif
+
 KERNEL_LLVM_SUPPORT := true
 
 # Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
