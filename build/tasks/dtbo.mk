@@ -1,3 +1,11 @@
+# Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
+# is included before build/core/Makefile, where it is required to
+# set the dependencies on prebuilt_dtbo.img based on definition of
+# BOARD_PREBUILT_DTBOIMAGE
+ifneq ($(strip $(BOARD_KERNEL_SEPARATED_DTBO)),)
+BOARD_PREBUILT_DTBOIMAGE := $(PRODUCT_OUT)/prebuilt_dtbo.img
+endif
+
 #----------------------------------------------------------------------
 # Generate device tree overlay image (dtbo.img)
 #----------------------------------------------------------------------
@@ -6,7 +14,7 @@ ifeq ($(strip $(BOARD_KERNEL_SEPARATED_DTBO)),true)
 
 MKDTIMG := $(HOST_OUT_EXECUTABLES)/mkdtimg$(HOST_EXECUTABLE_SUFFIX)
 
-INSTALLED_DTBOIMAGE_TARGET := $(PRODUCT_OUT)/prebuilt_dtbo.img
+INSTALLED_DTBOIMAGE_TARGET := $(PRODUCT_OUT)/dtbo.img
 
 # Most specific paths must come first in possible_dtbo_dirs
 possible_dtbo_dirs = $(KERNEL_OUT)/arch/$(TARGET_KERNEL_ARCH)/boot/dts $(KERNEL_OUT)/arch/arm/boot/dts
