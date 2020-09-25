@@ -12,7 +12,7 @@ else
     $(error "$(TARGET_KERNEL_ARCH) is not supported as a kernel building target.")
 endif
 
-KERNEL_LLVM_SUPPORT := true
+KERNEL_LLVM_SUPPORT ?= true
 
 # Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
 # is included before build/core/Makefile, where it is required to
