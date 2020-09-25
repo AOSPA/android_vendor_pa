@@ -12,6 +12,9 @@ endif
 
 KERNEL_LLVM_SUPPORT ?= true
 
+# Defconfig
+KERNEL_DEFCONFIG ?= $(TARGET_KERNEL_CONFIG)
+
 # Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
 # is included before build/core/Makefile, where it is required to
 # set the dependencies on prebuilt_dtbo.img based on definition of
