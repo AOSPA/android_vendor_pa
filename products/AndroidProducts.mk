@@ -27,6 +27,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/mido/pa_mido.mk \
+    $(LOCAL_DIR)/mini5g/pa_mini5g.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
     $(LOCAL_DIR)/oneplus6/pa_oneplus6.mk \
     $(LOCAL_DIR)/oneplus7/pa_oneplus7.mk \
@@ -57,6 +58,7 @@ COMMON_LUNCH_CHOICES += \
     pa_laurel_sprout-userdebug \
     pa_mata-userdebug \
     pa_mido-userdebug \
+    pa_mini5g-userdebug \
     pa_oneplus6-userdebug \
     pa_oneplus7-userdebug \
     pa_oneplus7pro-userdebug \
