@@ -1,10 +1,8 @@
 {
     "default": {
+        "FORCE_SDCLANG_OFF": true,
         "SDCLANG": false,
         "SDCLANG_PATH": "vendor/qcom/sdclang-8.0/linux-x86/bin",
-        "SDCLANG_PATH_2": "vendor/qcom/sdclang-8.0/linux-x86/bin",
-        "SDCLANG_FLAGS": "",
-        "SDCLANG_FLAGS_2": ""
+        "SDCLANG_FLAGS": ""
     }
 }
-
