@@ -1,0 +1,32 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_oneplus_oneplus8",
+        "target_path":  "device/oneplus/oneplus8",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-865"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-865"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ZVNexus/android_kernel_oneplus_sm8250",
+        "target_path":  "kernel/oneplus/sm8250",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "ruby"
+    }
+]
