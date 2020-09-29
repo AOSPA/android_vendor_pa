@@ -1,0 +1,2 @@
+# Allow update engine to call the callback function provided by Paranoid Hub.
+binder_call(update_engine, aospa_hub)
