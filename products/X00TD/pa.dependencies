@@ -19,12 +19,6 @@
   },
   {
     "remote":       "aospa",
-    "repository":   "AOSPA/android_device_qcom_common",
-    "target_path":  "device/qcom/common",
-    "revision":     "quartz"
-  },
-  {
-    "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_display",
     "target_path":  "hardware/qcom/display",
     "revision":     "quartz-8998"
