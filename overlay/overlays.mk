@@ -35,6 +35,8 @@ PRODUCT_PACKAGES += \
     AOSPATelephonyOverlay \
     AOSPAThemePickerOverlay \
     FontGoogleSansOverlay \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium \
     NavigationBarModeGesturalOverlayNoPill \
     NavigationBarModeGesturalOverlayNoPillNarrowBack \
     NavigationBarModeGesturalOverlayNoPillWideBack \
