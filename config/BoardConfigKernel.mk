@@ -6,6 +6,7 @@ TARGET_KERNEL_ARCH ?= $(TARGET_ARCH)
 # Compiler
 ifeq ($(TARGET_KERNEL_ARCH),arm64)
     TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+    TARGET_KERNEL_CROSS_COMPILE_ARM32_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 else ifeq ($(TARGET_KERNEL_ARCH),arm)
     TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androideabi-
 else
