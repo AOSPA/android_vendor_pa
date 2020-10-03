@@ -1,0 +1,26 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_oneplus_oneplus8",
+        "target_path":  "device/oneplus/oneplus8",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_oneplus_sm8250",
+        "target_path":  "kernel/oneplus/sm8250",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "ruby"
+    },
+]
