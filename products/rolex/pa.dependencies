@@ -43,12 +43,6 @@
         "revision":     "quartz-89xx"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_qcom_common",
-        "target_path":  "vendor/qcom/common",
-        "revision":     "quartz"
-    },
-    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_packages_apps_Bluetooth",
         "target_path":  "packages/apps/Bluetooth",
