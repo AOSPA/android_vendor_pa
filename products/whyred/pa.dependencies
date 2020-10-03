@@ -64,11 +64,5 @@
     "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
     "target_path":  "vendor/qcom/opensource/commonsys/fm",
     "revision":     "quartz"
-  },
-  {
-    "remote":       "blobs",
-    "repository":   "proprietary_vendor_qcom_common",
-    "target_path":  "vendor/qcom/common",
-    "revision":     "quartz"
   }
 ] 

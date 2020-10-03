@@ -18,12 +18,6 @@
         "revision":     "quartz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_qcom_common",
-        "target_path":  "vendor/qcom/common",
-        "revision":     "quartz"
-    },
-    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_device_qcom_common",
         "target_path":  "device/qcom/common",

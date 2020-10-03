@@ -37,12 +37,6 @@
     },
     {
         "remote":       "blobs",
-        "repository":   "proprietary_vendor_qcom_common",
-        "target_path":  "vendor/qcom/common",
-        "revision":     "quartz"
-    },
-    {
-        "remote":       "blobs",
         "repository":   "proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
         "revision":     "quartz"

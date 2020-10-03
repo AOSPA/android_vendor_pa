@@ -49,12 +49,6 @@
     },
     {
         "remote":       "blobs",
-        "repository":   "proprietary_vendor_qcom_common",
-        "target_path":  "vendor/qcom/common",
-        "revision":     "quartz"
-    },
-    {
-        "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
         "revision":     "quartz"

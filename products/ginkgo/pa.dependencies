@@ -102,12 +102,6 @@
         "revision":     "refs/tags/LA.UM.8.1.r1-08800-sm8150.0"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_qcom_common",
-        "target_path":  "vendor/qcom/common",
-        "revision":     "quartz"
-    },
-    {
         "remote":       "aospa",
         "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
         "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
