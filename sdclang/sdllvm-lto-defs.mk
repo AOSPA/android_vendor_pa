@@ -3,10 +3,6 @@ ifeq ($(LOCAL_MODULE_CLASS), STATIC_LIBRARIES)
 
 AR := $(SDCLANG_PATH)/llvm-ar
 
-ifeq ($(LOCAL_SDCLANG_2),true)
-AR := $(SDCLANG_PATH_2)/llvm-ar
-endif
-
 ARFLAGS := crsD
 
 # For 32 bit
