@@ -1,6 +1,7 @@
 type aospa_hub, domain, coredomain;
 
 app_domain(aospa_hub)
+net_domain(aospa_hub)
 
 binder_call(aospa_hub, update_engine)
 
