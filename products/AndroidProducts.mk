@@ -25,6 +25,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/ginkgo/pa_ginkgo.mk \
     $(LOCAL_DIR)/jasmine_sprout/pa_jasmine_sprout.mk \
     $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
+    $(LOCAL_DIR)/lmi/pa_lmi.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/miatoll/pa_miatoll.mk \
     $(LOCAL_DIR)/mini5g/pa_mini5g.mk \
@@ -57,6 +58,7 @@ COMMON_LUNCH_CHOICES += \
     pa_ginkgo-userdebug \
     pa_jasmine_sprout-userdebug \
     pa_laurel_sprout-userdebug \
+    pa_lmi-userdebug \
     pa_mata-userdebug \
     pa_miatoll-userdebug \
     pa_mini5g-userdebug \
