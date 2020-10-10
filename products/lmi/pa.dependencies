@@ -1,0 +1,50 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_lmi",
+        "target_path":  "device/xiaomi/lmi",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_xiaomi_sm8250-common",
+        "target_path":  "device/xiaomi/sm8250-common",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "android_device_xiaomi_lmi-kernel",
+        "target_path":  "device/xiaomi/lmi-kernel",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "ruby"
+   },
+   {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-smxx50"
+   },
+   {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-smxx50"
+   },
+   {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-smxx50"
+   },
+   {
+        "remote":       "github",
+        "repository":   "android_hardware_xiaomi",
+        "target_path":  "hardware/xiaomi",
+        "revision":     "lineage-18.1"
+    }
+]
