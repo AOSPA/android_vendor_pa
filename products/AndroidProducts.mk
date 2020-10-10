@@ -26,6 +26,11 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/jasmine_sprout/pa_jasmine_sprout.mk \
     $(LOCAL_DIR)/land/pa_land.mk \
     $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
+<<<<<<< HEAD   (1d358b script: Allow generating of fastboot zip with unsigned build)
+=======
+    $(LOCAL_DIR)/lavender/pa_lavender.mk \
+    $(LOCAL_DIR)/lmi/pa_lmi.mk \
+>>>>>>> CHANGE (3794f1 pa: products: Add Poco F2 Pro (lmi))
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/mido/pa_mido.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
@@ -57,6 +62,11 @@ COMMON_LUNCH_CHOICES += \
     pa_jasmine_sprout-userdebug \
     pa_land-userdebug \
     pa_laurel_sprout-userdebug \
+<<<<<<< HEAD   (1d358b script: Allow generating of fastboot zip with unsigned build)
+=======
+    pa_lavender-userdebug \
+    pa_lmi-userdebug \
+>>>>>>> CHANGE (3794f1 pa: products: Add Poco F2 Pro (lmi))
     pa_mata-userdebug \
     pa_mido-userdebug \
     pa_oneplus6-userdebug \
