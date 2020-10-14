@@ -471,10 +471,12 @@ function write_blueprint_packages() {
         elif [ "$CLASS" = "ETC" ]; then
             if [ "$EXTENSION" = "xml" ]; then
                 printf 'prebuilt_etc_xml {\n'
+                printf '\tname: "%s",\n' "$BASENAME"
+                PKGNAME=$BASENAME
             else
                 printf 'prebuilt_etc {\n'
+                printf '\tname: "%s",\n' "$PKGNAME"
             fi
-            printf '\tname: "%s",\n' "$PKGNAME"
             printf '\towner: "%s",\n' "${VENDOR%\/*}"
             printf '\tsrc: "%s/etc/%s",\n' "$SRC" "$FILE"
         elif [ "$CLASS" = "EXECUTABLES" ]; then
