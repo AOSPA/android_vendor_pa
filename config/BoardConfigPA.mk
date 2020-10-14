@@ -9,3 +9,5 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
 ifeq ($(call is-vendor-board-platform,QCOM),true)
 include vendor/pa/config/BoardConfigQcom.mk
 endif
+
+include vendor/pa/config/BoardConfigSoong.mk
