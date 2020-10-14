@@ -68,6 +68,10 @@ ifeq ($(TARGET_USES_QCOM_LEGACY_SEPOLICY),true)
     TARGET_USES_QCOM_LATEST_SEPOLICY ?= true
 endif
 
--include device/qcom/sepolicy/SEPolicy.mk
+ifneq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
+include device/qcom/sepolicy_vndr/SEPolicy.mk
+else
+include device/qcom/sepolicy/SEPolicy.mk
+endif
 
 endif # Exclude QCOM SEPolicy
