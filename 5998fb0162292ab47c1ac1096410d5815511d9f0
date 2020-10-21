@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "06b14165_7a2988c9",
+        "filename": "products/mini5g/pa_mini5g.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-10-21T05:16:41Z",
+      "side": 1,
+      "message": "not the right place for this.  Can you do it in device tree?",
+      "revId": "5998fb0162292ab47c1ac1096410d5815511d9f0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
