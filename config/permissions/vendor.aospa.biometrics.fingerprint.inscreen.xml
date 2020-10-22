@@ -15,5 +15,5 @@
 -->
 
 <permissions>
-    <feature name="vendor.pa.biometrics.fingerprint.inscreen" />
+    <feature name="vendor.aospa.biometrics.fingerprint.inscreen" />
 </permissions>
