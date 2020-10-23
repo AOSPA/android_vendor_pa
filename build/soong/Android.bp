@@ -71,3 +71,20 @@ surfaceflinger_fod_lib {
         },
     },
 }
+
+soong_config_module_type {
+    name: "board_fingerprint_vendor",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    value_variables: ["board_fingerprint_vendor"],
+    properties: ["cppflags"],
+}
+
+board_fingerprint_vendor {
+    name: "board_fingerprint_vendor_defaults",
+    soong_config_variables: {
+        board_fingerprint_vendor: {
+            cppflags: ["-DBOARD_FINGERPRINT_VENDOR=\"%s\""],
+        },
+    },
+}
