@@ -71,3 +71,20 @@ surfaceflinger_fod_lib {
         },
     },
 }
+
+soong_config_module_type {
+    name: "target_fingerprint_module",
+    module_type: "cc_defaults",
+    config_namespace: "paGlobalVars",
+    value_variables: ["target_fingerprint_module"],
+    properties: ["cppflags"],
+}
+
+target_fingerprint_module {
+    name: "target_fingerprint_module_defaults",
+    soong_config_variables: {
+        target_fingerprint_module: {
+            cppflags: ["-DTARGET_FINGERPRINT_MODULE=\"%s\""],
+        },
+    },
+}
