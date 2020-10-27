@@ -26,9 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/bootanimation/$(TARGET_BOOT_ANIMATION_RES).zip:$(TARGET_COPY_OUT_SYSTEM)/media/bootanimation.zip
 endif
 
-# Build
-BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
-
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/pa/config/config.fs
 
