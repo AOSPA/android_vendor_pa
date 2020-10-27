@@ -18,8 +18,6 @@
     <!-- Default -->
     <string name="theme_name_default">Default</string>
     <string name="theme_title_default">@string/theme_name_default</string>
-    <string name="theme_wallpaper_title_default">Crystal Canyons</string>
-    <string name="theme_wallpaper_attribution_default">Hampus Olsson</string>
 
     <!-- Blue -->
     <string name="theme_name_blue">Blue</string>
@@ -30,8 +28,6 @@
     <string name="theme_overlay_icon_launcher_blue">com.android.theme.icon_pack.filled.launcher</string>
     <string name="theme_overlay_icon_settings_blue">com.android.theme.icon_pack.filled.settings</string>
     <string name="theme_overlay_icon_sysui_blue">com.android.theme.icon_pack.filled.systemui</string>
-    <string name="theme_wallpaper_title_blue">Spinning Lifeform</string>
-    <string name="theme_wallpaper_attribution_blue">Hampus Olsson</string>
 
     <!-- Purple -->
     <string name="theme_name_purple">Purple</string>
@@ -42,8 +38,6 @@
     <string name="theme_overlay_icon_launcher_purple">com.android.theme.icon_pack.filled.launcher</string>
     <string name="theme_overlay_icon_settings_purple">com.android.theme.icon_pack.filled.settings</string>
     <string name="theme_overlay_icon_sysui_purple">com.android.theme.icon_pack.filled.systemui</string>
-    <string name="theme_wallpaper_title_purple">Refract</string>
-    <string name="theme_wallpaper_attribution_purple">Hampus Olsson</string>
 
     <!-- Red -->
     <string name="theme_name_red">Red</string>
@@ -54,7 +48,5 @@
     <string name="theme_overlay_icon_launcher_red">com.android.theme.icon_pack.filled.launcher</string>
     <string name="theme_overlay_icon_settings_red">com.android.theme.icon_pack.filled.settings</string>
     <string name="theme_overlay_icon_sysui_red">com.android.theme.icon_pack.filled.systemui</string>
-    <string name="theme_wallpaper_title_red">Bleeding Lifeform</string>
-    <string name="theme_wallpaper_attribution_red">Hampus Olsson</string>
 
 </resources>
