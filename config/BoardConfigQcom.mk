@@ -12,6 +12,31 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Platform names
+KONA := kona #SM8250
+LITO := lito #SM7250
+MSMNILE := msmnile #SM8150
+MSMSTEPPE := sm6150
+TRINKET := trinket #SM6125
+ATOLL := atoll #SM6250
+BENGAL := bengal # SM6115
+
+B_FAMILY := msm8226 msm8610 msm8974 apq8084
+B64_FAMILY := msm8992 msm8994
+BR_FAMILY := msm8909 msm8916 msm8952 msm8976
+UM_3_18_FAMILY := msm8937 msm8953 msm8996
+UM_4_4_FAMILY := msm8998 sdm660
+UM_4_9_FAMILY := sdm845 sdm710
+UM_4_14_FAMILY := $(MSMNILE) $(MSMSTEPPE) $(TRINKET) $(ATOLL)
+UM_4_19_FAMILY := $(KONA) $(LITO) $(BENGAL)
+UM_PLATFORMS := $(UM_3_18_FAMILY) $(UM_4_4_FAMILY) $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_4_19_FAMILY)
+
+#List of targets that use video hw
+MSM_VIDC_TARGET_LIST := $(B_FAMILY) $(B64_FAMILY) $(BR_FAMILY) $(UM_3_18_FAMILY) $(UM_4_4_FAMILY) $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_4_19_FAMILY)
+
+#List of targets that use master side content protection
+MASTER_SIDE_CP_TARGET_LIST := msm8996 $(UM_3_18_FAMILY) $(UM_4_4_FAMILY) $(UM_4_9_FAMILY) $(UM_4_14_FAMILY) $(UM_4_19_FAMILY)
+
 # AV
 BOARD_USES_ADRENO := true
 TARGET_USES_AOSP_FOR_AUDIO ?= false
@@ -19,12 +44,12 @@ TARGET_USES_QCOM_MM_AUDIO := true
 TARGET_USES_ION := true
 
 # Enable Media Extensions for HAL1 on Legacy Devices
-ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8909 msm8916 msm8937 msm8952 msm8953 msm8960 msm8974 msm8976 msm8992 msm8994 msm8996 msm8998 sdm660),true)
+ifneq ($(filter $(B_FAMILY) $(B64_FAMILY) $(BR_FAMILY) $(UM_3_18_FAMILY) $(UM_4_4_FAMILY),$(TARGET_BOARD_PLATFORM)),)
   TARGET_USES_MEDIA_EXTENSIONS := true
 endif
 
 # For pre-UM display and gps HAL
-ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8610 msm8974 msm8992 msm8994 msm8909 msm8916 msm8952 msm8976),true)
+ifneq ($(filter $(B_FAMILY) $(B64_FAMILY) $(BR_FAMILY),$(TARGET_BOARD_PLATFORM)),)
   TARGET_USES_QCOM_BSP := true
 endif
 
