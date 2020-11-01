@@ -1,0 +1,26 @@
+# Filesystem tools
+/system/bin/fsck\.ntfs                  u:object_r:fsck_exec:s0
+/system/bin/mkfs\.exfat                 u:object_r:mkfs_exec:s0
+/system/bin/mkfs\.f2fs                  u:object_r:mkfs_exec:s0
+/system/bin/mkfs\.ntfs                  u:object_r:mkfs_exec:s0
+
+# HALs
+/(product|system/product)/vendor_overlay/[0-9]+/bin/hw/android\.hardware\.power@1\.2-service    u:object_r:hal_power_default_exec:s0
+
+# Pocket judge
+/sys/kernel/pocket_judge(/.*)?	        u:object_r:pocket_judge_sysfs:s0
+
+# Postinstall
+/system/bin/backuptool_ab\.functions              u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_ab\.sh                     u:object_r:otapreopt_chroot_exec:s0
+/system/bin/backuptool_postinstall\.sh            u:object_r:otapreopt_chroot_exec:s0
+
+# ParanoidHub
+/data/hub_updates(/.*)?           u:object_r:ota_package_file:s0
+
+# ADB Root
+/system/bin/adb_root       u:object_r:adbroot_exec:s0
+/data/adbroot(/.*)?        u:object_r:adbroot_data_file:s0
+
+# vbswap device for zswap
+/dev/block/vbswap0         u:object_r:swap_block_device:s0

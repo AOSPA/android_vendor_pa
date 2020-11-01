@@ -68,10 +68,36 @@ ifeq ($(TARGET_USES_QCOM_LEGACY_SEPOLICY),true)
     TARGET_USES_QCOM_LATEST_SEPOLICY ?= true
 endif
 
+ifeq (,$(filter msm8226 msm8610 msm8974 msm8909 msm8916 msm8952 msm8992 msm8994 msm8937 msm8953 msm8996 msm8998 sdm660 sdm710 sdm845, $(TARGET_BOARD_PLATFORM)))
+BOARD_SEPOLICY_M4DEFS += \
+    qdisplay_service=vendor_qdisplay_service \
+    sysfs_graphics=vendor_sysfs_graphics \
+    hal_keymaster_qti_exec=vendor_hal_keymaster_qti_exec \
+    persist_block_device=vendor_persist_block_device \
+    display_vendor_data_file=vendor_display_vendor_data_file \
+    hal_perf_default=vendor_hal_perf_default \
+    sysfs_battery_supply=vendor_sysfs_battery_supply \
+    sysfs_usb_supply=vendor_sysfs_usb_supply
+endif
+
 ifneq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 else
+TARGET_USES_PREBUILT_VENDOR_SEPOLICY ?= true
 include device/qcom/sepolicy/SEPolicy.mk
+endif
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    vendor/pa/sepolicy/qcom/private
+
+ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    vendor/pa/sepolicy/qcom/dynamic \
+    vendor/pa/sepolicy/qcom/system-only
+else
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    vendor/pa/sepolicy/qcom/dynamic \
+    vendor/pa/sepolicy/qcom/vendor
 endif
 
 endif # Exclude QCOM SEPolicy

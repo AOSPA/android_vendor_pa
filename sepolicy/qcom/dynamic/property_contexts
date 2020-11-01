@@ -1,0 +1,3 @@
+# Audio
+audio.                            u:object_r:audio_prop:s0
+persist.speaker.                  u:object_r:audio_prop:s0
