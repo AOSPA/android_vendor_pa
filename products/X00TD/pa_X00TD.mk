@@ -34,6 +34,7 @@ $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00TD
 PRODUCT_MANUFACTURER := asus
+PRODUCT_MODEL := ASUS_X00TD
 PRODUCT_NAME := pa_X00TD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
