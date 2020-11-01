@@ -34,6 +34,7 @@ $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := X00TD
 PRODUCT_MANUFACTURER := asus
+PRODUCT_MODEL := ASUS_X00TD
 PRODUCT_NAME := pa_X00TD
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
@@ -47,12 +48,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # The following system and vendor props will be set by vendor init
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := \
     ro.product.device \
-    ro.product.model \
     ro.product.name
 
 PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.vendor.product.device \
-    ro.vendor.product.model \
     ro.vendor.product.name
 
 # Bootanimation
