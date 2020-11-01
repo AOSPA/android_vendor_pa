@@ -1,0 +1,2 @@
+type hal_pa_camera_motor_hwservice, hwservice_manager_type;
+type hal_pa_fod_hwservice, hwservice_manager_type;

@@ -1,0 +1,2 @@
+# Required in order to set pa.service.adb.root
+set_prop(adbd, system_prop)

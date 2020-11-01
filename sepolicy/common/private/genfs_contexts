@@ -1,0 +1,4 @@
+# vbswap device for zswap
+# apply zram context to avoid complicating policies
+genfscon sysfs /devices/virtual/block/vbswap0     u:object_r:sysfs_zram:s0
+genfscon sysfs /devices/virtual/block/vbswap0/uevent    u:object_r:sysfs_zram_uevent:s0
