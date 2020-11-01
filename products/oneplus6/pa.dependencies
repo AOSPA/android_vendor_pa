@@ -1,9 +1,9 @@
 [
     {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_device_oneplus_oneplus6",
+        "remote":       "github",
+        "repository":   "Sirhc95/android_device_oneplus_oneplus6",
         "target_path":  "device/oneplus/oneplus6",
-        "revision":     "quartz"
+        "revision":     "ruby"
     },
     {
         "remote":       "aospa",
@@ -12,10 +12,10 @@
         "revision":     "quartz"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_oneplus",
+        "remote":       "github",
+        "repository":   "Sirhc95/proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "quartz"
+        "revision":     "ruby"
     },
     {
         "remote":       "aospa",
