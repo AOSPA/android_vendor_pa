@@ -37,9 +37,4 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="davinci-user 10 QKQ1.190825.002 V11.0.1.0.QFJMIXM release-keys" \
-    PRODUCT_NAME="davinci" \
-    TARGET_DEVICE="davinci"
-
 endif
