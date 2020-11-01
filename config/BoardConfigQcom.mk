@@ -39,39 +39,10 @@ endif
 endif
 
 # SEPolicy
-# Boards can opt-out of QCOM sepolicy
 ifneq ($(TARGET_EXCLUDE_QCOM_SEPOLICY),true)
-
-# Allow boards to use a different sepolicy
-ifeq ($(filter true,$(TARGET_USES_QCOM_LEGACY_PRE_UM_SEPOLICY) $(TARGET_USES_QCOM_LEGACY_UM_SEPOLICY) $(TARGET_USES_QCOM_LEGACY_SEPOLICY) $(TARGET_USES_QCOM_LATEST_SEPOLICY)),)
-
-    ifeq ($(call is-board-platform-in-list, apq8084 msm8226 msm8909 msm8916 msm8952 msm8960 msm8974 msm8976 msm8992 msm8994),true)
-        # Use QCOM legacy pre-UM SEPolicy by default for legacy pre-UM boards
-        TARGET_USES_QCOM_LEGACY_PRE_UM_SEPOLICY ?= true
-        SELINUX_IGNORE_NEVERALLOWS_ON_USER ?= true
-    else ifeq ($(call is-board-platform-in-list, msm8937 msm8953 msm8996 msm8998 sdm660),true)
-        # Use QCOM legacy UM SEPolicy by default for legacy UM boards
-        TARGET_USES_QCOM_LEGACY_UM_SEPOLICY ?= true
-    else ifeq ($(call is-board-platform-in-list, sdm845 sdm710),true)
-        # Use QCOM legacy SEPolicy by default for legacy boards
-        TARGET_USES_QCOM_LEGACY_SEPOLICY ?= true
-    else
-        # Use QCOM latest SEPolicy by default for latest boards
-        TARGET_USES_QCOM_LATEST_SEPOLICY ?= true
-    endif
-
-endif # Allow boards to use a different sepolicy
-
-# Enable latest sepolicy for legacy boards
-ifeq ($(TARGET_USES_QCOM_LEGACY_SEPOLICY),true)
-    # Use QCOM latest SEPolicy by default for latest boards
-    TARGET_USES_QCOM_LATEST_SEPOLICY ?= true
-endif
-
 ifneq ($(BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE),)
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 else
 include device/qcom/sepolicy/SEPolicy.mk
 endif
-
 endif # Exclude QCOM SEPolicy
