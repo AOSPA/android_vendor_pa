@@ -27,7 +27,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Fingerprint
 ifeq ($(TARGET_BUILD_VARIANT),user)
-BUILD_FINGERPRINT ?= google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
+BUILD_FINGERPRINT ?= google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
 endif
 
 # Gestures
