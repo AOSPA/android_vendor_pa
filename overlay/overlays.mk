@@ -28,6 +28,7 @@ PRODUCT_PACKAGES += \
     AccentColorTorchRedOverlay \
     AOSPABluetoothOverlay \
     AOSPAFrameworksOverlay \
+    AOSPAImmersiveNavigationOverlay \
     AOSPAOverlayStub \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
@@ -35,10 +36,6 @@ PRODUCT_PACKAGES += \
     AOSPATelephonyOverlay \
     AOSPAThemePickerOverlay \
     FontGoogleSansOverlay \
-    NavigationBarModeGesturalOverlayNoPill \
-    NavigationBarModeGesturalOverlayNoPillNarrowBack \
-    NavigationBarModeGesturalOverlayNoPillWideBack \
-    NavigationBarModeGesturalOverlayNoPillExtraWideBack \
     ParanoidDozeOverlay \
     ParanoidHubOverlay \
     ParanoidLauncherOverlay
