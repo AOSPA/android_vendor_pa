@@ -25,7 +25,7 @@
     <string name="switch_bar_off">Desativado</string>
     
 	<!-- App Name -->
-    <string name="doze_settings_app_name">Configurações Doze</string>
+    <string name="doze_settings_app_name">Paranoid Doze</string>
     
 	<!-- Ambient Display -->
     <string name="ambient_display_title">Exibição ambiente</string>
