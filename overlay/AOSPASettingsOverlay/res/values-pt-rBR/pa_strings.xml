@@ -18,11 +18,9 @@
     <!-- Paranoid Android version -->
     <string name="pa_version">Versão Paranoid Android</string>
 
-    <string name="reset_all_settings">REDEFINIR TUDO</string>
-    <string name="reset_selected_settings">REDEFINIR SELECIONADOS</string>
-    <string name="reset_settings_title">Preferências de recursos</string>
-    <string name="reset_settings_summary">Redefinir as preferências dos recursos da Paranoid Android</string>
-    <string name="keywords_settings_reset">redefinir</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Ativar reiniciar avançado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recuperação e bootloader</string>
 
     <!-- Gestures Settings -->
     <string name="quick_gestures_title">Gestos rápidos</string>
@@ -115,7 +113,7 @@
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
 
     <!-- Pulse Ambient Light -->
-    <string name="pulse_ambient_light_title">Pulso</string>
+    <string name="pulse_ambient_light_title">Notificações edge</string>
     <string name="pulse_ambient_light_summary">Iluminar as partes laterais da tela no pulso da notificação</string>
     <string name="ambient_notification_light_accent_title">Tonalidade do sistema</string>
     <string name="ambient_notification_light_color_automatic_title">Cor da notificação</string>
@@ -132,8 +130,8 @@
     <string name="back_height_high_label">Inferior</string>
     <string name="back_height_message">Altura da região sensível ao gesto voltar.</string>
 
-    <!-- NavigationBar Gestural Mode (Hide Pill) -->
-    <string name="gesture_pill_message">Ocultar a barra de gestos.</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Ocultar a barra de gestos</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuração com root</string>
@@ -143,7 +141,7 @@
     <string name="suggestion_button_close">Fechar</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_screen_title">Reprodução inteligente</string>
     <string name="adaptive_playback_disabled_summary">Desativado</string>
     <string name="adaptive_playback_timeout_title">Tempo limite de</string>
     <string name="adaptive_playback_timeout_none">Ilimitado</string>
@@ -200,7 +198,7 @@
     <string name="backlight_summary_enabled">Ativado</string>
 
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Gerenciar ícones</string>
+    <string name="icon_manager_title">Ícones da barra de status</string>
     <string name="icon_manager_summary">Controle a visibilide dos ícones na barra de status</string>
 
     <!-- Screenshot sound -->
@@ -233,5 +231,9 @@
         <item quantity="one">1 aplicativo bloqueado</item>
         <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alternar entre os modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ativado (alternar entre os modos)</string>
 
 </resources>

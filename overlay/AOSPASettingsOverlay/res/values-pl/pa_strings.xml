@@ -58,8 +58,8 @@
     <string name="gestures_open_dialer">Uruchom dialer</string>
 
     <!-- Swipe to screenshot -->
-    <string name="swipe_to_screenshot_title">Przeciągnij, aby wykonać zrzut ekranu</string>
-    <string name="swipe_to_screenshot_summary">Przeciągnij 3 palcami w dół ekranu, aby wykonać zrzut ekranu</string>
+    <string name="swipe_to_screenshot_title">Przeciągnij, by zrobić zrzut ekranu</string>
+    <string name="swipe_to_screenshot_summary">Przeciągnij trzema palcami w dół ekranu, by zrobić zrzut ekranu</string>
 
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
@@ -150,5 +150,13 @@
     <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
     <string name="adaptive_playback_timeout_10_min">10 minut</string>
     <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Przechodzenie pomiędzy trybami</string>
+    <string name="prevent_ringing_option_cycle_summary">Włączone (przechodzenie pomiędzy trybami)</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Menedżer ikon</string>
+    <string name="icon_manager_summary">Kontroluj widoczność ikon na pasku stanu</string>
 
 </resources>

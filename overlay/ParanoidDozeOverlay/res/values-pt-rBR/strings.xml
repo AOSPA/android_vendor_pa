@@ -25,14 +25,14 @@
     <string name="switch_bar_off">Desativado</string>
     
 	<!-- App Name -->
-    <string name="doze_settings_app_name">Configurações Doze</string>
+    <string name="doze_settings_app_name">Paranoid Doze</string>
     
 	<!-- Ambient Display -->
     <string name="ambient_display_title">Exibição ambiente</string>
     <string name="ambient_display_summary">Ligar a tela ao receber notificações</string>
     
 	<!-- Always on -->
-    <string name="ambient_display_always_on_title">Sempre Ligado</string>
+    <string name="ambient_display_always_on_title">Sempre ligado</string>
     <string name="ambient_display_always_on_summary">Mostrar hora, ícones de notificação e outras informações. Aumenta o uso de bateria.</string>
     
 	<!-- Pickup sensor -->
