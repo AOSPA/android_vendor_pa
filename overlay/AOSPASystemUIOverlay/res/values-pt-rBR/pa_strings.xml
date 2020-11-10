@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright 2020 Paranoid Android
+    Copyright 2021 Paranoid Android
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -16,12 +16,6 @@
 -->
 <resources>
 
-    <!-- OnTheSpot: Action denial button text. [CHAR LIMIT=NONE] -->
-    <string name="on_the_spot_deny">NÃO, OBRIGADO</string>
-
-    <!-- OnTheSpot: Action confirmation button text. [CHAR LIMIT=NONE] -->
-    <string name="on_the_spot_confirm">OKAY</string>
-
     <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
     <string name="quick_settings_quick_pull_down">Deseja que as Configurações Rápidas se expandam automaticamente ao ser acessada pelo lado direito da tela?</string>
 
@@ -29,12 +23,13 @@
     <string name="quick_settings_quick_pull_down_name">Expandir Configurações Rápidas</string>
     <string name="quick_settings_quick_pull_down_summary">Expandir automaticamente as Configurações Rápidas ao puxar pela parte direita da tela</string>
 
-    <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
-    <string name="extended_restart">Gostaria de acessar o reinício avançado ao manter pressionado o botão de reiniciar?</string>
-
-    <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
-    <string name="extended_restart_name">Reinício Avançado</string>
-    <string name="extended_restart_summary">Reinicie o dispositivo em diferentes modos como bootloader e recuperação</string>
+    <!-- Power Menu -->
+    <string name="global_action_reboot">Reiniciar</string>
+    <string name="global_action_reboot_more">Reiniciar\u2026</string>
+    <string name="global_action_reboot_sub">Sistema</string>
+    <string name="global_action_reboot_recovery">Recuperação</string>
+    <string name="global_action_reboot_bootloader">Bootloader</string>
+    <string name="global_action_settings">Configurações</string>
 
     <!-- Screen Stabilization -->
     <string name="quick_settings_stabilization_label">Estabilização de Tela</string>
@@ -99,5 +94,10 @@
     <string name="applock_face">&#160;ou seu rosto para desbloquear.</string>
     <string name="applock_fingerprint">&#160;ou sua biometria para desbloquear.</string>
     <string name="applock_locked_notification">Aplicativo está bloqueado</string>
+
+    <!-- DC Dimming -->
+    <string name="quick_settings_dc_dimming_label">DC Dimming</string>
+    <string name="quick_settings_dc_brightness_mode">Conforme o brilho</string>
+    <string name="quick_settings_dc_full_auto">Automático</string>
 
 </resources>
