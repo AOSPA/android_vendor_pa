@@ -16,12 +16,6 @@
 -->
 <resources>
 
-    <!-- OnTheSpot: Action denial button text. [CHAR LIMIT=NONE] -->
-    <string name="on_the_spot_deny">NIE DZIĘKUJE</string>
-
-    <!-- OnTheSpot: Action confirmation button text. [CHAR LIMIT=NONE] -->
-    <string name="on_the_spot_confirm">OK</string>
-
     <!-- OnTheSpot: Quick Settings quick pull-down feature description message. [CHAR LIMIT=NONE] -->
     <string name="quick_settings_quick_pull_down">Czy chcesz, aby prawa strona paska statusu wysuwała panel Szybkich Ustawień?</string>
 
@@ -29,12 +23,13 @@
     <string name="quick_settings_quick_pull_down_name">Szybkie wysuwanie panelu Szybkich Ustawień</string>
     <string name="quick_settings_quick_pull_down_summary">Automatyczne wysuwanie panelu Szybkich Ustawień poprzez przeciągnięcie od boku ekranu</string>
 
-    <!-- OnTheSpot: Extended Restart feature description message. [CHAR LIMIT=NONE] -->
-    <string name="extended_restart">Czy chcesz dłużej przytrzymać przycisk restartu, aby uzyskać dostęp do opcji rozszerzonego restartu?</string>
-
-    <!-- OnTheSpot: Title of the Extended Restart feature for the reset dialog. [CHAR LIMIT=NONE] -->
-    <string name="extended_restart_name">Rozszerzony Restart</string>
-    <string name="extended_restart_summary">Restartuj urządzenie do innych trybów takich jak bootloader i recovery</string>
+    <!-- Power Menu -->
+    <string name="global_action_reboot">Restart</string>
+    <string name="global_action_reboot_more">Restartowanie\u2026</string>
+    <string name="global_action_reboot_sub">System</string>
+    <string name="global_action_reboot_recovery">Recovery</string>
+    <string name="global_action_reboot_bootloader">Bootloader</string>
+    <string name="global_action_settings">Ustawienia</string>
 
     <!-- Screen Stabilization -->
     <string name="quick_settings_stabilization_label">Stabilizacja Ekranu</string>

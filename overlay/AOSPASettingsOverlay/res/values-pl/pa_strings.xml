@@ -18,11 +18,9 @@
     <!-- Paranoid Android version -->
     <string name="pa_version">Wersja Paranoid Android</string>
 
-    <string name="reset_all_settings">RESETUJ WSZYSTKO</string>
-    <string name="reset_selected_settings">RESETUJ WYBRANE</string>
-    <string name="reset_settings_title">Preferencje funkcji</string>
-    <string name="reset_settings_summary">Resetuj preferencje funkcji Paranoid Android</string>
-    <string name="keywords_settings_reset">resetuj</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Włącz zaawansowany restart</string>
+    <string name="global_actions_advanced_reboot_summary">Pokaż opcje dla recovery i bootloadera</string>
 
     <!-- Gestures Settings -->
     <string name="quick_gestures_title">Szybkie gesty</string>
@@ -58,8 +56,8 @@
     <string name="gestures_open_dialer">Uruchom dialer</string>
 
     <!-- Swipe to screenshot -->
-    <string name="swipe_to_screenshot_title">Przeciągnij, aby wykonać zrzut ekranu</string>
-    <string name="swipe_to_screenshot_summary">Przeciągnij 3 palcami w dół ekranu, aby wykonać zrzut ekranu</string>
+    <string name="swipe_to_screenshot_title">Przeciągnij, by zrobić zrzut ekranu</string>
+    <string name="swipe_to_screenshot_summary">Przeciągnij trzema palcami w dół ekranu, by zrobić zrzut ekranu</string>
 
     <!-- Volume button music control -->
     <string name="volume_button_music_control_title">Kontrola odtwarzania</string>
@@ -87,6 +85,9 @@
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Odwróć układ Paska Nawigacyjnego</string>
     <string name="navbar_invert_info">Spowoduje to zamianę przycisków \"Wstecz\" i \"Ostatnie\" na pasku nawigacyjnym</string>
+
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Pełnoekranowa nawigacja</string>
 
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Wibracje podczas połączeń</string>
@@ -150,5 +151,13 @@
     <string name="adaptive_playback_timeout_5_min_summary">Włączone (5 minut)</string>
     <string name="adaptive_playback_timeout_10_min">10 minut</string>
     <string name="adaptive_playback_timeout_10_min_summary">Włączone (10 minut)</string>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Przechodzenie pomiędzy trybami</string>
+    <string name="prevent_ringing_option_cycle_summary">Włączone (przechodzenie pomiędzy trybami)</string>
+
+    <!-- Status bar Icon Manager -->
+    <string name="icon_manager_title">Menedżer ikon</string>
+    <string name="icon_manager_summary">Kontroluj widoczność ikon na pasku stanu</string>
 
 </resources>

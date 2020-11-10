@@ -16,17 +16,17 @@
 <resources>
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">Pokazuj aplikację Google</string>
+    <string name="title_show_google_app">Εμφάνιση του Google App</string>
 
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_left">Kiedy przeciągasz w lewo na ekranie głównym</string>
+    <string name="msg_minus_one_on_left">Όταν σύρετε προς τα αριστερά από την κύρια Αρχική οθόνη</string>
 
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_right">Kiedy przeciągasz w prawo na ekranie głównym</string>
+    <string name="msg_minus_one_on_right">Όταν σύρετε προς τα δεξιά από την κύρια Αρχική οθόνη</string>
     <string name="pref_show_google_now_summary" translatable="false">@string/msg_minus_one_on_left</string>
 
     <!-- Suggestions -->
-    <string name="suggestion_pref_screen_title">Sugestie</string>
-    <string name="suggestion_pref_screen_desc">Dla wszystkich aplikacji &amp; Sugestie ekranu głównego</string>
+    <string name="suggestion_pref_screen_title">Προτάσεις</string>
+    <string name="suggestion_pref_screen_desc">Για Όλες τις Εφαρμογές &amp; Προτάσεις Αρχικής Οθόνης</string>
 
 </resources>
