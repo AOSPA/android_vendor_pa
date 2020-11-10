@@ -16,6 +16,24 @@
       "revId": "37d51645fcae1185675b8d29fd24dc999b4f3057",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c3420258_3c4e7794",
+        "filename": "overlay/GesturalNavigationOverlayLong/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-11-10T01:11:44Z",
+      "side": 1,
+      "message": "\u003e You can actually remove this on both blueprints, it\u0027s assumed because it\u0027s the default resource dir. @ZVNexus told me yesterday\n\nThank you, but this feature won\u0027t be merged. As discussed on Slack, we\u0027ll make the large pill the default and only option.",
+      "parentUuid": "1b94ca5c_a19768bf",
+      "revId": "37d51645fcae1185675b8d29fd24dc999b4f3057",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
     }
   ]
 }
