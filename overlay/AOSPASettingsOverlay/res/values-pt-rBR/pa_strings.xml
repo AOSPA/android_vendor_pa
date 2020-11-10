@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2016-2020 Paranoid Android
+<!-- Copyright 2016-2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -18,11 +18,9 @@
     <!-- Paranoid Android version -->
     <string name="pa_version">Versão Paranoid Android</string>
 
-    <string name="reset_all_settings">REDEFINIR TUDO</string>
-    <string name="reset_selected_settings">REDEFINIR SELECIONADOS</string>
-    <string name="reset_settings_title">Preferências de recursos</string>
-    <string name="reset_settings_summary">Redefinir as preferências dos recursos da Paranoid Android</string>
-    <string name="keywords_settings_reset">redefinir</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Ativar reiniciar avançado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opções para recuperação e bootloader</string>
 
     <!-- Gestures Settings -->
     <string name="quick_gestures_title">Gestos rápidos</string>
@@ -66,15 +64,15 @@
     <string name="volume_button_music_control_summary">Quando a tela estiver desligada, manter pressionado os botões do volume irá alternar entre faixas de música</string>
 
     <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localizar o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do teu tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localizar o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> teu dispositvo.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localizar o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do teu celular.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Localize o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Localize o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do dispositvo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Localize o sensor de impressão digital na parte <xliff:g id="sensor_location">%1$s</xliff:g> do celular.</string>
     
     <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">trás</string>
-    <string name="security_settings_fingerprint_sensor_location_front">frente</string>
-    <string name="security_settings_fingerprint_sensor_location_left">lado esquerdo</string>
-    <string name="security_settings_fingerprint_sensor_location_right">lado direito</string>
+    <string name="security_settings_fingerprint_sensor_location_back">traseira</string>
+    <string name="security_settings_fingerprint_sensor_location_front">frontal</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lateral esquerda</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lateral direita</string>
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Dados móveis</string>
@@ -115,7 +113,7 @@
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
 
     <!-- Pulse Ambient Light -->
-    <string name="pulse_ambient_light_title">Pulso</string>
+    <string name="pulse_ambient_light_title">Notificações edge</string>
     <string name="pulse_ambient_light_summary">Iluminar as partes laterais da tela no pulso da notificação</string>
     <string name="ambient_notification_light_accent_title">Tonalidade do sistema</string>
     <string name="ambient_notification_light_color_automatic_title">Cor da notificação</string>
@@ -132,8 +130,8 @@
     <string name="back_height_high_label">Inferior</string>
     <string name="back_height_message">Altura da região sensível ao gesto voltar.</string>
 
-    <!-- NavigationBar Gestural Mode (Hide Pill) -->
-    <string name="gesture_pill_message">Ocultar a barra de gestos.</string>
+    <!-- Immersive Navigation -->
+    <string name="immersive_navigation_title">Ocultar a barra de gestos</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Depuração com root</string>
@@ -143,7 +141,7 @@
     <string name="suggestion_button_close">Fechar</string>
 
     <!-- Adaptive Playback -->
-    <string name="adaptive_playback_screen_title">Reprodução adaptável</string>
+    <string name="adaptive_playback_screen_title">Reprodução inteligente</string>
     <string name="adaptive_playback_disabled_summary">Desativado</string>
     <string name="adaptive_playback_timeout_title">Tempo limite de</string>
     <string name="adaptive_playback_timeout_none">Ilimitado</string>
@@ -152,11 +150,11 @@
     <string name="adaptive_playback_timeout_30_secs_summary">Ativado (30 segundos)</string>
     <string name="adaptive_playback_timeout_1_min">1 minuto</string>
     <string name="adaptive_playback_timeout_1_min_summary">Ativado (1 minuto)</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_2_min">2 minutos</string>
     <string name="adaptive_playback_timeout_2_min_summary">Ativado (2 minutos)</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 minutos</string>
     <string name="adaptive_playback_timeout_5_min_summary">Ativado (5 minutos)</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_10_min">10 minutos</string>
     <string name="adaptive_playback_timeout_10_min_summary">Ativado (10 minutos)</string>
 
     <!-- Buttons -->
@@ -200,7 +198,7 @@
     <string name="backlight_summary_enabled">Ativado</string>
 
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">Gerenciar ícones</string>
+    <string name="icon_manager_title">Ícones da barra de status</string>
     <string name="icon_manager_summary">Controle a visibilide dos ícones na barra de status</string>
 
     <!-- Screenshot sound -->
@@ -233,5 +231,23 @@
         <item quantity="one">1 aplicativo bloqueado</item>
         <item quantity="other">%d aplicativos bloqueados</item>
     </plurals>
+
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Alternar entre os modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ativado (alternar entre os modos)</string>
+
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">Modo anti-oscilação</string>
+    <string name="dc_dimming_info">Reduz a fadiga ocular em condições de pouca luz, mas pode causar redução na qualidade da imagem e cores.</string>
+    <string name="dc_dimming_auto_mode_title">Programar</string>
+    <string name="dc_dimming_mode_brightness">Ativar quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_mode_full">Depender da hora e do brilho</string>
+    <string name="dc_dimming_brightness_title">Limite de brilho</string>
+    <string name="dc_dimming_brightness_disabled">Desativado</string>
+    <string name="dc_dimming_restore_auto_mode">Restaurar modo automático</string>
+    <string name="dc_dimming_brightness_info">Ativar DC Dimming apenas quando o brilho estiver abaixo do limite</string>
+    <string name="dc_dimming_off_auto_mode_auto">Será ativado automaticamente</string>
+    <string name="dc_dimming_on_auto_mode_auto">Será desativado automaticamente</string>
+    <string name="keywords_display_dc_dimming">dc dimming, oscilação, olho, cansaço</string>
 
 </resources>
