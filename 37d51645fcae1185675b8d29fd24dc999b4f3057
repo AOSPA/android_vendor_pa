@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1b94ca5c_a19768bf",
+        "filename": "overlay/GesturalNavigationOverlayLong/Android.bp",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1000461
+      },
+      "writtenOn": "2020-11-10T01:08:46Z",
+      "side": 1,
+      "message": "You can actually remove this on both blueprints, it\u0027s assumed because it\u0027s the default resource dir. @ZVNexus told me yesterday",
+      "revId": "37d51645fcae1185675b8d29fd24dc999b4f3057",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad",
+      "unresolved": true
+    }
+  ]
+}
