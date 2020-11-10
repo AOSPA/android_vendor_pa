@@ -79,8 +79,6 @@ PRODUCT_COPY_FILES += \
 # Pixel Features
 $(call inherit-product, vendor/google/pixel/config.mk)
 
-# QCOM
-include vendor/pa/config/qcom_utils.mk
 # Include Common Qualcomm Device Tree on Qualcomm Boards
 $(call inherit-product-if-exists, device/qcom/common/common.mk)
 
