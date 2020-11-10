@@ -38,4 +38,7 @@
     <string name="popup_camera_dialog_no">Nie</string>
     <string name="popup_camera_dialog_raise">Tak</string>
 
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Połączenia i powiadomienia będą uruchamiały dzwonek</string>
+
 </resources>
