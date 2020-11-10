@@ -40,4 +40,7 @@
     <string name="popup_camera_dialog_no">Não</string>
     <string name="popup_camera_dialog_raise">Sim</string>
 
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Chamadas e notificações farão o dispositivo tocar</string>
+
 </resources>

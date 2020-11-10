@@ -35,4 +35,8 @@
     <string name="icon_pack_summary">Pacote de ícones atual é %1$s</string>
     <string name="icon_pack_apply">Aplicar</string>
 
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Sugestões</string>
+    <string name="suggestion_pref_screen_desc">Lista de apps &amp; Tela de início</string>
+
 </resources>
