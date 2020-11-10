@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013-2016 The CyanogenMod Project
-                   2017 The LineageOS Project
-                   2020 Paranoid Android
+     Copyright (C) 2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,24 +14,26 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <string name="summary_empty" translatable="false"></string>
 
     <!-- Label for feature switch [CHAR LIMIT=30] -->
-    <string name="switch_bar_on">Wł</string>
+    <string name="switch_bar_on">Włączone</string>
 
     <!-- Label for feature switch [CHAR LIMIT=30] -->
-    <string name="switch_bar_off">Wył</string>
+    <string name="switch_bar_off">Wyłączone</string>
 
     <!-- App Name -->
-    <string name="doze_settings_app_name">Ustawienia Uśpienia</string>
+    <string name="doze_settings_app_name">Ustawienia Doze</string>
 
     <!-- Ambient Display -->
-    <string name="ambient_display_title">Wyświetlacz Otoczenia</string>
-    <string name="ambient_display_summary">Wybudź ekran, gdy otrzymasz powiadomienie</string>
+    <string name="ambient_display_title">Ekran dostosowany do otoczenia</string>
+    <string name="ambient_display_summary">Włącz ekran po otrzymaniu powiadomień</string>
 
     <!-- Always on -->
-    <string name="ambient_display_always_on_title">Zawsze Wł</string>
-    <string name="ambient_display_always_on_summary">Pokaż godzinę, ikony powiadomień oraz inne informacje. Zwiększone zużycie energii.</string>
+    <string name="ambient_display_always_on_title">Zawsze włączony</string>
+    <string name="ambient_display_always_on_summary">Pokazuj czas, ikony powiadomień i inne informacje. Zwiekszone użycie baterii.</string>
 
     <!-- Pickup sensor -->
     <string name="pickup_sensor_title">Czujnik podniesienia</string>
@@ -42,26 +42,27 @@
     <string name="proximity_sensor_title">Czujnik zbliżeniowy</string>
 
     <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">Machnięcie ręką</string>
-    <string name="hand_wave_gesture_summary">Pulsuj powiadomienia przy machnięciu ręką</string>
+    <string name="hand_wave_gesture_title">Machnięcie reką</string>
+    <string name="hand_wave_gesture_summary">Pulsujące powiadomienia przy machnięciu reką</string>
 
     <!-- Pick-up gesture -->
     <string name="pick_up_gesture_title">Podniesienie</string>
-    <string name="pick_up_gesture_summary">Pulsuj powiadomienia przy podniesieniu</string>
+    <string name="pick_up_gesture_summary">Pulsujące powiadomienia przy podniesieniu</string>
 
     <!-- Pick-up to wake gesture-->
-    <string name="wake_gesture_title">Wybudzanie</string>
-    <string name="wake_gesture_summary">Wybudź urządzenie zamiast pulsowania powiadomień</string>
+    <string name="wake_gesture_title">Wybudź</string>
+    <string name="wake_gesture_summary">Wybudź urządzenie zamiast pulsujących powiadomień</string>
 
     <!-- Pocket gesture -->
     <string name="pocket_gesture_title">Kieszeń</string>
-    <string name="pocket_gesture_summary">Pulsuj powiadomienia przy wyjęciu z kieszeni</string>
+    <string name="pocket_gesture_summary">Pulsujące powiadomienia przy wyciąganiu z kieszeni</string>
 
     <!-- Dialog texts -->
     <string name="dialog_ok">OK</string>
 
     <!-- Help texts -->
     <string name="doze_settings_help_title">Pomoc</string>
-    <string name="doze_settings_help_text">Funkcje te wykorzystują zdarzenia czujników do uruchomienia pulsu powiadomień w trybie Doze. Wybrany czujnik jest włączony tylko wtedy, gdy urządzenie otrzyma powiadomienie, co pomaga zmniejszyć zużycie baterii. Istnieje również opcja włączenia wybranego czujnika, gdy tylko ekran się wyłączy, spowoduje to większe zużycie baterii.</string>
+    <string name="doze_settings_help_text">Te funkcje używają czujników do uruchamiania pulsujących powiadomień. Wybrany czujnik jest tylko włączany, gdy urządzenie dostanie powiadomienie, pomaga to w redukcji użycia baterii. Dostępna jest również opcja włączenia wybranego czujnika po wyłączeniu ekranu, to powoduje wyższe zużycie baterii.</string>
 
+    
 </resources>
