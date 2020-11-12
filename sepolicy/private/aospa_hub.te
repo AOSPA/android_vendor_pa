@@ -3,6 +3,7 @@ type aospa_hub, domain, coredomain;
 app_domain(aospa_hub)
 net_domain(aospa_hub)
 
+binder_call(aospa_hub, gpuservice)
 binder_call(aospa_hub, update_engine)
 
 allow aospa_hub app_api_service:service_manager find;
