@@ -399,15 +399,20 @@ function write_blueprint_packages() {
             ARGS=(${ARGS//;/ })
             SRC="$SRC/apex"
             printf 'prebuilt_apex {\n'
-            for ARG in "${ARGS[@]}"; do
-                if [[ "$ARG" =~ "PKGNAME" ]]; then
-                    PKGNAME=${ARG##*\=}
-                    printf '\tname: "%s",\n' "$PKGNAME"
-                fi
-            done
+            printf '\tname: "%s",\n' "$PKGNAME"
             printf '\tsrc: "%s/%s",\n' "$SRC" "$FILE"
             printf '\towner: "%s",\n' "${VENDOR%\/*}"
-            printf '\tfilename: "%s",\n' "$BASENAME"
+            for ARG in "${ARGS[@]}"; do
+                if [[ "$ARG" =~ "OVERRIDES" ]]; then
+                    OVERRIDEPKG=${ARG##*\=}
+                    OVERRIDEPKG=${OVERRIDEPKG//,/ }
+                    printf '\toverrides: ["%s"],\n' "$OVERRIDEPKG"
+                elif [[ "$ARG" =~ "REQUIRED" ]]; then
+                    REQUIREDPKG=${ARG##*\=}
+                    REQUIREDPKG=${REQUIREDPKG//,/ }
+                    printf '\trequired: ["%s"],\n' "$REQUIREDPKG"
+                fi
+            done
         elif [ "$CLASS" = "SHARED_LIBRARIES" ]; then
             printf 'cc_prebuilt_library_shared {\n'
             printf '\tname: "%s",\n' "$PKGNAME"
@@ -518,7 +523,7 @@ function write_blueprint_packages() {
                 printf '\tsub_dir: "%s",\n' "$DIRNAME"
             fi
         fi
-        if [ "$CLASS" = "SHARED_LIBRARIES" ] || [ "$CLASS" = "EXECUTABLES" ] || [ "$CLASS" = "APEX" ] ; then
+        if [ "$CLASS" = "SHARED_LIBRARIES" ] || [ "$CLASS" = "EXECUTABLES" ] ; then
             printf '\tprefer: true,\n'
         fi
         if [ "$EXTRA" = "priv-app" ]; then
