@@ -33,6 +33,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/land/pa_land.mk \
     $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
     $(LOCAL_DIR)/lavender/pa_lavender.mk \
+    $(LOCAL_DIR)/m1882/pa_m1872.mk \
     $(LOCAL_DIR)/m1882/pa_m1882.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/mido/pa_mido.mk \
@@ -75,6 +76,7 @@ COMMON_LUNCH_CHOICES += \
     pa_land-userdebug \
     pa_laurel_sprout-userdebug \
     pa_lavender-userdebug \
+    pa_m1872-userdebug \
     pa_m1882-userdebug \
     pa_mata-userdebug \
     pa_mido-userdebug \
