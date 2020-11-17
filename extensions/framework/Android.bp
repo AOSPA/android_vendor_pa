@@ -14,7 +14,10 @@
 
 android_library {
     name: "co.aospa.framework",
-    srcs: ["src/**/*.java"],
+    srcs: [
+        "src/**/*.java",
+        "src/**/*.kt"
+    ],
     static_libs: [
         "androidx.preference_preference",
     ],
