@@ -1,0 +1,27 @@
+android_app {
+  name: "AuxiliaryKeyHandler",
+  privileged: true,
+  platform_apis: true,
+  certificate: "platform",
+
+  srcs: [
+    "src/**/*.kt",
+  ],
+
+  resource_dirs: [
+    "res/",
+  ],
+
+  kotlincflags: [
+    "-verbose",
+  ],
+
+  static_libs: [
+    "services.core",
+    "co.aospa.framework"
+  ],
+
+  optimize: {
+    enabled: false,
+  },
+}
