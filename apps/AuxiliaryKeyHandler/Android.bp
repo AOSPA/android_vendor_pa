@@ -12,13 +12,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-android_library {
-    name: "co.aospa.framework",
+android_app {
+    name: "AuxiliaryKeyHandler",
+    certificate: "platform",
+    platform_apis: true,
+    privileged: true,
     srcs: [
-        "src/**/*.java",
-        "src/**/*.kt"
+        "src/**/*.kt",
     ],
     static_libs: [
-        "androidx.preference_preference",
+        "co.aospa.framework",
+        "services.core",
     ],
+    optimize: {
+        enabled: false,
+    },
+    system_ext_specific: true,
 }
