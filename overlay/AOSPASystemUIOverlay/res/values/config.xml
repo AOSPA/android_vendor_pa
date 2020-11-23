@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2020 Paranoid Android
+     Copyright (C) 2016-2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -35,5 +35,11 @@
 
     <!-- Show RSRP Signal level for LTE -->
     <bool name="config_showRsrpSignalLevelforLTE">true</bool>
+
+    <!-- SystemUI Plugins that can be loaded on user builds. -->
+    <string-array name="config_pluginWhitelist" translatable="false">
+        <item>com.android.systemui</item>
+        <item>com.android.systemui.plugin.globalactions.wallet</item>
+    </string-array>
 
 </resources>
