@@ -74,3 +74,7 @@ PRODUCT_PACKAGES += \
 # Shell
 PRODUCT_PACKAGES += \
     nano
+
+# SystemUI plugins
+PRODUCT_PACKAGES += \
+    QuickAccessWallet
