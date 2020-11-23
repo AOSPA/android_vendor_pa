@@ -1,0 +1,56 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_device_meizu_m1882",
+        "target_path":  "device/meizu/m1882",
+        "revision":     "quartz-dev"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_kernel_meizu_sdm845",
+        "target_path":  "kernel/meizu/sdm845",
+        "revision":     "mkq-mr1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "rtx4d/android_vendor_meizu_m1882",
+        "target_path":  "vendor/meizu/m1882",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YumeMichi/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YumeMichi/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YumeMichi/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "YumeMichi/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "ruby-845"
+    }
+]
