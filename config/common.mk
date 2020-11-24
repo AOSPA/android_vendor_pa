@@ -56,6 +56,9 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
 
 endif #TARGET_DISABLES_GMS
 
+# ION
+LIBION_HEADER_PATH_WRAPPER := vendor/qcom/opensource/core-utils/build/libion_header_paths/libion_path.mk
+
 # Overlays
 include vendor/pa/overlay/overlays.mk
 
