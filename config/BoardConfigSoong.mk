@@ -23,6 +23,10 @@ SOONG_CONFIG_aospaGlobalVars += \
     target_process_sdk_version_override \
     target_surfaceflinger_fod_lib
 
+ifneq ($(TARGET_FORCE_BUILD_FINGERPRINT),)
+SOONG_CONFIG_aospaGlobalVars += force_build_fingerprint
+endif
+
 # Set default values
 TARGET_INIT_VENDOR_LIB ?= vendor_init
 TARGET_SURFACEFLINGER_FOD_LIB ?= surfaceflinger_fod_lib
@@ -33,6 +37,10 @@ SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
 SOONG_CONFIG_aospaGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET_LD_SHIM_LIBS))
 SOONG_CONFIG_aospaGlobalVars_target_process_sdk_version_override := $(TARGET_PROCESS_SDK_VERSION_OVERRIDE)
 SOONG_CONFIG_aospaGlobalVars_target_surfaceflinger_fod_lib := $(TARGET_SURFACEFLINGER_FOD_LIB)
+
+ifneq ($(TARGET_FORCE_BUILD_FINGERPRINT),)
+SOONG_CONFIG_aospaGlobalVars_force_build_fingerprint := $(TARGET_FORCE_BUILD_FINGERPRINT)
+endif
 
 # Qualcomm variables
 SOONG_CONFIG_NAMESPACES += aosp_vs_qva
