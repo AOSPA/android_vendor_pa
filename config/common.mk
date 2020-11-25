@@ -89,6 +89,10 @@ $(call inherit-product, vendor/google/pixel/config.mk)
 $(call inherit-product-if-exists, device/qcom/common/common.mk)
 
 # Init
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/etc/init/init.deviceconfig.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/init.deviceconfig.sh \
+    vendor/pa/prebuilt/etc/init/deviceconfig.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/deviceconfig.rc
+
 PRODUCT_PACKAGES += \
     init.aospa.rc
 

@@ -1,0 +1,13 @@
+init_daemon_domain(init_deviceconfig)
+
+type init_deviceconfig, domain, coredomain;
+type init_deviceconfig_exec, system_file_type, exec_type, file_type;
+
+# Basic shell commands
+allow init_deviceconfig shell_exec:file { execute getattr open read };
+allow init_deviceconfig system_file:file execute_no_trans;
+
+# DeviceConfig service
+allow init_deviceconfig servicemanager:binder call;
+allow init_deviceconfig system_server:binder { call transfer };
+allow system_server init_deviceconfig:binder call;
