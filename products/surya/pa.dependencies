@@ -1,0 +1,50 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_surya",
+        "target_path":  "device/xiaomi/surya",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_xiaomi_surya",
+        "target_path":  "kernel/xiaomi/surya",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "ruby-smxxx0"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_packages_resources_devicesettings",
+        "target_path":  "packages/resources/devicesettings",
+        "revision":     "lineage-18.1"
+    }
+]
