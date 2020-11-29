@@ -3,7 +3,7 @@ include vendor/pa/config/BoardConfigKernel.mk
 
 # QCOM flags
 ifeq ($(call is-vendor-board-platform,QCOM),true)
-include vendor/pa/config/BoardConfigQcom.mk
+include device/qcom/common/BoardConfigQcom.mk
 endif
 
 # SEPolicy
