@@ -225,6 +225,7 @@
         <item>com.viber.voip</item>
         <item>com.linkedin.android</item>
         <item>com.tencent.mm</item>
+        <item>com.Slack</item>
     </string-array>
 
 </resources>
