@@ -92,15 +92,6 @@ $(call inherit-product-if-exists, device/qcom/common/common.mk)
 PRODUCT_PACKAGES += \
     init.aospa.rc
 
-# SECCOMP Extension
-BOARD_SECCOMP_POLICY += vendor/pa/seccomp
-
-PRODUCT_COPY_FILES += \
-    vendor/pa/seccomp/codec2.software.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.software.ext.policy \
-    vendor/pa/seccomp/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
-    vendor/pa/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
-    vendor/pa/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
-
 # Skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
 
