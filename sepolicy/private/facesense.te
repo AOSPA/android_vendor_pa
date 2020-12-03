@@ -1,0 +1,4 @@
+type vendor_facesense, domain;
+app_domain(vendor_facesense);
+
+get_prop(vendor_facesense, vendor_persist_camera_prop)
