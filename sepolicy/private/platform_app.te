@@ -1,2 +1,3 @@
 # Allow FOD HAL service to be found.
 hal_client_domain(platform_app, vendor_fod)
+binder_call(platform_app, vendor_fod_aospa)

@@ -7,6 +7,7 @@ hal_attribute_hwservice(vendor_fod, vendor_fod_hwservice);
 # Allow for transition from init domain to FOD.
 init_daemon_domain(vendor_fod_aospa);
 
-# Allow binder communication with platform applications & servicemanager.
+# Allow binder communication with platform applications, servicemanager & system server.
+binder_call(system_server, vendor_fod_aospa)
 binder_call(vendor_fod_aospa, platform_app)
 binder_use(vendor_fod_aospa)
