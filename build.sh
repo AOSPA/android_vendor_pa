@@ -18,6 +18,15 @@ CLR_BLD_CYA=$CLR_RST$CLR_BLD$(tput setaf 6) #  cyan, bold
 # Set defaults
 BUILD_TYPE="userdebug"
 
+function checkExit () {
+    if [ $? -ne 0 ]; then
+        EXIT_CODE=$?
+        echo "${CLR_BLD_RED}Build failed!${CLR_RST}"
+        echo -e ""
+        exit $EXIT_CODE
+    fi
+}
+
 # Output usage help
 function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}Usage: $0 <device> [options]${CLR_RST}"
@@ -35,13 +44,13 @@ function showHelpAndExit {
         echo -e "${CLR_BLD_BLU}  -p, --pwfile          Specify path to sign key password file${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -b, --backup-unsigned Store a copy of unsignied package along with signed${CLR_RST}"
         echo -e "${CLR_BLD_BLU}  -d, --delta           Generate a delta ota from the specified target_files zip${CLR_RST}"
-        echo -e "${CLR_BLD_BLU}  -im, --image_zip      Generate fastboot flashable image zip from signed target_files${CLR_RST}"
+        echo -e "${CLR_BLD_BLU}  -z, --imgzip          Generate fastboot flashable image zip from signed target_files${CLR_RST}"
         exit 1
 }
 
 # Setup getopt.
-long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,image-zip"
-getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:b --long "$long_opts" \
+long_opts="help,clean,installclean,repo-sync,variant:,build-type:,jobs:,module:,sign-keys:,pwfile:,backup-unsigned,delta:,imgzip"
+getopt_cmd=$(getopt -o hcirv:t:j:m:s:p:bd:z --long "$long_opts" \
             -n $(basename $0) -- "$@") || \
             { echo -e "${CLR_BLD_RED}\nError: Getopt failed. Extra args\n${CLR_RST}"; showHelpAndExit; exit 1;}
 
@@ -61,7 +70,7 @@ while true; do
         -p|--pwfile|p|pwfile) PWFILE="$2"; shift;;
         -b|--backup-unsigned|b|backup-unsigned) FLAG_BACKUP_UNSIGNED=y;;
         -d|--delta|d|delta) DELTA_TARGET_FILES="$2"; shift;;
-	-im|--image-zip|img|image-zip) FLAG_IMG_ZIP=y;;
+        -z|--imgzip|img|imgzip) FLAG_IMG_ZIP=y;;
         --) shift; break;;
     esac
     shift
@@ -170,64 +179,74 @@ lunch "pa_$DEVICE-$BUILD_TYPE"
 echo -e ""
 
 # Build away!
-RETVAL=0
-
 echo -e "${CLR_BLD_BLU}Starting compilation${CLR_RST}"
 echo -e ""
 # Build a specific module
 if [ "${MODULE}" ]; then
     m $MODULE"$CMD"
+    checkExit
+
 # Build signed rom package if specified
 elif [ "${KEY_MAPPINGS}" ]; then
     # Set sign key password file if specified
     if [ "${PWFILE}" ]; then
         export ANDROID_PW_FILE=$PWFILE
     fi
-    # Generate otapackage if in need of unsigned build
-    if [ "$FLAG_BACKUP_UNSIGNED" = 'y' ]; then
-        m bacon"$CMD"
-        mv $OUT/pa-${PA_VERSION}.zip $DIR_ROOT/pa-${PA_VERSION}-unsigned.zip
+
+    # If we aren't in Jenkins, use the engineering tag
+    if [ -z "${BUILD_NUMBER}" ]; then
+        export FILE_NAME_TAG=eng.$USER
     else
-        m dist"$CMD"
+        export FILE_NAME_TAG=$BUILD_NUMBER
     fi
+
+    # Make package for distribution
+    m dist"$CMD"
+
+    checkExit
+
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
-    ./build/tools/releasetools/sign_target_files_apks -o -d $KEY_MAPPINGS \
-        out/dist/pa_$DEVICE-target_files-*.zip \
-        pa-$PA_VERSION-signed-target_files.zip
+    sign_target_files_apks -o -d $KEY_MAPPINGS \
+        out/dist/pa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
+        pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip
+
+    checkExit
+
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
-    ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
+    ota_from_target_files -k $KEY_MAPPINGS/releasekey \
         --block --backup=true ${INCREMENTAL} \
-        pa-$PA_VERSION-signed-target_files.zip \
+        pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
         pa-$PA_VERSION.zip
+
+    checkExit
+
     if [ "$DELTA_TARGET_FILES" ]; then
         # die if base target doesn't exist
         if [ ! -f "$DELTA_TARGET_FILES" ]; then
                 echo -e "${CLR_BLD_RED}Delta error: base target files don't exist ($DELTA_TARGET_FILES)${CLR_RST}"
                 exit 1
         fi
-        ./build/tools/releasetools/ota_from_target_files -k $KEY_MAPPINGS/releasekey \
+        ota_from_target_files -k $KEY_MAPPINGS/releasekey \
             --block --backup=true --incremental_from $DELTA_TARGET_FILES \
-            pa-$PA_VERSION-signed-target_files.zip \
+            pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
             pa-$PA_VERSION-delta.zip
+        checkExit
     fi
     if [ "$FLAG_IMG_ZIP" = 'y' ]; then
-        ./build/tools/releasetools/img_from_target_files \
-            pa-$PA_VERSION-signed-target_files.zip \
+        img_from_target_files \
+            pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
             pa-$PA_VERSION-signed-image.zip
+        checkExit
     fi
 # Build rom package
 else
     m bacon"$CMD"
+
+    checkExit
+
     ln -sf $OUT/pa-${PA_VERSION}.zip $DIR_ROOT
 fi
-RETVAL=$?
 echo -e ""
-
-# Check if the build failed
-if [ $RETVAL -ne 0 ]; then
-        echo "${CLR_BLD_RED}Build failed!${CLR_RST}"
-        echo -e ""
-fi
 
 # Check the finishing time
 TIME_END=$(date +%s.%N)
@@ -236,4 +255,4 @@ TIME_END=$(date +%s.%N)
 echo -e "${CLR_BLD_GRN}Total time elapsed:${CLR_RST} ${CLR_GRN}$(echo "($TIME_END - $TIME_START) / 60" | bc) minutes ($(echo "$TIME_END - $TIME_START" | bc) seconds)${CLR_RST}"
 echo -e ""
 
-exit $RETVAL
+exit 0
