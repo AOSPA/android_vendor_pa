@@ -216,4 +216,19 @@
         <item>com.Slack</item>
     </string-array>
 
+    <!-- All of the paths defined for the batterymeter are defined on a 12x20 canvas, and must
+     be parsable by android.utill.PathParser -->
+    <string name="config_batterymeterPerimeterPath" translatable="false">
+		M8,2.71782596e-13 C8.33137085,2.71721725e-13 8.6,0.26862915 8.6,0.6 L8.6,1.8 L10.2,1.8 C11.1941125,1.8 12,2.60588745 12,3.6 L12,18 C12,18.9941125 11.1941125,19.8 10.2,19.8 L1.8,19.8 C0.80588745,19.8 1.00992209e-15,18.9941125 0,18 L0,3.6 C-3.4378828e-16,2.60588745 0.80588745,1.8 1.8,1.8 L3.4,1.8 L3.4,0.6 C3.4,0.26862915 3.66862915,2.71732446e-13 4,2.71782596e-13 L8,2.71782596e-13 Z M10.2,3.6 L1.8,3.6 L1.8,18 L10.2,18 L10.2,3.6 Z
+    </string>
+    <string name="config_batterymeterFillMask" translatable="false">
+        M11,3.0 L1,3.0 L1,18.5 L11,18.5 L11,3.0 Z
+    </string>
+    <string name="config_batterymeterBoltPath" translatable="false">
+        M7.4488,6.3311L6.0639,9.2595L7.8677,9.2595L5.7447,12.7804L5.9925,10.1L4.26,10.1L5.1476,6.3311L7.4488,6.3311Z
+    </string>
+    <string name="config_batterymeterPowersavePath" translatable="false">
+        M 6.9 7.9 L 6.9 10 L 9 10 L 9 11.8 L 6.9 11.8 L 6.9 13.9 L 5.1 13.9 L 5.1 11.8 L 3 11.8 L 3 10 L 5.1 10 L 5.1 7.9 Z
+    </string>
+
 </resources>
