@@ -208,7 +208,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
 
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
     sign_target_files_apks -o -d $KEY_MAPPINGS \
-        out/dist/pa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
+        $OUT_DIR/dist/pa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
         pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip
 
     checkExit
