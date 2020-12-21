@@ -12,23 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-android_app {
-    name: "AuxiliaryKeyHandler",
-    certificate: "platform",
-    platform_apis: true,
-    privileged: true,
-    srcs: [
-        "src/**/*.kt",
-    ],
-    static_libs: [
-        "co.aospa.framework",
-        "services.core",
-    ],
-    optimize: {
-        enabled: false,
-    },
+runtime_resource_overlay {
+    name: "AuxiliaryKeyHandlerOverlay",
+    sdk_version: "current",
     system_ext_specific: true,
-    required: [
-        "AuxiliaryKeyHandlerOverlay",
-    ],
 }
