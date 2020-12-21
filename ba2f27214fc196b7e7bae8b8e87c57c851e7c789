@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ebbb034c_21be6169",
+        "filename": "products/ginkgo/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-12-21T16:19:13Z",
+      "side": 1,
+      "message": "not your fault but pretty inconsistent hal naming",
+      "revId": "ba2f27214fc196b7e7bae8b8e87c57c851e7c789",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2d329c7_edab6c47",
+        "filename": "products/ginkgo/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-12-21T16:19:13Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be 18.1?",
+      "revId": "ba2f27214fc196b7e7bae8b8e87c57c851e7c789",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
