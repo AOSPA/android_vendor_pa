@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "693756ac_ccf12dbf",
+        "filename": "build.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-12-22T22:53:25Z",
+      "side": 1,
+      "message": "Indentation level is off",
+      "revId": "125fe33431eb9e394d4032e163c7dd9b8c9a5b27",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ca2ea022_bbc86fde",
+        "filename": "build.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2020-12-22T22:53:25Z",
+      "side": 1,
+      "message": "This is an extra `fi`",
+      "revId": "125fe33431eb9e394d4032e163c7dd9b8c9a5b27",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
