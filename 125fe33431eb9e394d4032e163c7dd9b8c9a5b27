@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9217ed32_3159413d",
+        "filename": "build.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 253,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-12-22T22:54:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "693756ac_ccf12dbf",
+      "revId": "125fe33431eb9e394d4032e163c7dd9b8c9a5b27",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ca2ea022_bbc86fde",
@@ -31,6 +49,24 @@
       "writtenOn": "2020-12-22T22:53:25Z",
       "side": 1,
       "message": "This is an extra `fi`",
+      "revId": "125fe33431eb9e394d4032e163c7dd9b8c9a5b27",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ca95d01_6ef0f869",
+        "filename": "build.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-12-22T22:54:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca2ea022_bbc86fde",
       "revId": "125fe33431eb9e394d4032e163c7dd9b8c9a5b27",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
