@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7f93abe_d8db4696",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-12-30T16:11:25Z",
+      "side": 1,
+      "message": "Is https://github.com/MiCode/Xiaomi_Kernel_OpenSource/tree/lmi-q-oss broken?",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9fb514d4_6fa52f5a",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2020-12-30T16:11:25Z",
+      "side": 1,
+      "message": "should we fork this?",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
