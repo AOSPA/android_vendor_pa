@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb245602_6cb22ddc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2020-12-30T23:51:06Z",
+      "side": 1,
+      "message": "This is a Pixel feature AFAIK, move to vendor/google/pixel.",
+      "revId": "472737fd9c994aac80610c348f0ce48522f4d6eb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
