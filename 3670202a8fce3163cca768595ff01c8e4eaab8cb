@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d69e4df2_4ea4d71a",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-12-31T02:55:52Z",
+      "side": 1,
+      "message": "It doesn\u0027t work at all.\nCarlos Ayrton got it working for Android 10, but according to him it isn\u0027t able do boot Android 11 (now he\u0027s waiting a new release from Xiaomi).\n\nHis repo:\nhttps://github.com/KONA-DEVS/kernel_xiaomi_sm8250\n\nThe LOS dev is using prebuilt for now:\nhttps://github.com/xiaomi-sm8250-devs/android_device_xiaomi_lmi-kernel",
+      "parentUuid": "f7f93abe_d8db4696",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9fb514d4_6fa52f5a",
         "filename": "products/lmi/pa.dependencies",
         "patchSetId": 3
@@ -31,6 +49,24 @@
       "writtenOn": "2020-12-30T16:11:25Z",
       "side": 1,
       "message": "should we fork this?",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5859b4db_b29b344a",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2020-12-31T02:55:52Z",
+      "side": 1,
+      "message": "There\u0027s many Xiaomi devices using it. It\u0027s required for FoD.\nBut I can put it in my device tree like we did for Mi 8 Pro on Quartz.",
+      "parentUuid": "9fb514d4_6fa52f5a",
       "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
