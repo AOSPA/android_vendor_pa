@@ -16,6 +16,23 @@
       "message": "This is a Pixel feature AFAIK, move to vendor/google/pixel.",
       "revId": "472737fd9c994aac80610c348f0ce48522f4d6eb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e60ab438_51a49856",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2020-12-31T01:00:41Z",
+      "side": 1,
+      "message": "rules are in hardware/google/pixel-sepolicy/flipendo",
+      "revId": "472737fd9c994aac80610c348f0ce48522f4d6eb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
