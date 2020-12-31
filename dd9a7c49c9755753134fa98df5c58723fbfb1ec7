@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e043d894_2f616bf2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2020-12-31T01:00:50Z",
+      "side": 1,
+      "message": "rules are in hardware/google/pixel-sepolicy/turbo_adapter",
+      "revId": "dd9a7c49c9755753134fa98df5c58723fbfb1ec7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
