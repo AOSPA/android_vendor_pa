@@ -88,3 +88,20 @@ board_fingerprint_vendor {
         },
     },
 }
+
+soong_config_module_type {
+    name: "has_old_display_stack",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    bool_variables: ["has_old_display_stack"],
+    properties: ["cppflags"],
+}
+
+has_old_display_stack {
+    name: "has_old_display_stack_defaults",
+    soong_config_variables: {
+        has_old_display_stack: {
+            cppflags: ["-DTARGET_HAS_OLD_DISPLAY_STACK"],
+        },
+    },
+}
