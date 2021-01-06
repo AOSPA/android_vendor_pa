@@ -215,7 +215,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
 
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
     ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-        --block --backup=true ${INCREMENTAL} \
+        --block ${INCREMENTAL} \
         pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
         pa-$PA_VERSION.zip
 
@@ -228,7 +228,7 @@ elif [ "${KEY_MAPPINGS}" ]; then
                 exit 1
         fi
         ota_from_target_files -k $KEY_MAPPINGS/releasekey \
-            --block --backup=true --incremental_from $DELTA_TARGET_FILES \
+            --block --incremental_from $DELTA_TARGET_FILES \
             pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
             pa-$PA_VERSION-delta.zip
         checkExit
