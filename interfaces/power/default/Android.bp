@@ -1,0 +1,98 @@
+soong_config_module_type {
+    name: "powerfeature_cc_defaults",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    value_variables: [
+        "target_gesture_node",
+        "target_single_tap_node",
+        "target_double_tap_node",
+        "target_v_node",
+        "target_inverse_v_node",
+        "target_o_node",
+        "target_m_node",
+        "target_w_node",
+        "target_s_node",
+        "target_arrow_left_node",
+        "target_arrow_right_node",
+        "target_up_node",
+        "target_right_node",
+        "target_down_node",
+        "target_left_node",
+        "target_two_finger_swipe_node",
+    ],
+    properties: ["cppflags"],
+}
+
+powerfeature_cc_defaults {
+    name: "powerfeature_defaults",
+    soong_config_variables: {
+        target_gesture_node: {
+            cppflags: ["-DGESTURES_NODE=\"%s\""],
+        },
+        target_single_tap_node: {
+            cppflags: ["-DSINGLE_TAP_TO_WAKE_NODE=\"%s\""],
+        },
+        target_double_tap_node: {
+            cppflags: ["-DTAP_TO_WAKE_NODE=\"%s\""],
+        },
+        target_v_node: {
+            cppflags: ["-DDRAW_V_NODE=\"%s\""],
+        },
+        target_inverse_v_node: {
+            cppflags: ["-DDRAW_INVERSE_V_NODE=\"%s\""],
+        },
+        target_o_node: {
+            cppflags: ["-DDRAW_O_NODE=\"%s\""],
+        },
+        target_m_node: {
+            cppflags: ["-DDRAW_M_NODE=\"%s\""],
+        },
+        target_w_node: {
+            cppflags: ["-DDRAW_W_NODE=\"%s\""],
+        },
+        target_s_node: {
+            cppflags: ["-DDRAW_S_NODE=\"%s\""],
+        },
+        target_arrow_left_node: {
+            cppflags: ["-DDRAW_ARROW_LEFT_NODE=\"%s\""],
+        },
+        target_arrow_right_node: {
+            cppflags: ["-DDRAW_ARROW_RIGHT_NODE=\"%s\""],
+        },
+        target_up_node: {
+            cppflags: ["-DONE_FINGER_SWIPE_UP_NODE=\"%s\""],
+        },
+        target_right_node: {
+            cppflags: ["-DONE_FINGER_SWIPE_RIGHT_NODE=\"%s\""],
+        },
+        target_down_node: {
+            cppflags: ["-DONE_FINGER_SWIPE_DOWN_NODE=\"%s\""],
+        },
+        target_left_node: {
+            cppflags: ["-DONE_FINGER_SWIPE_LEFT_NODE=\"%s\""],
+        },
+        target_two_finger_swipe_node: {
+            cppflags: ["-DTWO_FINGER_SWIPE_NODE=\"%s\""],
+        },
+    },
+}
+
+cc_binary {
+    name: "vendor.aospa.power-service",
+    defaults: ["powerfeature_defaults"],
+    relative_install_path: "hw",
+    init_rc: ["vendor.aospa.power-service.rc"],
+    vintf_fragments: ["vendor.aospa.power.xml"],
+    vendor: true,
+    shared_libs: [
+        "libbase",
+        "libbinder_ndk",
+        "libhardware",
+        "liblog",
+        "vendor.aospa.power-ndk_platform",
+    ],
+    srcs: [
+        "PowerFeature.cpp",
+        "main.cpp",
+    ],
+}
