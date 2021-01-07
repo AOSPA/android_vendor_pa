@@ -61,6 +61,10 @@ PRODUCT_DEXPREOPT_QUICKEN_APPS += \
 
 endif #TARGET_DISABLES_GMS
 
+# HIDL
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+     vendor/pa/config/aospa_vendor_framework_compatibility_matrix.xml
+
 # Overlays
 include vendor/pa/overlay/overlays.mk
 
