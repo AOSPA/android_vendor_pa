@@ -16,6 +16,23 @@
       "message": "looks fine but Evan should approve",
       "revId": "87943172a20ed523b69a94054db47802747e61a3",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10f15244_dcced40d",
+        "filename": "build.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-01-08T03:50:42Z",
+      "side": 1,
+      "message": "The actual environment variable is $OUT, not $OUT_DIR. $OUT_DIR only exists within the build system.",
+      "revId": "87943172a20ed523b69a94054db47802747e61a3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
