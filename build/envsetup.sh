@@ -8,6 +8,7 @@ Additional Paranoid Android functions:
 - cafremote:       Add git remote for matching CodeAurora repository.
 - githubremote:    Add git remote for AOSPA Github.
 - repolastsync:    Prints date and time of last repo sync.
+- cafmerge:        Utility to merge CAF tags.
 EOF
 }
 
@@ -184,4 +185,12 @@ function repopick()
 {
     T=$(gettop)
     $T/vendor/pa/build/tools/repopick.py $@
+}
+
+function cafmerge()
+{
+    target_branch=$1
+    set_stuff_for_environment
+    T=$(gettop)
+    python3 $T/vendor/pa/scripts/merge-caf.py $target_branch
 }
