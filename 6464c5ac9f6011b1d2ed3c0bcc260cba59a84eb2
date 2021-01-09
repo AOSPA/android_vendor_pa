@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a3ffddc_d9670c64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-01-09T05:41:29Z",
+      "side": 1,
+      "message": "would like to have it determine repos to merge solely off of aospa.xml",
+      "revId": "6464c5ac9f6011b1d2ed3c0bcc260cba59a84eb2",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
