@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d10f6ed8_a97d59cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000427
+      },
+      "writtenOn": "2021-01-09T06:34:58Z",
+      "side": 1,
+      "message": "seems to work okay for me on 09200 qssi but would like to have someone confirm",
+      "revId": "4f63b10346402c066bdb878373fb757901fddbf7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
