@@ -1,5 +1,6 @@
 # APN List
-PRODUCT_COPY_FILES += vendor/pa/prebuilt/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+PRODUCT_COPY_FILES += \
+    vendor/pa/prebuilt/etc/apns-conf.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/apns-conf.xml
 
 # HIDL Wrapper
 PRODUCT_PACKAGES += \
