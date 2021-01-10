@@ -43,8 +43,8 @@
         "revision":     "ruby"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_oneplus",
+        "remote":       "aospa",
+        "repository":   "ZVNexus/proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
         "revision":     "ruby"
     }
