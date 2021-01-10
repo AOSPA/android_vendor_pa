@@ -43,9 +43,9 @@
         "revision":     "ruby"
     },
     {
-        "remote":       "blobs",
-        "repository":   "proprietary_vendor_oneplus",
+        "remote":       "aospa",
+        "repository":   "aospa-cheeseburger/proprietary_vendor_oneplus",
         "target_path":  "vendor/oneplus",
-        "revision":     "ruby"
+        "revision":     "ruby-op8"
     }
 ]
