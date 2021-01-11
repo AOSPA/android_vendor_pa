@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a666490a_d25ae840",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-01-11T00:20:51Z",
+      "side": 1,
+      "message": "checkvintf E 01-10 17:05:10 1083660 1083660 check_vintf.cpp:554] files are incompatible: The following instances are in the device manifest but not specified in framework compatibility matrix: \ncheckvintf E 01-10 17:05:10 1083660 1083660 check_vintf.cpp:554]     vendor.aospa.power.IPowerFeature/default",
+      "revId": "f3fcd8437b4eca0bf08f42ccc687efbfaa19cceb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
