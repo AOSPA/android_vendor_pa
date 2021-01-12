@@ -20,11 +20,4 @@
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="co.aospa.hub">
-        <permission name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
-        <permission name="android.permission.REBOOT"/>
-        <permission name="android.permission.RECOVERY"/>
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
-    </privapp-permissions>
-
 </permissions>
