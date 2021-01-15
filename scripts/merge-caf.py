@@ -29,6 +29,7 @@ Merge script for AOSPA
 
 """
 
+import argparse
 import os
 import shutil
 import subprocess
@@ -46,34 +47,20 @@ REPOS_RESULTS = {}
 
 
 # useful helpers
-def print_proper_usage():
-    """ Prints the proper usage of the script. """
-    print(
-        "Usage: python3 vendor/pa/scripts/merge-caf.py <REVISION> [-<PROJECT1> -<PROJECT2>...]"
-    )
-    print("Example usage: python3 vendor/pa/scripts/merge-caf.py LA.QSSI.11.0.r1-09200-qssi.0")
-    sys.exit()
-
-
 def nice_error():
     """ Errors out in a non-ugly way. """
     print("Invalid repo, are you sure this repo is on the tag you're merging?")
 
-def get_manual_repos(is_system):
+def get_manual_repos(args, is_system):
     """ Get all manually (optional) specified repos from arguments """
     ret_lst = {}
     default_repos = list_default_repos(is_system)
-    for arg in sys.argv[2:]:
-        if arg[0] == "-":
-            repo = arg[1:]
+    if args.repos_to_merge:
+        for repo in args.repos_to_merge:
             if repo not in default_repos:
                 nice_error()
                 return None, None
             ret_lst[repo] = default_repos[repo]
-        else:
-            print("ERROR: wrong argument format")
-            print_proper_usage()
-            break
     return ret_lst, default_repos
 
 
@@ -162,6 +149,34 @@ def merge(repo_lst, branch):
     REPOS_RESULTS.update({"Successes": successes, "Failures": failures})
 
 
+def merge_manifest(is_system, branch):
+    """ Updates CAF revision in .repo/manifests """
+    with open ("{0}/.repo/manifests/default.xml".format(WORKING_DIR)) as manifestxml:
+        tree = Et.parse(manifestxml)
+        root = tree.getroot()
+        if is_system:
+            root.findall('default')[0].set('revision', branch)
+        else:
+            lst = root.findall('remote')
+            remote = None
+            for elem in lst:
+                if elem.attrib['name'] == "caf_vendor":
+                    remote = elem
+                    break
+            remote.set('revision', branch)
+        tree.write("{0}/.repo/manifests/default.xml".format(WORKING_DIR))
+        cpu_count = str(os.cpu_count())
+        subprocess.run(
+                [
+                    "repo", "sync", "-c", "--force-sync", "-f",
+                    "--no-clone-bundle", "--no-tag", "-j", cpu_count, "-q", "-d",
+                ],
+                check=False,
+            )
+        git_repo = git.Repo("{0}/.repo/manifests".format(WORKING_DIR))
+        git_repo.git.execute(["git", "checkout", "."])
+
+
 def check_actual_merged_repo(repo, branch):
     """ Gets all the repos that were actually merged and
         not the ones that were just up-to-date """
@@ -197,19 +212,24 @@ def print_results(branch):
 def main():
     """ Gathers and merges all repos from CAF and
     reports all repos that need to be fixed manually"""
-    if len(sys.argv) == 1:
-        print("ERROR: not enough arguments supplied.")
-        print_proper_usage()
 
-    branch = "refs/tags/{}".format(sys.argv[1])
+    parser = argparse.ArgumentParser(description='Merge a CAF revision.')
+    parser.add_argument('branch_to_merge', metavar='branch', type=str, help='a tag to merge from source.codeaurora.org')
+    parser.add_argument('--repos', dest='repos_to_merge', nargs='*', type=str, help='path of repos to merge')
+    parser.add_argument('--merge-manifest', dest='merge_manifest', action="store_true", help='automatically update manifest before merging repos')
+    args = parser.parse_args()
+
+    branch = "refs/tags/{}".format(args.branch_to_merge)
 
     is_system = "QSSI" in branch
-    repo_lst, default_repos = get_manual_repos(is_system)
+    repo_lst, default_repos = get_manual_repos(args, is_system)
     if repo_lst is None and default_repos is None:
         return
     if len(repo_lst) == 0:
         read_custom_manifest(default_repos)
         if REPOS_TO_MERGE:
+            if args.merge_manifest:
+                merge_manifest(is_system, branch)
             force_sync(REPOS_TO_MERGE)
             merge(REPOS_TO_MERGE, branch)
             os.chdir(WORKING_DIR)
