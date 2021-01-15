@@ -162,6 +162,34 @@ def merge(repo_lst, branch):
     REPOS_RESULTS.update({"Successes": successes, "Failures": failures})
 
 
+def merge_manifest(is_system, branch):
+    """ Updates CAF revision in .repo/manifests """
+    with open ("{0}/.repo/manifests/default.xml".format(WORKING_DIR)) as manifestxml:
+        tree = Et.parse(manifestxml)
+        root = tree.getroot()
+        if is_system:
+            root.findall('default')[0].set('revision', branch)
+        else:
+            lst = root.findall('remote')
+            remote = None
+            for elem in lst:
+                if elem.attrib['name'] == "caf_vendor":
+                    remote = elem
+                    break
+            remote.set('revision', branch)
+        tree.write("{0}/.repo/manifests/default.xml".format(WORKING_DIR))
+        cpu_count = str(os.cpu_count())
+        subprocess.run(
+                [
+                    "repo", "sync", "-c", "--force-sync", "-f",
+                    "--no-clone-bundle", "--no-tag", "-j", cpu_count, "-q", "-d",
+                ],
+                check=False,
+            )
+        git_repo = git.Repo("{0}/.repo/manifests".format(WORKING_DIR))
+        git_repo.git.execute(["git", "checkout", "."])
+
+
 def check_actual_merged_repo(repo, branch):
     """ Gets all the repos that were actually merged and
         not the ones that were just up-to-date """
@@ -210,6 +238,7 @@ def main():
     if len(repo_lst) == 0:
         read_custom_manifest(default_repos)
         if REPOS_TO_MERGE:
+            merge_manifest(is_system, branch)
             force_sync(REPOS_TO_MERGE)
             merge(REPOS_TO_MERGE, branch)
             os.chdir(WORKING_DIR)
