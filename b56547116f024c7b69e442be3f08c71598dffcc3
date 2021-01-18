@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d40d786c_573e58db",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-01-18T15:40:04Z",
+      "side": 1,
+      "message": "I\u0027m ok with this change.  I\u0027d also be ok changing to Unofficial or another string.",
+      "revId": "b56547116f024c7b69e442be3f08c71598dffcc3",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
