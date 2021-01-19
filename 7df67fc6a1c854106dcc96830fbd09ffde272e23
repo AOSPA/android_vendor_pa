@@ -16,6 +16,24 @@
       "message": "meh",
       "revId": "7df67fc6a1c854106dcc96830fbd09ffde272e23",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3079dd0e_cdc0ab74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-01-19T14:37:38Z",
+      "side": 1,
+      "message": "*OCD kicks in*",
+      "parentUuid": "aa6eb48b_7f5ac68f",
+      "revId": "7df67fc6a1c854106dcc96830fbd09ffde272e23",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
