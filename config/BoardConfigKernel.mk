@@ -14,7 +14,6 @@ else
 endif
 
 KERNEL_LLVM_SUPPORT := true
-KERNEL_SD_LLVM_SUPPORT ?= true
 
 # Defining BOARD_PREBUILT_DTBOIMAGE here as AndroidBoardCommon.mk
 # is included before build/core/Makefile, where it is required to
