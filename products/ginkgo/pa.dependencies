@@ -18,6 +18,12 @@
         "revision":     "ruby"
     },
     {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_miuicamera",
+        "target_path":  "vendor/miuicamera",
+        "revision":     "ruby-a3"
+    },
+    {
         "remote":       "blobs",
         "repository":   "proprietary_vendor_xiaomi",
         "target_path":  "vendor/xiaomi",
