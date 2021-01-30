@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15dc28e5_a70078da",
+        "filename": "interfaces/power/default/PowerFeature.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-01-30T00:07:14Z",
+      "side": 1,
+      "message": "I don\u0027t particularly like ifdefs. Do we really need to protect the sysfs nodes to this level? There must be a better way",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc9ee747_3f6ca043",
+        "filename": "interfaces/power/default/PowerFeature.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-01-30T00:07:14Z",
+      "side": 1,
+      "message": "We should probably return an error code here.",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c00793f3_6c905ed9",
+        "filename": "interfaces/power/default/PowerFeature.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-01-30T00:07:14Z",
+      "side": 1,
+      "message": "Probably don\u0027t need to inline these.",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5d9c25cd_dd026ebc",
+        "filename": "interfaces/power/default/main.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-01-30T00:07:14Z",
+      "side": 1,
+      "message": "Why are you constructing a blank string here only to append actual strings?",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
