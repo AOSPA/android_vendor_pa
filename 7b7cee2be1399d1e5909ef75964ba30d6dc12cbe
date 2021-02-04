@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "21030f48_edab6025",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "you don\u0027t need 2 change-id",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1f9cd59_66d479eb",
+        "filename": "products/lavender/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "PA HALs aren\u0027t working for you?",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e67c3dac_4393814c",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "We don\u0027t have this flag",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68b73076_f3338eb2",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "we don\u0027t have this flag",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d740ab9_c0a7731d",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "we don\u0027t have this flag",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e218cf0b_c542162c",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "Our FaceUnlock doesn\u0027t need this flag.",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "efdf468a_8083d5ec",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "Build Fingerprint is already present in vendor/pa",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "40568b3b_bb8e4b0d",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T00:39:02Z",
+      "side": 1,
+      "message": "is this really required?",
+      "revId": "7b7cee2be1399d1e5909ef75964ba30d6dc12cbe",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
