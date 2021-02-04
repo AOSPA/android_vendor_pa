@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e06351e_4678ba11",
+        "filename": "products/lavender/pa.dependencies",
+        "patchSetId": 12
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-02-04T13:53:09Z",
+      "side": 1,
+      "message": "use ruby-transition-8998 of https://github.com/AOSPA/android_hardware_qcom_display",
+      "revId": "d21e0e701c1e5d0c80c8edae5d97ef25f19ef710",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
