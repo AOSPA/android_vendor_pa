@@ -67,6 +67,24 @@
       "message": "You can drop this since it is defined in vendor/pa",
       "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "132387dc_c3eb7005",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T13:08:14Z",
+      "side": 1,
+      "message": "Are you sure about this? This is a specific thing and can\u0027t be already defined in vendor/pa.",
+      "parentUuid": "6a6814b7_902dadec",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
