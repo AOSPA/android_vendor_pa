@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "52a319e8_a0bab5f3",
+        "filename": "products/lavender/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-02-04T05:56:29Z",
+      "side": 1,
+      "message": "Where\u0027s the lavender device tree?",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6a6814b7_902dadec",
         "filename": "products/lavender/pa_lavender.mk",
         "patchSetId": 9
