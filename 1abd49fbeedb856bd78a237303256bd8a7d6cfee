@@ -16,6 +16,23 @@
       "message": "we do have our own sdm660-common tree which actually supports lavender too.\nhttps://github.com/AOSPA/android_device_xiaomi_sdm660-common there you. Would be better if you adapt your tree accordingly",
       "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6a6814b7_902dadec",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-02-04T05:54:28Z",
+      "side": 1,
+      "message": "You can drop this since it is defined in vendor/pa",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
