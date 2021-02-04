@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d783d543_b810fe8f",
+        "filename": "products/lavender/pa.dependencies",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1000654
+      },
+      "writtenOn": "2021-02-04T12:58:30Z",
+      "side": 1,
+      "message": "I don\u0027t think you need this. Its already in source",
+      "revId": "9d432401b4f8ba2a9ad995142cb0d1f3b77a0644",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
