@@ -37,6 +37,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4ddc746c_27722542",
+        "filename": "products/lavender/pa.dependencies",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-02-04T06:23:35Z",
+      "side": 1,
+      "message": "Device tree booted userdebug and permissive",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6a6814b7_902dadec",
         "filename": "products/lavender/pa_lavender.mk",
         "patchSetId": 9
