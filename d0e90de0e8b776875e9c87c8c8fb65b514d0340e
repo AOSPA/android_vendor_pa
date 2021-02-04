@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d0a1303_9bec52ae",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T01:49:44Z",
+      "side": 1,
+      "message": "we aren\u0027t LineageOS, and the current year is 2021.",
+      "revId": "d0e90de0e8b776875e9c87c8c8fb65b514d0340e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c52a67e9_af94dd68",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T01:49:44Z",
+      "side": 1,
+      "message": "can you break a line here please? just to keep the alignment.",
+      "revId": "d0e90de0e8b776875e9c87c8c8fb65b514d0340e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
