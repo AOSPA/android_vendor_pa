@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bed9b49_df2e8f19",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T01:32:16Z",
+      "side": 1,
+      "message": "# Check for target product\r\nifeq (pa_lavender,$(TARGET_PRODUCT))",
+      "revId": "ef27876297623aad74ec8d4ca7c75d40af674e9e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fcc11c55_78f139f3",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T01:32:16Z",
+      "side": 1,
+      "message": "we aren\u0027t Descendant.",
+      "revId": "ef27876297623aad74ec8d4ca7c75d40af674e9e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1a609557_0768099b",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T01:32:16Z",
+      "side": 1,
+      "message": "Drop this.",
+      "revId": "ef27876297623aad74ec8d4ca7c75d40af674e9e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e06e0cd_cbbe31ac",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-04T01:32:16Z",
+      "side": 1,
+      "message": "endif",
+      "revId": "ef27876297623aad74ec8d4ca7c75d40af674e9e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
