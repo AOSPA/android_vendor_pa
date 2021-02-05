@@ -121,6 +121,24 @@
       "parentUuid": "53cd1f27_fc0f39ba",
       "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba42df3b_e66b3fcf",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-02-05T16:25:54Z",
+      "side": 1,
+      "message": "https://github.com/AOSPA/android_vendor_pa/blob/ruby/products/ginkgo/pa_ginkgo.mk\nhttps://github.com/AOSPA/android_vendor_pa/blob/ruby/products/davinci/pa_davinci.mk\ni just saw some makefiles like these, and i remember vishal telling me that you can drop it \nhttps://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/13604/comment/1d164d23_6e0e2ba4/\nor i might\u0027ve just been confused, sorry :/",
+      "parentUuid": "73aa46cc_6a2e8616",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
