@@ -103,6 +103,24 @@
       "parentUuid": "132387dc_c3eb7005",
       "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "73aa46cc_6a2e8616",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-02-05T16:20:02Z",
+      "side": 1,
+      "message": "it\u0027s defined for all mi845 devices + Poco F2 Pro. Are you sure you don\u0027t have them?",
+      "parentUuid": "53cd1f27_fc0f39ba",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
