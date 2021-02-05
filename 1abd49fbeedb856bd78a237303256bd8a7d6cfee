@@ -139,6 +139,24 @@
       "parentUuid": "73aa46cc_6a2e8616",
       "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "43f22dd7_e57be9e5",
+        "filename": "products/lavender/pa_lavender.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-02-05T16:38:27Z",
+      "side": 1,
+      "message": "it is defined in vendor/pa. look into properties makefile. It\u0027s nuked from some device makefiles as they use pixel fingerprint to pass safety net.",
+      "parentUuid": "ba42df3b_e66b3fcf",
+      "revId": "1abd49fbeedb856bd78a237303256bd8a7d6cfee",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
