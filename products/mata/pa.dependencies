@@ -38,6 +38,7 @@
   {
     "remote":       "aosp",
     "repository":   "platform/hardware/ril",
-    "target_path":  "hardware/ril"
+    "target_path":  "hardware/ril",
+    "revision":     "refs/tags/android-11.0.0_r29"
   }
 ]
