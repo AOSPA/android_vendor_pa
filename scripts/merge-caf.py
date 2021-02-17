@@ -51,6 +51,7 @@ def nice_error():
     """ Errors out in a non-ugly way. """
     print("Invalid repo, are you sure this repo is on the tag you're merging?")
 
+
 def get_manual_repos(args, is_system):
     """ Get all manually (optional) specified repos from arguments """
     ret_lst = {}
@@ -68,14 +69,18 @@ def list_default_repos(is_system):
     """ Gathers all repos from split system.xml and vendor.xml """
     default_repos = {}
     if is_system:
-        with open("{0}/.repo/manifests/system.xml".format(WORKING_DIR)) as system_manifest:
+        with open(
+            "{0}/.repo/manifests/system.xml".format(WORKING_DIR)
+        ) as system_manifest:
             system_root = Et.parse(system_manifest).getroot()
             for child in system_root:
                 path = child.get("path")
                 if path:
                     default_repos[path] = child.get("name")
     else:
-        with open("{0}/.repo/manifests/vendor.xml".format(WORKING_DIR)) as vendor_manifest:
+        with open(
+            "{0}/.repo/manifests/vendor.xml".format(WORKING_DIR)
+        ) as vendor_manifest:
             vendor_root = Et.parse(vendor_manifest).getroot()
             for child in vendor_root:
                 path = child.get("path")
@@ -91,7 +96,7 @@ def read_custom_manifest(default_repos):
         root = Et.parse(manifest).getroot()
         removed_repos = []
         project_repos = []
-        reversed_default = {value:key for key, value in default_repos.items()}
+        reversed_default = {value: key for key, value in default_repos.items()}
         for repo in root:
             if repo.tag == "remove-project":
                 removed_repos.append(repo.get("name"))
@@ -113,23 +118,22 @@ def force_sync(repo_lst):
             shutil.rmtree("{}{}".format(WORKING_DIR, repo))
 
     cpu_count = str(os.cpu_count())
-    if REPOS_TO_MERGE is repo_lst:
-        args = [
-                "repo", "sync", "-c", "--force-sync", "-f",
-                "--no-clone-bundle", "--no-tag", "-j", cpu_count, "-q",
-               ]
-        args += repo_lst
-        subprocess.run(args, check=False,)
-    else:
-        for repo in repo_lst:
-            subprocess.run(
-                [
-                    "repo", "sync", "-c", "--force-sync", "-f",
-                    "--no-clone-bundle", "--no-tag", "-j", cpu_count, "-q", repo,
-                ],
-                check=False,
-            )
-
+    args = [
+        "repo",
+        "sync",
+        "-c",
+        "--force-sync",
+        "-f",
+        "--no-clone-bundle",
+        "--no-tag",
+        "-j",
+        cpu_count,
+        "-q",
+    ] + repo_lst
+    subprocess.run(
+        args,
+        check=False,
+    )
 
 def merge(repo_lst, branch):
     """ Merges the necessary repos and lists if a repo succeeds or fails """
@@ -151,35 +155,44 @@ def merge(repo_lst, branch):
 
 def merge_manifest(is_system, branch):
     """ Updates CAF revision in .repo/manifests """
-    with open ("{0}/.repo/manifests/default.xml".format(WORKING_DIR)) as manifestxml:
+    with open("{0}/.repo/manifests/default.xml".format(WORKING_DIR)) as manifestxml:
         tree = Et.parse(manifestxml)
         root = tree.getroot()
         if is_system:
-            root.findall('default')[0].set('revision', branch)
+            root.findall("default")[0].set("revision", branch)
         else:
-            lst = root.findall('remote')
+            lst = root.findall("remote")
             remote = None
             for elem in lst:
-                if elem.attrib['name'] == "caf_vendor":
+                if elem.attrib["name"] == "caf_vendor":
                     remote = elem
                     break
-            remote.set('revision', branch)
+            remote.set("revision", branch)
         tree.write("{0}/.repo/manifests/default.xml".format(WORKING_DIR))
         cpu_count = str(os.cpu_count())
         subprocess.run(
-                [
-                    "repo", "sync", "-c", "--force-sync", "-f",
-                    "--no-clone-bundle", "--no-tag", "-j", cpu_count, "-q", "-d",
-                ],
-                check=False,
-            )
+            [
+                "repo",
+                "sync",
+                "-c",
+                "--force-sync",
+                "-f",
+                "--no-clone-bundle",
+                "--no-tag",
+                "-j",
+                cpu_count,
+                "-q",
+                "-d",
+            ],
+            check=False,
+        )
         git_repo = git.Repo("{0}/.repo/manifests".format(WORKING_DIR))
         git_repo.git.execute(["git", "checkout", "."])
 
 
 def check_actual_merged_repo(repo, branch):
-    """ Gets all the repos that were actually merged and
-        not the ones that were just up-to-date """
+    """Gets all the repos that were actually merged and
+    not the ones that were just up-to-date"""
     git_repo = git.Repo("{0}/{1}".format(WORKING_DIR, repo))
     commits = list(git_repo.iter_commits("HEAD", max_count=1))
     result = commits[0].message
@@ -210,13 +223,29 @@ def print_results(branch):
 
 
 def main():
-    """ Gathers and merges all repos from CAF and
+    """Gathers and merges all repos from CAF and
     reports all repos that need to be fixed manually"""
 
-    parser = argparse.ArgumentParser(description='Merge a CAF revision.')
-    parser.add_argument('branch_to_merge', metavar='branch', type=str, help='a tag to merge from source.codeaurora.org')
-    parser.add_argument('--repos', dest='repos_to_merge', nargs='*', type=str, help='path of repos to merge')
-    parser.add_argument('--merge-manifest', dest='merge_manifest', action="store_true", help='automatically update manifest before merging repos')
+    parser = argparse.ArgumentParser(description="Merge a CAF revision.")
+    parser.add_argument(
+        "branch_to_merge",
+        metavar="branch",
+        type=str,
+        help="a tag to merge from source.codeaurora.org",
+    )
+    parser.add_argument(
+        "--repos",
+        dest="repos_to_merge",
+        nargs="*",
+        type=str,
+        help="path of repos to merge",
+    )
+    parser.add_argument(
+        "--merge-manifest",
+        dest="merge_manifest",
+        action="store_true",
+        help="automatically update manifest before merging repos",
+    )
     args = parser.parse_args()
     print(args)
 
