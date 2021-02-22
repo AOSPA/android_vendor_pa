@@ -1,0 +1,2 @@
+# Aux camera excludelist prop readable to everything
+vendor.camera.aux.packageexcludelist     u:object_r:exported_default_prop:s0
