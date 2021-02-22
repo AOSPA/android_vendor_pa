@@ -1,3 +1,6 @@
 attribute vendor_fod;
 attribute vendor_fod_server;
 attribute vendor_fod_client;
+attribute vendor_camera_motor_aospa;
+attribute vendor_camera_motor_aospa_server;
+attribute vendor_camera_motor_aospa_client;
