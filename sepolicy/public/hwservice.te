@@ -1,1 +1,2 @@
 type vendor_fod_hwservice, hwservice_manager_type, protected_hwservice;
+type vendor_camera_motor_aospa_hwservice, hwservice_manager_type, protected_hwservice;

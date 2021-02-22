@@ -1,0 +1,16 @@
+type vendor_camera_motor_aospa_default, domain;
+hal_server_domain(vendor_camera_motor_aospa_default, vendor_camera_motor_aospa)
+
+type vendor_camera_motor_aospa_default_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(vendor_camera_motor_aospa_default)
+
+hal_attribute_hwservice(vendor_camera_motor_aospa, vendor_camera_motor_aospa_hwservice)
+
+# HwBinder IPC from client to server
+binder_call(vendor_camera_motor_aospa_client, vendor_camera_motor_aospa_server)
+
+binder_call(system_server, vendor_camera_motor_aospa_default)
+binder_call(vendor_camera_motor_aospa_default, platform_app)
+binder_call(vendor_camera_motor_aospa_default, system_app)
+binder_call(system_app, vendor_camera_motor_aospa_default)
+binder_use(vendor_camera_motor_aospa_default)
