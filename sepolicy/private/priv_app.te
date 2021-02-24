@@ -1,0 +1,1 @@
+allow priv_app sysfs_dc_dim:file rw_file_perms;

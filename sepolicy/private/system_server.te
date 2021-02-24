@@ -1,2 +1,6 @@
 # FOD
 hal_client_domain(system_server, vendor_fod)
+
+# DC Dimming
+allow system_server sysfs_dc_dim:file rw_file_perms;
+add_service(system_server, dc_dimming_service);

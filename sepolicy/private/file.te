@@ -1,0 +1,2 @@
+# DC Dimming
+type sysfs_dc_dim, fs_type, sysfs_type;

@@ -4,3 +4,5 @@ binder_call(platform_app, vendor_fod_aospa)
 
 # Allow platform applications to find the NFC service.
 allow platform_app nfc_service:service_manager find;
+
+allow platform_app sysfs_dc_dim:file rw_file_perms;
