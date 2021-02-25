@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_realme_kishi",
+        "target_path":  "device/realme/kishi",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_realme_kishi",
+        "target_path":  "kernel/xiaomi/kishi",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_realme",
+        "target_path":  "vendor/realme",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "ruby"
+    }
+]

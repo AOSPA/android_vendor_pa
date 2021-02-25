@@ -24,6 +24,7 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/equuleus/pa_equuleus.mk \
     $(LOCAL_DIR)/ginkgo/pa_ginkgo.mk \
     $(LOCAL_DIR)/jasmine_sprout/pa_jasmine_sprout.mk \
+    $(LOCAL_DIR)/kishi/pa_kishi.mk \
     $(LOCAL_DIR)/laurel_sprout/pa_laurel_sprout.mk \
     $(LOCAL_DIR)/mata/pa_mata.mk \
     $(LOCAL_DIR)/oneplus5/pa_oneplus5.mk \
@@ -53,6 +54,7 @@ COMMON_LUNCH_CHOICES += \
     pa_equuleus-userdebug \
     pa_ginkgo-userdebug \
     pa_jasmine_sprout-userdebug \
+    pa_kishi-userdebug \
     pa_laurel_sprout-userdebug \
     pa_mata-userdebug \
     pa_oneplus6-userdebug \
