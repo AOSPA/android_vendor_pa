@@ -18,6 +18,10 @@ ifeq (pa_raphael,$(TARGET_PRODUCT))
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
+
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Include Paranoid Android common configuration
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -25,7 +29,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 include vendor/pa/config/common_full_phone.mk
 
 # Inherit AOSP device configuration
-$(call inherit-product, device/xiaomi/raphael/msmnile.mk)
+$(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_raphael
@@ -35,7 +39,6 @@ PRODUCT_MODEL := Mi 9T Pro
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raphael-user-10-QKQ1.190825.002-V11.0.7.0.QFKEUXM-release-keys" \
     PRODUCT_NAME="raphael" \
     TARGET_DEVICE="raphael"
 
