@@ -1,4 +1,4 @@
-// Copyright (C) 2020 Paranoid Android
+// Copyright (C) 2021 Paranoid Android
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,6 +15,14 @@
 android_app_import {
     apk: "Abstruct.apk",
     name: "Abstruct",
+    presigned: true,
+    product_specific: true,
+}
+
+android_app_import {
+    apk: "GoogleCameraGo.apk",
+    name: "GoogleCameraGo",
+    overrides: ["Camera2"],
     presigned: true,
     product_specific: true,
 }
