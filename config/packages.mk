@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ThemePicker
 
+# Camera
+PRODUCT_PACKAGES += \
+    GoogleCameraGo
+
 # Charger Images
 PRODUCT_PACKAGES += \
     charger_res_images
@@ -42,10 +46,6 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
 
 # Paranoid Packages
-ifneq ($(TARGET_USES_AOSP_CAMERA),true)
-PRODUCT_PACKAGES += ParanoidCamera
-endif
-
 PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep
