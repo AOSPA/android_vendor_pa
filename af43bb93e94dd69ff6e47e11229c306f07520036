@@ -16,6 +16,24 @@
       "message": "At the moment, it doesn\u0027t work \nEven from the side of the tree",
       "revId": "af43bb93e94dd69ff6e47e11229c306f07520036",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0ade1c6_72bed59e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-03-02T18:23:14Z",
+      "side": 1,
+      "message": "The device doesn\u0027t boot without it.\n(only if you drop Hotword blobs or update to R blobs)\n\nSince it\u0027s working while screen is on, I want to keep it there.",
+      "parentUuid": "59e2056f_6cd5e728",
+      "revId": "af43bb93e94dd69ff6e47e11229c306f07520036",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
