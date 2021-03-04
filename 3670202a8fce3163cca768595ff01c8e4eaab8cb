@@ -36,6 +36,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "196c4774_6622380a",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-03-04T18:57:04Z",
+      "side": 1,
+      "message": "I got a way to build with prebuilt kernel.",
+      "parentUuid": "d69e4df2_4ea4d71a",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9fb514d4_6fa52f5a",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "There\u0027s many Xiaomi devices using it. It\u0027s required for FoD.\nBut I can put it in my device tree like we did for Mi 8 Pro on Quartz.",
       "parentUuid": "9fb514d4_6fa52f5a",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0867205e_c2e86e33",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-03-04T18:57:04Z",
+      "side": 1,
+      "message": "I\u0027ll import it to my device tree.",
+      "parentUuid": "5859b4db_b29b344a",
       "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
