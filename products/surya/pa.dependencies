@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "github",
+        "repository":   "pa-surya/android_device_xiaomi_surya",
+        "target_path":  "device/xiaomi/surya",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-surya/android_device_xiaomi_sm6150-common",
+        "target_path":  "device/xiaomi/sm6150-common",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ghostrider-reborn/android_kernel_xiaomi_surya",
+        "target_path":  "kernel/xiaomi/surya",
+        "revision":     "LA.UM.9.x"
+    },
+    {
+        "remote":       "github",
+        "repository":   "pa-surya/proprietary_vendor_xiaomi",
+        "target_path":  "vendor/xiaomi",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-855"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-855"
+    }
+]
