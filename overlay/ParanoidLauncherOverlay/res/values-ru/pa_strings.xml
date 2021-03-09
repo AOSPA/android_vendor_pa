@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2020 Paranoid Android
+<!-- Copyright (C) 2019-2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -26,13 +26,14 @@
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">При свайпе влево с главного экрана</string>
 
-    <!-- QSB -->
-    <string name="label_search">Поиск</string>
-    <string name="label_voice_search">Голосовой поиск</string>
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Рекомендуемые</string>
+    <string name="suggestion_pref_screen_desc">Для подсказок на главном экране и в списке "Все приложения"</string>
 
     <!-- Icon pack -->
     <string name="icon_pack_title">Набор иконок</string>
-    <string name="icon_pack_summary">Активный набор иконок - %1$s</string>
-    <string name="icon_pack_apply">Применить</string>
+    <string name="icon_pack_default_label">По умолчанию</string>
+    <string name="icon_pack_add">Другие иконки</string>
+    <string name="icon_pack_no_market">Нет доступного магазина приложений</string>
 
 </resources>
