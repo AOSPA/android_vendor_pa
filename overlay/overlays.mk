@@ -26,6 +26,7 @@ PRODUCT_PACKAGES += \
     AccentColorSuperNovaOverlay \
     AccentColorTealOverlay \
     AccentColorTorchRedOverlay \
+    AOSPAAuxiliaryKeyHandlerOverlay \
     AOSPABluetoothOverlay \
     AOSPAFrameworksOverlay \
     AOSPAImmersiveNavigationOverlay \
