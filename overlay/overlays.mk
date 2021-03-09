@@ -35,6 +35,7 @@ PRODUCT_PACKAGES += \
     AOSPASystemUIOverlay \
     AOSPATelephonyOverlay \
     AOSPAThemePickerOverlay \
+    AuxiliaryKeyHandlerOverlay \
     FontGoogleSansOverlay \
     ParanoidDozeOverlay \
     ParanoidHubOverlay \
