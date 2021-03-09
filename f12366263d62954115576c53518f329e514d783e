@@ -16,6 +16,24 @@
       "message": "Does Google Camera (Go) work without GApps? Shouldn\u0027t we check for TARGET_DISABLES_GMS?",
       "revId": "f12366263d62954115576c53518f329e514d783e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3eddd7a9_b37291ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-03-09T03:55:20Z",
+      "side": 1,
+      "message": "it does work without gapps.",
+      "parentUuid": "dbbb82d6_c0c0d7e3",
+      "revId": "f12366263d62954115576c53518f329e514d783e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
