@@ -15,6 +15,8 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <string name="ring_only_volume_option_title">Громкость рингтона</string>
+
     <!-- Button shown which shows accessibility toggles for face enrollment when clicked. [CHAR LIMIT=32] -->
     <string name="security_settings_face_enroll_introduction_accessibility">Настроить без поворота головы</string>
     <!-- Additional details shown when the accessibility toggle is expanded. [CHAR LIMIT=NONE]-->
