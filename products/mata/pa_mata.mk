@@ -38,6 +38,7 @@ TARGET_RECOVERY_FSTAB := device/essential/mata/rootdir/etc/fstab.mata
 
 # PA declarations.
 TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_BOARD_PLATFORM := msm8998
 
 # Exclude QCOM SEPolicy
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
