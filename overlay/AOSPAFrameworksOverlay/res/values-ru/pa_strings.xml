@@ -16,28 +16,15 @@
 -->
 <resources>
 
-    <!-- Extended Restart -->
-    <!-- Defined in res/res/values/strings.xml -
-    <string name="global_action_restart">Перезагрузка</string>-->
-    <string name="global_action_quick_restart">Быстрая перезагрузка</string>
-    <string name="global_action_recovery">Рекавери</string>
-    <string name="global_action_bootloader">Загрузчик</string>
+    <!-- Cycle through ringer modes -->
+    <string name="volume_dialog_ringer_guidance_normal">Calls and notifications will ring</string>
 
-    <!-- Shutdown Thread -->
-    <string name="global_restart">Перезагрузка</string>
-    <string name="global_restart_message">Перезагрузка\u2026</string><!-- Can be used in SysUIReboot -->
-    <string name="global_quick_restart">Быстрая перезагрузка</string>
-    <string name="global_restart_recovery">Рекавери</string>
-    <string name="global_restart_recovery_message">Перезагрузка в рекавери\u2026</string><!-- Can be used in SysUIReboot -->
-    <string name="global_restart_bootloader">Загрузчик</string>
-    <string name="global_restart_bootloader_message">Перезагрузка в загрузчик\u2026</string><!-- Can be used in SysUIReboot -->
-
-    <!-- Pocket Lock --> 
-    <string name="pocket_lock_message_long_press">Нажмите и удерживайте кнопку питания для разблокировки</string>
-
-    <!-- Popup camera dialog -->
-    <string name="popup_camera_dialog_message">Хотите выдвинуть фронтальную камеру?</string>
-    <string name="popup_camera_dialog_no">Нет</string>
-    <string name="popup_camera_dialog_raise">Да</string>
+    <!-- Global actions -->
+    <string name="reboot_to_bootloader_title">Загрузчик</string>
+    <string name="reboot_to_bootloader_message">Перезагрузка в Загрузчик\u2026</string>
+    <string name="reboot_to_recovery_title">Рекавери</string>
+    <string name="reboot_to_recovery_message">Перезагрузка в Рекавери\u2026</string>
+    <string name="reboot_system_title">Система</string>
+    <string name="reboot_system_message">Перезагрузка Системы\u2026</string>
 
 </resources>
