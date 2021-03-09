@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     AOSPABluetoothOverlay \
     AOSPAFrameworksOverlay \
     AOSPAImmersiveNavigationOverlay \
+    AOSPAKeyHandlerOverlay \
     AOSPAOverlayStub \
     AOSPASettingsOverlay \
     AOSPASettingsProviderOverlay \
