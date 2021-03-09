@@ -27,6 +27,7 @@ PRODUCT_PACKAGES += \
     AccentColorTealOverlay \
     AccentColorTorchRedOverlay \
     AOSPABluetoothOverlay \
+    AOSPADeviceKeyHandlerOverlay \
     AOSPAFrameworksOverlay \
     AOSPAImmersiveNavigationOverlay \
     AOSPAOverlayStub \
