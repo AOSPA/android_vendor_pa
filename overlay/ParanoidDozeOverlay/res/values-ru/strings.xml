@@ -2,7 +2,7 @@
 <!--
      Copyright (C) 2013-2016 The CyanogenMod Project
                    2017 The LineageOS Project
-                   2020 Paranoid Android
+                   2020-2021 Paranoid Android
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -33,7 +33,7 @@
 
     <!-- Always on -->
     <string name="ambient_display_always_on_title">Всегда включено</string>
-    <string name="ambient_display_always_on_summary">Показывать время,значки уведомлений и другую информацию. Возможно увеличеное потребление батареи.</string>
+    <string name="ambient_display_always_on_summary">Показать время, значки уведомлений и другую информацию. Возможно повышенное потребление заряда аккумулятора.</string>
 
     <!-- Pickup sensor -->
     <string name="pickup_sensor_title">Датчик поднятия</string>
@@ -42,26 +42,26 @@
     <string name="proximity_sensor_title">Датчик приближения</string>
 
     <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">Жесты смахиванием</string>
-    <string name="hand_wave_gesture_summary">Показывать пульсирующее уведомление при проведении рукой над экраном</string>
+    <string name="hand_wave_gesture_title">Жест смахиванием</string>
+    <string name="hand_wave_gesture_summary">Показать краткую информацию при проведении рукой над экраном</string>
 
     <!-- Pick-up gesture -->
-    <string name="pick_up_gesture_title">Поднятние устрйоства</string>
-    <string name="pick_up_gesture_summary">Показывать пульсирующее уведомление при поднятнии устрйоства</string>
+    <string name="pick_up_gesture_title">Поднятние устройства</string>
+    <string name="pick_up_gesture_summary">Показать краткую информацию при поднятии устройства</string>
 
     <!-- Pick-up to wake gesture-->
     <string name="wake_gesture_title">Пробуждение</string>
-    <string name="wake_gesture_summary">Включить экран вместое пульсирующего уведомления</string>
+    <string name="wake_gesture_summary">Включить экран вместо краткой информации</string>
 
     <!-- Pocket gesture -->
     <string name="pocket_gesture_title">В кармане</string>
-    <string name="pocket_gesture_summary">Пульсирующее уведомление при доставании уйстровста из кармана</string>
+    <string name="pocket_gesture_summary">Показать краткую информацию при извлечении устрйоства из кармана</string>
 
     <!-- Dialog texts -->
     <string name="dialog_ok">ОК</string>
 
     <!-- Help texts -->
     <string name="doze_settings_help_title">Помощь</string>
-    <string name="doze_settings_help_text">Эти функции используют показания датчиков устройства, для показа пульсирующих уведомлений. Выбранный датчик активируется только при получении нового уведомления, что позволяет уменьшить потребление заряда аккумулятора. Так же, есть возможность включить выбранный датчик при блокировки экрана, это увеличит потребление энергии.</string>
+    <string name="doze_settings_help_text">Эти функции используют показания датчиков устройства, для отображения пульсирующих уведомлений. Выбранный датчик активируется только при получении нового уведомления, что позволяет уменьшить потребление заряда аккумулятора. Так же, есть возможность включить выбранный датчик при блокировки экрана, что увеличит потребление энергии.</string>
 
 </resources>
