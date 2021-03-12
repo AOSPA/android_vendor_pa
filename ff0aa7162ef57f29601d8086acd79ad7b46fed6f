@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ee15571_c742c4a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-03-12T11:49:07Z",
+      "side": 1,
+      "message": "i think we are ready for this, works pretty good on devices that dont have Cam2API enabled\n\nyour call alex",
+      "revId": "ff0aa7162ef57f29601d8086acd79ad7b46fed6f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
