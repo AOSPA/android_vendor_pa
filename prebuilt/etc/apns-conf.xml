@@ -5393,35 +5393,6 @@
       roaming_protocol="IP"
       type="mms"
   />
-  <apn
-      carrier="Telekom Internet"
-      mcc="262"
-      mnc="02"
-      apn="internet.v6.telekom"
-      user="telekom"
-      password="telekom"
-      authtype="1"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-      type="default"
-  />
-  <apn
-      carrier="HOS"
-      mcc="262"
-      mnc="02"
-      apn="hos"
-      user="telekom"
-      password="telekom"
-      user_editable="0"
-      user_visible="0"
-      authtype="1"
-      mmsproxy="109.237.176.193"
-      mmsc="http://mms.t-mobile.de/servlets/mms"
-      mmsport="8008"
-      protocol="IPV4V6"
-      roaming_protocol="IP"
-      type="mms"
-  />
   <!-- MVNO congstar -->
   <apn
       carrier="congstar Internet"
@@ -5493,6 +5464,35 @@
       mmsc="http://mms/eplus/"
       mmsproxy="212.23.97.153"
       mmsport="5080"
+      type="mms"
+  />
+  <apn
+      carrier="Telekom Internet"
+      mcc="262"
+      mnc="06"
+      apn="internet.v6.telekom"
+      user="telekom"
+      password="telekom"
+      authtype="1"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
+      type="default"
+  />
+  <apn
+      carrier="HOS"
+      mcc="262"
+      mnc="06"
+      apn="hos"
+      user="telekom"
+      password="telekom"
+      user_editable="0"
+      user_visible="0"
+      authtype="1"
+      mmsproxy="109.237.176.193"
+      mmsc="http://mms.t-mobile.de/servlets/mms"
+      mmsport="8008"
+      protocol="IPV4V6"
+      roaming_protocol="IP"
       type="mms"
   />
   <apn
