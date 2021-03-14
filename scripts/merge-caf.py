@@ -134,6 +134,7 @@ def force_sync(repo_lst):
         check=False,
     )
 
+
 def merge(repo_lst, branch):
     """ Merges the necessary repos and lists if a repo succeeds or fails """
     failures = []
@@ -245,6 +246,12 @@ def main():
         action="store_true",
         help="automatically update manifest before merging repos",
     )
+    parser.add_argument(
+        "--dry-run",
+        dest="dry_run",
+        action="store_true",
+        help="Dry run the merge script (for testing purposes)",
+    )
     args = parser.parse_args()
 
     branch = "refs/tags/{}".format(args.branch_to_merge)
@@ -255,6 +262,9 @@ def main():
         return
     if len(repo_lst) == 0:
         read_custom_manifest(default_repos)
+        if args.dry_run:
+            print(list(REPOS_TO_MERGE.keys()))
+            quit()
         if REPOS_TO_MERGE:
             if args.merge_manifest:
                 merge_manifest(is_system, branch)
