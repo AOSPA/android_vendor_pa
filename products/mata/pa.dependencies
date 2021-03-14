@@ -43,8 +43,14 @@
   },
   {
     "remote":       "aosp",
+    "repository":   "platform/hardware/google/pixel",
+    "target_path":  "hardware/google/pixel",
+    "revision":     "refs/tags/android-11.0.0_r33"
+  },
+  {
+    "remote":       "aosp",
     "repository":   "platform/hardware/ril",
     "target_path":  "hardware/ril",
-    "revision":     "refs/tags/android-11.0.0_r29"
+    "revision":     "refs/tags/android-11.0.0_r33"
   }
 ]
