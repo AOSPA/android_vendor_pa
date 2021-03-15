@@ -46,7 +46,7 @@ TARGET_EXCLUDE_QCOM_SEPOLICY := true
 # Device identifiers.
 PRODUCT_DEVICE := mata
 PRODUCT_NAME := pa_mata
-PRODUCT_BRAND := Essential
+PRODUCT_BRAND := essential
 PRODUCT_MODEL := PH-1
 PRODUCT_MANUFACTURER := Essential Products
 PRODUCT_RELEASE_NAME := mata
