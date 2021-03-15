@@ -35,6 +35,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9975fa1_7bd8d49b",
+        "filename": "interfaces/power/default/PowerFeature.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-03-15T15:24:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc9ee747_3f6ca043",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c00793f3_6c905ed9",
@@ -52,6 +70,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "df9fd3a2_0ecec6ed",
+        "filename": "interfaces/power/default/PowerFeature.h",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-03-15T15:24:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c00793f3_6c905ed9",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5d9c25cd_dd026ebc",
@@ -65,6 +101,24 @@
       "writtenOn": "2021-01-30T00:07:14Z",
       "side": 1,
       "message": "Why are you constructing a blank string here only to append actual strings?",
+      "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b304ed1_7eba7c77",
+        "filename": "interfaces/power/default/main.cpp",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-03-15T15:24:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d9c25cd_dd026ebc",
       "revId": "3e6e9e119ef0975befcde6d313281f474ea25f04",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
