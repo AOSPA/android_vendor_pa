@@ -51,8 +51,8 @@ PRODUCT_PACKAGES += \
     ParanoidQuickStep
 
 ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
-#    PRODUCT_PACKAGES += \
-#    ParanoidHub
+    PRODUCT_PACKAGES += \
+    ParanoidHub
 endif
 
 # Face Sense
