@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bf11bf82_ee458d2f",
+        "filename": "products/beryllium/pa_beryllium.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-03-18T14:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da67e215_c020530e",
+      "revId": "09e6e7809ee7fec681dea5085f7c39a3cc9d87ac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "04832fc3_6eb8fa58",
@@ -31,6 +49,24 @@
       "writtenOn": "2021-03-16T18:21:56Z",
       "side": 1,
       "message": "Ditto",
+      "revId": "09e6e7809ee7fec681dea5085f7c39a3cc9d87ac",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4013147_079a7b92",
+        "filename": "products/beryllium/pa_beryllium.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-03-18T14:12:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04832fc3_6eb8fa58",
       "revId": "09e6e7809ee7fec681dea5085f7c39a3cc9d87ac",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
