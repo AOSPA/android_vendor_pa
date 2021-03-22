@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1251e4c6_a260f5a2",
+        "filename": "products/equuleus/pa.dependencies",
+        "patchSetId": 20
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-03-22T11:03:35Z",
+      "side": 0,
+      "message": "If this file is to be removed, don\u0027t squash, make a new commit",
+      "revId": "f0735099da26e317455b5e14ecc0b31f1ab4a59b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
