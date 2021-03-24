@@ -33,6 +33,23 @@
       "message": "This isn\u0027t QCOM specific though?",
       "revId": "07320fee2554023d21270172c8b5f7f676912ff7",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5c7bb7f_0b80ff88",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-03-24T14:55:38Z",
+      "side": 1,
+      "message": "can we just disable the safe media index?  it pops up all the time and adds no value.  most of the time, it\u0027s not even that loud.",
+      "revId": "07320fee2554023d21270172c8b5f7f676912ff7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
