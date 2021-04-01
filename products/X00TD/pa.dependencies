@@ -3,48 +3,42 @@
     "remote":       "aospa",
     "repository":   "AOSPA/android_device_asus_X00TD",
     "target_path":  "device/asus/X00TD",
-    "revision":     "quartz"
+    "revision":     "ruby"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_kernel_asus_sdm636",
     "target_path":  "kernel/asus/sdm636",
-    "revision":     "quartz"
+    "revision":     "ruby"
   },
   {
     "remote":       "blobs",
     "repository":   "proprietary_vendor_asus",
     "target_path":  "vendor/asus",
-    "revision":     "quartz"
+    "revision":     "ruby"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_display",
     "target_path":  "hardware/qcom/display",
-    "revision":     "quartz-8998"
+    "revision":     "ruby-660-4.19"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_gps",
+    "target_path":  "hardware/qcom/gps",
+    "revision":     "ruby-smxx50"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_media",
     "target_path":  "hardware/qcom/media",
-    "revision":     "quartz-8998"
+    "revision":     "ruby-660-4.19"
   },
   {
     "remote":       "aospa",
     "repository":   "AOSPA/android_hardware_qcom_audio",
     "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
-    "revision":     "quartz-8998"
-  },
-  {
-    "remote":       "aospa",
-    "repository":   "AOSPA/android_vendor_qcom-opensource_fm-commonsys",
-    "target_path":  "vendor/qcom/opensource/commonsys/fm",
-    "revision":     "quartz"
-  },
-  {
-    "remote":       "github",
-    "repository":   "kdrag0n/proton-clang",
-    "target_path":  "prebuilts/clang/host/linux-x86/clang-12.0",
-    "revision":     "master"
+    "revision":     "ruby-660-4.19"
   }
 ]
