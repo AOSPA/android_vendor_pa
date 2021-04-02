@@ -152,7 +152,7 @@ void PowerFeature::sysFsWrite(const char *file_node, const input_event *ev) {
         return;
     }
 
-    rc = write(fd, ev, 1);
+    rc = write(fd, ev, sizeof(*ev));
     if (rc < 0) {
         ALOGE("Failed to write \"%d\" to %s", ev->value, file_node);
     }
