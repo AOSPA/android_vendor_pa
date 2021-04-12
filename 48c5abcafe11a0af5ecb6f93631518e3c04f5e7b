@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afedc004_343ec2c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 27
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-04-12T03:20:45Z",
+      "side": 1,
+      "message": "gtg.\nalex, take over",
+      "revId": "48c5abcafe11a0af5ecb6f93631518e3c04f5e7b",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
