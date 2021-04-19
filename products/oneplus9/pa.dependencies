@@ -1,0 +1,26 @@
+[
+    {
+        "remote":       "caf_vendor",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "LA.UM.9.14.r1-15800-LAHAINA.0"
+    },
+    {
+        "remote":       "caf_vendor",
+        "repository":   "platform/hardware/qcom/display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "LA.UM.9.14.r1-15800-LAHAINA.0"
+    },
+    {
+        "remote":       "caf_vendor",
+        "repository":   "platform/hardware/qcom/gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "LA.UM.9.14.r1-15800-LAHAINA.0"
+    },
+    {
+        "remote":       "caf_vendor",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "LA.UM.9.14.r1-15800-LAHAINA.0"
+    }
+]
