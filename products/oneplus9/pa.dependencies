@@ -1,0 +1,8 @@
+[
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "ruby"
+    }
+]
