@@ -1,4 +1,4 @@
-# Copyright (C) 2020 Paranoid Android
+# Copyright (C) 2021 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,6 +31,10 @@ PRODUCT_DEVICE := oneplus8
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := OnePlus 8
 PRODUCT_NAME := pa_oneplus8
+
+# Override device name for Play Store.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=OnePlus8
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
