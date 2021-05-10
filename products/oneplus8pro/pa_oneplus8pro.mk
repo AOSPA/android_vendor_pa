@@ -32,6 +32,10 @@ PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_MODEL := OnePlus 8 Pro
 PRODUCT_NAME := pa_oneplus8pro
 
+# Override device name for Play Store.
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_DEVICE=OnePlus8Pro
+
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 endif
