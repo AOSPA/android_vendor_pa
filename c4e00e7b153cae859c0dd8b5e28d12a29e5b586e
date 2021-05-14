@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1cbc838f_1d21dd66",
+        "filename": "config/BoardConfigPA.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-05-14T19:11:16Z",
+      "side": 1,
+      "message": "why is this needed?  is this hit on exynos builds?",
+      "revId": "c4e00e7b153cae859c0dd8b5e28d12a29e5b586e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
