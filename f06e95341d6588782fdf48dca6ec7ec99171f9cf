@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2934d51_9abef96a",
+        "filename": "device/samsung/universal7904-common",
+        "patchSetId": 9
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-05-14T20:33:15Z",
+      "side": 1,
+      "message": "no commit history.  please fork the repo you based your code on and re-apply your changes so the original authors get credit and so we can easily see why code changes were made.",
+      "revId": "f06e95341d6588782fdf48dca6ec7ec99171f9cf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
