@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d8da0fa5_e621795d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000684
+      },
+      "writtenOn": "2021-05-14T19:43:28Z",
+      "side": 1,
+      "message": "#Remove the wrong change in vendor/pa the right Change for the error: writing to readonly directory: \"device/samsung/a40/Image is in ../vendor/qcom/build/tasks/kernel_definition.mk ill comment it out. ",
+      "revId": "e70a28296243d750c942da82b9adb6a2134b43b7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e60b160_7e61ed06",
+        "filename": "vendor/qcom/build/tasks/kernel_definitions.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 1000684
+      },
+      "writtenOn": "2021-05-14T19:43:28Z",
+      "side": 1,
+      "message": "comment out for the error: writing to readonly directory: \"device/samsung/a40/Image",
+      "revId": "e70a28296243d750c942da82b9adb6a2134b43b7",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}

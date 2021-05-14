@@ -16,6 +16,24 @@
       "message": "why is this needed?  is this hit on exynos builds?",
       "revId": "c4e00e7b153cae859c0dd8b5e28d12a29e5b586e",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "345c4ae2_3f9c37a1",
+        "filename": "config/BoardConfigPA.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000684
+      },
+      "writtenOn": "2021-05-14T19:43:28Z",
+      "side": 1,
+      "message": "ill got build error: \"writing to read only location a40/kernel/Image\" if delete them, it builds",
+      "parentUuid": "1cbc838f_1d21dd66",
+      "revId": "c4e00e7b153cae859c0dd8b5e28d12a29e5b586e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
