@@ -194,3 +194,6 @@ function cafmerge()
     T=$(gettop)
     python3 $T/vendor/pa/scripts/merge-caf.py $target_branch
 }
+
+# Enable ThinLTO Source wide.
+export GLOBAL_THINLTO=true
