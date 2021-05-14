@@ -1,0 +1,7 @@
+[
+    {
+        "remote":     "github",
+        "repository": "android-device-samsung-universal7904-common",
+        "target_path": "device/samsung/universal7907-common"
+    }
+]
