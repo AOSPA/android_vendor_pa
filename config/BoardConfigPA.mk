@@ -2,9 +2,9 @@
 include vendor/pa/config/BoardConfigKernel.mk
 
 # QCOM flags
-ifeq ($(call is-vendor-board-platform,QCOM),true)
-include device/qcom/common/BoardConfigQcom.mk
-endif
+#ifeq ($(call is-vendor-board-platform,QCOM),true)
+#include device/qcom/common/BoardConfigQcom.mk
+#endif
 
 # SEPolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
@@ -18,3 +18,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 
 # Soong
 include vendor/pa/config/BoardConfigSoong.mk
+
