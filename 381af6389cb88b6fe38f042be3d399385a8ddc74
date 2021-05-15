@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bb97dfb_cce4f7ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-05-15T11:30:08Z",
+      "side": 1,
+      "message": "Split the part inside products/* and push it as a new commit.\n\nFollow this as an example https://gerrit.aospa.co/c/AOSPA/android_vendor_pa/+/16965",
+      "revId": "381af6389cb88b6fe38f042be3d399385a8ddc74",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
