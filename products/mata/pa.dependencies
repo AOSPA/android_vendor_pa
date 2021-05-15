@@ -36,9 +36,9 @@
     "revision":     "ruby-8998"
   },
   {
-    "remote":       "aosp",
-    "repository":   "platform/hardware/ril",
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_ril",
     "target_path":  "hardware/ril",
-    "revision":     "refs/tags/android-11.0.0_r33"
+    "revision":     "ruby-aosp"
   }
 ]
