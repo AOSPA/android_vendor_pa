@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
 # Filesystem
 TARGET_FS_CONFIG_GEN += vendor/pa/config/config.fs
 
+# Fonts
+$(call inherit-product-if-exists, external/google-fonts/karla/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
+
 # GMS
 ifneq ($(TARGET_DISABLES_GMS), true)
 
