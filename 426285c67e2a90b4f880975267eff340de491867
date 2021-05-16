@@ -16,6 +16,23 @@
       "message": "Works during builds, even on jenkins.\n\nWaiting on maintainers to confirm if everything works fine for them.",
       "revId": "426285c67e2a90b4f880975267eff340de491867",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24a2698d_2a9b5ee5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000662
+      },
+      "writtenOn": "2021-05-16T19:31:59Z",
+      "side": 1,
+      "message": "Builds \u0026 works fine",
+      "revId": "426285c67e2a90b4f880975267eff340de491867",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
