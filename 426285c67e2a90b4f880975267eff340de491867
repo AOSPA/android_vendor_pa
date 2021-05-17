@@ -33,6 +33,23 @@
       "message": "Builds \u0026 works fine",
       "revId": "426285c67e2a90b4f880975267eff340de491867",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e4c79bd_7b694b4d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-05-17T14:54:06Z",
+      "side": 1,
+      "message": "Builded and booted fine",
+      "revId": "426285c67e2a90b4f880975267eff340de491867",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
