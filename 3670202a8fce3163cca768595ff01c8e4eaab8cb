@@ -123,6 +123,24 @@
       "parentUuid": "0867205e_c2e86e33",
       "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f68471ef_5e261a40",
+        "filename": "products/lmi/pa.dependencies",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-05-20T23:03:06Z",
+      "side": 1,
+      "message": "Done, added to dependencies.",
+      "parentUuid": "36b8bf28_e4a3795f",
+      "revId": "3670202a8fce3163cca768595ff01c8e4eaab8cb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
