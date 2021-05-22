@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9028bee0_a6c732c1",
+        "filename": "products/apollo/pa_apollo.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-05-22T23:22:07Z",
+      "side": 1,
+      "message": "this usually happens in device tree",
+      "revId": "c2f17952bd6f70fdd355601ddf072d2a72e6e34c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
