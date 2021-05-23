@@ -18,6 +18,24 @@
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "40f0397d_2bbbe031",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-05-23T13:44:23Z",
+      "side": 1,
+      "message": "You mean squash commit for F2 Pro, F3 and Mi 10T/T Pro?",
+      "parentUuid": "ff6be535_d55646a4",
+      "revId": "c2f17952bd6f70fdd355601ddf072d2a72e6e34c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9028bee0_a6c732c1",
