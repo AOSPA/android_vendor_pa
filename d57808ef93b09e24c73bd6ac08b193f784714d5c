@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a600633d_6d8c3d75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-05-23T13:45:03Z",
+      "side": 1,
+      "message": "Booting, enforcing, stable af",
+      "revId": "d57808ef93b09e24c73bd6ac08b193f784714d5c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
