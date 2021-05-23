@@ -51,6 +51,24 @@
       "message": "this usually happens in device tree",
       "revId": "c2f17952bd6f70fdd355601ddf072d2a72e6e34c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ab1f3fd_a5516a78",
+        "filename": "products/apollo/pa_apollo.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-05-23T18:17:35Z",
+      "side": 1,
+      "message": "https://github.com/aospa-mikona/android_device_xiaomi_sm8250-common/blob/ruby/kona.mk#L21\n\nLooks like it\u0027s already defined, so I removed from all targets, thanks.",
+      "parentUuid": "9028bee0_a6c732c1",
+      "revId": "c2f17952bd6f70fdd355601ddf072d2a72e6e34c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
