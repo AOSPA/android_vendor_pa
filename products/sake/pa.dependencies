@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_asus",
+        "target_path":  "vendor/asus",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "caf_vendor",
+        "repository":   "platform/vendor/nxp/opensource/halimpl",
+        "target_path":  "vendor/nxp/opensource/halimpl",
+        "revision":     "nfc.vendor.lnx.2.1.r5-rel"
+    },
+    {
+        "remote":       "caf_vendor",
+        "repository":   "platform/vendor/nxp/opensource/hidlimpl",
+        "target_path":  "vendor/nxp/opensource/hidlimpl",
+        "revision":     "nfc.vendor.lnx.2.1.r5-rel"
+    }
+]
