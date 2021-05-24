@@ -16,6 +16,24 @@
       "message": "current doesn\u0027t have jake\u0027s approval\nneed to decide if we are going to do oneplus/common or not\napart from that rest is fine",
       "revId": "7bc090c9d3174acc57c7234f80bf4a83025a9ea0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47aabb99_4b89d1e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2021-05-24T10:52:31Z",
+      "side": 1,
+      "message": "current kernel*",
+      "parentUuid": "4f22866e_6338b17c",
+      "revId": "7bc090c9d3174acc57c7234f80bf4a83025a9ea0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
