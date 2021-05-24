@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7bf70147_66e65535",
+        "filename": "products/AndroidProducts.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-05-24T13:10:05Z",
+      "side": 1,
+      "message": "nope",
+      "revId": "c1370b797157a8ed47f8643b2b0a066bce873063",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db311a67_0a4cef82",
+        "filename": "products/sake/pa.dependencies",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-05-24T13:10:05Z",
+      "side": 1,
+      "message": "hal naming ended up a little inconsistent as I predicted but ok",
+      "revId": "c1370b797157a8ed47f8643b2b0a066bce873063",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
