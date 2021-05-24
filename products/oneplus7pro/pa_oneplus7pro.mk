@@ -1,4 +1,4 @@
-# Copyright (C) 2019 Paranoid Android
+# Copyright (C) 2021 Paranoid Android
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,24 +21,23 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1440
 
-# Inherit device configuration
+# Inherit from the custom device configuration.
 $(call inherit-product, device/oneplus/oneplus7pro/device.mk)
 
-# Inherit common PA configuration
+# Inherit from the AOSPA configuration.
 $(call inherit-product, vendor/pa/config/common_full_phone.mk)
 
-# Override build properties
+# Override AOSP build properties
 PRODUCT_NAME := pa_oneplus7pro
 PRODUCT_DEVICE := oneplus7pro
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7 Pro
+PRODUCT_MODEL := GM1917
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlus7Pro \
-    PRODUCT_NAME=OnePlus7Pro \
-    PRIVATE_BUILD_DESC="OnePlus7Pro-user 10 QKQ1.190716.003 1909131115 release-keys"
+    PRODUCT_NAME=OnePlus7Pro
 
 endif
