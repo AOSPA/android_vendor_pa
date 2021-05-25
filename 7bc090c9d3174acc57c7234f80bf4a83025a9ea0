@@ -34,6 +34,24 @@
       "parentUuid": "4f22866e_6338b17c",
       "revId": "7bc090c9d3174acc57c7234f80bf4a83025a9ea0",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b3bba5c_bc20b5d2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-05-25T05:30:35Z",
+      "side": 1,
+      "message": "hit me up when device trees are ready for review",
+      "parentUuid": "47aabb99_4b89d1e7",
+      "revId": "7bc090c9d3174acc57c7234f80bf4a83025a9ea0",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
