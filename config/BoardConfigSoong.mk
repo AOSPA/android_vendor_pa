@@ -17,6 +17,7 @@ $(foreach v,$(EXPORT_TO_SOONG),$(eval $(call addVar,$(v))))
 
 SOONG_CONFIG_NAMESPACES += aospaGlobalVars
 SOONG_CONFIG_aospaGlobalVars += \
+    no_camera_smooth_apis \
     no_mask_layer \
     target_init_vendor_lib \
     target_ld_shim_libs \
@@ -28,6 +29,7 @@ TARGET_INIT_VENDOR_LIB ?= vendor_init
 TARGET_SURFACEFLINGER_FOD_LIB ?= surfaceflinger_fod_lib
 
 # Soong value variables
+SOONG_CONFIG_aospaGlobalVars_no_camera_smooth_apis := $(TARGET_HAS_NO_CAMERA_SMOOTH_APIS)
 SOONG_CONFIG_aospaGlobalVars_no_mask_layer := $(TARGET_DISPLAY_HAS_NO_MASK_LAYER)
 SOONG_CONFIG_aospaGlobalVars_target_init_vendor_lib := $(TARGET_INIT_VENDOR_LIB)
 SOONG_CONFIG_aospaGlobalVars_target_ld_shim_libs := $(subst $(space),:,$(TARGET_LD_SHIM_LIBS))
