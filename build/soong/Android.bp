@@ -88,3 +88,20 @@ no_mask_layer {
         },
     },
 }
+
+soong_config_module_type {
+    name: "no_camera_smooth_apis",
+    module_type: "cc_defaults",
+    config_namespace: "aospaGlobalVars",
+    bool_variables: ["no_camera_smooth_apis"],
+    properties: ["cppflags"],
+}
+
+no_camera_smooth_apis {
+    name: "no_camera_smooth_apis_defaults",
+    soong_config_variables: {
+        no_camera_smooth_apis: {
+            cppflags: ["-DTARGET_HAS_NO_CAMERA_SMOOTH_APIS"],
+        },
+    },
+}
