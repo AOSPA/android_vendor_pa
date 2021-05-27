@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4365b82_0defb2f6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2021-05-27T03:15:06Z",
+      "side": 1,
+      "message": "needed on op7 series as our sensors hal checks dc_dim status for brightness-correction for being an under screen sensor\n`sensors@2.0-ser: type\u003d1400 audit(0.0:204): avc: denied { read } for name\u003d\"dimlayer_bl_en\" dev\u003d\"sysfs\" ino\u003d82231 scontext\u003du:r:hal_sensors_default:s0 tcontext\u003du:object_r:vendor_sysfs_dc_dim:s0 tclass\u003dfile permissive\u003d0`\nif the type is private, there is no easy way to address this denial in device\u0027s vendor sepolicy",
+      "revId": "3c732db59c2944861ce20acae5bb7e30a076198e",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
