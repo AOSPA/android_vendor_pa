@@ -100,6 +100,9 @@ $(call inherit-product-if-exists, device/qcom/common/common.mk)
 PRODUCT_PACKAGES += \
     init.aospa.rc
 
+# Security Patch
+VENDOR_SECURITY_PATCH ?= $(PLATFORM_SECURITY_PATCH)
+
 # Skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
 
