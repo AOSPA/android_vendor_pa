@@ -16,6 +16,23 @@
       "message": "jake, need one last approval from your side to flag this off",
       "revId": "7e3b569f0a155c376071999bed216abb14b2f53a",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c3e774cf_8ec6ff3e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-06-02T22:13:01Z",
+      "side": 1,
+      "message": "looks great!",
+      "revId": "7e3b569f0a155c376071999bed216abb14b2f53a",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
