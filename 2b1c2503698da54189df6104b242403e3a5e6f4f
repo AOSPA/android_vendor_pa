@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44a4ba56_a83ea66e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-06-03T20:41:21Z",
+      "side": 1,
+      "message": "remind me why op8 doesn\u0027t need this anymore?",
+      "revId": "2b1c2503698da54189df6104b242403e3a5e6f4f",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
