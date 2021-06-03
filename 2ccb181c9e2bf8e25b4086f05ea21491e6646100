@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9697e5ce_8aeb9e50",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-06-03T12:00:59Z",
+      "side": 1,
+      "message": "ditto",
+      "revId": "2ccb181c9e2bf8e25b4086f05ea21491e6646100",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
