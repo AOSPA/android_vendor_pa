@@ -16,6 +16,23 @@
       "message": "https://github.com/yaap/vendor_qcom_opensource_display-commonsys-intf/commit/b48a2a4c0a564bb2d82b68ab92617e0ef73af625 the actual guard",
       "revId": "ff4555fa549b0d23117c809e3da2f12b64ee2991",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e48caf84_e35c2d30",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2021-06-04T03:23:52Z",
+      "side": 1,
+      "message": "7t boots fine with this change, do we have any other device which uses old prebuilt hwc?",
+      "revId": "ff4555fa549b0d23117c809e3da2f12b64ee2991",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
