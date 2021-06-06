@@ -16,6 +16,23 @@
       "message": "Fixes booting without GAPPS. Tested on OP8T.",
       "revId": "318ee38b89ae5b29bfe7a3ba7c6a096d5d674088",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb2b4a3b_3945589c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-06-06T05:54:32Z",
+      "side": 1,
+      "message": "If you aren\u0027t using GMS then Hotword is pretty much useless, but it doesn\u0027t hurt so oh well.",
+      "revId": "318ee38b89ae5b29bfe7a3ba7c6a096d5d674088",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
