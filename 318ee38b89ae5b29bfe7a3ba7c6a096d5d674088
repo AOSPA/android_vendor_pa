@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c4a72ee_a467c991",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000689
+      },
+      "writtenOn": "2021-06-06T03:46:25Z",
+      "side": 1,
+      "message": "Fixes booting without GAPPS. Tested on OP8T.",
+      "revId": "318ee38b89ae5b29bfe7a3ba7c6a096d5d674088",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
