@@ -93,8 +93,10 @@ PRODUCT_COPY_FILES += \
 # Pixel Features
 $(call inherit-product, vendor/google/pixel/config.mk)
 
+ifeq ($(BOARD_USES_QCOM_HARDWARE), true)
 # Include Common Qualcomm Device Tree on Qualcomm Boards
 $(call inherit-product-if-exists, device/qcom/common/common.mk)
+endif
 
 # Init
 PRODUCT_PACKAGES += \
