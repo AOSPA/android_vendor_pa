@@ -1,0 +1,50 @@
+[
+  {
+    "repository" : "AOSPA-2e/android_device_teracube_2e",
+    "target_path": "device/teracube/2e",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_kernel_teracube_2e",
+    "target_path": "kernel/teracube/2e",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_vendor_teracube_2e",
+    "target_path": "vendor/teracube/2e",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_device_mediatek_common",
+    "target_path": "device/mediatek/common",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_vendor_mediatek_ims",
+    "target_path": "vendor/mediatek/ims",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_vendor_mediatek_interfaces",
+    "target_path": "vendor/mediatek/interfaces",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_vendor_mediatek_opensource",
+    "target_path": "vendor/mediatek/opensource",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  },
+  {
+    "repository" : "AOSPA-2e/android_device_mediatek_sepolicy",
+    "target_path": "device/mediatek/sepolicy",
+    "revision"     : "ruby",
+    "remote"     : "aospa"
+  }
+]
