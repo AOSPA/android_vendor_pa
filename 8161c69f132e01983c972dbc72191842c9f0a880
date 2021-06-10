@@ -16,6 +16,24 @@
       "message": "This won\u0027t work because the macro you\u0027re trying to call isn\u0027t included until QCOM utils is included here: https://github.com/AOSPA/android_device_qcom_common/blob/ruby/common.mk#L106\n\nAlso it shouldn\u0027t need to be guarded here since: https://github.com/AOSPA/android_device_qcom_common/commit/71b963aec9978a4c4db0d9c5d3333a2611722f36\n\nAnything above the guard is just board detection and doesn\u0027t hurt to include on MTK platforms, although we can probably move the TARGET_BOARD_PLATFORM error down to the guard.",
       "revId": "8161c69f132e01983c972dbc72191842c9f0a880",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8897d4c9_384fcdff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-06-10T09:15:57Z",
+      "side": 1,
+      "message": "oh well, yeah we could do that :) the TARGET_BOARD_PLATFORM was the issue that made me do this\nCould we move the TARGET_BOARD_PLATFORM thing instead?",
+      "parentUuid": "16de6857_e64c6064",
+      "revId": "8161c69f132e01983c972dbc72191842c9f0a880",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
