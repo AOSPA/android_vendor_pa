@@ -15,6 +15,7 @@
 
 # Product Makefiles
 PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/alioth/pa_alioth.mk \
     $(LOCAL_DIR)/angler/pa_angler.mk \
     $(LOCAL_DIR)/beryllium/pa_beryllium.mk \
     $(LOCAL_DIR)/cepheus/pa_cepheus.mk \
@@ -45,6 +46,7 @@ PRODUCT_MAKEFILES += \
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
+    pa_alioth-userdebug \
     pa_angler-userdebug \
     pa_beryllium-userdebug \
     pa_cepheus-userdebug \
