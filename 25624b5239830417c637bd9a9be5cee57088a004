@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a7164cef_52176902",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000463
+      },
+      "writtenOn": "2021-06-16T22:30:10Z",
+      "side": 1,
+      "message": "Required for SafetyNet.\nTested on LMI and Apollo, it works.",
+      "revId": "25624b5239830417c637bd9a9be5cee57088a004",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
