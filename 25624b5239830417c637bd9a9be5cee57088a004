@@ -16,6 +16,23 @@
       "message": "Required for SafetyNet.\nTested on LMI and Apollo, it works.",
       "revId": "25624b5239830417c637bd9a9be5cee57088a004",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "516dc61f_e4cec8b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000662
+      },
+      "writtenOn": "2021-06-17T05:44:21Z",
+      "side": 1,
+      "message": "Now SafetyNet works fine.",
+      "revId": "25624b5239830417c637bd9a9be5cee57088a004",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
