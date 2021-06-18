@@ -39,6 +39,8 @@ PRODUCT_PACKAGES += \
     AOSPATelephonyOverlay \
     AOSPAThemePickerOverlay \
     FontGoogleSansOverlay \
+    FontManropeOverlay \
+    FontUrbanistOverlay \
     ParanoidDozeOverlay \
     ParanoidHubOverlay \
     ParanoidLauncherOverlay
