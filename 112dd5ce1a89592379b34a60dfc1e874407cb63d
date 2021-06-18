@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "da56f8fd_004de238",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-06-18T22:42:36Z",
+      "side": 1,
+      "message": "Somebody mentioned adding Inter, and it also just got an update an hour ago. What do y\u0027all think?\n\nhttps://github.com/rsms/inter/releases/tag/v3.19",
+      "revId": "112dd5ce1a89592379b34a60dfc1e874407cb63d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
