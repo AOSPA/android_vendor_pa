@@ -16,6 +16,23 @@
       "message": "nice I\u0027ll check these in ~half hour\n",
       "revId": "12e17dd6b0a5df3f21d4c3f04ba5515f71eb9fdf",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2133622_49868b68",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-06-19T11:04:03Z",
+      "side": 1,
+      "message": "Beautiful, thank you! 😄",
+      "revId": "12e17dd6b0a5df3f21d4c3f04ba5515f71eb9fdf",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
