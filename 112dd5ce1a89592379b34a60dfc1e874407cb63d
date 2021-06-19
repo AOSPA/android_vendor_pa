@@ -16,6 +16,24 @@
       "message": "Somebody mentioned adding Inter, and it also just got an update an hour ago. What do y\u0027all think?\n\nhttps://github.com/rsms/inter/releases/tag/v3.19",
       "revId": "112dd5ce1a89592379b34a60dfc1e874407cb63d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a0583feb_5dd0be64",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000579
+      },
+      "writtenOn": "2021-06-19T06:35:39Z",
+      "side": 1,
+      "message": "inter is great for legibility so +1 if anyone does that :3",
+      "parentUuid": "da56f8fd_004de238",
+      "revId": "112dd5ce1a89592379b34a60dfc1e874407cb63d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
