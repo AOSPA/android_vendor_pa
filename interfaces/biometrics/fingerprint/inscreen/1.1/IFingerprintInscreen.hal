@@ -1,0 +1,19 @@
+//
+// Copyright (C) 2019-2021 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+package vendor.aospa.biometrics.fingerprint.inscreen@1.1;
+
+import @1.0::IFingerprintInscreen;
+
+interface IFingerprintInscreen extends @1.0::IFingerprintInscreen {
+    /**
+     * Should the framework create a dimlayer? In ideal scenario the dimlayer
+     * should be handled in the framework for the best user experience.
+     * If this returns false, then the implementation MUST handle the dimlayer
+     * according to the previous events.
+     */
+    shouldEnableDimlayer() generates (bool ret);
+};
