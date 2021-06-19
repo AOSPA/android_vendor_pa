@@ -34,6 +34,24 @@
       "parentUuid": "da56f8fd_004de238",
       "revId": "112dd5ce1a89592379b34a60dfc1e874407cb63d",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08bd1932_06a3a77d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000551
+      },
+      "writtenOn": "2021-06-19T09:01:11Z",
+      "side": 1,
+      "message": "Am all in for Inter.",
+      "parentUuid": "a0583feb_5dd0be64",
+      "revId": "112dd5ce1a89592379b34a60dfc1e874407cb63d",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
