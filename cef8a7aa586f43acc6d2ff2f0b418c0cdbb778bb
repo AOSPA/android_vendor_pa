@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "38cd2c59_e16b2ab2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-06-19T20:41:14Z",
+      "side": 1,
+      "message": "fonts look good to me.",
+      "revId": "cef8a7aa586f43acc6d2ff2f0b418c0cdbb778bb",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
