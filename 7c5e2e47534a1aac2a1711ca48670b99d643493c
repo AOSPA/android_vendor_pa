@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "635ff810_6085a5ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000509
+      },
+      "writtenOn": "2021-06-25T04:15:34Z",
+      "side": 1,
+      "message": "AccentColorLustRedOverlay looks almost the same as AccentColorRedOverlay",
+      "revId": "7c5e2e47534a1aac2a1711ca48670b99d643493c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
