@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0793dcce_da2e352b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000012
+      },
+      "writtenOn": "2021-07-05T01:29:37Z",
+      "side": 1,
+      "message": "JH told me this is unsafe. blocking unless he gives +2.",
+      "revId": "d7145d9ecc3ee29fb65266ad28043b73eaf91faa",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
