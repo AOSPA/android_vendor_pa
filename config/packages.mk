@@ -65,8 +65,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
 
 # Gestures
+ifneq ($(TARGET_USE_QTI_POWERHAL),true)
 PRODUCT_PACKAGES += \
     vendor.aospa.power-service
+endif
 
 # QTI VNDK Framework Detect
 PRODUCT_PACKAGES += \
