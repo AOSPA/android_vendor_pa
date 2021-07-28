@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "165ea576_758bd10a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000447
+      },
+      "writtenOn": "2021-07-28T13:13:35Z",
+      "side": 1,
+      "message": "Firstly the guard name isn\u0027t that great since the AOSPA power HAL is used side by side with the QTI one, they do entirely different things, secondly the matrix doesn\u0027t need to be guarded, and thirdly dislike guarding inclusion. Instead I would look into making the event node a runtime variable.",
+      "revId": "72664649cd9edb9c5cd3f4da817a33c4ced538af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
