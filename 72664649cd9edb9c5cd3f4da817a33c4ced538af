@@ -16,6 +16,24 @@
       "message": "Firstly the guard name isn\u0027t that great since the AOSPA power HAL is used side by side with the QTI one, they do entirely different things, secondly the matrix doesn\u0027t need to be guarded, and thirdly dislike guarding inclusion. Instead I would look into making the event node a runtime variable.",
       "revId": "72664649cd9edb9c5cd3f4da817a33c4ced538af",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "598a59cd_99d847a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000480
+      },
+      "writtenOn": "2021-07-28T15:01:21Z",
+      "side": 1,
+      "message": "The goal of guarding the inclusion is that devices which don\u0027t support the gestures apart from dt2w can avoid building the aospa power hal so that it falls back to the qti power HAL for dt2w. Our qti power HAL supports a device specific extension to implement device specific handling of it. Based on a discussion with Tobi on slack the preferred way to use the device specific extension is to avoid building the aospa power HAL and falling back to the qti hal to handle dt2w instead of implementing it in the aospa power hal.\nI don\u0027t think it\u0027s a good idea to introduce a runtime variable for the input event node because using the input event node is not really standard behaviour and the wakup mode ints might be device specific too.\nOn xiaomi sm6150 we recently moved to /dev/xiaomi-touch for dt2w instead of input events and hence we depend on the device specific extension. (xiaomi created a driver which exposes this and passes the commands to the used touchscreen driver, that allows an easy handling of gestures devices with different touchscreen vendors).",
+      "parentUuid": "165ea576_758bd10a",
+      "revId": "72664649cd9edb9c5cd3f4da817a33c4ced538af",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
