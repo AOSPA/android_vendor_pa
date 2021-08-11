@@ -82,10 +82,6 @@ $(call inherit-product, vendor/google/pixel/config.mk)
 # Include Common Qualcomm Device Tree on Qualcomm Boards
 $(call inherit-product, device/qcom/common/common.mk)
 
-# Init
-PRODUCT_PACKAGES += \
-    init.aospa.rc
-
 # Skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
 
