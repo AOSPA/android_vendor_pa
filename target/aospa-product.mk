@@ -89,8 +89,8 @@ PRODUCT_PACKAGES += \
 # Skip boot jars check
 SKIP_BOOT_JARS_CHECK := true
 
-# include definitions for SDCLANG
-include vendor/aospa/sdclang/sdclang.mk
+# include definitions for Snapdragon Clang
+include vendor/qcom/sdclang/SnapdragonClang.mk
 
 # Strip the local variable table and the local variable type table to reduce
 # the size of the system image. This has no bearing on stack traces, but will
