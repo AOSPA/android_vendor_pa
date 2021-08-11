@@ -1,0 +1,7 @@
+// Copyright 2021 Paranoid Android
+// SPDX-License-Identifier: MIT
+
+hidl_package_root {
+    name: "vendor.aospa.biometrics.fingerprint.inscreen",
+    path: "vendor/aospa/interfaces/biometrics/fingerprint",
+}
