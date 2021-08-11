@@ -1,7 +1,3 @@
-attribute hal_powershare;
-attribute hal_powershare_server;
-attribute hal_powershare_client;
-
 attribute vendor_fod;
 attribute vendor_fod_server;
 attribute vendor_fod_client;

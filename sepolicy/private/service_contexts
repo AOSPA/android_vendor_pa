@@ -1,8 +1,2 @@
-# App Lock
-applock                                     u:object_r:applock_service:s0
-
-# DC Dimming
-dc_dim_service                              u:object_r:dc_dimming_service:s0
-
 # AOSPA Power HAL
 vendor.aospa.power.IPowerFeature/default    u:object_r:hal_power_service:s0
