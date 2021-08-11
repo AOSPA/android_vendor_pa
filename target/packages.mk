@@ -18,21 +18,9 @@ PRODUCT_PACKAGES += \
     adb_root
 endif
 
-# Abstruct
-PRODUCT_PACKAGES += \
-    Abstruct
-
 # AOSP Packages
 PRODUCT_PACKAGES += \
     ThemePicker
-
-# Camera
-PRODUCT_PACKAGES += \
-    GoogleCameraGo
-
-# Charger Images
-PRODUCT_PACKAGES += \
-    charger_res_images
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -49,20 +37,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ParanoidPapers \
     ParanoidQuickStep
-
-ifneq ($(filter RELEASE BETA,$(PA_BUILDTYPE)),)
-#    PRODUCT_PACKAGES += \
-#    ParanoidHub
-endif
-
-# Face Sense
-TARGET_ENABLE_FACE_SENSE := true
-
-PRODUCT_PACKAGES += \
-    ParanoidFaceSense
-
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.face.sense_service=$(TARGET_ENABLE_FACE_SENSE)
 
 # Gestures
 PRODUCT_PACKAGES += \
