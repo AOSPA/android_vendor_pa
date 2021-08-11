@@ -27,7 +27,7 @@ extra_manifests_dir = '.repo/manifests/'
 upstream_manifest_path = '.repo/manifest.xml'
 local_manifests_dir = '.repo/local_manifests'
 roomservice_manifest_path = local_manifests_dir + '/roomservice.xml'
-dependencies_json_path = 'vendor/pa/products/%s/pa.dependencies'
+dependencies_json_path = 'vendor/aospa/products/%s/aospa.dependencies'
 
 # Indenting code from https://stackoverflow.com/a/4590052
 def indent(elem, level=0):

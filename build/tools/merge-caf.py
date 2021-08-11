@@ -19,7 +19,7 @@
 Merge script for AOSPA
 
  The source directory; this is automatically two folder up because the script
- is located in vendor/pa/scripts. Other ROMs will need to change this. The logic is
+ is located in vendor/aospa/build/tools. Other ROMs will need to change this. The logic is
  as follows:
 
  1. Get the absolute path of the script with os.path.realpath in case there is a symlink
