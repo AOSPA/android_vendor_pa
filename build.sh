@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# PA build helper script
+# AOSPA build helper script
 
 # red = errors, cyan = warnings, green = confirmations, blue = informational
 # plain for generic text, bold for titles, reset flag at each end of line
@@ -62,7 +62,7 @@ while true; do
         -c|--clean|c|clean) FLAG_CLEAN_BUILD=y;;
         -i|--installclean|i|installclean) FLAG_INSTALLCLEAN_BUILD=y;;
         -r|--repo-sync|r|repo-sync) FLAG_SYNC=y;;
-        -v|--variant|v|variant) PA_VARIANT="$2"; shift;;
+        -v|--variant|v|variant) AOSPA_VARIANT="$2"; shift;;
         -t|--build-type|t|build-type) BUILD_TYPE="$2"; shift;;
         -j|--jobs|j|jobs) JOBS="$2"; shift;;
         -m|--module|m|module) MODULE="$2"; shift;;
@@ -95,22 +95,22 @@ cd $(dirname $0)
 DIR_ROOT=$(pwd)
 
 # Make sure everything looks sane so far
-if [ ! -d "$DIR_ROOT/vendor/pa" ]; then
+if [ ! -d "$DIR_ROOT/vendor/aospa" ]; then
         echo -e "${CLR_BLD_RED}error: insane root directory ($DIR_ROOT)${CLR_RST}"
         exit 1
 fi
 
 # Setup PA variant if specified
-if [ $PA_VARIANT ]; then
-    PA_VARIANT=`echo $PA_VARIANT |  tr "[:upper:]" "[:lower:]"`
-    if [ "${PA_VARIANT}" = "release" ]; then
-        export PA_BUILDTYPE=RELEASE
-    elif [ "${PA_VARIANT}" = "alpha" ]; then
-        export PA_BUILDTYPE=ALPHA
-    elif [ "${PA_VARIANT}" = "beta" ]; then
-        export PA_BUILDTYPE=BETA
-    elif [ "${PA_VARIANT}" = "dev" ]; then
-        unset PA_BUILDTYPE
+if [ $AOSPA_VARIANT ]; then
+    AOSPA_VARIANT=`echo $AOSPA_VARIANT |  tr "[:upper:]" "[:lower:]"`
+    if [ "${AOSPA_VARIANT}" = "release" ]; then
+        export AOSPA_BUILDTYPE=RELEASE
+    elif [ "${AOSPA_VARIANT}" = "alpha" ]; then
+        export AOSPA_BUILDTYPE=ALPHA
+    elif [ "${AOSPA_VARIANT}" = "beta" ]; then
+        export AOSPA_BUILDTYPE=BETA
+    elif [ "${AOSPA_VARIANT}" = "dev" ]; then
+        unset AOSPA_BUILDTYPE
     else
         echo -e "${CLR_BLD_RED} Unknown PA variant - use alpha, beta or release${CLR_RST}"
         exit 1
@@ -139,8 +139,8 @@ if [ -z "$JOBS" ]; then
 fi
 
 # Grab the build version
-PA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_FLAVOR := *' | sed 's/.*= //') \
-$(cat $DIR_ROOT/vendor/pa/config/version.mk | grep 'PA_VERSION_CODE := *' | sed 's/.*= //')"
+AOSPA_DISPLAY_VERSION="$(cat $DIR_ROOT/vendor/aospa/target/version.mk | grep 'AOSPA_MAJOR_VERSION := *' | sed 's/.*= //') \
+$(cat $DIR_ROOT/vendor/aospa/target/version.mk | grep 'AOSPA_MINOR_VERSION := *' | sed 's/.*= //')"
 
 # Prep for a clean build, if requested so
 if [ "$FLAG_CLEAN_BUILD" = 'y' ]; then
@@ -167,15 +167,15 @@ fi
 TIME_START=$(date +%s.%N)
 
 # Friendly logging to tell the user everything is working fine is always nice
-echo -e "${CLR_BLD_GRN}Building AOSPA $PA_DISPLAY_VERSION for $DEVICE${CLR_RST}"
+echo -e "${CLR_BLD_GRN}Building AOSPA $AOSPA_DISPLAY_VERSION for $DEVICE${CLR_RST}"
 echo -e "${CLR_GRN}Start time: $(date)${CLR_RST}"
 echo -e ""
 
 # Lunch-time!
 echo -e "${CLR_BLD_BLU}Lunching $DEVICE${CLR_RST} ${CLR_CYA}(Including dependencies sync)${CLR_RST}"
 echo -e ""
-PA_VERSION=$(lunch "pa_$DEVICE-$BUILD_TYPE" | grep 'PA_VERSION=*' | sed 's/.*=//')
-lunch "pa_$DEVICE-$BUILD_TYPE"
+AOSPA_VERSION=$(lunch "aospa_$DEVICE-$BUILD_TYPE" | grep 'AOSPA_VERSION=*' | sed 's/.*=//')
+lunch "aospa_$DEVICE-$BUILD_TYPE"
 echo -e ""
 
 # Build away!
@@ -208,16 +208,16 @@ elif [ "${KEY_MAPPINGS}" ]; then
 
     echo -e "${CLR_BLD_BLU}Signing target files apks${CLR_RST}"
     sign_target_files_apks -o -d $KEY_MAPPINGS \
-        out/dist/pa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
-        pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip
+        out/dist/aospa_$DEVICE-target_files-$FILE_NAME_TAG.zip \
+        aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip
 
     checkExit
 
     echo -e "${CLR_BLD_BLU}Generating signed install package${CLR_RST}"
     ota_from_target_files -k $KEY_MAPPINGS/releasekey \
         --block ${INCREMENTAL} \
-        pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-        pa-$PA_VERSION.zip
+        aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
+        aospa-$AOSPA_VERSION.zip
 
     checkExit
 
@@ -229,15 +229,15 @@ elif [ "${KEY_MAPPINGS}" ]; then
         fi
         ota_from_target_files -k $KEY_MAPPINGS/releasekey \
             --block --incremental_from $DELTA_TARGET_FILES \
-            pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-            pa-$PA_VERSION-delta.zip
+            aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
+            aospa-$AOSPA_VERSION-delta.zip
         checkExit
     fi
 
     if [ "$FLAG_IMG_ZIP" = 'y' ]; then
         img_from_target_files \
-            pa-$PA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
-            pa-$PA_VERSION-signed-image.zip
+            aospa-$AOSPA_VERSION-signed-target_files-$FILE_NAME_TAG.zip \
+            aospa-$AOSPA_VERSION-signed-image.zip
         checkExit
     fi
 # Build rom package
@@ -246,15 +246,15 @@ elif [ "$FLAG_IMG_ZIP" = 'y' ]; then
 
     checkExit
 
-    cp -f $OUT/pa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/pa-$PA_VERSION.zip
-    cp -f $OUT/pa_$DEVICE-img-$FILE_NAME_TAG.zip $OUT/pa-$PA_VERSION-image.zip
+    cp -f $OUT/aospa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION.zip
+    cp -f $OUT/aospa_$DEVICE-img-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION-image.zip
 
 else
     m otapackage"$CMD"
 
     checkExit
 
-    cp -f $OUT/pa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/pa-$PA_VERSION.zip
+    cp -f $OUT/aospa_$DEVICE-ota-$FILE_NAME_TAG.zip $OUT/aospa-$AOSPA_VERSION.zip
 fi
 echo -e ""
 
