@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 Paranoid Android
+     SPDX-License-Identifier: MIT
+-->
 <resources>
 
     <color name="user_icon_1">#ff5e97f6</color>

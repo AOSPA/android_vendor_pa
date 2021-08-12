@@ -1,3 +1,6 @@
+# Copyright (C) 2021 Paranoid Android
+# SPDX-License-Identifier: MIT
+
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 
 # Architecture
