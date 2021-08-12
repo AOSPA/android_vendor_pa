@@ -1,0 +1,5 @@
+b0d81417ddc5daf549ac2fb63db24a83b4fe2fae71cd38c76f7482d029dd338f  vendor.qti.hardware.btconfigstore@1.0::types
+04a894025ae70cb5821de82289b1a13426583696a4d3bf99042d0a25b615c10a  vendor.qti.hardware.btconfigstore@1.0::IBTConfigStore
+
+3c637d840916d6affda8b35359df37ea0510964242109b9e558ae8276a205d29  vendor.qti.hardware.btconfigstore@2.0::types
+3fd14e41ed74c712f74b34d930e595666a838945c1877b49825160106a3d932d  vendor.qti.hardware.btconfigstore@2.0::IBTConfigStore

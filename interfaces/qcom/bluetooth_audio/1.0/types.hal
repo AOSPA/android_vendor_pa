@@ -1,0 +1,12 @@
+package com.qualcomm.qti.bluetooth_audio@1.0;
+
+enum Status : uint8_t {
+    SUCCESS,
+    FAILURE,
+    INCALL_FAILURE,
+    PENDING,
+    DISCONNECTING,
+    UNSUPPORTED,
+};
+
+typedef vec<uint8_t> CodecCfg;

@@ -1,0 +1,27 @@
+// Copyright 2021 Paranoid Android
+// SPDX-License-Identifier: MIT
+
+hidl_package_root {
+    name: "com.qualcomm.qti.bluetooth_audio",
+    path: "vendor/aospa/interfaces/qcom/bluetooth_audio",
+}
+
+hidl_package_root {
+    name: "vendor.qti.hardware.btconfigstore",
+    path: "vendor/aospa/interfaces/qcom/btconfigstore",
+}
+
+hidl_package_root {
+    name: "vendor.qti.hardware.capabilityconfigstore",
+    path: "vendor/aospa/interfaces/qcom/capabilityconfigstore",
+}
+
+hidl_package_root {
+    name: "vendor.qti.hardware.cryptfshw",
+    path: "vendor/aospa/interfaces/qcom/cryptfshw",
+}
+
+hidl_package_root {
+    name: "vendor.qti.hardware.fm",
+    path: "vendor/aospa/interfaces/qcom/fm",
+}
