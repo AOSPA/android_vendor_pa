@@ -1,0 +1,14 @@
+package com.qualcomm.qti.bluetooth_audio@1.0;
+
+interface IBluetoothAudioCallbacks {
+    a2dp_start_stream_req();
+    a2dp_suspend_stream_req();
+    a2dp_stop_stream_req();
+    a2dp_check_ready();
+    a2dp_get_codec_config();
+    a2dp_get_multicast_status();
+    a2dp_get_num_connected_devices();
+    a2dp_get_connection_status();
+    a2dp_get_sink_latency();
+};
+

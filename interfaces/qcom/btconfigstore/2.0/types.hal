@@ -1,0 +1,27 @@
+package vendor.qti.hardware.btconfigstore@2.0;
+
+enum Result : int32_t {
+    SUCCESS,
+    FAILED,
+    UNKNOWN_ERROR,
+    INTERNAL_ERROR,
+    INVALID_ARGUMENTS,
+    NOT_SUPPORTED,
+};
+
+struct VendorProperty {
+    uint32_t type;
+    string value;
+};
+
+struct HostAddOnFeatures {
+    uint8_t feat_mask_len;
+    vec<uint8_t> features;
+};
+
+struct ControllerAddOnFeatures {
+    uint16_t product_id;
+    uint16_t rsp_version;
+    uint8_t feat_mask_len;
+    vec<uint8_t> features;
+};

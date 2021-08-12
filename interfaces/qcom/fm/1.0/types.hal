@@ -1,0 +1,10 @@
+package vendor.qti.hardware.fm@1.0;
+
+enum Status : int32_t {
+  SUCCESS,
+  TRANSPORT_ERROR,
+  INITIALIZATION_ERROR,
+  UNKNOWN
+};
+
+typedef vec<uint8_t> HciPacket;

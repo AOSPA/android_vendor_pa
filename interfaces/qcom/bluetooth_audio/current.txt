@@ -1,0 +1,3 @@
+b8a78ed33232d41556057f0a86db982e478f9b7e949c480bcbe9c9124e5d827c types
+6e3f69f0ee228a5e5d889420efd03f6d662a9b78e85f6aae912bdad44beadd77 com.qualcomm.qti.bluetooth_audio@1.0::IBluetoothAudio
+c49c68683522b0b375bcb698666854ffdbb605ae69958ce30bc4036000e7bff9 com.qualcomm.qti.bluetooth_audio@1.0::IBluetoothAudioCallbacks

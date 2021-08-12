@@ -1,0 +1,6 @@
+package vendor.qti.hardware.fm@1.0;
+
+interface IFmHciCallbacks {
+    initializationComplete(Status status);
+    hciEventReceived(HciPacket event);
+};
