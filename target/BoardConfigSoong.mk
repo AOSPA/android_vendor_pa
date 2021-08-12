@@ -1,3 +1,6 @@
+# Copyright (C) 2021 Paranoid Android
+# SPDX-License-Identifier: MIT
+
 # Setup SOONG_CONFIG_* vars to export the vars listed above.
 # Documentation here:
 # https://github.com/LineageOS/android_build_soong/commit/8328367c44085b948c003116c0ed74a047237a69

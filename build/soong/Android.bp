@@ -1,4 +1,5 @@
-// AOSPA Soong Configurations
+// Copyright (C) 2021 Paranoid Android
+// SPDX-License-Identifier: MIT
 
 soong_config_module_type {
     name: "target_process_sdk_version_overrides",
