@@ -1,0 +1,44 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_oneplus_oneplus9",
+        "target_path":  "device/oneplus/oneplus9",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_gps",
+        "target_path":  "hardware/qcom/gps",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "ruby-888"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_oneplus_sm8350",
+        "target_path":  "kernel/msm-5.4",
+        "revision":     "ruby"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_oneplus",
+        "target_path":  "vendor/oneplus",
+        "revision":     "ruby"
+    }
+]
