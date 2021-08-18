@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2357c066_68fa8b41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000002
+      },
+      "writtenOn": "2021-08-18T13:51:22Z",
+      "side": 1,
+      "message": "We can\u0027t unilaterally relicense without getting approval from all contributors to these files. also, why switch from Apache 2.0 to MIT?",
+      "revId": "55eae957f4c2a6b105dc514a3103664532d6da3c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
