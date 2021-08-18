@@ -16,6 +16,24 @@
       "message": "We can\u0027t unilaterally relicense without getting approval from all contributors to these files. also, why switch from Apache 2.0 to MIT?",
       "revId": "55eae957f4c2a6b105dc514a3103664532d6da3c",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "64daf3bb_90b5bb60",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000488
+      },
+      "writtenOn": "2021-08-18T13:53:05Z",
+      "side": 1,
+      "message": "this is just a template for what i plan, will start vendor/aospa from the ground up so pushed this as a template. There is no particular reason, MIT seems better :)",
+      "parentUuid": "2357c066_68fa8b41",
+      "revId": "55eae957f4c2a6b105dc514a3103664532d6da3c",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
