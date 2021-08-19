@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e9f146df_5565d1c1",
+        "filename": "interfaces/qcom/btconfigstore/1.0/types.hal",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000465
+      },
+      "writtenOn": "2021-08-19T22:23:00Z",
+      "side": 1,
+      "message": "If my memory didn\u0027t mess things up, there is a third status which drives me crazy whenever i forget to exclude this hal interface and use the qualcomm original one. Could you might check/add that? I guess it was in this enum.",
+      "revId": "2377fb3fcfdf7aa0a49aed8e48257a5679e43ed6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    }
+  ]
+}
