@@ -16,6 +16,24 @@
       "message": "If my memory didn\u0027t mess things up, there is a third status which drives me crazy whenever i forget to exclude this hal interface and use the qualcomm original one. Could you might check/add that? I guess it was in this enum.",
       "revId": "2377fb3fcfdf7aa0a49aed8e48257a5679e43ed6",
       "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ed67e04_ca2d1c99",
+        "filename": "interfaces/qcom/btconfigstore/1.0/types.hal",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000541
+      },
+      "writtenOn": "2021-08-21T21:38:31Z",
+      "side": 1,
+      "message": "pick one?\n\nenum Result : int32_t {\n    SUCCESS,\n    UNAVAILABLE,\n    NOT_INITIALIZED,\n    INVALID_STATE,\n    INVALID_ARGUMENT,\n    OUT_OF_MEMORY,\n    UNKNOWN_ERROR,\n};\n\nit\u0027s from here: https://android.googlesource.com/platform//hardware/interfaces/+/ed9ba5e08c74e78cf41b4864bc2fc827699cf8e6/tv/tuner/1.0/types.hal but i thought maybe the one you\u0027re looking for is here",
+      "parentUuid": "e9f146df_5565d1c1",
+      "revId": "2377fb3fcfdf7aa0a49aed8e48257a5679e43ed6",
+      "serverId": "3162e3d8-d894-470e-abd9-724f7b0effad"
     }
   ]
 }
